@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ComprarDiretos>
+      <ComprarDireto ID="ComprarDireto">
+        <ComprarDiretoHTML>
+          <![CDATA[<div>
+    <div class="mensagem_compra_direta">
+        [A0]
+    </div>
+    <br>
+    <div class="bt_compra_direta">
+        <a href='[A2]'><img src="imagens/bt_continuar_compra.png" alt="Continuar Comprando" /></a>
+        <a href='[A1]'><img src="imagens/bt_ir_carrinho.png" alt="Ir para o carrinho" /></a>
+    </div>
+</div>]]>
+        </ComprarDiretoHTML>
+        <CssComponente><![CDATA[]]></CssComponente>
+      </ComprarDireto>
+    </ComprarDiretos>
+  </controles>
+</page>

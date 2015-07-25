@@ -1,4 +1,4 @@
-﻿*{
+*{
     margin: 0;
     padding: 0;
 }
@@ -1182,6 +1182,17 @@ h2.titulo_pedido {
     padding:2px 0 4px 10px;
     font-weight:normal;
     margin-right: 25px;
+}
+
+#container_espiar .atributos{
+    font-size: 12px;
+
+}
+#container_espiar .produto_cima{
+    float: left;
+    clear: both;
+    width: 100%;
+    margin-top: 20px;
 }
 
    #container_espiar .produto_esquerda{
