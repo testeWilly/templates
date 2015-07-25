@@ -1,0 +1,107 @@
+.vitrine_menu{
+    margin: 15px 0;
+}
+
+.vitrine_menu ul{
+    list-style: none outside none;
+    margin-left: -6px;
+}
+
+.vitrine_menu ul li{
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    position: relative;
+    *margin-left: 4px;
+}
+
+.vitrine_menu ul li .titulo_principal{
+background: #8dc63f;
+background: transparent;
+background: #8dc63f;/* FF3+,Saf3+,Opera 10.10+,Chrome,IE9*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#e52E4CE4,endColorstr=#e52E4CE4);/*IE 5.5-7*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e52E4CE4,endColorstr=#e52E4CE4)";/*IE8*/
+zoom: 1;
+    bottom: 10px;
+    
+color: #fff;
+    display: block;
+    float: left;
+    font-size: 14px;
+    padding: 2px 10px;
+    position: absolute;
+    right: 10px;
+    text-transform: uppercase;
+}
+
+.vitrine_menu ul li .titulo_principal span{
+
+}
+
+.vitrine_menu ul li img{
+    float: left;
+}
+
+/* Vitrine Jquery */
+
+.vitrine_jquery{
+    width: 990px;
+    margin: 0 auto;
+    clear:both;
+}
+
+.vitrine_jquery .vitrine_geral .bx-window{
+   margin: 0 39px;
+    clear:both;
+}
+
+.vitrine_jquery .vitrine_geral ul{
+    float: left;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.vitrine_jquery .vitrine_geral ul li{
+    height: 417px;
+    margin: 0;
+    padding: 0 0 0 8px;
+    width: 220px !important;
+}
+
+.bx-wrapper{
+  width: 990px !important;
+}
+
+.bx-prev{
+    background: url("../imagens/navegacao_vitrine_seta_voltar.png") no-repeat scroll left top transparent;
+    display: block;
+    font-size: 0;
+    height: 43px;
+    left: 2px;
+    line-height: 0;
+    position: absolute;
+    text-indent: -999px;
+    top: 50%;
+    margin-top: -12.5px;
+    width: 25px;
+}
+
+.bx-next{
+    line-height: 0;
+    font-size: 0;
+    position:absolute;
+    top: 50%;
+    margin-top: -12.5px;
+    right:0px;
+    display: block;
+    height: 43px;
+    width: 25px;
+    background:  url('../imagens/navegacao_vitrine_seta_avancar.png') no-repeat right top; 
+    display: block;
+   text-indent:999px;
+}
+
+.bx-next:hover, .bx-prev:hover{
+    background-position: left bottom !important;    
+}

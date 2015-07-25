@@ -1,0 +1,41 @@
+.passos{
+    padding: 22px 0;
+}
+
+/*topo meio*/
+
+.topo_meio{
+    background: none repeat scroll 0 0 #11c1c1;
+    height: 60px;
+    text-align: center;
+}
+
+/*topo baixo*/
+
+.topo_baixo {
+  background: url("../imagens/bg-topo-verde-final.jpg") repeat-x scroll left top 0 transparent;
+  height: 112px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.logo {
+    left: 50%;
+    margin-left: -165.5px;
+    position: absolute;
+    top: 17px;
+}
+
+.logo h1 {
+  background: url("../imagens/logo-animafest-final.png") no-repeat scroll center top transparent;
+    cursor: pointer;
+    height: 117px;
+    text-indent: -9999px;
+    width: 331px;
+}
+
+.logo h1 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}

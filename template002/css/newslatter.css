@@ -1,0 +1,56 @@
+.newslatter{
+    background: url("../imagens/bg_news.png") no-repeat;
+    height: 37px;
+    width: 882px;
+    display: inline-table;
+}
+
+.newslatter .news_direita input{
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    padding: 2px 8px 0 6px;
+    width: 150px;
+    color: #B0AEAE;
+    font-style: italic;
+    font-size: 13px;
+    font-family: georgia;
+}
+
+.newslatter .news_direita .nome input{
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #B0AEAE;
+    font-family: georgia;
+    font-size: 13px;
+    font-style: italic;
+    padding: 2px 8px 0 6px;
+    width: 159px;
+}
+
+.newslatter .news_direita fieldset.nome{
+    background: url("../imagens/bg_inputnome.png") no-repeat;
+    width: 174px;
+    height: 20px;
+}
+
+.newslatter .news_direita fieldset.email{
+    background: url("../imagens/bg_inputemail.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    width: 164px;
+}
+
+
+.newslatter .news_direita{
+    float: right;
+    width: 49%;
+    margin-top: 7px;
+    font-family: georgia;
+}
+
+.newslatter .news_direita img{
+    display: block;
+}
+.newslatter .news_direita fieldset{
+    border: none;
+    float: left;
+}

@@ -1,0 +1,145 @@
+.identificacao{
+
+}
+
+.mensagem{
+    background-color: #E5E5E5;
+    margin: 15px auto;
+    overflow: hidden;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.mensagem h2{
+    color: #000000;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.mensagem p{
+    color: #000000;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.identificacao_conteudo{
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-top: -15px;
+    overflow: hidden;
+    padding: 15px;
+    text-align: left;
+}
+
+.identificacao_conteudo .identificacao_direita{
+    background: none repeat scroll 0 0 #f3f3f3;
+    float: right;
+    height: auto;
+    margin-top: 27px;
+    overflow: hidden;
+    padding: 30px 20px;
+}
+
+.identificacao_conteudo .identificacao_esquerda{
+    height: auto;
+    overflow: hidden;
+    float: left;
+    *width: 346px;
+}
+
+
+.identificacao_conteudo fieldset{
+    border: none;
+    clear: both;
+    display: block;
+}
+
+.identificacao_conteudo fieldset label{
+    display: block;
+    float: left;
+}
+
+.identificacao_conteudo fieldset span{
+    color: #3c3c3c;
+    display: block;
+    font-size: 13px;
+}
+
+.identificacao_conteudo fieldset label input{
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #cfcfcf;
+    color: #3c3c3c;
+    font-family: "Lato-Regular";
+    font-size: 13px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    padding: 7px 0 7px 20px;
+    width: 324px;
+}
+
+.bt_verificar_again a{
+    background: url("../imagens/bt_verificar_email_novamente.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 27px;
+    text-indent: -9999px;
+    width: 228px;
+    float: right;
+    cursor: pointer;
+}
+
+.identificacao_direita ul{
+    list-style: none;
+}
+
+.identificacao_direita ul li{
+
+}
+
+.identificacao_direita ul li h2 a{
+    color: #2e4ce4;
+    display: block;
+    font-family: "Lato-Bold";
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.identificacao_direita ul li p{
+    color: #3c3c3c;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.identificacao_direita ul li p a{
+    color: #3c3c3c;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.identificacao_direita ul li p a span{
+    color: #3c3c3c;
+}
+
+.formulario_identificacao{
+    margin: 0 auto;
+    text-align: left;
+}
+
+.ok_identificacao{
+    padding-left: 5px;
+}
+
+
+.formulario_conteudo .formulario .list .tit_label{
+    width: 145px;
+}
+
+.checkout_right .carrinho-direita {
+    float: right;
+    width: 330px;
+}
+
+.identificacao .lista_erro{
+    width: auto;
+}

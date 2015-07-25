@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><AfiliadoPrincipals><AfiliadoPrincipal ID="AfiliadoPrincipal1"><AfiliadoPrincipalHTML><![CDATA[
+						<b>Banners</b><br />
+						Escolha as opções de Banner disponíveis na [A0] para colocar em seu site.<br /><br />
+
+						<b>Vitrine Online</b><br />
+						Adicione uma vritrine online no seu site com os produtos mais procurados da [A0] e tenha sempre seu site atualizado!<br /><br />
+
+						<b>Relatórios</b><br />
+						Verifique a performance de seu site quanto a visitas, vendas/comissões e pagamentos.<br /><br />
+
+						<b>Alterar Dados</b><br />
+						Altere seus dados cadastrais.<br /><br />
+
+						<b>Help</b><br />
+            Se ainda tem duvidas, <a href="#" class="abrir_ajuda">clique aqui</a>
+					]]></AfiliadoPrincipalHTML><CssComponente><![CDATA[]]></CssComponente></AfiliadoPrincipal><AfiliadoPrincipal ID="AfiliadoPrincipal"><AfiliadoPrincipalHTML><![CDATA[]]></AfiliadoPrincipalHTML><CssComponente><![CDATA[]]></CssComponente></AfiliadoPrincipal></AfiliadoPrincipals><AfiliadoLogados><AfiliadoLogado ID="AfiliadoLogado"><AfiliadoLogadoHTML><![CDATA[<div class="container-dadosAfiliados">
+  <div class="heading-special">
+    <h2>Minha Conta</h2>
+  </div>
+  <div class="informacoes_conta">
+    <div class="informacoes_esq">
+        <span><strong>Nome:</strong> [A0]</span>
+        <span><strong>Email:</strong> [A2]</span>
+        <span><strong>Código de Afiliado:</strong> [A1]</span>
+        <span><strong>URL(s) cadastrada(s):</strong> [A3]</span>
+    </div>
+    <div class="informacoes_dir">
+        <span><strong>Banco cadastrado:</strong> [A4]</span>
+        <span><strong>Agência:</strong> [A5]</span>
+        <span><strong>Conta:</strong> [A8]</span>
+        <span><strong>Nome do titular:</strong> [A6]</span>
+    </div>
+    <div class="bt_editar_conta">
+      <a href="[A7]" class="box-bt btn-primary">Editar Conta</a>
+    </div>
+  </div>
+</div>
+]]></AfiliadoLogadoHTML></AfiliadoLogado><AfiliadoLogado ID="AfiliadoCódigoafiliado"><AfiliadoLogadoHTML><![CDATA[<div class="coluna_esq_afiliados heading-secondary">
+              <h5>> Primeiros Passos</h5>
+              <div class="primeiros_passos">
+                  <div class="primeiros_passos_container">
+                    <div class="tit_box_afiliado"><h6>Como utilizar seu código de afiliado:</h6></div>
+                    <p>Para divulgar seu link de afiliado, acrescente no final de cada URL a linha de código abaixo:<br />/?campanh_id=<strong>[A1]</strong></p>
+                  </div>
+                  <div class="primeiros_passos_container">
+                    <div class="tit_box_afiliado"><h6>Exemplo de URL para Página Inicial:</h6></div>
+                    <textarea class="inicial">http://custom.ciashop.local/afiliados/Default/?campanha_id=[A1]</textarea>
+                  </div>
+                  <div class="primeiros_passos_container">
+                    <div class="tit_box_afiliado"><h6>Exemplo de URL para Departamento:</h6></div>
+                    <textarea class="departamento">http://custom.ciashop.local/afiliados/Departamento/902/PELUCIA+E+PLUSH/T/1/? campanha_id=[A1]</textarea>
+                  </div>
+                  <div class="primeiros_passos_container">
+                    <div class="tit_box_afiliado"><h6>Exemplo de URL para Produto:</h6></div>
+                    <textarea class="produto">http://custom.ciashop.local/afiliados/Produto/4563/Buba++Pel&C3%BAcia+Plush+ +Animalzinho+com+Mantinha+ +Cachorro++CA8046/?campanha_id=[A1]</textarea>
+                  </div>
+              </div>
+          </div>]]></AfiliadoLogadoHTML></AfiliadoLogado></AfiliadoLogados><AfiliadoUrlExemplos><AfiliadoUrlExemplo ID="AfiliadoUrlExemplo"><AfiliadoUrlExemploHTML><![CDATA[
+          Pagina inicial: [A0]
+          Pagina Departamento: [A1]
+          Pagina Produto: [A2] 
+          ]]></AfiliadoUrlExemploHTML><CssComponente><![CDATA[]]></CssComponente></AfiliadoUrlExemplo></AfiliadoUrlExemplos><Links><Link ID="Vitrine"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="bt_afiliado_vitrine.png" /><PaginaLoja value="AfiliadoVitrine" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Vitrine" /><UsarHTTPS value="False" /></Link><Link ID="Banners"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoBanners" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Banners" /><UsarHTTPS value="False" /></Link><Link ID="Vendas"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoRelatorioVendas" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Vendas" /><UsarHTTPS value="False" /></Link><Link ID="Visitas"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoRelatorioVisitas" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Visitas" /><UsarHTTPS value="False" /></Link><Link ID="Menu_home"><PaginaLoja value="Default" /><Target value="MesmaPagina" /><UsarHTTPS value="False" /></Link><Link ID="Menu_banners"><PaginaLoja value="Default" /><Target value="MesmaPagina" /><UsarHTTPS value="False" /></Link><Link ID="Menu_vitrine"><PaginaLoja value="Default" /><Target value="MesmaPagina" /><UsarHTTPS value="False" /></Link><Link ID="Menu_Vendas"><PaginaLoja value="Default" /><Target value="MesmaPagina" /><UsarHTTPS value="False" /></Link><Link ID="Menu_visitas"><PaginaLoja value="Default" /><Target value="MesmaPagina" /><UsarHTTPS value="False" /></Link><Link ID="EmailDivulgacao"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoDivulgaEmail" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Email de Divulgação do Afiliado" /><UsarHTTPS value="False" /></Link><Link ID="Clientes"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoRelatorioClientes" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Clientes" /><UsarHTTPS value="False" /></Link></Links><Banners><Banner ID="Topo_Fullzao" /></Banners><ScriptRazors><ScriptRazor ID="titlePage"><ScriptRazorHTML><![CDATA[@TemplateSettings.main_storeName]]></ScriptRazorHTML></ScriptRazor></ScriptRazors></controles></page>

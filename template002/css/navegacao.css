@@ -1,0 +1,223 @@
+/* navegation */
+
+.scroll_titulo{
+    height: 60px;
+    z-index: 9999;
+    background: none repeat scroll 0 0 #0c2e48;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+.central{
+    margin-top: 5px;
+
+}
+
+
+.pagina_inicial_navegacao{
+    float: left;
+    height: 41px;
+    margin: 3px 0 0 26px;
+    width: 209px;
+}
+
+.navegacao_busca{
+    float: left;
+    height: 50px;
+    width:560px;
+}
+
+
+.topo_navegacao{
+    float: left;
+    width: 25%;
+}
+
+/* logo */
+
+.logo_navegacao{
+    width:215px;
+    margin: 0 auto;
+}
+
+.logo_navegacao h1{
+    width: 215px;
+    height: 49px;
+    background: url('../imagens/logo_navegacao.png') no-repeat center center;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+
+.logo_navegacao h1 a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/*Busca*/
+
+.busca_navegacao {
+    text-align: center;
+    width: 50%;
+    float: left;
+}
+
+.navegacao_centro_busca{
+    width: 437px;
+    background: url('../imagens/bg_busca_topo_navegacao.png') no-repeat left top;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.busca_navegacao fieldset {
+    border:0 none;
+    padding: 10px 0 0 0px;
+
+}
+
+.busca_navegacao fieldset *{
+    vertical-align: middle;
+}
+
+.busca_navegacao fieldset input{
+    border: 1px solid #fff;
+    padding: 3px;
+    font-size: 15px;
+    width: 299px;
+    color: #666;
+}
+
+.busca_navegacao fieldset select{
+    border: 1px solid #666;
+    color: #666;
+    width: 150px;
+    padding: 2px;
+    font-size: 11px;
+}
+
+.busca_navegacao span{
+    color:#666;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.busca_navegacao fieldset label.bt{
+    margin-left: 4px;
+}
+
+.busca_navegacao fieldset label.bt img{
+    cursor: pointer;
+}
+
+/*carrinho navegacao*/
+
+.bt_carrinho_navegacao{
+   float: right;
+   width: 177px;
+}
+
+.bt_carrinho_navegacao a{
+   display: block;
+   padding: 29px 0 5px 0;
+   text-align: center;
+   color: #333;
+   font-size: 10px;
+   width: 80px;
+   margin-left: 65px;
+}
+
+.bt_carrinho_navegacao a:hover{
+   text-decoration: underline;
+}
+
+.bt_carrinho_conteudo_navegacao{
+    background: url("../imagens/btn_carrinho_navegacao.png") no-repeat center top;
+    z-index: 55;
+    height: 55px;
+}
+
+.mini_carrinho_navegacao{
+    z-index: -1;
+    width: 350px;
+    background: url('../imagens/bg_mini_carrinho.png') repeat-x left top #fff;
+    margin: 1px 0 0 -184px;
+    border: 1px solid #1c1c1c;
+    display: none;
+    border-radius: 5px;
+}
+
+.mini_carrinho_navegacao .tab_carrinho_mini{
+    width: 100%;
+    text-align: left;
+}
+
+.mini_carrinho_navegacao .tab_carrinho_mini td{
+    padding: 5px;
+    background: #F0F0F0;
+    border-bottom: 1px solid #fff;
+}
+
+.mini_carrinho_navegacao .tab_carrinho_mini td.mini_foto{
+    background: #fff;
+}
+
+.mini_carrinho_navegacao .tab_carrinho_mini td.mini_foto a{
+    margin-left: 0;
+}
+
+.mini_carrinho_navegacao .tab_carrinho_mini td.mini_foto a{
+    padding: 0;
+    width: auto;
+}
+
+.mini_carrinho_navegacao .tab_carrinho_mini td.mini_titulo a{
+    padding: 0;
+    color: #333;
+    font-size: 11px;
+    width: auto;
+    text-align: left;
+}
+
+.mini_carrinho_navegacao .tab_carrinho_mini td.mini_preco{
+    paddign: 0;
+    color: #333;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.mini_carrinho_navegacao .tab_carrinho_mini td.mini_subtotal{
+    padding: 10px 5px;
+    color: #B00101;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    background: #fff;
+    white-space: nowrap;
+}
+
+.mini_carrinho_navegacao .tab_carrinho_mini th.mini_subtotal{
+    padding: 10px 0px;
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.mini_carrinho_navegacao h5{
+    padding: 5px 0 10px 5px;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.mini_carrinho_navegacao .bt_ir_carrinho{
+    text-align: right;
+    padding-right: 5px;
+}
+
+.mini_carrinho_navegacao .bt_ir_carrinho a{
+    display: inline;
+    padding: 0;
+}

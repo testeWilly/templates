@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CaixaAguardeLojas><CaixaAguardeLoja ID="CaixaAguardeLoja" NomeAmigavel="" Visible="True" /></CaixaAguardeLojas><IdentificacaoCompradors><IdentificacaoComprador ID="IdentificacaoComprador"><EditarCadastro value="False" /><FormularioNovoCadastroEnderecoHTML><![CDATA[<div class="tit_box">
+    <h2><span class="pt">Dados Residênciais</span><span class="en">Address Informations</span></h2>
+</div>
+<div class="formulario_conteudo">
+    <div class="formulario">
+        <div class="list obrigatorio cep">
+            <label><span class="tit_label pt">Digite Primeiro o CEP*</span><span class="tit_label en">Type First CEP*</span>
+            [I2] <a href="http://www.buscacep.correios.com.br/servicos/dnec/index.do" target="_blank">Esqueceu o CEP?</a>   </label>
+        </div>
+        <div class="list obrigatorio">
+            <label class="larg_75"><span class="tit_label pt">Nome do Local*</span><span class="tit_label en">Local Name*</span>
+            [I5] <small class="pt">(Casa, Trabalho, etc)</small> <small class="en">(Home, Work, etc)</small></label>
+        </div>
+        <div class="list obrigatorio">
+            <label class="larg_100"><span class="tit_label pt">Endereço*</span><span class="tit_label en">Address*</span>
+            [I7]</label>
+        </div>
+        <div class="list obrigatorio">
+            <label class="larg_25"><span class="tit_label pt">Número*</span><span class="tit_label en">Number*</span>
+            [I9]</label>
+        </div>
+        <div class="list">
+            <label class="larg_50"><span class="tit_label pt">Complemento</span><span class="tit_label en">Complement</span>
+            [I11]</label>
+        </div>
+        <div class="list obrigatorio">
+            <label class="larg_75"><span class="tit_label pt">Bairro*</span><span class="tit_label en">District*</span>
+            [I13]</label>
+        </div>
+        <div class="list obrigatorio">
+            <label class="larg_75"><span class="tit_label pt">Cidade*</span><span class="tit_label en">City*</span>
+            [I15]</label>
+        </div>
+        <div class="list obrigatorio">
+            <label><span class="tit_label pt">Estado*</span><span class="tit_label en">State*</span>
+            [I17] </label>
+        </div>
+        <div class="list">
+            <label class="larg_100"><span class="tit_label pt">Pontos de Referência</span><span class="tit_label en">Reference</span>
+            [I19]</label>
+        </div>
+    </div>
+</div>
+
+    <div class="bt_continuar bt_hover">
+      <span><a onclick="[I31]">Continuar</a></span>           
+    </div>]]></FormularioNovoCadastroEnderecoHTML><FormularioNovoCadastroHTML><![CDATA[<div class="tit_box">
+    <h2><span class="pt">Dados Pessoais</span><span class="en">Your Informations</span></h2>
+</div>
+<div class="formulario_conteudo">
+    <div class="info pt">Campos marcados com * são obrigatórios.</div>
+    <div class="info en">Fields with * are required.</div>
+    <div class="formulario">
+        <condicao:tipo_pessoa>
+            <div class="list radio">
+                <label><span class="tit_label">&nbsp;</span></label>
+                [H36][H37]
+            </div>
+        </condicao:tipo_pessoa>
+        <condicao:exibe_pais>
+            <div class="list">
+                <label><span class="tit_label pt">País</span><span class="tit_label en">Country</span>
+                [H1]</label>
+            </div>
+        </condicao:exibe_pais>
+        <div class="list obrigatorio">
+            <label class="larg_100"><span class="tit_label pt">Nome Completo*</span><span class="tit_label en">Complete Name*</span>
+            [H7]</label>
+        </div>
+        <condicao:pessoa_fisica>
+            <div class="list obrigatorio">
+                <label><span class="tit_label pt">Sexo*</span><span class="tit_label en">Gender*</span>
+                [H18]</label>
+            </div>
+            <div class="list obrigatorio">
+                <label class="larg_50"><span class="tit_label pt">Data de Nascimento*</span><span class="tit_label en">Birth Date*</span>
+                [H16] <small class="pt">(DD/MM/AAAA)</small> <small class="en">(DD/MM/YYYY)</small></label>
+            </div>
+            <div class="list">
+                <label><span class="tit_label pt">Estado Civil</span><span class="tit_label en">Marital Status</span>
+                [H23]</label>
+            </div>
+            <div class="list">
+                <label class="larg_50"><span class="tit_label pt">Profissão</span><span class="tit_label en">Occupation</span>
+                [H14]</label>
+            </div>
+            <div class="list obrigatorio">
+                <label class="larg_75"><span class="tit_label pt">CPF*</span><span class="tit_label en">ID Card*</span>
+                [H21] <small class="pt">(XXX.XXX.XXX-XX)</small></label>
+            </div>
+            <div class="list">
+                <label class="larg_50"><span class="tit_label pt">RG</span><span class="tit_label en">RG</span>
+                [H26]</label>
+            </div>
+            <div class="list">
+                <label><span class="tit_label pt">Estado Emissor</span><span class="tit_label en">State Emissor</span>
+                [H28]</label>
+            </div>
+        </condicao:pessoa_fisica>
+
+        <condicao:pessoa_juridica>
+            <div class="list obrigatorio">
+                <label class="larg_75"><span class="tit_label pt">CNPJ*</span><span class="tit_label en">CNPJ*</span>
+                [H31]</label>
+            </div>
+            <div class="list obrigatorio">
+                <label class="larg_50"><span class="tit_label pt">Inscrição Estadual*</span><span class="en">Inscrição Estadual*</span>
+                [H33] <small>(Se não possuir preencha "isento")</small></label>
+            </div>
+        </condicao:pessoa_juridica>
+
+        <div class="list obrigatorio">
+            <label class="larg_25"><span class="tit_label pt">Telefone Principal*</span><span class="tit_label en">Phone*</span>
+            [I22]</label> - <label class="larg_50">[I23] <small class="pt">(DDD + XXXX-XXXX)</small> <small class="en">(Country Code + Area Code + Phone)</small></label>
+        </div>
+        <div class="list">
+            <label class="larg_25"><span class="tit_label pt">Telefone Alternativo</span><span class="tit_label en">Alternative Phone</span>
+            [I26]</label> - <label class="larg_50">[I27] <small class="pt">(DDD + XXXX-XXXX)</small> <small class="en">(Country Code + Area Code + Phone)</small></label>
+        </div>
+        <div class="list obrigatorio">
+            <label class="larg_75"><span class="tit_label pt">Crie sua Senha*</span><span class="tit_label en">Password*</span>
+            [H9] <small class="pt">(Mínimo 5 caracteres)</small> <small class="en">(5 caracters or more.)</small></label>
+        </div>
+        <div class="list obrigatorio">
+            <label class="larg_75"><span class="tit_label pt">Digite Novamente a Senha*</span><span class="tit_label en">Type your Password Again*</span>
+            [H11] </label>
+        </div>
+        <div class="list">
+            <label class="checkbox"><span class="tit_label pt">Gostaria de receber E-mail informando sobre lançamentos e promoções da Loja?</span><span class="tit_label en">It would like to receive email informing on launchings and promotions from the Store?</span>
+           [I28] <span class="pt">Sim</span><span class="en">Yes</span>
+            </label>
+        </div>
+    </div>
+</div>]]></FormularioNovoCadastroHTML><IdentificacaoCompradorGeralHTML><![CDATA[  <div class="tit_box_checkout"><h2>1. Identificação</h2></div>
+    <div class="identificacao">
+        [A4]
+        <div class="identificacao_conteudo">
+            [A0] [A1] [A2] [A3]
+        </div>
+        [A5]
+        <div class="formulario_identificacao">
+            <div class="box">
+                [A6]
+            </div>
+            <div class="box">
+                [A7]
+            </div>
+        </div>
+  <div class="tit_box_checkout tit_close"><h2>2. Entrega</h2></div>
+  <div class="tit_box_checkout tit_close"><h2>3. Pagamento</h2></div>
+    </div>]]></IdentificacaoCompradorGeralHTML><IdentificaCompradorHTML><![CDATA[<div class="identificacao_esquerda">
+    <fieldset>
+        <label><span>Email <img class="ok_identificacao" src="imagens/ok_ident.png?11" /></span>[D1]</label>
+    </fieldset>
+    <fieldset>
+        <label><span>Agora Digite sua Senha</span>[D15]</label>
+    </fieldset>
+    <div class="bt_continuar bt_hover">
+      <span><a onclick="[D2]">Continuar</a></span>           
+    </div>
+</div>
+<div class="identificacao_direita">
+    <ul>
+        <li>
+            <h2><a href="[D10]">Esqueceu sua Senha?</a></h2>
+          <p><a href="[D10]">Clique <span>aqui</span> e receba a sua<br /> senha por E-mail.</a></p>
+        </li>
+        <li>
+            <h2><a href="[D11]">[D5]</a></h2>
+            <p><a href="[D11]">[D6]</a></p>
+        </li>
+        <li>
+            <h2><a href="[D12]">[D7]</a></h2>
+            <p><a href="[D12]">[D8]</a></p>
+        </li>
+    </ul>
+</div>]]></IdentificaCompradorHTML><MensagemAlertaHTML><![CDATA[<div id="erro">
+    <div class="lista_erro">
+        <h2>[F0]</h2>
+        <ul>
+            <repeticao:erro>
+                <li>[F1]</li>
+            </repeticao:erro>
+        </ul>
+    </div>
+</div>]]></MensagemAlertaHTML><MensagemSucessoHTML><![CDATA[<div id="sucesso">
+    <div class="lista_sucesso">
+        <h2>[J0]</h2>
+    </div>
+</div>]]></MensagemSucessoHTML><NovaCompraHTML><![CDATA[<div class="mensagem">
+    <h2>Esta é a primeira vez que você efetua seu cadastro com o email informado.</h2>
+    <p>Por favor preencha o formulário abaixo. É fácil e rápido.</p>
+</div>]]></NovaCompraHTML><RecuperarSenhaHTML><![CDATA[<div class="identificacao_esquerda">
+    <fieldset>
+      <label><span>Forneça seu email e enviaremos sua senha por E-mail.</span>[E1]</label>
+    </fieldset>
+    <div class="bt_direita">
+            <span class="pt"><input type="image" src="imagens/bt_voltar.png?24" alt="Voltar" onclick="[E3]" align="left" style="margin: 0px 0 0 20px" /></span>
+            <span class="en"><input type="image" src="imagens/bt_back.png?24" alt="Back" onclick="[E3]" align="left" style="margin: 0px 0 0 20px" /></span>  
+            <span class="pt"><input type="image" src="imagens/bt_recuperar_senha.png?24" alt="Recuperar Senha" onclick="[E2]" /></span>
+            <span class="en"><input type="image" src="imagens/bt_recover_password.png?24" alt="Recover Password" onclick="[E2]" /></span>                    
+            
+    </div>
+</div>
+]]></RecuperarSenhaHTML><VerificarEmailHTML><![CDATA[<div class="identificacao_esquerda">
+    <fieldset>
+      <label><span>Digite seu Email</span>[B1]</label>
+    </fieldset>
+    <div class="bt_continuar bt_hover">
+      <span><a onclick="[B2]">Continuar</a></span>           
+    </div>
+</div>]]></VerificarEmailHTML><VerificarNovamenteEmailHTML><![CDATA[<div class="identificacao_esquerda">
+    <fieldset>
+        <label><span>Digite seu Email</span>[C1]</label>
+    </fieldset>
+      <div class="bt_verificar_again bt_hover">
+      <span><a onclick="[C10]">Verificar novamente</a></span>           
+    </div>
+</div>]]></VerificarNovamenteEmailHTML></IdentificacaoComprador></IdentificacaoCompradors><Links><Link ID="LinkAjuda"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Duvidas" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Ajuda" /><UsarHTTPS value="False" /></Link><Link ID="PaginaInicial"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Continuar comprando" /><UsarHTTPS value="False" /></Link></Links><Banners><Banner ID="Fullzao_topo" /></Banners><Carrinhos><Carrinho ID="Carrinho1"><CarrinhoHTML><![CDATA[<div class="tit_box">
+    <h2>Minha Sacola</h2>
+</div>
+[A28][A29][A41][A42]
+<div class="carrinho-direita" id="carrinho">
+    <table class="tab_carrinho" cellpadding="0" cellspacing="0" border="0" width="100%;">
+    <tbody>
+        <repeticao:produtos>
+            <tr class="item_carrinho fonte_carrinho">
+                <td><a href="[A24]" style="float: left;"><img src="[A3]?width=80&height=110" alt="[A4]" border="0" /></a></td>
+                <td style="text-align: left;">
+	                <a href="[A24]">[A4]</a>
+					<div class="quantidade_checkout">Quantidade [A5]</div>
+					<span class="valor_carrinho_checkout">[A8]</span>
+                </td>
+            </tr>
+        </repeticao:produtos>
+        <tr class="subtotal">
+            <th colspan="2">Subtotal: [A23]</th>
+        </tr>
+        <condicao:frete_valor>
+        <tr class="subtotal">
+            <th colspan="2">Frete: -[A16]</th>
+        </tr>
+        </condicao:frete_valor>
+        <condicao:cupom_valor>
+        <tr class="subtotal">
+            <th colspan="2">Cupom Desconto: [A12]</th>
+        </tr>
+        </condicao:cupom_valor>
+        <tr class="total">
+          <th colspan="2">Total: <span>[A21]</span></th>
+        </tr>
+    </tbody>
+    </table>
+</div>]]></CarrinhoHTML><CarrinhoItensEditavel value="True" /><CarrinhoVazioHTML><![CDATA[]]></CarrinhoVazioHTML><MensagemAlertaProdutoSemEstoqueHTML><![CDATA[]]></MensagemAlertaProdutoSemEstoqueHTML><MensagemAlertaSemTrasportadorasHTML><![CDATA[]]></MensagemAlertaSemTrasportadorasHTML><MensagemAlertaValorMinimoHTML><![CDATA[]]></MensagemAlertaValorMinimoHTML><MensagemBrindeAdicionadoNoCarrinhoHTML><![CDATA[]]></MensagemBrindeAdicionadoNoCarrinhoHTML><MensagemBrindesRemovidosPorRegra><![CDATA[O brinde <strong>[P0]</strong> foi removido devido as regras da promoção.]]></MensagemBrindesRemovidosPorRegra><MensagemBrindesRemovidosSemEstoque><![CDATA[O brinde <strong>[Q0]</strong> foi removido por não estar mais disponível]]></MensagemBrindesRemovidosSemEstoque><MensagemBrindesVarianteAlteradaPorIndisponibilidade><![CDATA[A variante do brinde <strong>[R0]</strong> foi alterada por não estar mais disponível.]]></MensagemBrindesVarianteAlteradaPorIndisponibilidade><MensagemCupomCompradorInvalido><![CDATA[Cupom não é válido para o comprador atual.]]></MensagemCupomCompradorInvalido><MensagemCupomDataInvalida><![CDATA[Cupom fora do prazo de validade.]]></MensagemCupomDataInvalida><MensagemCupomInexistente><![CDATA[Cupom não encontrado.]]></MensagemCupomInexistente><MensagemCupomInvalidoDepartamento><![CDATA[O cupom não é válido para o(s) departamento(s) selecionado(s).]]></MensagemCupomInvalidoDepartamento><MensagemCupomInvalidoProduto><![CDATA[O cupom não é válido para o(s) produto(s) selecionado(s).]]></MensagemCupomInvalidoProduto><MensagemCupomInvalidoValorMinimo><![CDATA[A compra não atingiu o valor mínimo para ativação do cupom.]]></MensagemCupomInvalidoValorMinimo><MensagemCupomUsado><![CDATA[O cupom já foi usado.]]></MensagemCupomUsado><MensagemCustomizacoesObrigatoriasNaoRealizadas><![CDATA[O produto <strong>[J0]</strong> possui customização obrigatória. Favor verificar.]]></MensagemCustomizacoesObrigatoriasNaoRealizadas><MensagemProdutosComDisponibilidadeDiferenciadaHTML><![CDATA[O produto [L0] não está mais disponível para pronta entrega na quantidade solicitada. Note que o prazo de envio do seu pedido será o maior prazo entre todos os produtos.]]></MensagemProdutosComDisponibilidadeDiferenciadaHTML><MensagemProdutosContratoNaoAceitoHTML><![CDATA[O produto <strong>[I0]</strong> não teve seu contrato aceito, favor verificar.]]></MensagemProdutosContratoNaoAceitoHTML><MensagemProdutosEstoqueAlteradoHTML><![CDATA[A quantidade desejada do item [G0] é maior que o estoque. Quantidade desejada: [G1], quantidade disponível: [G2].]]></MensagemProdutosEstoqueAlteradoHTML><MensagemProdutosGratisSemPermissaoDeVendaHTML><![CDATA[Esta loja não permite a venda grátis do produto <strong>[N0]</strong>.]]></MensagemProdutosGratisSemPermissaoDeVendaHTML><MensagemProdutosPrecoAlteradoHTML><![CDATA[O preço do produto [F0] mudou de [F1] para [F2].]]></MensagemProdutosPrecoAlteradoHTML><MensagemProdutosRemovidosSemPrecoHTML><![CDATA[O produto <strong>[K0]</strong> não esta mais disponível.]]></MensagemProdutosRemovidosSemPrecoHTML><MensagemSemPermissaoDeCompraNoTemplateHTML><![CDATA[]]></MensagemSemPermissaoDeCompraNoTemplateHTML><TamanhoImagem value="Grandes" /></Carrinho></Carrinhos><SEOs><SEO ID="seo" /></SEOs></controles></page>

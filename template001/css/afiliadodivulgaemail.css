@@ -1,0 +1,47 @@
+.tit_label{
+    color:#434343;
+    margin-right:5px;
+    font-size: 13px;
+}
+
+.emails{
+    margin:40px auto 20px auto;
+    width:595px;
+}
+
+.esquerda_email{
+    float:left;
+    margin-right:35px;
+    margin-bottom:20px;
+}
+
+.direita_email{
+    float:left;
+    margin-bottom:20px;
+}
+
+.esquerda_email input{
+    border:1px solid #ccc;
+    width: 230px;
+    padding: 3px;
+    color: #676767;
+}
+
+.direita_email input{
+    border:1px solid #ccc;
+    width: 230px;
+    padding: 3px;
+    color: #676767;
+}
+
+.bt_mais_email{
+    clear:both;
+    margin: 10px 0;
+    border-bottom: 2px solid #ccc;
+    padding: 20px 0 10px;
+}
+
+.bt_enviar_email{
+    clear:both;
+    float:right;
+}

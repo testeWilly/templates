@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Componentes>
+  <Script>
+    <OlaMundo visivel="SIM">
+      <![CDATA[<b>Ola mundo!</b><br>]]>
+    </OlaMundo>
+    <AtendimentoOnline visivel="NAO">
+      <![CDATA[
+              <script language="JavaScript" type="text/javascript">
+                function abreChat()
+                {
+                  window.open("http://www4.directtalk.com.br/server/directtalk_chat.dll/user?s=i&id_s=1507000604cb300180d2","janela","width=350,height=350,resizable=0,toolbar=0,location=0,directories=0,status=1,menubar=0");
+                }
+              </script>
+              <table>
+                <tr>
+                  <td>
+                    <a href="#" onclick="abreChat()">
+                      <img src="imagens/atendimento_online.gif" border="0" alt=""/>
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            ]]>
+    </AtendimentoOnline>
+  </Script>
+  <Banner>
+    <ObjetoImagem visivel="NAO" datainicial="27/05/2009" datafinal="27/06/2009" formato="Imagem" arquivo="ban_2.gif" link="http://www.google.com.br" altura="50" largura="150" ></ObjetoImagem>
+    <ObjetoFlash visivel="NAO" datainicial="26/05/2009" datafinal="27/05/2009" formato="Flash" arquivo="ban_1.swf" altura="100" largura="150"></ObjetoFlash>
+  </Banner>
+</Componentes>

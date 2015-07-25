@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><AfiliadoRelatorioClientess><AfiliadoRelatorioClientes ID="AfiliadoRelatorioCli"><AfiliadoRelatorioClientesHTML><![CDATA[<div class="respiro">
+  <div class="heading-special">
+	<h2>Relatório por Cliente</h2>
+  </div>
+    <div class="afiliados_refinar">
+        <div class="afiliados_refinar_direita">
+            [A0][A1][A2]
+          <a href="javascript:void(0);" onclick="[A3]" class="box-bt btn-tertiary">Filtrar</a>
+        </div>
+    </div>
+
+    <div class="afiliados_tabela">
+        <table cellpadding="0" cellspacing="0" border="0" class="tab_afiliados">
+            <thead>
+                <tr class="afiliado-titulo">
+                    <th class="table-heading">&nbsp;</th>
+                    <th class="table-heading">Cliente</th>
+                    <th class="table-heading">E-mail</th>
+                    <th class="center table-heading">Pedidos</th>
+                    <th class="center table-heading">Pedidos Entregues</th>
+                    <th class="center table-heading">Valor Pedidos Entregues</th>
+                    <th class="center table-heading">Comissão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <repeticao:cliente>
+                    <tr class="afiliado-cliente">
+                        <td class="center afiliado-pedido-arrow table-information"><img src="imagens/afiliado-arrow-close.png" alt="" /></td>
+                        <td class="table-information">[A5]</td>
+                        <td class="table-information">[A6]</td>
+                        <td class="center table-information">[A7]</td>
+                        <td class="center table-information">[A8]</td>
+                        <td class="center table-information">[A9]</td>
+                        <td class="center table-information">[A10]</td>
+                    </tr>
+                    <condicao:pedidos>
+                        <tr class="afiliado-cliente-pedidos">
+                            <td colspan="7" class="table-information">
+                                <repeticao:pedidos>
+                                    <table cellpadding="0" cellspacing="0" border="0" class="afiliado-cliente-pedidos-tab">
+                                        <tbody>
+                                            <tr class="afiliado-cliente-pedido">
+                                                <td class="afiliado-pedido-arrow"><img src="imagens/afiliado-arrow-close.png" alt="" /></td>
+                                                <td class="afiliado-numero-pedido"><strong>Pedido:</strong> [A11]</td>
+                                                <td><strong>Valor do Pedido:</strong> [A12]</td>
+                                                <td><strong>Comissão:</strong> [A13]</td>
+                                            </tr>
+                                            <condicao:produtos>
+                                                <tr class="afiliado-cliente-pedido-produtos">
+                                                    <td colspan="4">                                                  
+                                                        <table cellpadding="0" cellspacing="0" class="afiliado-cliente-pedido-produtos-tab">
+                                                            <thead>
+                                                                <th>Código do Produto</th>
+                                                                <th>Valor do Produto</th>
+                                                                <th>% Comissão</th>
+                                                                <th>R$ Comissão</th>
+                                                            </thead>    
+                                                            <tbody>
+                                                                <repeticao:produtos>
+                                                                    <tr class="afiliado-cliente-pedido-produto">
+                                                                        <td>[A15]</td>
+                                                                        <td>[A16]</td>
+                                                                        <td>[A17]</td>
+                                                                        <td>[A18]</td>
+                                                                    </tr>
+                                                                </repeticao:produtos>
+                                                            </tbody>                                
+                                                        </table>                                                        
+                                                    </td>
+                                                </tr>
+                                            </condicao:produtos>
+                                        </tbody>
+                                    </table>    
+                                </repeticao:pedidos>                
+                            </td>
+                        </tr>
+                    </condicao:pedidos>
+                </repeticao:cliente>
+
+                <condicao:mensagem_sem_registro>
+
+                    <tr>
+                        <td colspan="8" class="table-information">
+                            
+                            <div id="erro">
+                          	
+                          		<div class="lista_erro message-error">
+                                  <h2>Não existe registros para esta consulta </h2>
+                              	</div>
+                              
+                          	</div>
+
+                        </td>
+                    </tr>
+
+                </condicao:mensagem_sem_registro>
+                
+                <tr class="afiliado-total table-boxCep">
+                    <td></td>
+                    <td> Total</td>
+                    <td></td>
+                    <td>[A19]</td>
+                    <td>[A20]</td>
+                    <td>[A21]</td>
+                    <td>[A22]</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+]]></AfiliadoRelatorioClientesHTML></AfiliadoRelatorioClientes></AfiliadoRelatorioClientess><ScriptRazors><ScriptRazor ID="titlePage"><ScriptRazorHTML><![CDATA[@TemplateSettings.main_storeName]]></ScriptRazorHTML></ScriptRazor></ScriptRazors></controles></page>

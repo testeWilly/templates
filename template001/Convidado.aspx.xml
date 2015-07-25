@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Links><Link ID="Identificacao"><Destino value="EnderecoEntrega" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Identificacao" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Já sou Cliente" /><UsarHTTPS value="False" /></Link></Links><Convidados><Convidado ID="Convidado1"><LoginConvidadoHTML><![CDATA[@using (Html.BeginForm()) {  
+<div class="form_esq">
+    <div class="tit_box">
+        <h2>Dados Pessoais</h2>      
+    </div>
+    <div class="form_entrega">
+        <div class="list_entrega tipo_pessoa">
+            <label>
+                @Html.InputRadio("Customer.CustomerType", "Person").AddClass("radio").TabIndex("1") <span>Pessoa Física</span>
+            </label>
+            <label>
+                @Html.InputRadio("Customer.CustomerType", "Company").AddClass("radio").TabIndex("2") <span>Pessoa Jurídica</span>
+            </label>
+        </div>
+        <div class="list_entrega parent-validation">
+            <label>
+                <span class="tit_label_entrega obrigatorio">Nome Completo</span>
+                @Html.InputText("Customer.Name").Maxlength("100").TabIndex("3")
+            </label>
+        </div>
+        <div class="list_entrega parent-validation">
+            <label class="larg_50">
+                <span class="tit_label_entrega obrigatorio documentid">CPF </span>
+                @Html.InputText("Customer.DocumentId").Maxlength("18").TabIndex("4")
+				<small>(000.000.000-00)</small>
+            </label>
+        </div> 
+        <div class="list_entrega parent-validation inscricaoEstadual campo_inscricao_estadual">  
+            <label class="larg_50">
+                <span class="tit_label_entrega obrigatorio">Inscrição Estadual</span>
+                @Html.InputText("Customer.RegionalDocumentId").Maxlength("20").TabIndex("5")
+            </label>
+            <label class="checkComplemento">
+                <input id="chkIsentoInscricaoEstadual" type="checkbox" /> <span>Isento</span>
+            </label>
+        </div>          
+        <div class="list_entrega parent-validation">
+            <label class="larg_20">
+                <span class="tit_label_entrega obrigatorio">Telefone</span>
+                @Html.InputText("Customer.PhoneAreaCode").Maxlength("2").AddClass("txtDDD").TabIndex("5")
+            </label>
+            <label class="larg_30">
+                @Html.InputText("Customer.PhoneNumber").Maxlength("10").TabIndex("6")
+            </label>
+        </div> 
+        <div id="alternativo_telefone" class="list_entrega ">
+            <label class="larg_20">
+                <span class="tit_label_entrega">Telefone Alternativo</span>
+                @Html.InputText("Customer.PhoneAreaCodeAlternative").Maxlength("2").AddClass("txtDDD").TabIndex("7")
+            </label>
+            <label class="larg_30">
+                @Html.InputText("Customer.PhoneNumberAlternative").Maxlength("10").TabIndex("8")
+            </label><small>Opcional</small>
+        </div>
+        <div class="list_entrega parent-validation">
+            <label>
+                <span class="tit_label_entrega obrigatorio">Email</span>
+                @Html.InputText("Customer.Email").Maxlength("100").TabIndex("9")
+            </label>
+        </div>
+        <div class="list_entrega alin_esquerda">
+            @Html.InputCheckBox("Customer.AcceptsMarketing")
+            @Html.LabelText("Customer.AcceptsMarketing", "Gostaria de receber emails com lançamentos e promoções")
+        </div>                            
+
+    </div>                        
+</div>
+if (Model.IsGiftList) {
+<div class="form_dir">
+    <div class="tit_form_entrega">
+        <div class="tit_box">
+            <h2>Dados de Entrega</h2>               
+        </div>                
+        <div class="presente_entrega">
+            <div class="dados_presente">
+                <span>Este produto vai ser entregue para:</span>
+                <strong class="usuario">@Model.ShippingAddresses.RecipientName</strong>
+                <strong>@Model.ShippingAddresses.Street, @Model.ShippingAddresses.StreetNumber</strong>
+                <strong>@Model.ShippingAddresses.District - @Model.ShippingAddresses.City,@Model.ShippingAddresses.State</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+}else{
+
+<div class="form_dir">
+    <div class="tit_box">
+        <h2>Dados de Entrega</h2>
+    </div>
+    <div class="form_entrega">
+        <div class="list_entrega cep">
+            <label>
+                <span class="tit_label_entrega obrigatorio">Digite primeiro o CEP:  <a href="javascript:callSearchZipCode('ShippingAddresses_ZipCode')">(Esqueci o CEP)</a></span>
+                @Html.InputText("ShippingAddresses.ZipCode").Maxlength("9").TabIndex("10")
+              <span class="bt_ok bt_hover">Calcular Frete</span>
+            </label>
+        </div>
+        <div class="list_entrega parent-validation entrega_oculta">
+            <label>
+                <span class="tit_label_entrega obrigatorio">Endereço</span>
+                @Html.InputText("ShippingAddresses.Street").Maxlength("200").TabIndex("11")
+            </label>
+        </div> 
+
+            <div class="list_entrega alterada_entrega parent-validation entrega_oculta">
+                <label class="larg_30">
+                    <span class="tit_label_entrega obrigatorio">Número</span>
+                    @Html.InputText("ShippingAddresses.StreetNumber").Maxlength("10").TabIndex("12")
+                </label>
+            </div>
+            <div class="list_entrega alterada_entrega2 entrega_oculta">
+                <label class="complemento">
+                    <span class="tit_label_entrega tit_complemento">Complemento</span>
+                    @Html.InputText("ShippingAddresses.StreetComplement").Maxlength("50").TabIndex("13")
+                    <small>Opcional</small>
+                </label>
+            </div>   
+
+        <div class="list_entrega parent-validation entrega_oculta" style="clear: both;">
+            <label class="larg_50">
+                <span class="tit_label_entrega obrigatorio">Bairro</span>
+                @Html.InputText("ShippingAddresses.District").Maxlength("80").TabIndex("14")
+            </label>
+        </div>  
+
+            <div class="list_entrega alterada_entrega parent-validation entrega_oculta">
+                <label class="cidade">
+                    <span class="tit_label_entrega obrigatorio">Cidade</span>
+                    @Html.InputText("ShippingAddresses.City").Maxlength("100").TabIndex("15")
+                </label>
+            </div>
+            <div class="list_entrega alterada_entrega2 parent-validation entrega_oculta">
+                <label class="estado">
+                    <span class="tit_label_entrega obrigatorio tit_complemento">Estado</span>
+                    @Html.InputDropdown("ShippingAddresses.State", "States", "Selecione um estado").TabIndex("16")
+                </label>
+            </div>
+
+        <div id="cobranca" class="entrega_oculta">
+            <strong>Este é seu endereço de cobrança?</strong>
+
+            <div class="box_acesso">
+                <label>
+                    @Html.InputRadio("IsSameBillingAddress", "True").AddClass("radio").TabIndex("17") <span>Sim</span>
+                </label>
+                <label>
+                    @Html.InputRadio("IsSameBillingAddress", "False").AddClass("radio").TabIndex("18") <span>Não</span>
+                </label>
+            </div>
+
+        </div>                            
+
+    </div>
+</div>
+}
+
+
+<div class="form_dir enderecoCobranca @if (Model.IsGiftList)
+{
+    @:mostra
+}
+">  
+
+<div class="tit_box">
+    <h2>Dados de Cobrança</h2>
+</div>
+<div class="form_entrega">
+    <div class="list_entrega cep">
+        <div class="dados">
+            <label>
+                <span class="tit_label_entrega obrigatorio">Digite primeiro o CEP <a href="javascript:callSearchZipCode('Customer_BillingAddress_ZipCode')">(Esqueci o CEP)</a></span>
+                @Html.InputText("Customer.BillingAddress.ZipCode").Maxlength("9").TabIndex("19")
+                <span class="bt_ok bt_hover">Calcular Frete</span>
+            </label>
+        </div>
+    </div>
+    <div class="list_entrega parent-validation">
+        <label>
+            <span class="tit_label_entrega obrigatorio">Endereço</span>
+            @Html.InputText("Customer.BillingAddress.Street").Maxlength("200").TabIndex("20")
+        </label>
+    </div>
+
+        <div class="list_entrega parent-validation alterada_entrega">
+            <label class="larg_30">
+                <span class="tit_label_entrega obrigatorio">Número</span>
+                @Html.InputText("Customer.BillingAddress.StreetNumber").Maxlength("10").TabIndex("21")
+            </label>
+        </div>
+        <div class="list_entrega alterada_entrega2">
+            <label>
+                <span class="tit_label_entrega tit_complemento">Complemento</span>
+                @Html.InputText("Customer.BillingAddress.StreetComplement").Maxlength("50").TabIndex("22")
+                <small>Opcional</small>
+            </label>
+        </div>
+ 
+    <div class="list_entrega parent-validation" style="clear: both;">
+        <label class="larg_30">
+            <span class="tit_label_entrega obrigatorio">Bairro</span>
+            @Html.InputText("Customer.BillingAddress.District").Maxlength("80").TabIndex("23")
+        </label>
+    </div> 
+        <div class="list_entrega parent-validation alterada_entrega">
+            <label class="cidade">
+                <span class="tit_label_entrega obrigatorio">Cidade</span>
+                @Html.InputText("Customer.BillingAddress.City").Maxlength("100").TabIndex("24")
+            </label>
+        </div>
+        <div class="list_entrega parent-validation alterada_entrega2">
+            <label class="estado">
+                <span class="tit_label_entrega obrigatorio tit_complemento">Estado</span>
+                @Html.InputDropdown("Customer.BillingAddress.State", "States", "Selecione um estado").TabIndex("25")
+            </label>
+        </div>                            
+</div>
+</div>
+
+<div class="bt_continuar_entrega entrega_oculta">
+    @Html.ImageSubmit("Enviar", "imagens/bt_continuar.png?6").TabIndex("26")
+</div>
+}]]></LoginConvidadoHTML></Convidado></Convidados><Banners><Banner ID="Fullzao_topo" /></Banners><Carrinhos><Carrinho ID="Carrinho1"><CarrinhoHTML><![CDATA[]]></CarrinhoHTML><CarrinhoItensEditavel value="True" /><CarrinhoVazioHTML><![CDATA[]]></CarrinhoVazioHTML><MensagemAlertaProdutoSemEstoqueHTML><![CDATA[]]></MensagemAlertaProdutoSemEstoqueHTML><MensagemAlertaSemTrasportadorasHTML><![CDATA[]]></MensagemAlertaSemTrasportadorasHTML><MensagemAlertaValorMinimoHTML><![CDATA[]]></MensagemAlertaValorMinimoHTML><MensagemCupomCompradorInvalido><![CDATA[Cupom não é válido para o comprador atual.]]></MensagemCupomCompradorInvalido><MensagemCupomDataInvalida><![CDATA[Cupom fora do prazo de validade.]]></MensagemCupomDataInvalida><MensagemCupomInexistente><![CDATA[Cupom não encontrado.]]></MensagemCupomInexistente><MensagemCupomInvalidoDepartamento><![CDATA[O cupom não é válido para o(s) departamento(s) selecionado(s).]]></MensagemCupomInvalidoDepartamento><MensagemCupomInvalidoProduto><![CDATA[O cupom não é válido para o(s) produto(s) selecionado(s).]]></MensagemCupomInvalidoProduto><MensagemCupomInvalidoValorMinimo><![CDATA[A compra não atingiu o valor mínimo para ativação do cupom.]]></MensagemCupomInvalidoValorMinimo><MensagemCupomUsado><![CDATA[O cupom já foi usado.]]></MensagemCupomUsado><MensagemProdutosContratoNaoAceitoHTML><![CDATA[O produto <strong>[I0]</strong> não teve seu contrato aceito, favor verificar.]]></MensagemProdutosContratoNaoAceitoHTML><MensagemProdutosEstoqueAlteradoHTML><![CDATA[A quantidade desejada do item [G0] é maior que o estoque. Quantidade desejada: [G1], quantidade disponível: [G2].]]></MensagemProdutosEstoqueAlteradoHTML><MensagemProdutosPrecoAlteradoHTML><![CDATA[O preço do produto [F0] mudou de [F3] para [F4].]]></MensagemProdutosPrecoAlteradoHTML><TamanhoImagem value="Pequenas" /></Carrinho><Carrinho ID="Carrinho_checkout"><CarrinhoHTML><![CDATA[]]></CarrinhoHTML><CarrinhoItensEditavel value="True" /><CarrinhoVazioHTML><![CDATA[]]></CarrinhoVazioHTML><MensagemAlertaProdutoSemEstoqueHTML><![CDATA[]]></MensagemAlertaProdutoSemEstoqueHTML><MensagemAlertaSemTrasportadorasHTML><![CDATA[]]></MensagemAlertaSemTrasportadorasHTML><MensagemAlertaValorMinimoHTML><![CDATA[]]></MensagemAlertaValorMinimoHTML><MensagemCupomCompradorInvalido><![CDATA[Cupom não é válido para o comprador atual.]]></MensagemCupomCompradorInvalido><MensagemCupomDataInvalida><![CDATA[Cupom fora do prazo de validade.]]></MensagemCupomDataInvalida><MensagemCupomInexistente><![CDATA[Cupom não encontrado.]]></MensagemCupomInexistente><MensagemCupomInvalidoDepartamento><![CDATA[O cupom não é válido para o(s) departamento(s) selecionado(s).]]></MensagemCupomInvalidoDepartamento><MensagemCupomInvalidoProduto><![CDATA[O cupom não é válido para o(s) produto(s) selecionado(s).]]></MensagemCupomInvalidoProduto><MensagemCupomInvalidoValorMinimo><![CDATA[A compra não atingiu o valor mínimo para ativação do cupom.]]></MensagemCupomInvalidoValorMinimo><MensagemCupomUsado><![CDATA[O cupom já foi usado.]]></MensagemCupomUsado><MensagemProdutosContratoNaoAceitoHTML><![CDATA[O produto <strong>[I0]</strong> não teve seu contrato aceito, favor verificar.]]></MensagemProdutosContratoNaoAceitoHTML><MensagemProdutosEstoqueAlteradoHTML><![CDATA[A quantidade desejada do item [G0] é maior que o estoque. Quantidade desejada: [G1], quantidade disponível: [G2].]]></MensagemProdutosEstoqueAlteradoHTML><MensagemProdutosPrecoAlteradoHTML><![CDATA[O preço do produto [F0] mudou de [F3] para [F4].]]></MensagemProdutosPrecoAlteradoHTML><TamanhoImagem value="Pequenas" /></Carrinho></Carrinhos></controles></page>

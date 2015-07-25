@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><ImagensProdutos><ImagensProduto ID="ImagensProduto1"><ImagensProdutoHTML><![CDATA[          <div class="produto_foto">
+               
+              <div class="produto_mini_fotos">
+                    <condicao:imagens_pequenas>
+                        <repeticao:imagem>[A1]</repeticao:imagem>
+                    </condicao:imagens_pequenas>
+              </div>
+	   
+            <div class="produto_imagem_grande">[A0]</div>
+	    
+          </div>
+      ]]></ImagensProdutoHTML><TamanhoImagemEspiar value="Grandes" /><TamanhoImagemProdutos value="Gigantes" /><TamanhoImagemZoomEspiar value="SuperZoom" /><TamanhoImagemZoomProdutos value="SuperZoom" /><ZoomAtivado value="True" /></ImagensProduto></ImagensProdutos></controles></page>

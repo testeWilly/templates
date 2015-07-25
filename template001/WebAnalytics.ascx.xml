@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <GoogleAnalyticss>
+      <GoogleAnalytics ID="GoogleAnalytics">
+        <AnalyticsConfirmadoHTML>
+          <![CDATA[<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol ) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+  var pageTracker = _gat._getTracker("[B14]");
+  pageTracker._trackPageview();
+  pageTracker._addTrans(
+      "[B0]", 
+      "[B1]", 
+      "[B2]", 
+      "[B3]", 
+      "[B4]", 
+      "[B5]", 
+      "[B6]", 
+      "[B7]"  
+    );
+<repeticao:produtos>
+   pageTracker._addItem(
+      "[B8]", 
+      "[B9]", 
+      "[B10]",
+      "[B11]",
+      "[B12]",          
+      "[B13]"
+   );
+   </repeticao:produtos>
+   pageTracker._trackTrans(); //submits transaction to the Analytics servers
+} catch(err) {}
+</script>
+
+]]>
+        </AnalyticsConfirmadoHTML>
+        <AnalyticsHTML>
+          <![CDATA[<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{ 
+var pageTracker = _gat._getTracker("[A0]");
+pageTracker._trackPageview();
+} catch(err) {} 
+</script>]]>
+        </AnalyticsHTML>
+        <ConversionConfirmadoHTML><![CDATA[]]></ConversionConfirmadoHTML>
+        <CssComponente><![CDATA[]]></CssComponente>
+      </GoogleAnalytics>
+      <GoogleAnalytics ID="GoogleAnalytics1">
+        <AnalyticsConfirmadoHTML><![CDATA[]]></AnalyticsConfirmadoHTML>
+        <AnalyticsHTML><![CDATA[]]></AnalyticsHTML>
+        <ConversionConfirmadoHTML><![CDATA[]]></ConversionConfirmadoHTML>
+      </GoogleAnalytics>
+    </GoogleAnalyticss>
+  </controles>
+</page>

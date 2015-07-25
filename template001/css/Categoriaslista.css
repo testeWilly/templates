@@ -1,0 +1,51 @@
+#container-listas {
+    margin: 20px auto 0;
+    min-height: 430px;
+    overflow: hidden;
+    text-align: left;
+    width: 990px;
+}
+
+#conteudo-listas {
+    float: left;
+    width: 782px;
+}
+#conteudo-listas .chamada-principal {
+    background: url("../imagens/banner_look.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+    display: block;
+    float: right;
+    height: 441px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    width: 765px;
+}
+
+#conteudo-listas .chamada-principal h2 {
+    color: #EE937C;
+    display: block;
+    font-family: bellotabold;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 45px 0 0 17px;
+    text-transform: uppercase;
+}
+#conteudo-listas .chamada-principal-texto {
+    margin: 15px 0 15px 15px;
+    padding: 5px;
+    width: 281px;
+}
+#conteudo-listas .chamada-principal-texto p {
+    color: #3A3030;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+#conteudo-listas .chamada-principal-texto p.chamada-confira {
+    font-family: bellotabold;    
+    font-size: 17px;
+}
+
+.navegue-look{
+    margin-top: 20px;
+}

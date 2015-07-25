@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><ProdutoNomes><ProdutoNome ID="produtoNomeCustomizacao"><CssComponente><![CDATA[]]></CssComponente><ProdutoNomeHTML><![CDATA[<div class="tit_personalizacao_carrinho">
+	<h2>
+    	[A0] [A1] [A2]
+	</h2>
+</div>
+                ]]></ProdutoNomeHTML></ProdutoNome></ProdutoNomes><ImagensProdutos><ImagensProduto ID="ImagensProduto"><CssComponente><![CDATA[]]></CssComponente><ImagensProdutoHTML><![CDATA[<repeticao:imagem>
+  <div class="personalizacao_carrinho_produto_foto">
+		[A0]
+  </div>
+</repeticao:imagem>
+
+
+
+
+
+
+  <!--
+
+<repeticao:imagem>
+  <div class="personalizacao_carrinho_produto_foto">
+    <div class="produto_foto"> 
+      <condicao:imagens_pequenas>
+        <div class="produto_mini_fotos">
+          <repeticao:imagem>[A1]</repeticao:imagem>
+        </div>
+      </condicao:imagens_pequenas>
+    </div>  
+    <!--<img src="imagens/foto.png?1" alt=""/>
+  </div>
+</repeticao:imagem>
+
+
+          <!--<div class="produto_foto">           
+            	<div class="produto_imagem_grande">[A0]</div>
+                <condicao:imagens_pequenas>
+                      <div class="produto_mini_fotos">
+                        <repeticao:imagem>[A1]</repeticao:imagem>
+                      </div>
+               </condicao:imagens_pequenas>    
+          </div>-->
+      ]]></ImagensProdutoHTML><TamanhoImagemEspiar value="Médias" /><TamanhoImagemProdutos value="Médias" /><TamanhoImagemZoomEspiar value="SuperZoom" /><TamanhoImagemZoomProdutos value="SuperZoom" /><ZoomAtivado value="True" /></ImagensProduto></ImagensProdutos><ProdutoDescricoess><ProdutoDescricoes ID="produtoDescricaoCustomizarProdutoNoCarrinho"><CssComponente><![CDATA[]]></CssComponente><ProdutoDescricoesHTML><![CDATA[<div class="personalizacao_carrinho_produto_descricao">
+		<div class="personalizacao_produto_descricao_abas">
+			<ul>
+              	<repeticao:abas>
+					<li><a href="#tab[A0]">[A1]</a></li>      
+                </repeticao:abas>  
+			</ul>
+		</div>
+	<div class="personalizacao_produto_descricao_texto">
+		<repeticao:conteudo>
+			<div class="personalizacao_produto_descricao_texto_conteudo" id="tab[A0]">
+				[A2]
+			</div>
+		</repeticao:conteudo>
+	</div>
+</div>]]></ProdutoDescricoesHTML></ProdutoDescricoes></ProdutoDescricoess><ProdutoCustomizados><ProdutoCustomizado ID="customizarProdutoNoCarrinho"><CssComponente><![CDATA[]]></CssComponente><ProdutoCustomizadoHTML><![CDATA[<repeticao:produto_customizado>
+  <div class="personalizacao_carrinho_personalizacao">		
+      <div id="customiza_item">
+        <h3>[AC0]</h3>
+      </div>
+      <div class="personalizacao_carrinho_personalizacao_conteudo">
+        	<div class="personalizacao_carrinho_personalizacao_imagem">
+                <div class="opcional_esquerda">
+                  <condicao:customizacao_imagem> 
+                      [AC2]
+                  </condicao:customizacao_imagem>
+              </div>
+            </div>
+        
+        
+        <div class="personalizacao_carrinho_personalizacao_info">
+          <div class="opcional_direita">  
+          	<fieldset>
+                <condicao:customizacao_aceite>
+                    <label class="aceite">
+                        [AC3]
+                        <span>
+                            [AC4]
+                        </span>
+                    </label>	
+                </condicao:customizacao_aceite>	  
+                <repeticao:customizacao_campos>	
+                    <label>
+                        <condicao:customizacao_campos>
+                            <label>
+                                [AC6]
+                                [AC5]
+                            </label>	
+                        </condicao:customizacao_campos>                    
+                    </label>
+                </repeticao:customizacao_campos>	
+                <condicao:customizacao_regulamento>                        
+                      <span class="opcional_regulamento"><a href="[AC7]" target="_blanc">Veja o regulamento</a></span>
+                 </condicao:customizacao_regulamento>
+            </fieldset>
+        </div>
+        </div>
+      </div>
+      <div class="personalizacao_carrinho_personalizacao_preco">
+        Valor Adicional <strong>[AC1]</strong>
+      </div>  
+	</div>
+</repeticao:produto_customizado>
+
+<div class="personalizacao_carrinho_bt">
+  <a href="javascript:AjaxRequestDispatcher('salvarCustom');" class="personalizacao_carrinho_bt_confirmar"><img onclick="[AC8]" src="imagens/bt_confirmar_personalizacao.png?1" alt="Confirmar Personalização" /></a>
+  <a href="javascript:AjaxRequestDispatcher('salvarCustom');" class="personalizacao_carrinho_bt_cancelar"><img onclick="[AC9]" src="imagens/bt_cancelar_personalizacao.png?1" alt="Cancelar Personalização" /></a>
+</div>]]></ProdutoCustomizadoHTML><TamanhoImagem value="150" /></ProdutoCustomizado><ImagensProdutos><ImagensProduto ID="ImagemCustomizarProdutoNoCarrinho"><CssComponente><![CDATA[]]></CssComponente><ImagensProdutoHTML><![CDATA[
+                
+                <div class="customiza_esquerda">
+                    <div class="customiza_foto">
+                        <div class="produto_foto">           
+                            <div class="produto_imagem_grande">
+                                [A0]
+                            </div>
+                        </div>
+                	</div>
+                </div>
+	                <!--<condicao:imagens_pequenas>
+                      <div class="produto_mini_fotos">
+                          <repeticao:imagem>
+                              [A1]
+                          </repeticao:imagem>
+                      </div>
+	                </condicao:imagens_pequenas>    
+              </div>-->
+                  
+                  
+              ]]></ImagensProdutoHTML><TamanhoImagemEspiar value="Grandes" /><TamanhoImagemProdutos value="Grandes" /><TamanhoImagemZoomEspiar value="SuperZoom" /><TamanhoImagemZoomProdutos value="SuperZoom" /><ZoomAtivado value="True" /></ImagensProduto></ImagensProdutos></ProdutoCustomizados></controles></page>

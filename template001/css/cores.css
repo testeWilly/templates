@@ -1,0 +1,251 @@
+/*Cores da Loja V5*/
+
+
+/*Newsletter*/
+
+.ofertas_direita .boletim fieldset .sexo label{
+  color: #FFF;
+}
+
+/*Tag Clouds*/
+
+.clouds a{
+    color: #000;
+}
+
+/*Vitrine Ofertas*/
+
+.vitrine_ofertas ul li .titulo a{
+    color: #000;
+}
+
+.vitrine_ofertas ul li .preco span.preco_por {
+    color: #333;
+}
+
+.vitrine_ofertas ul li .preco_parcelado{
+    color: #333;
+}
+
+.vitrine_ofertas ul li .preco{
+    color: #FF8601;
+}
+
+
+/*Vitrine Destaque*/
+
+.vitrine_destaques ul li .titulo a {
+    color: #000;
+}
+
+.vitrine_destaques ul li .descricao a {
+    color: #333;
+}
+
+.vitrine_destaques ul li .preco {
+    color: #FF8601
+}
+
+.vitrine_destaques ul li .preco span.preco_por{
+    color: #333;
+}
+
+.vitrine_destaques ul li .preco_parcelado {
+    color: #333;
+}
+
+.vitrine_destaques ul li .descricao a{
+  color: #666;
+}
+
+/*Vitrine Deslizante*/
+
+.vitrine_nova ul li .titulo a{
+    color: #000;
+}
+
+.vitrine_nova ul li .descricao a{
+    color: #333;
+}
+
+.vitrine_nova ul li .preco{
+    color: #FF8601;
+}
+
+.vitrine_nova ul li .preco span.preco_por{
+  color: #333;
+}
+
+.vitrine_nova ul li .preco_parcelado {
+    color: #333;
+}
+
+
+/*Menu Rodap�*/
+
+.menu_pe ul li ul li a {
+  color: #000;
+}
+
+.menu_pe ul li ul li.todos a {
+  color: #FF8601;
+}
+
+
+/*Rodap�*/
+
+#rodape .rodape_esquerda .metodos h2{
+  color: #000;
+}
+
+#rodape .rodape_esquerda .institucionais ul li a {
+  color: #FF8601;
+}
+
+
+/*-------------------------------------------------------------------
+
+Coluna Esquerda
+
+--------------------------------------------------------------------*/
+
+
+/* Menu */
+
+.menu_lateral{
+  background-color: #E8DBCA;
+}
+
+.menu_lateral_conteudo ul li a{
+  color: #FF8601;
+}
+
+.menu_lateral_conteudo ul li ul li a{
+  color: #333;
+}
+
+
+/*-------------------------------------------------------------------
+
+P�gina do Produto
+
+--------------------------------------------------------------------*/
+
+
+/*Pre�os*/
+
+.produto_direita .produto_preco .produto_preco_total .preco_por_titulo{
+  color:#000;
+}
+
+.produto_direita .produto_preco .produto_preco_total .preco_por{
+  color: #FF8601;
+}
+
+.produto_direita .produto_preco .produto_preco_total .preco_por_texto{
+  color: #000;
+}
+
+.produto_direita .produto_preco .produto_preco_parcelado .preco_parcelado_titulo{
+  color: #000;
+}
+
+.produto_direita .produto_preco .produto_preco_parcelado .preco_parcelado{
+  color: #FF8601;
+}
+
+.produto_direita .produto_preco .produto_preco_parcelado .preco_parcelado_texto{
+  color: #000;
+}
+
+
+/*Indique este produto*/
+
+
+.indique fieldset label{
+    color: #FF8601;
+}
+
+
+/*-------------------------------------------------------------------
+
+Identificação
+--------------------------------------------------------------------*/
+
+/*Identificação*/
+
+.identificacao_conteudo fieldset label {
+    color:#FF8601;
+}
+
+.mensagem p{
+    color:#FF8601;
+}
+
+.mensagem h2{
+    color:#FF8601;
+}
+
+.formulario_conteudo fieldset.cep a{
+   color:#FF8601; 
+}
+
+.identificacao_direita ul li h2 a{
+    color:#FF8601;
+}
+
+
+/*-------------------------------------------------------------------
+
+Entrega
+--------------------------------------------------------------------*/
+
+
+.entrega_conteudo fieldset.cep a {
+    color:#FF8601;
+}
+
+.enderecos li.selecionado {
+    background-color: #F5F0EA;
+    border-color:#FF8B00;
+}
+
+.endereco_entrega p.local{
+    color:#FF8601;
+}
+
+
+
+/*-------------------------------------------------------------------
+
+Meus Pedidos
+
+--------------------------------------------------------------------*/
+
+.info_pedido .info_pedido_conteudo .numero_pedido h3{
+    color: #000;
+}
+
+.pedido_dados_compra a{
+    color: #FF8601; 
+}
+
+.tab_pesquisa a{
+   color: #FF8601;  
+}
+
+
+/*-------------------------------------------------------------------
+
+Resultado da Busca
+
+--------------------------------------------------------------------*/
+
+
+.filtros_busca_conteudo ul li a{
+    color: #E63901; 
+}
+
+.categorias_busca_conteudo ul li a{
+   color: #FF8601; 
+}

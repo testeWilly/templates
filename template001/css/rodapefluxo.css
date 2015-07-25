@@ -1,0 +1,211 @@
+.rodape_cima {
+    background: none repeat scroll 0 0 #c8c8c8;
+    height: 426px;
+}
+
+.rodape_baixo {
+    background: #15cd8d;
+    height: 76px;
+}
+
+.container_rodape{
+    margin: 0 auto;
+    width: 990px;
+}
+
+.title_rodape{
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+.rodape_ciashop {
+    margin-top: 20px;
+}
+
+/*inst*/
+
+.box_institucionais{
+    float: left;
+    overflow: hidden;
+    width: 207px;
+}
+
+.box_institucionais ul{
+    list-style: none outside none;
+}
+
+.lista_institucionais{
+}
+
+.lista_institucionais a{
+    color: #000;
+    display: block;
+    padding: 3px 0;
+    text-align: left;
+}
+
+.lista_institucionais a:hover{
+
+}
+
+/*pagamento*/
+
+.box_pagamento{
+  float: left;
+  width: 155px;
+  margin-right: 55px;
+}
+
+.icones_pagamento{
+    margin-top: 20px;
+}
+
+.band_rodape{
+  margin: 3px 3px 3px 0;
+}
+
+/*atendimento*/
+
+.box_atendimento {
+    color: #ffffff;
+    float: left;
+    font-size: 11px;
+    line-height: 19px;
+    margin-top: 22px;
+    text-align: left;
+}
+
+.container_selos{
+     float: left;
+}
+
+/*selos*/
+
+.box_selos{
+    float: left;
+    width: 170px;
+}
+
+.box_selos a{
+    display: block;
+    float: left;
+    margin-bottom: 12px;
+}
+
+/*social*/
+
+.redes_sociais{
+    float: right;
+    margin: 20.5px 0;
+}
+
+.titulo_sociais_rodape{
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 11px;
+}
+
+.blog{
+    background: url("../imagens/icone_blog.png") no-repeat scroll center top transparent;
+    display: block;
+    float: left;
+    height: 21px;
+    margin-left: 12px;
+    text-indent: -9999px;
+    width: 25px;             
+}
+
+.facebook{
+  background: url('../imagens/facebook.png') no-repeat top center scroll transparent;
+  width: 35px;
+  height: 34px;
+  text-indent: -9999px;
+  display: block;
+  float: left;                  
+}
+
+.twitter{
+  background: url('../imagens/twitter.png') no-repeat top center scroll transparent;
+  width: 35px;
+    margin-left: 12px;
+  height: 34px;
+  text-indent: -9999px;
+  display: block;
+  float: left;
+}
+
+/*informacoes */
+
+.box_fale_conosco {
+    border: 1px solid #ffffff;
+    float: right;
+    margin: 20px 0;
+}
+.box_fale_conosco_cont {
+    /* background: none repeat scroll 0 0 #3b53df; */
+    color: #ffffff;
+    font-size: 13px;
+    /* margin: 7px; */
+    overflow: hidden;
+    /* padding: 15px; */
+}
+
+.box_fale_conosco .box_fale_titulo {
+    color: #ffffff;
+    display: block;
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+
+.box_fale_conosco .box_fale_fale{
+    display: block;
+}
+
+.box_fale_conosco .box_fale_telefone{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.box_fale_conosco .box_fale_ou{
+    float: left;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-top: 6px;
+}
+
+.box_fale_conosco .box_fale_bt a{
+    background: url("../imagens/bt_entre_contato.png") no-repeat scroll left top transparent;
+    display: block;
+    float: right;
+    height: 32px;
+    text-indent: -9999px;
+    width: 151px;
+}
+
+.box-lojas{
+ width: 100%;
+ float: Left;
+ margin-bottom: 20px;
+ margin-top: -65px;
+}
+
+.box-lojas ul.lojas{
+ float: left;
+ margin-right: 45px;
+ border-left: 1px solid #114b33;
+ padding-left: 10px;
+ list-style:none;
+}
+
+.box-lojas a{
+ color: #114b33;
+}

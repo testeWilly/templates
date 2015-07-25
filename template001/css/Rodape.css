@@ -1,0 +1,297 @@
+.rodape_cima {
+    background: none repeat scroll 0 0 #c8c8c8;
+    overflow: hidden;
+}
+
+.rodape_baixo {
+    background: #15cd8d;
+    height: 76px;
+}
+
+.container_rodape{
+    margin: 0 auto;
+    width: 990px;
+}
+
+.title_rodape{
+    color: #000;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 16px;
+    margin-top: 45px;
+}
+
+.rodape_ciashop {
+    margin-top: 20px;
+}
+
+/*inst*/
+
+.box_institucionais{
+    float: left;
+    overflow: hidden;
+    width: 207px;
+    margin-bottom: 10px;
+}
+
+.box_institucionais ul{
+    margin-bottom: 45px; 
+    list-style: none outside none;
+	color: #000;
+    display: block;
+    padding: 3px 0;
+    text-align: left;
+}
+
+.lista_institucionais{
+}
+
+.lista_institucionais a{
+    color: #000;
+    display: block;
+    padding: 3px 0;
+    text-align: left;
+}
+
+.lista_institucionais a:hover{
+
+}
+
+/*pagamento*/
+
+.box_pagamento{
+  float: left;
+  width: 180px;
+  margin-right: 55px;
+}
+
+.icones_pagamento{
+    margin-top: 20px;
+}
+
+.band_rodape{
+  margin: 3px 3px 3px 0;
+}
+
+/*news*/
+
+.box_newsletter{
+    background-color: #12c2c2;
+}
+
+.texto_newslatter {
+    color: #484848;
+    float: left;
+    font-size: 12px;
+    margin: 22px 0 19px 110px;
+}
+
+
+.texto_newslatter span {
+    color: #898989;
+    display: block;
+    font-family: "Lato-Bold";
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.box_newsletter .container_rodape{
+    background: url("../imagens/fundo_newsletter.png") no-repeat scroll left center transparent;
+    height: 95px;
+}
+
+.box_newsletter_rodape{
+    border: 0 none;
+    float: right;
+    padding: 26px 10px 26px 0;
+}
+
+.news_nome{
+    float: left;
+    margin-right: 5px;
+}
+
+.news_email{
+    float: left;
+    margin-right: 5px;
+}
+
+.news_nome input{
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #bfbfbf;
+    color: #7e7e7e;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+    padding: 12px 0 12px 12px;
+    text-transform: uppercase;
+    width: 170px;
+}
+
+.news_email input{
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #bfbfbf;
+    color: #7e7e7e;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+    padding: 12px 0 12px 12px;
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.news_btn{
+  float: left;
+  cursor: pointer;
+}
+
+.news_btn a{
+    background: url("../imagens/bt_newsletter.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 43px;
+    text-indent: -9999px;
+    width: 112px;
+}
+
+/*atendimento*/
+
+.box_atendimento {
+    color: #ffffff;
+    float: left;
+    font-size: 11px;
+    line-height: 19px;
+    margin-top: 22px;
+    text-align: left;
+}
+
+.container_selos{
+     float: left;
+}
+
+/*selos*/
+
+.box_selos{
+    float: left;
+    width: 170px;
+}
+
+.box_selos a{
+    display: block;
+    float: left;
+    margin-bottom: 12px;
+}
+
+/*social*/
+
+.redes_sociais{
+    float: right;
+    margin: 20.5px 0;
+}
+
+.titulo_sociais_rodape{
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: "Lato-Bold";
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 11px;
+}
+
+.blog{
+    background: url("../imagens/icone_blog.png") no-repeat scroll center top transparent;
+    display: block;
+    float: left;
+    height: 21px;
+    margin-left: 12px;
+    text-indent: -9999px;
+    width: 25px;             
+}
+
+.facebook{
+    background: url('../imagens/facebook.png') no-repeat top center scroll transparent;
+    display: block;
+    float: left;
+    height: 25px;
+    text-indent: -9999px;
+    width: 12px;                  
+}
+
+.twitter{
+    background: url('../imagens/twitter.png') no-repeat top center scroll transparent;
+    display: block;
+    float: left;
+    height: 21px;
+    margin-left: 12px;
+    text-indent: -9999px;
+    width: 25px;
+}
+
+/*informacoes */
+
+.box_fale_conosco {
+    border: 1px solid #ffffff;
+    float: right;
+    margin: 20px 0;
+}
+
+.box_fale_conosco_cont{
+    /* background: none repeat scroll 0 0 #3b53df; */
+    color: #ffffff;
+    font-size: 13px;
+    /* margin: 7px; */
+    overflow: hidden;
+    /* padding: 15px; */
+}
+
+.box_fale_conosco .box_fale_titulo {
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-family: "Lato-Bold";
+    margin-bottom: 9px;
+}
+
+.box_fale_conosco .box_fale_fale{
+    display: block;
+}
+
+.box_fale_conosco .box_fale_telefone{
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.box_fale_conosco .box_fale_ou{
+    float: left;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-top: 6px;
+}
+
+.box_fale_conosco .box_fale_bt a{
+    background: url("../imagens/bt_entre_contato.png") no-repeat scroll left top transparent;
+    display: block;
+    float: right;
+    height: 32px;
+    text-indent: -9999px;
+    width: 147px;
+}
+
+.box-lojas{
+ margin-top:0;
+ width: 100%;
+ float: Left;
+ margin-bottom: 20px;
+ margin-top: -30px;
+}
+
+.box-lojas ul.lojas{
+ float: left;
+ margin-right: 45px;
+ border-left: 1px solid #114b33;
+ padding-left: 10px;
+ list-style:none;
+}
+
+.box-lojas a{
+ color: #114b33;
+}

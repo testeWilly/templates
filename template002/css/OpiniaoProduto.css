@@ -1,0 +1,78 @@
+.produto_avaliar{
+    clear: both;
+    list-style: none;
+}
+
+.produto_avaliar li{
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.produto_avaliar li h3{
+    padding: 7px 10px;
+    background: #062A59;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.produto_avaliar li .opiniao_foto{
+    float: left;
+    height: 150px;
+    width: 150px;
+    background: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.produto_avaliar li .opiniao_conteudo{
+    float: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.produto_avaliar li .opiniao_conteudo .opiniao_avaliacao{
+    color: #000;
+    font-size: 13px;
+    clear: both;
+    overflow: hidden;
+}
+
+.produto_avaliar li .opiniao_conteudo .opiniao_comentario{
+    color: #000;
+    font-size: 13px;
+    clear: both;
+    margin-top: 10px;
+}
+
+.produto_avaliar li .opiniao_conteudo .opiniao_comentario textarea{
+    border: 1px solid #ccc;
+    font-size: 11px;
+    padding: 4px;
+    color: #666;
+    vertical-align: middle;
+    margin-top: 3px;
+    height: 70px;
+    width: 250px;
+}
+
+.produto_avaliar li .avaliacao_estrela{
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    margin: 3px 0 0 0;
+}
+
+.produto_avaliar li .avaliacao_estrela li{
+    cursor: pointer;
+    float: left;
+    margin-top:0;
+}
+
+.bt_opniao{
+    text-align: right;
+}
+
+.depts_filho{
+    display:none;
+}

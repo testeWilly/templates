@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><LabelVisitantes><LabelVisitante ID="LabelVisitante1"><HTMLModeloLogado><![CDATA[<span>Olá, [A2]!<a href="[A0]">(Sair)</a></span>]]></HTMLModeloLogado><HTMLModeloNaoLogado><![CDATA[<span>Olá Visitante, <a href="[B0]">(clique aqui para fazer login)</a></span>]]></HTMLModeloNaoLogado></LabelVisitante></LabelVisitantes><Links><Link ID="Cadastrese"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Identificacao" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Cadastre-se" /><UsarHTTPS value="False" /></Link><Link ID="LinkMeuCadastro"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Identificacao" /><Parametros value="destino=comprador" /><Target value="MesmaPagina" /><Texto value="Minha Conta" /><UsarHTTPS value="True" /></Link><Link ID="LinkMeusPedidos"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="MeusPedidos" /><Parametros value="destino=MeusPedidos" /><Target value="MesmaPagina" /><Texto value="Meus pedidos" /><UsarHTTPS value="True" /></Link><Link ID="PaginaInicial"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Animafest - Fantasias e Adereços para Festas" /><UsarHTTPS value="False" /></Link><Link ID="LinkCarrinhoCompras"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Carrinho" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="0" /><UsarHTTPS value="False" /></Link><Link ID="LinkCarrinhoComprasMini"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Carrinho" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="" /><UsarHTTPS value="False" /></Link></Links><Menus><Menu ID="Menu1"><ApenasDepartamento value="False" /><MenuHTML><![CDATA[<h2><ul class="list_menu_topo">
+  <repeticao:pais quantidade="5">
+    <li><a class="link_menu_topo" href="[A0]">[A1]</a>
+    <condicao:filho>
+      <ul>
+        <repeticao:filhos>
+          <li><a href="[A0]">[A1]</a></li>
+        </repeticao:filhos>
+      </ul>
+    </condicao:filho>
+    </li>
+  </repeticao:pais>
+  </ul></h2>]]></MenuHTML><TipoMenu value="Horizontal" /></Menu></Menus><CaixaPesquisas><CaixaPesquisa ID="CaixaPesquisa"><CaixaPesquisaHTML><![CDATA[<fieldset>
+    <label class="input_busca">[A0]</label>
+  <label class="bt"><a onclick="[A2]">Buscar</a></label>
+</fieldset>]]></CaixaPesquisaHTML></CaixaPesquisa></CaixaPesquisas><CarrinhoTopos><CarrinhoTopo ID="Mini_Carrinho"><CarrinhoHTML><![CDATA[<script>
+    $(function() { 
+       var quantidade = 0
+       $(".tab_carrinho_mini .qtd").each(function(){
+          quantidade = quantidade + parseInt($(this).html());
+       });
+       $(".mini_itens a").html(quantidade)
+    });
+
+    $(".bt_carrinho").mouseover(function(){
+        $(".mini_carrinho").show();
+    });
+    $(".bt_carrinho").mouseout(function(){
+        $(".mini_carrinho").hide();
+    });
+</script>
+<div class="mini_subtotal">minha sacola: [A23]</div>
+<table cellpadding="0" cellspacing="0" border="0" class="tab_carrinho_mini" width="100%">
+    <repeticao:produtos>
+    <tr>
+        <td class="mini_foto"><a href="[A24]"><img src="[A3]?width=80&height=110" alt="[A4]" /></a></td>
+        <td class="mini_titulo"><a href="[A24]">[A4]</a>  <span class="mini_preco">[A9]</span>  <span style="display:none">(<span class="qtd">[A5]</span>)</span></td>
+    </tr>
+    </repeticao:produtos>
+</table>]]></CarrinhoHTML><CarrinhoVazioHTML><![CDATA[<h5>Meu Carrinho</h5>
+
+Carrinho Vazio<br />]]></CarrinhoVazioHTML><TamanhoImagem value="Grandes" /></CarrinhoTopo></CarrinhoTopos></controles></page>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ListagemSimpless>
+      <ListagemSimples ID="ListagemSimples_direito" NomeAmigavel="Caixa de Listagem de Produtos do menu da esquerda" Visible="True">
+        <arquivoXml value="" />
+        <ModeloHTML titulo="Vitrine de Coluna" help="HTML da vitrine, que será usado na coluna direita da loja.">
+          <![CDATA[
+            <!-- inicio -->
+            <div class="css_coluna_direita_categoria" >
+                <!-- Repeticao -->
+               <div class="css_coluna_direita_categoria_produtos" >
+                  <a href="{1}">
+                    <span><IMG id="{2}" onclick="javascript:window.location='{1}'" alt="{4}" hspace="0" src="{3}" border="0" /></span>
+                    <span>
+                        <span class="css_coluna_direita_produto_nome">{6}</span>
+                        <span>{7}</span>
+                        <span>{8} <span>{10}</span> <span>{9}</span></span>
+                        <span>{11}<span>{13}</span> <span>{12}</span></span>
+                        <span><span>{14}</span> {15} <span>{16}</span></span>
+                    </span>
+                  </a>
+               </div>
+               <!-- Fim Repeticao -->
+            </div>
+            <!-- fim -->
+            <!-- CSS_Inicio -->
+            .css_coluna_direita_categoria {
+              width:auto;
+              _width:100%;
+              height:auto;
+              text-align:center;
+              margin-top:15px;
+              overflow:hidden;
+              clear:left;
+            }
+            .css_coluna_direita_categoria_produtos {
+              background: url(../imagens/bgBox1.png) no-repeat right -5.2em;
+              overflow: hidden;
+              padding-bottom: 20px;
+              margin-bottom: 1em;
+              text-align:center;
+            }
+            .css_coluna_direita_produto_nome {
+	            display:block;
+	            font-size:12px;
+	            color:#003399;
+            }
+          ]]>
+        </ModeloHTML>
+        <TamanhoImagem value="Médias" />
+        <TipoListagem value="MenuDireito" />
+      </ListagemSimples>
+    </ListagemSimpless>
+    <Menus>
+      <Menu ID="Menulateral" NomeAmigavel="" Visible="True">
+        <ApenasDepartamento value="True" />
+        <MenuHTML>
+          <![CDATA[<div class="menu_lateral">
+    <ul id="menu_lateral">
+        <repeticao:pais>
+        <li><a href="[A0]">[A1]</a>
+            <condicao:filho>
+            <ul>
+                <repeticao:filhos>
+                <li><a href="[A0]">[A1]</a></li>
+                </repeticao:filhos>
+            </ul>
+            </condicao:filho>
+        </li>
+        </repeticao:pais>
+    </ul>
+</div><!-- CSS_Inicio -->]]>
+        </MenuHTML>
+        <TipoMenu value="Vertical" />
+      </Menu>
+    </Menus>
+    <Banners>
+      <Banner ID="Banner_direita" NomeAmigavel="Banner abaixo" Visible="True">
+        <altura value="40" />
+        <dataFinal value="31/12/9999 23:59:59" />
+        <dataInicial value="01/01/0001 00:00:00" />
+        <largura value="40" />
+        <visivel value="SIM" />
+      </Banner>
+      <Banner ID="banner_direita" NomeAmigavel="" Visible="True">
+        <altura value="808" />
+        <arquivo value="banner_direita.jpg" />
+        <BannerHMTL><![CDATA[]]></BannerHMTL>
+        <CssComponente><![CDATA[]]></CssComponente>
+        <dataFinal value="31/12/9999 23:59:59" />
+        <dataInicial value="01/01/0001 00:00:00" />
+        <largura value="147" />
+        <link value="" />
+        <visivel value="SIM" />
+      </Banner>
+    </Banners>
+  </controles>
+</page>

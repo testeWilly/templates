@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="chkReceberResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chkReceberResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEstadoCivilResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEstadoEmissorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlEstadoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlPaisResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSexoEnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSexoPtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlTipoEnderecoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgCEPResourcePT.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgCEPResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgIdiomaEnResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgIdiomaEnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgIdiomaPtResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgIdiomaPtResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlterarSenhaResourcePT.Text" xml:space="preserve">
+    <value>Alterar Senha</value>
+  </data>
+  <data name="lblAlterarSenhaResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBairroResourcePT.Text" xml:space="preserve">
+    <value>Bairro</value>
+  </data>
+  <data name="lblBairroResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCidadeResourcePT.Text" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="lblCidadeResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComoChegouResourcePT.Text" xml:space="preserve">
+    <value>Como você chegou a esta Loja?</value>
+  </data>
+  <data name="lblComoChegouResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComplementoResourcePT.Text" xml:space="preserve">
+    <value>Complemento</value>
+  </data>
+  <data name="lblComplementoResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCPFResourcePT.Text" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="lblCPFResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDataNascResourcePT.Text" xml:space="preserve">
+    <value>Data de Nascimento</value>
+  </data>
+  <data name="lblDataNascResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailResourcePT.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="lblEmailResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnderecoResourcePT.Text" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="lblEnderecoResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEsqueceuCEPResourcePT.Text" xml:space="preserve">
+    <value>Esqueceu seu CEP?</value>
+  </data>
+  <data name="lblEsqueceuCEPResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEstadoCivilResourcePT.Text" xml:space="preserve">
+    <value>Estado Civil</value>
+  </data>
+  <data name="lblEstadoCivilResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEstadoResourcePT.Text" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="lblEstadoResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExemploDataResourcePT.Text" xml:space="preserve">
+    <value>Ex: 20/05/2005</value>
+  </data>
+  <data name="lblExemploDataResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExTel1ResourcePT.Text" xml:space="preserve">
+    <value>Ex. DDD + Telefone fixo (OBRIGATÓRIO).</value>
+  </data>
+  <data name="lblExTel1ResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExTel2ResourcePT.Text" xml:space="preserve">
+    <value>Ex. DDD + Telefone Alternativo. (Celular ou Comercial).</value>
+  </data>
+  <data name="lblExTel2ResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIdiomaResourcePT.Text" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="lblIdiomaResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInfoMailResourcePT.Text" xml:space="preserve">
+    <value>A senha deve ter mais de 4 caracteres. Não esqueça de anotar a senha</value>
+  </data>
+  <data name="lblInfoMailResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformaCPFResourcePT.Text" xml:space="preserve">
+    <value>Somente Números</value>
+  </data>
+  <data name="lblInformaCPFResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformaRGResourcePT.Text" xml:space="preserve">
+    <value>Somente Números</value>
+  </data>
+  <data name="lblInformaRGResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformCepResourcePT.Text" xml:space="preserve">
+    <value>Ex: 81150-200</value>
+  </data>
+  <data name="lblInformCepResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNomeCompletoResourcePT.Text" xml:space="preserve">
+    <value>Nome Completo</value>
+  </data>
+  <data name="lblNomeCompletoResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNomeCompletoResourceEn.Text" xml:space="preserve">
+    <value>Full Name</value>
+  </data>
+  <data name="lblNomeCompletoResourceEn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNumeroResourcePT.Text" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="lblNumeroResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaisResourcePT.Text" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="lblPaisResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProfissaoResourcePT.Text" xml:space="preserve">
+    <value>Profissão</value>
+  </data>
+  <data name="lblProfissaoResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReceberResourcePT.Text" xml:space="preserve">
+    <value>Gostaria de receber E-mail informando sobre lançamentos e &lt;br&gt;promoções da Loja.</value>
+  </data>
+  <data name="lblReceberResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReferenciaResourcePT.Text" xml:space="preserve">
+    <value>Referência</value>
+  </data>
+  <data name="lblReferenciaResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRGEmissorResourcePT.Text" xml:space="preserve">
+    <value>Estado Emissor</value>
+  </data>
+  <data name="lblRGEmissorResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRGResourcePT.Text" xml:space="preserve">
+    <value>RG</value>
+  </data>
+  <data name="lblRGResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSenhaConfirmaResourcePT.Text" xml:space="preserve">
+    <value>Confirma senha</value>
+  </data>
+  <data name="lblSenhaConfirmaResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSenhaResourcePT.Text" xml:space="preserve">
+    <value>Nova senha</value>
+  </data>
+  <data name="lblSenhaResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSexoResourcePT.Text" xml:space="preserve">
+    <value>Sexo</value>
+  </data>
+  <data name="lblSexoResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTelefone1ResourcePT.Text" xml:space="preserve">
+    <value>Telefone 1</value>
+  </data>
+  <data name="lblTelefone1ResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTelefone2ResourcePT.Text" xml:space="preserve">
+    <value>Telefone 2</value>
+  </data>
+  <data name="lblTelefone2ResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTipoEnderecoResourcePT.Text" xml:space="preserve">
+    <value>Tipo de Endereço</value>
+  </data>
+  <data name="lblTipoEnderecoResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTipoPessoaResourcePT.Text" xml:space="preserve">
+    <value>Tipo de Pessoa</value>
+  </data>
+  <data name="lblTipoPessoaResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAlterarSenhaResourceEN.Text" xml:space="preserve">
+    <value>Alter Password</value>
+  </data>
+  <data name="lblAlterarSenhaResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBairroResourceEN.Text" xml:space="preserve">
+    <value>District</value>
+  </data>
+  <data name="lblBairroResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCidadeResourceEN.Text" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="lblCidadeResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComoChegouResourceEN.Text" xml:space="preserve">
+    <value>How you it arrived at this Store?</value>
+  </data>
+  <data name="lblComoChegouResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblComplementoResourceEN.Text" xml:space="preserve">
+    <value>Complement</value>
+  </data>
+  <data name="lblComplementoResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCPFResourceEN.Text" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="lblCPFResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDataNascResourceEN.Text" xml:space="preserve">
+    <value>Birth Date:</value>
+  </data>
+  <data name="lblDataNascResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailResourceEN.Text" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="lblEmailResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEnderecoResourceEN.Text" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="lblEnderecoResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEsqueceuCEPResourceEN.Text" xml:space="preserve">
+    <value>Forgot your zip code?</value>
+  </data>
+  <data name="lblEsqueceuCEPResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEstadoCivilResourceEN.Text" xml:space="preserve">
+    <value>Marital Status</value>
+  </data>
+  <data name="lblEstadoCivilResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEstadoResourceEN.Text" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="lblEstadoResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExemploDataResourceEN.Text" xml:space="preserve">
+    <value>Ex: 20/05/2005</value>
+  </data>
+  <data name="lblExemploDataResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExTel1ResourceEN.Text" xml:space="preserve">
+    <value>Ex. Area Country + Area Code + fixed Telephone. (REQUIRED).</value>
+  </data>
+  <data name="lblExTel1ResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExTel2ResourceEN.Text" xml:space="preserve">
+    <value>Ex. Country Code + Area Code + alternative Telephone.&lt;br&gt; (Mobile or Residential).</value>
+  </data>
+  <data name="lblExTel2ResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIdiomaResourceEN.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="lblIdiomaResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInfoMailResourceEN.Text" xml:space="preserve">
+    <value>The password must be at least 4 characters long.</value>
+  </data>
+  <data name="lblInfoMailResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformaCPFResourceEN.Text" xml:space="preserve">
+    <value>Only numbers</value>
+  </data>
+  <data name="lblInformaCPFResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformaRGResourceEN.Text" xml:space="preserve">
+    <value>Only numbers</value>
+  </data>
+  <data name="lblInformaRGResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblInformCepResourceEN.Text" xml:space="preserve">
+    <value>Ex: 81150-200</value>
+  </data>
+  <data name="lblInformCepResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNumeroResourceEN.Text" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="lblNumeroResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPaisResourceEN.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="lblPaisResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProfissaoResourceEN.Text" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="lblProfissaoResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReceberResourceEN.Text" xml:space="preserve">
+    <value>It would like to receive email informing on launchings and &lt;br&gt;promotions from the Store.</value>
+  </data>
+  <data name="lblReceberResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblReferenciaResourceEN.Text" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="lblReferenciaResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRGEmissorResourceEN.Text" xml:space="preserve">
+    <value>State Issuer</value>
+  </data>
+  <data name="lblRGEmissorResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRGResourceEN.Text" xml:space="preserve">
+    <value>RG</value>
+  </data>
+  <data name="lblRGResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSenhaConfirmaResourceEN.Text" xml:space="preserve">
+    <value>Confirm password</value>
+  </data>
+  <data name="lblSenhaConfirmaResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSenhaResourceEN.Text" xml:space="preserve">
+    <value>New password</value>
+  </data>
+  <data name="lblSenhaResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSexoResourceEN.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="lblSexoResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTelefone1ResourceEN.Text" xml:space="preserve">
+    <value>Telephone 1</value>
+  </data>
+  <data name="lblTelefone1ResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTelefone2ResourceEN.Text" xml:space="preserve">
+    <value>Telephone 2</value>
+  </data>
+  <data name="lblTelefone2ResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTipoEnderecoResourceEN.Text" xml:space="preserve">
+    <value>Address Type</value>
+  </data>
+  <data name="lblTipoEnderecoResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTipoPessoaResourceEN.Text" xml:space="preserve">
+    <value>Person Type</value>
+  </data>
+  <data name="lblTipoPessoaResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResourceFPT.Text" xml:space="preserve">
+    <value>Pessoa Física</value>
+  </data>
+  <data name="ListItemResourceF.Value" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="ListItemResourceJPT.Text" xml:space="preserve">
+    <value>Pessoa Jurídica</value>
+  </data>
+  <data name="ListItemResourceJ.Value" xml:space="preserve">
+    <value>J</value>
+  </data>
+  <data name="ListItemFResourcePT.Text" xml:space="preserve">
+    <value>Feminino</value>
+  </data>
+  <data name="ListItemFResourcePT.Value" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="ListItemMResourcePT.Text" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="ListItemMResourcePT.Value" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="ListItemFResourceEN.Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="ListItemFResourceEN.Value" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="ListItemMResourceEN.Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="ListItemMResourceEN.Value" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="lnkCEPResourcePT.Text" xml:space="preserve">
+    <value>Clique aqui.</value>
+  </data>
+  <data name="lnkCEPResourcePT.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkCEPResourceEN.Text" xml:space="preserve">
+    <value>Click here.</value>
+  </data>
+  <data name="lnkCEPResourceEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="pnlAlterarSenhaResource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlAlterarSenhaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rbtTipoPessoaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBairroResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtBairroResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCepResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCepResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCidadeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCidadeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtComplementoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtComplementoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtConfirmaSenhaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtConfirmaSenhaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCPFResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtCPFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDataNascResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDataNascResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDDDTelefone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDDDTelefone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDDDTelefone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtDDDTelefone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmailResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEmailResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEnderecoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEnderecoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEstadoCivilEnResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEstadoCivilEnResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEstadoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtEstadoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNomeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNomeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumeroResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtNumeroResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProfissaoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtProfissaoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReferenciaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtReferenciaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRGResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtRGResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSenhaAnteriorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSenhaAnteriorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSenhaResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtSenhaResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTelefone1Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTelefone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTelefone2Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="txtTelefone2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResourceFEN.Text" xml:space="preserve">
+    <value>Individual</value>
+  </data>
+  <data name="ListItemResourceJEN.Text" xml:space="preserve">
+    <value>Business</value>
+  </data>
+  <data name="imbContinuarResourceEN.ImageUrl" xml:space="preserve">
+    <value>~/Assets/Templates/1/imagens/bt_continuar2_en.gif</value>
+  </data>
+  <data name="imbContinuarResourcePT.ImageUrl" xml:space="preserve">
+    <value>~/Assets/Templates/1/imagens/bt_continuar2.gif</value>
+  </data>
+  <data name="imgCEPResourceEN.ImageUrl" xml:space="preserve">
+    <value>~/Assets/Templates/1/imagens/cep_en.gif</value>
+  </data>
+  <data name="imgCEPResourcePT.ImageUrl" xml:space="preserve">
+    <value>~/Assets/Templates/1/imagens/cep.gif</value>
+  </data>
+  <data name="imgformcadResourceEN.src" xml:space="preserve">
+    <value>Assets/Templates/1/imagens/tit_formcadastro.gif</value>
+  </data>
+  <data name="imgformcadResourcePT.src" xml:space="preserve">
+    <value>Assets/Templates/1/imagens/tit_formcadastro.gif</value>
+  </data>
+  <data name="imgformEndResourceEN.src" xml:space="preserve">
+    <value>Assets/Templates/1/imagens/tit_enderecoentrega_en.gif</value>
+  </data>
+  <data name="imgformEndResourcePT.src" xml:space="preserve">
+    <value>Assets/Templates/1/imagens/tit_enderecoentrega.gif</value>
+  </data>
+  <data name="ddlTipoEnderecoComResourceEN" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="ddlTipoEnderecoComResourcePT" xml:space="preserve">
+    <value>Comercial</value>
+  </data>
+  <data name="ddlTipoEnderecoResResourceEN" xml:space="preserve">
+    <value>Residential</value>
+  </data>
+  <data name="ddlTipoEnderecoResResourcePT" xml:space="preserve">
+    <value>Residencial</value>
+  </data>
+  <data name="lblInfoGeralResourceEN" xml:space="preserve">
+    <value>Rem: Fields started with an asterisk (*) are required fields.</value>
+  </data>
+  <data name="lblInfoGeralResourcePT" xml:space="preserve">
+    <value>Obs: Os campos iniciados com asterisco (*) são campos de preenchimento obrigatório.</value>
+  </data>
+  <data name="MensagemErroCamposObrigatorios" xml:space="preserve">
+    <value>Os campos obrigatórios não foram preenchidos corretamente</value>
+  </data>
+  <data name="MensagemErroCarregarDados" xml:space="preserve">
+    <value>Ocorreu um erro ao carregar dados.</value>
+  </data>
+  <data name="MensagemErroDados" xml:space="preserve">
+    <value>Ocorreu um erro ao salvar os dados.</value>
+  </data>
+  <data name="MensagemErroSenhas" xml:space="preserve">
+    <value>As senhas não conferem ou quantidade de caracteres menor que permitido.</value>
+  </data>
+  <data name="imbAlterarSenhaResource1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MensagemErroAlterarSenha" xml:space="preserve">
+    <value>Erro ao alterar a senha.&lt;br&gt;Tente mais tarde.</value>
+  </data>
+  <data name="MensagemErroCarregarCEP" xml:space="preserve">
+    <value>Erro ao carregar CEP</value>
+  </data>
+  <data name="MensagemErroCarregarPagina" xml:space="preserve">
+    <value>Erro ao carregar Página</value>
+  </data>
+  <data name="MensagemErroSenhaAnterior" xml:space="preserve">
+    <value>A senha anterior não confere com a senha cadastrada.</value>
+  </data>
+  <data name="MensagemSucessoSenha" xml:space="preserve">
+    <value>A senha foi alterada com sucesso.</value>
+  </data>
+</root>

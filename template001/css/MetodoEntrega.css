@@ -1,0 +1,115 @@
+.bt_esquerda{
+    text-align: left;
+    margin:  10px 0 10px 0;
+}
+
+.bt_esquerda a{
+    margin: 0 5px;
+}
+
+.endereco_entrega {
+    width: 640px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.endereco_entrega p{
+    color: #482624;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.endereco_entrega_conteudo_bg{
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-top: -15px;
+    padding: 20px 10px;
+}
+
+.endereco_entrega_conteudo{
+    background: none repeat scroll 0 0 #f3f3f3;
+    padding: 5px 20px;
+}
+
+.tab_transportadoras{
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #4C1E25;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.tab_transportadoras tbody td{
+    background: none repeat scroll 0 0 #ECECEC;
+    padding: 7px 20px;
+    text-align: center;
+}
+
+.tab_transportadoras thead th{
+    color: #4C1E25;
+    font-family: "Lato-Bold";
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px 15px;
+    text-align: center;
+}
+
+.checkout_right .carrinho-direita {
+    float: right;
+    width: 330px;
+}
+
+.bt_continuar {
+    clear: both;
+    margin: 10px 0;
+}
+
+.checkout_left {
+    margin-top: 204px !important;
+}
+
+.endereco_entrega_conteudo .titulo-direita{
+    font-family: "Lato-Bold";
+    font-size: 14px;
+}
+
+.bt_escolher_outro a{
+    background: url("../imagens/bt_escolher_outro_endereco.png") no-repeat scroll left top transparent;
+    display: block;
+    float: right;
+    height: 30px;
+    margin-top: -36px;
+    text-indent: -9999px;
+    width: 232px;
+}
+
+.frete{
+    background: none !important;
+}
+
+.tab_transportadoras .frete th {
+    color: #000000;
+    font-family: bellotabold;
+    font-size: 14px;
+}
+
+.tab_transportadoras .frete td{
+    background: none;
+    color: #526afa;
+    font-family: "Lato-Bold";
+    font-size: 16px;
+}
+
+.tab_transportadoras .frete td span{
+    color: #4c1e25;
+    font-size: 13px;
+}
+
+
+.frete label{
+    font-family: "Lato-Regular";
+    font-size: 14px;
+}
+
+.frete label span{ 
+    font-size: 13px; 
+}

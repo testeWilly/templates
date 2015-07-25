@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <CaixaPesquisas>
+      <CaixaPesquisa ID="CaixaPesquisa" NomeAmigavel="" Visible="True">
+        <CaixaPesquisaHTML>
+          <![CDATA[
+          <a href="#"><img src="imagens/logo_havan.png" alt="Havan" border="0"/></a>
+             <div class="img_fluxo">
+            </div>
+          <fieldset>
+                      <label>{0}</label>
+                      <span>em</span>
+                      <label>
+                        {1}
+                      </label>
+                      <label style="margin-left:0;">{2}</label>
+                    </fieldset><!-- CSS_Inicio -->]]>
+        </CaixaPesquisaHTML>
+      </CaixaPesquisa>
+    </CaixaPesquisas>
+  </controles>
+</page>

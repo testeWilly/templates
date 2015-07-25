@@ -1,0 +1,113 @@
+  .bt_direita{
+  text-align: right;
+  margin:  0 0 10px 0;
+  }
+
+  .bt_direita a{
+  margin: 0 5px;
+  }
+
+
+.formulario.afiliados_conteudo{
+    clear: both;
+    overflow: hidden;
+    padding: 15px 0;
+    width: auto;
+}
+
+#afiliados p{
+    color: #000;
+    margin: 5px;
+    font-size: 12px;
+}
+
+#afiliados h5{
+    background: #EFEFEF;
+    padding: 5px;
+    color: #595959;
+    font-size: 12px;
+    margin: 10px;
+    font-weight: normal;
+}
+
+.afiliados_conteudo fieldset *{
+    vertical-align: middle;
+}
+
+.afiliados_conteudo fieldset{
+    border: medium none;
+    clear: both;
+    color: #000000;
+    display: block;
+    font-weight: normal;
+    margin: 10px 0 0;
+    padding: 0 0 0 10px;
+    width: 820px;
+}
+
+.afiliados_conteudo fieldset label{
+  display: block;
+  margin: 5px 0 0px 0px;
+  color: #062A59;
+  float: left;
+  font-size: 13px;
+}
+
+.afiliados_conteudo fieldset.cep{
+  background-color: #EFEFEF;
+  width: 97%;
+  padding: 10px 0 10px 10px;
+}
+
+.afiliados_conteudo fieldset.cep a{
+  color: #0065A4;
+  font-size: 11px;
+  text-decoration: none;
+
+}
+
+.afiliados_conteudo fieldset.cep label{
+  width: 97%;
+  margin: 0;
+}
+
+.afiliados_conteudo fieldset.cep label input{
+  width: 47%;
+
+}
+
+.afiliados_conteudo fieldset label input{
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  width: 95%;
+  height: 20px;
+  font-size: 11px;
+  color: #666;
+}
+
+
+.afiliados_conteudo fieldset label.width15{
+  clear: both;
+  width: 40px;
+}
+
+.afiliados_conteudo fieldset label.width78{
+  width: 250px;
+  margin-left: 10px;
+}
+
+.afiliados_conteudo fieldset label select{
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  width: 95%;
+  height: 20px;
+  font-size: 11px;
+  color: #666;
+}
+
+.afiliados_conteudo h4{
+    color: #0d2854;
+    font-size: 17px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #0d2854;
+}

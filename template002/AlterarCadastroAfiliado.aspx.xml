@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CadastroDeAfiliados><CadastroDeAfiliado ID="CadastroDeAfiliado"><CadastroAfiliadoHTML><![CDATA[  <div class="afiliados_ajuda">
+    <a href="#" class="abrir_ajuda box-bt btn-secondary">AINDA COM DÚVIDAS? CLIQUE AQUI</a>
+  </div>
+        <div class="formulario afiliados_conteudo">
+            <div class="heading-special">
+                <h2>Dados Bancários</h2>
+            </div>
+                <div class="afiliados_dados_bancarios">
+                    <ul>
+                        <li>Preencha os campos abaixo com seus dados bancários para que a comissão sobre a venda realizada seja creditada em sua conta.</li>
+                    </ul>
+                </div>
+            <div class="list obrigatorio">
+                <label class="larg_75 form">
+                  <span class="tit_label form-field-nameRequired">Banco*</span>
+                  [A3]
+                </label>
+            </div>
+            <div class="list obrigatorio">
+                <label class="larg_75 form">
+                  <span class="tit_label form-field-nameRequired">Agência*</span>
+                  [A4]
+                </label>
+            </div>
+            <div class="list obrigatorio">
+                <label class="larg_75 form">
+                  <span class="tit_label form-field-nameRequired">Conta*</span>
+                  [A5]
+                </label>
+            </div>
+            <div class="list obrigatorio">
+                <label class="larg_75 form">
+                  <span class="tit_label form-field-nameRequired">Nome do titular da conta*</span>
+                  [A6]
+                </label>
+            </div>
+            <div class="heading-special">
+                <h2>URL do Site</h2>
+            </div>          
+            <div class="list obrigatorio">
+                <label class="larg_100 form">
+                  <span class="tit_label form-field-nameRequired" style="width: 205px;">URL(s) de seu(s) site(s)/blog(s)*</span>
+                  [A2]
+                </label>
+            </div>
+            <div class="heading-special">
+                <h2>Termo de Adesão</h2>
+            </div>             
+            <div class="termo_aceite">
+                <div style="border: 1px solid #ccc; width: 940px; height: 200px; margin-left: 10px; overflow: auto">
+                    [K0]
+                </div>
+            </div>
+            <fieldset class="termo_aceite">
+                [K1] <span>Concordo com o termo de adesão de programa de afiliados e quero participar!</span>
+            </fieldset>
+        </div>
+    <div class="bt_direita">
+      <a href="#" onclick="[A7]" class="box-bt btn-primary">
+        Cadastrar
+      </a>
+    </div>
+]]></CadastroAfiliadoHTML><FormatacaoAfiliadoHTML><![CDATA[<div class="respiro">
+  <div class="heading-special">
+    <h2>Gerenciar Conta</h2>
+  </div>
+  <div id="afiliados">
+    [C0][C1][C2]
+  </div>
+</div>  
+]]></FormatacaoAfiliadoHTML><SucessoCadastroAfiliadoHTML><![CDATA[<div id="sucesso">
+    <div class="lista_sucesso message-success">
+        Cadastro realizado com sucesso, aprovado automáticamente.
+    </div>
+</div>
+]]></SucessoCadastroAfiliadoHTML><TermoAfiliadoHTML><![CDATA[]]></TermoAfiliadoHTML><ValidacaoCadastroAfiliadoHTML><![CDATA[<div id="erro">
+    <div class="lista_erro message_error">
+        <h2>Ocorreu os seguintes erros:</h2>
+        <ul>
+            <repeticao:erro>
+                <li>[B0]</li>
+            </repeticao:erro>
+        </ul>
+    </div>
+</div>
+]]></ValidacaoCadastroAfiliadoHTML></CadastroDeAfiliado></CadastroDeAfiliados><ScriptRazors><ScriptRazor ID="titlePage"><ScriptRazorHTML><![CDATA[@TemplateSettings.main_storeName]]></ScriptRazorHTML></ScriptRazor></ScriptRazors></controles></page>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><ParcelamentoProdutos><ParcelamentoProduto ID="ParcelamentoProduto1"><CssComponente><![CDATA[]]></CssComponente><ParcelamentoProdutoHTML><![CDATA[]]></ParcelamentoProdutoHTML></ParcelamentoProduto></ParcelamentoProdutos><PrecoProdutos><PrecoProduto ID="PrecoProduto1"><ParcelamentoProdutoHTML><![CDATA[<div class="container_parcelamento" style="display:none">
+    <div id="box_parcelamento">
+        <div class="tit_box">
+            <h2 style="background: #fff">Formas de Pagamento</h2>
+        </div>
+        <div class="conteudo">
+            <ul>
+                <repeticao:metodo_pagamento>
+                <li>
+                    <div class="img_parc"><img src="[B1]" alt="Parcelamento" /></div>
+                    <div class="formas_parc">
+                        <table border="0" cellpadding="2" cellspacing="1">
+                            <thead>
+ 
+                                <tr>
+                                    <th>Número de Parcelas</th>
+                                    <th>Valor das Parcelas</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <repeticao:parcelas>
+                                <tr>
+                                    <td>[B2]</td>
+                                    <td>[B3]</td>
+                                </tr>
+                                </repeticao:parcelas>
+                            </tbody>
+                        </table>
+                    </div>
+                </li>
+                </repeticao:metodo_pagamento>
+            </ul>
+        </div>
+    </div>
+</div>]]></ParcelamentoProdutoHTML><PrecoProdutoHTML><![CDATA[<div class="produto_preco_cima">
+ <div class="produto_preco_antigo">
+    <span class="preco_de">[A0]</span> <span class="preco_antigo_preco">[A1]</span>
+  </div>
+
+<div class="produto_preco_total">
+   <span class="preco_por">Por </span><span class="preco_por_preco">[A3]</span>
+</div>
+</div>
+<div class="produto_preco">
+<div class="produto_preco_parcelado"><condicao:parcelamento><span class="produto_preco_parcelado_vezes">em [A6]x</span> de [A7]</condicao:parcelamento>  
+  <div class="produto_preco_avista"><condicao:desconto_vista> ou <span>[A13]</span> á vista  via boleto bancário</condicao:desconto_vista></div></div>
+</div>
+  <condicao:parcelamento>
+<div class="produto_bt_parcelamento">
+            <a href="#" class="abrir_parcelamento">
+                <img src="imagens/bt_parcelamento.png?23" alt="Clique aqui para ver o parcelamento" title="Clique aqui para ver o parcelamento" border="0" />
+            </a>
+</div>[A10]
+</condicao:parcelamento> ]]></PrecoProdutoHTML></PrecoProduto></PrecoProdutos></controles></page>

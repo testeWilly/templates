@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><AfiliadoRelatorioVisitass><AfiliadoRelatorioVisitas ID="AfiliadoRelatorioVisitas1"><AfiliadoRelatorioVisitasHTML><![CDATA[ <div class="respiro">
+   <div class="heading-special">
+     <h2>Relatório de Visitas</h2>
+   </div>
+
+    <div id="afiliados">
+        <div class="respiro">
+          <ul class="subtitulo_afiliados">
+            <li>Verifique a quantidade de visitantes em seu site/blog.</li>
+          </ul>
+          [A3]
+          <div class="afiliados_refinar">
+            <div class="afiliados_refinar_direita">
+              <strong class="organizar_por">Organizar por: </strong> [A2]
+              <a href="javascript:void(0);" class="box-bt btn-tertiary" onclick="[A5]">filtrar</a>
+            </div>
+            <condicao:mes>
+                [A0]
+            </condicao:mes>
+            [A1]
+            <a href="javascript:void(0);" class="box-bt btn-tertiary" onclick="[A5]">filtrar</a>
+            </div>
+            [A4]
+        </div>
+    </div>
+</div>
+]]></AfiliadoRelatorioVisitasHTML><AfiliadosRelatorioVisitasMensagemSemDadosHTML><![CDATA[Sem dados para visualizar]]></AfiliadosRelatorioVisitasMensagemSemDadosHTML><AlturaGrafico value="200" /><AlturaGraficoMes value="200" /><CorLinha value="#145FA6" /><CorLinhaMes value="#145FA6" /><DadosAfiliadosRelatorioVisitasAnualHTML><![CDATA[<div class="afiliados_tabela">
+    [E0]
+</div>]]></DadosAfiliadosRelatorioVisitasAnualHTML><DadosAfiliadosRelatorioVisitasMensalHTML><![CDATA[<div class="afiliados_tabela">
+    [C0]
+</div>]]></DadosAfiliadosRelatorioVisitasMensalHTML><GraficoAfiliadosRelatorioVisitasAnualHTML><![CDATA[<div class="afiliados_grafico">
+    [D0]
+</div>]]></GraficoAfiliadosRelatorioVisitasAnualHTML><GraficoAfiliadosRelatorioVisitasMensalHTML><![CDATA[<div class="afiliados_grafico">
+    [B0]
+</div>]]></GraficoAfiliadosRelatorioVisitasMensalHTML><LarguraGrafico value="990" /><LarguraGraficoMes value="990" /><TituloGrafico value="Visitas dia" /><TituloGraficoMes value="Visitas mês" /></AfiliadoRelatorioVisitas></AfiliadoRelatorioVisitass><ScriptRazors><ScriptRazor ID="titlePage"><ScriptRazorHTML><![CDATA[@TemplateSettings.main_storeName]]></ScriptRazorHTML></ScriptRazor></ScriptRazors></controles></page>

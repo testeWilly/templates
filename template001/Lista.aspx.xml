@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><ListagemCompletas><ListagemCompleta ID="CaixaListagem_Conteudo"><Comparar value="Sim" /><HTMLComparacao><![CDATA[<div class="comparacao">Compare os produtos. Selecione até [B0] produtos e clique no botão ao lado para compara-los.  <a href="#"><img src="imagens/bt_comparar.png?24" alt="comparar" border="0" onclick="[B1]" /></a></div>]]></HTMLComparacao><HTMLDestaque><![CDATA[]]></HTMLDestaque><HTMLListagem><![CDATA[<div class="tit_box_full">
+    <h2 id="h2_departamento">[D0]</h2>
+</div>
+
+<div class="vitrine_geral">
+ <ul id="vitrine_geral">
+    <repeticao:produtos>
+    <li>
+       <div class="produto">
+
+         <div class="foto">
+          <div class="indisponivel">
+                  <condicao:produto_indisponivel>
+                     <a href="[D1]"><img src="imagens/indisponivel.png?40" alt="Produto Indisponível" /></a>
+                  </condicao:produto_indisponivel>
+             </div>
+             <a href="[D1]">
+                 <img src="[D2]?width=220&height=301" alt="[D6]" />
+             </a>
+             <div class="tags">
+                  <condicao:lancamento>
+                     <a href="[D1]"><img src="imagens/tag_lancamento.png?40" alt="Lançamento" /></a>
+                  </condicao:lancamento>
+                  <condicao:oferta>
+                     <a href="[D1]"><img src="imagens/tag_oferta.png?40" alt="Oferta" /></a>
+                  </condicao:oferta>
+              </div>
+          </div>
+      <div class="promocao_express">
+      <condicao:promocao_express>
+      <script language="javascript">
+      var win = null;
+      function NovaJanela(pagina,nome,w,h,scroll){
+        LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+        TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+        settings = 'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+        win = window.open(pagina,nome,settings);
+      }
+      </script>
+      <a href="[D30]" onclick="NovaJanela(this.href,'nomeJanela','680','600','yes');return false"><img src="[D28]" alt="[D6] em promoção" /></a>
+      </condicao:promocao_express>
+      </div>
+            <!-- Variantes na vitrine 
+
+          <condicao:variante_imagem>
+            <div class="vitrine_variantes_imagem">
+              <repeticao:variantes quantidade="3">
+                <a href="[D34]"><img src="[D33]?width=30" alt="[D32]" /></a>
+              </repeticao:variantes>
+            </div>
+          </condicao:variante_imagem>
+
+          <condicao:variante_texto>
+            <div class="vitrine_variantes_texto">
+              <repeticao:variantes quantidade="3">
+                <a href="[D34]">[D32]</a>
+              </repeticao:variantes>
+            </div>
+          </condicao:variante_texto>        -->  
+
+          <h3 class="titulo"><a href="[D1]">[D6]</a></h3>
+          <div class="preco_conteudo">
+          <condicao:preco_antigo>
+           <a href="[D1]"> <div class="preco_antigo">
+                <span class="preco_antigo_preco">[D19]</span>
+             </div></a>
+          </condicao:preco_antigo>
+
+         <a href="[D1]"> <div class="preco">
+               <span class="preco_preco">[D15]</span>
+           </div></a>
+
+          <condicao:parcelamento>
+            <a href="[D1]"> <div class="preco_parcelado">
+                <span class="preco_parcelado_vezes">[D13] de</span> <span class="preco_parcelado_preco">[D12]</span>
+              </div></a>
+          </condicao:parcelamento>
+                <div class="comparar">
+            <label>[D18]</label>
+          </div>
+          </div>
+              <condicao:promocao_frete>
+              <div class="frete_gratis"><a href="javascript:void(0);" onclick='window.open("[D37]", "popupwindow", "scrollbars=yes,width=550,height=520");return true'><img src="[D29]" alt="Frete Gratis" /></a></div>
+      </condicao:promocao_frete>
+       </div>
+    </li>
+    </repeticao:produtos>
+ </ul>
+</div>]]></HTMLListagem><HTMLModelo><![CDATA[<div class="ordenar">
+    <div class="ordenar_esquerda">[A1]</div>
+    <div class="ordenar_direita">[A4]</div>
+</div>
+[A2]
+<div class="ordenar">
+    <div class="ordenar_esquerda">[A1]</div>
+    <div class="ordenar_direita">[A4]</div>
+</div>
+[A0]]]></HTMLModelo><HTMLOrdenarPor><![CDATA[<label>[E0]</label>]]></HTMLOrdenarPor><HTMLPaginacao><![CDATA[<condicao:paginacao>
+    <div class="paginacao">
+        <condicao:pagina_anterior>
+            <a href="[F5]" class="prox_ant"><img src="imagens/paginacao_prev.png?11" alt="Voltar uma página" /> </a>
+        </condicao:pagina_anterior>
+        <repeticao:paginas quantidade="5">
+            <a href="[F7]" class="paginas <condicao:pagina_selecionada> selecionado </condicao:pagina_selecionada>">[F8]</a>
+        </repeticao:paginas>
+        <condicao:proxima_pagina>
+            <a href="[F6]" class="prox_ant"><img src="imagens/paginacao_next.png?11" alt="Avançar uma página" /></a>
+        </condicao:proxima_pagina>
+    </div>
+</condicao:paginacao>]]></HTMLPaginacao><HTMLPesquisaInvalida><![CDATA["<strong>A pesquisa por [G1] possúi termos inválidos. Seus termos de pesquisa devem possuír pelo menos três caracteres.</strong>"]]></HTMLPesquisaInvalida><HTMLSemResultados><![CDATA[<div class="dept_vazio">
+    Listagem sem produtos cadastrados.
+</div>]]></HTMLSemResultados><ImagemAvaliacaoDeselecionado value="" /><ImagemAvaliacaoSelecionado value="" /><MostraDestaque value="Não" /><Ordenar value="Sim" /><Paginacao value="Sim" /><TamanhoImagem value="Grandes" /><TipoExibicao value="Listagem" /></ListagemCompleta></ListagemCompletas><Banners><Banner ID="Fullzao_topo" /><Banner ID="banner_dept" /></Banners><ProdutoBarraNavegacaos><ProdutoBarraNavegacao ID="BarraNavegacaoDepartamento"><ProdutoBarraNavegacaoHTML><![CDATA[]]></ProdutoBarraNavegacaoHTML></ProdutoBarraNavegacao></ProdutoBarraNavegacaos><FiltroGruposs><FiltroGrupos ID="FiltroGrupos"><FiltroGruposHTML><![CDATA[<div id="filtros">
+    <repeticao:tipo_filtro>
+        <h4>[A0]</h4>
+        <ul>
+            <repeticao:filtro>
+                <li>
+                    <a href="[A3]">[A1] ([A2])</a>
+                </li>
+            </repeticao:filtro>
+        </ul>
+    </repeticao:tipo_filtro>
+</div>]]></FiltroGruposHTML></FiltroGrupos></FiltroGruposs><FiltroFaixaPrecos><FiltroFaixaPreco ID="FiltroFaixaPreco"><FiltroFaixaPrecoHTML><![CDATA[           <fieldset>
+                <h4>Faixa de Preço</h4>
+                <div class="bg_filtrarpreco"><label>[A0]</label></div>
+                <div class="bg_filtrarpreco"><label>[A1]</label></div>
+             <label class="bt_filtrar bt_hover"><a href="[A2]">Filtrar</a></label>
+            </fieldset>]]></FiltroFaixaPrecoHTML></FiltroFaixaPreco></FiltroFaixaPrecos><FiltrosUtilizadoss><FiltrosUtilizados ID="FiltrosUtilizados"><FiltrosUtilizadosHTML><![CDATA[<div class="filtros_utilizados">
+<h2>Filtrado por:</h2>
+<ul>
+<repeticao:parametros_utilizados>
+<li>
+  <span>[A0]</span> <a href="[A1]"><img src="imagens/filtro_del.png?40" alt="Remover filtro" border="0" hspace="0" vspace="0" /></a>
+</li>
+</repeticao:parametros_utilizados>
+</ul>
+</div>]]></FiltrosUtilizadosHTML></FiltrosUtilizados></FiltrosUtilizadoss><FiltroDepartamentoss><FiltroDepartamentos ID="FiltroDepartamentos"><FiltroDepartamentosHTML><![CDATA[    <h4>Departamentos</h4>
+           <ul>
+                <repeticao:pais>
+                    <li><a href="[A0]">[A1] - ([A2])</a></li>
+                </repeticao:pais>
+           </ul>
+]]></FiltroDepartamentosHTML></FiltroDepartamentos></FiltroDepartamentoss></controles></page>

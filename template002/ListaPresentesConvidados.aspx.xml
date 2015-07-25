@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ListaPresentesConvidadoss>
+      <ListaPresentesConvidados ID="ListaPresentesConvidados1">
+        <CssComponente>
+          <![CDATA[
+          #erro
+						{
+							width: 100%;
+							text-align: center;
+							margin: 20px 0 20px 0;
+						}
+
+						.lista_erro_peq
+						{
+							margin: 0 auto;
+							text-align: left;
+							width: 290px;
+							background-color: #FFD7D7;
+							border: 1px solid #962926;
+							padding: 10px 5px 10px 65px;
+							background-image: url('../../imagens/erro.png');
+							background-repeat: no-repeat;
+							background-position: top left;
+						}
+
+						.lista_erro_peq h2
+						{
+							color: #972B28;
+							font-size: 14px;
+							margin: 7px 0;
+						}
+
+						.lista_erro_peq ul
+						{
+							list-style: none;
+						}
+
+						.lista_erro_peq ul li
+						{
+							padding-left: 12px;
+							color: #972B28;
+							font-size: 12px;
+							background-image: url('../../imagens/seta_erro.gif');
+							background-repeat: no-repeat;
+							background-position: left 4px;
+							line-height: 20px;
+						}
+             
+             #sucesso
+						{
+							width: 100%;
+							text-align: center;
+							margin: 20px 0 20px 0;
+						}
+
+						.lista_sucesso_peq
+						{
+							margin: 0 auto;
+							text-align: left;
+							width: 290px;
+							background-color: #AFF08E;
+							border: 1px solid #347C17;
+							padding: 10px 5px 10px 65px;
+							background-image: url('../../imagens/sucesso.png');
+							background-repeat: no-repeat;
+							background-position: top left;
+						}
+
+						.lista_sucesso_peq h2
+						{
+							color: #347235;
+							font-size: 14px;
+							margin: 7px 0;
+							padding-top: 25px;
+						}
+
+						.lista_sucesso_peq ul
+						{
+							list-style: none;
+						}
+
+						.lista_sucesso_peq ul li
+						{
+							
+						}
+						
+						.lista_sucesso_peq p
+						{
+							color: #347C17;
+						}
+             
+             
+             
+             
+             
+             a.botao{
+	background-image: url(bt_bg.gif);
+	background-repeat: repeat-x;
+	border-top:	#488FD5 2px solid;
+	border-left: #488FD5 2px solid;
+	border-right: #194878 2px solid;
+	border-bottom: #194878 2px solid;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 10px;
+	font-weight: bold;
+	padding: 2px 6px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+a.botao:visited,actived
+{
+	background-image: url(bt_bg.gif);
+	background-repeat: repeat-x;
+	border-top:	#488FD5 2px solid;
+	border-left: #488FD5 2px solid;
+	border-right: #194878 2px solid;
+	border-bottom: #194878 2px solid;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 10px;
+	font-weight: bold;
+	padding: 2px 6px;
+	margin: 10px;
+	text-decoration: none;
+	
+}
+
+a.botao:hover{
+	background-image: url(bt_bg_on.gif);
+	background-repeat: repeat-x;
+	border-top:	#194878 2px solid;
+	border-left: #194878 2px solid;
+	border-right: #488FD5 2px solid;
+	border-bottom: #488FD5 2px solid;
+	color: #73A8DC;
+	text-align: center;
+	font-family: 10px;
+	font-weight: bold;
+	padding: 2px 6px;
+	margin: 10px;
+	text-decoration: none;
+}
+          ]]></CssComponente>
+        <ListaPresentesConvidadosHTML>
+          <![CDATA[
+<div class="box">
+  <div class="tit_box">
+    <h2>Lista de Presentes</h2>
+  </div>
+  [A9]
+  <condicao:novo_convidado>
+    <h4>Convidados:</h4>
+    <br>
+    <br>
+    <h4>Adicionar convidado:</h4>
+    <fieldset>
+      <label style="width: 100%;">
+        Nome: [A7]<br />
+      </label>
+      <label style="width: 100%;">
+        E-mail: [A8]<br />
+      </label>
+    </fieldset>
+    <div class="botao">
+      <div style="float:right;">
+        <br />
+        <a href="[A5]">Adicionar</a>
+        &nbsp;&nbsp;
+        <a href="[A6]">Cancelar</a>
+        <br />
+        <br />
+      </div>
+    </div>
+  </condicao:novo_convidado>
+  <h4>Lista de Convidados:</h4>
+  <condicao:botao_adicionar>
+    <a href="[A4]">Adicionar novo Convidado</a>
+    
+  </condicao:botao_adicionar>
+  <br />
+  <table>
+    <thead>
+      <tr>
+        <th style="width:120px;">Nome</th>
+        <th style="width:120px;">E-mail</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <repeticao:convidados>
+        <tr>
+          <td style="width:120px;">[A0]</td>
+          <td style="width:120px;">[A1]</td>
+          <td>
+            <center>
+              <condicao:bloquear>
+                <img src="imagens/radio_on.gif" alt="Bloquear" onclick="[A2]" />
+              </condicao:bloquear>
+              <condicao:desbloquear>
+                <img src="imagens/radio_off.gif" alt="Desbloquear" onclick="[A3]" />
+              </condicao:desbloquear>
+            </center>
+          </td>
+        </tr>
+      </repeticao:convidados>
+    </tbody>
+  </table>
+</div>
+          ]]>
+        </ListaPresentesConvidadosHTML>
+        <MensagemAlertaListaPresentesConvidadosHTML>
+          <![CDATA[
+          	<div id="erro">
+							<div class="lista_erro_peq">
+								<h2>[B0]</h2>
+								<ul>
+									<repeticao:erro>
+										<li>[B1]</li>
+									</repeticao:erro>
+								</ul>
+							</div>
+						</div>
+          ]]>
+        </MensagemAlertaListaPresentesConvidadosHTML>
+      </ListaPresentesConvidados>
+    </ListaPresentesConvidadoss>
+  </controles>
+</page>

@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Links><Link ID="PaginaInicial"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="logo.jpg" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="&lt;h1&gt;Artigos para Festa e Festa Infantil da 25 de Março! - Festabox&lt;/h1&gt;" /><UsarHTTPS value="False" /></Link><Link ID="LinkMeuCadastro"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="bt_topo_cadastro.jpg" /><PaginaLoja value="Identificacao" /><Parametros value="destino=Comprador" /><Target value="MesmaPagina" /><Texto value="Meu Cadastro" /><UsarHTTPS value="True" /></Link><Link ID="LinkMeusPedidos"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="bt_topo_pedidos.jpg" /><PaginaLoja value="Identificacao" /><Parametros value="destino=MeusPedidos" /><Target value="MesmaPagina" /><Texto value="Meus Pedidos" /><UsarHTTPS value="True" /></Link><Link ID="LinkCarrinhoCompras"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="bt_topo_meucarrinho.png" /><PaginaLoja value="Carrinho" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="" /><UsarHTTPS value="False" /></Link></Links><LabelVisitantes><LabelVisitante ID="LabelVisitante1"><CssComponente><![CDATA[]]></CssComponente><HTMLModeloLogado><![CDATA[            <span class="saudacao">
+              <span>[A1] <strong>[A2]</strong> (Se não for você, <a href="[A0]">clique aqui</a>.)</span>
+            </span>]]></HTMLModeloLogado><HTMLModeloNaoLogado><![CDATA[            <span class="saudacao">
+              <span>[B1] <strong>Visitante</strong> (Para logar, <a href="[B0]">clique aqui</a>)</span>
+            </span>]]></HTMLModeloNaoLogado></LabelVisitante></LabelVisitantes><CaixaPesquisas><CaixaPesquisa ID="CaixaPesquisa"><CaixaPesquisaHTML><![CDATA[<fieldset>
+    <label>[A0]</label>
+    <span>em</span>
+    <label>[A1]</label>
+    <label style="margin-left: 0px;"><a href="[A2]"><img src="imagens/bt_ok_busca_horizontal.png?1" alt="Pesquisar Produtos" border="0" /></a></label>
+</fieldset>]]></CaixaPesquisaHTML><CssComponente><![CDATA[]]></CssComponente></CaixaPesquisa></CaixaPesquisas><Menus><Menu ID="MenuTopo"><ApenasDepartamento value="False" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[                <ul id="barra">
+                    <repeticao:pai>
+                        <li class="top"><a href="[A0]">[A1]</a> 
+                    <condicao:filho>
+                        <ul>
+                            <repeticao:filho>
+                                <li><a href="[A0]">[A1]</a> 
+                                    <condicao:neto>
+                                        <ul>
+                                            <repeticao:neto>
+                                                <li><a href="[A0]">[A1]</a> </li>
+                                            </repeticao:neto>
+                                        </ul>
+
+                                    </condicao:neto>
+                                 </li>
+                            </repeticao:filho>
+                        </ul>
+                    </condicao:filho>
+                </li>
+             </repeticao:pai>
+                </ul>
+
+<!--[if IE]>
+	<script type="text/javascript">
+	function DOMgetElementsByClassName($node,$className){
+       /* Description: retorna um array com todos os elementos dentro
+          de $node que possuam a classe indicada em $className
+       Vers?o: 1.0 - 30/08/2006
+       Author: Micox - N?iron J.C.G - micoxjcg@yahoo.com.br
+       Site:   http://elmicox.blogspot.com
+       N?o retire estas informa??es pra n?o infringir direitos autorais!
+       */
+    var $node, $atual, $className, $retorno = new Array(), $novos = new Array();
+    $retorno = new Array();
+    for (var $i=0;$i<$node.childNodes.length;$i++){
+       $atual = $node.childNodes[$i];
+       if($atual.nodeType==1){// 1 = XML_ELEMENT_NODE
+          $classeAtual = $atual.className;
+          if(new RegExp("\\b"+$className+"\\b").test($classeAtual)){
+             $retorno[$retorno.length] = $atual;
+          }
+          if($atual.childNodes.length>0){
+             $novos = DOMgetElementsByClassName($atual,$className);
+             if($novos.length>0){
+                $retorno = $retorno.concat($novos);
+             }
+          }
+       }
+    }
+    return $retorno;
+    }
+
+    function addEvent(obj, evType, fn){
+       //adiciona evento, versao crossbrowser
+       //retirado de http://elcio.com.br/crossbrowser/#7
+       if (obj.addEventListener){
+          obj.addEventListener(evType, fn, true)}
+       if (obj.attachEvent){
+          obj.attachEvent("on"+evType, fn)}
+       }
+function ativaHover(classe) {
+            //ativa o hover para elementos n?o links, por causa de bug do IE
+            //retirado de http://www.maujor.com/tutorial/ddownmenu-a.php
+            var pais = DOMgetElementsByClassName(document.body,classe);
+            for (var j=0; j<pais.length; j++) {
+                        var sfEls = pais[j].getElementsByTagName("LI");
+                        for (var i=0; i<sfEls.length; i++) {
+                                   sfEls[i].onmouseover=function() {
+                                               this.className+=" over";
+									}
+                                   sfEls[i].onmouseout=function() {
+                                               this.className=this.className.replace(new RegExp(" over\\b"), "");
+                                   }
+                        }
+            }
+}
+
+addEvent(window,"load",function () { ativaHover("menu"); });
+</script>
+<![endif]-->]]></MenuHTML><TipoMenu value="Vertical" /></Menu></Menus><GoogleAnalyticss><GoogleAnalytics ID="googleanalytitcs1"><AnalyticsConfirmadoHTML><![CDATA[<script type="text/javascript">
+
+var google_conversion_id = 1022262844;
+var google_conversion_language = "en";
+var google_conversion_format = "2";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "T2lFCLTloQIQvPy55wM";
+var google_conversion_value = 0;
+
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1022262844/?label=T2lFCLTloQIQvPy55wM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+  var pageTracker = _gat._getTracker("[B14]");
+  pageTracker._trackPageview();
+  pageTracker._addTrans(
+      "[B0]", 
+      "[B1]", 
+      "[B2]", 
+      "[B3]", 
+      "[B4]", 
+      "[B5]", 
+      "[B6]", 
+      "[B7]"  
+    );
+
+
+   <repeticao:produtos>
+   pageTracker._addItem(
+      "[B8]", 
+      "[B9]", 
+      "[B10]",
+      "[B11]",
+      "[B12]",          
+      "[B13]"
+   );
+   </repeticao:produtos>
+   pageTracker._trackTrans(); //submits transaction to the Analytics servers
+} catch(err) {}
+</script>]]></AnalyticsConfirmadoHTML><AnalyticsHTML><![CDATA[          <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try{ 
+              var pageTracker = _gat._getTracker("[A0]");
+              pageTracker._initData();
+              pageTracker._trackPageview();
+            } catch(err) {} 
+          </script>          ]]></AnalyticsHTML><ConversionConfirmadoHTML><![CDATA[]]></ConversionConfirmadoHTML><CssComponente><![CDATA[]]></CssComponente></GoogleAnalytics></GoogleAnalyticss></controles></page>

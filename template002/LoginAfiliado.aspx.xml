@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><LoginDeAfiliados><LoginDeAfiliado ID="Login_Afiliado"><CssComponente><![CDATA[]]></CssComponente><IdentificaAfiliadoHTML><![CDATA[<div class="identificacao_esquerda">
+    <fieldset>
+        <label>Digite seu Código de Afiliado<br />[B0]</label>
+    </fieldset>
+    <fieldset>
+        <label>Digite sua Senha<br />[B1]</label>
+    </fieldset>
+    <div class="bt_direita">
+        <div class="respiro">
+            <input type="image" src="imagens/bt_continuar.png?15" alt="continuar" onclick="[B2]" />
+        </div>
+    </div>
+</div>
+<div class="identificacao_direita">
+    <ul>
+        <li>
+            <h2><a href="[A2]">Recuperar Senha</a></h2>
+            <p><a href="[A2]">Recupere sua senha de afiliado</a></p>
+        </li>
+    </ul>
+</div>]]></IdentificaAfiliadoHTML><LinksAfiliadoHTML><![CDATA[[C0]]]></LinksAfiliadoHTML><LoginDeAfiliadoGeralHTML><![CDATA[<div class="respiro">
+<h2 class="titulo_pedido">
+       <img src="imagens/tit_afiliados.png?15" alt="Afiliados">
+</h2>
+    <div class="identificacao">
+        [A3] [A4]
+        <div class="identificacao_conteudo">
+            [A0] [A1]
+        </div>
+    </div>
+</div>]]></LoginDeAfiliadoGeralHTML><MensagemAlertaAfiliadoHTML><![CDATA[<div id="erro">
+    <div class="lista_erro">
+        <h2>[E0]</h2>
+        <ul>
+            <repeticao:erro>
+                <li>[E1]</li>
+            </repeticao:erro>
+        </ul>
+    </div>
+</div>]]></MensagemAlertaAfiliadoHTML><MensagemSucessoAfiliadoHTML><![CDATA[<div id="sucesso">
+    <div class="lista_sucesso">
+        [F0]
+    </div>
+</div>]]></MensagemSucessoAfiliadoHTML><RecuperarSenhaAfiliadoHTML><![CDATA[<div class="identificacao_esquerda">
+    <fieldset>
+        <label>Digite seu Email Cadastrado<br />[D0]</label>
+    </fieldset>
+    <div class="bt_direita">
+        <div class="respiro">
+            <input type="image" src="imagens/bt_recuperar_senha.png?15" alt="Recuperar Senha" onclick="[D1]"/>
+            <input type="image" src="imagens/bt_voltar.png?15" alt="Voltar" onclick="[D2]" align="left"/>
+        </div>
+    </div>
+</div>
+<div class="identificacao_direita">
+</div>]]></RecuperarSenhaAfiliadoHTML></LoginDeAfiliado></LoginDeAfiliados></controles></page>

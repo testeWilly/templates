@@ -1,0 +1,27 @@
+.menu_lateral{
+    width: 151px;
+    height: auto;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.menu_lateral li{
+  margin-left: -1px;
+}
+
+.menu_lateral li a{
+    padding-left: 15px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 32px;
+    background: url('../imagens/bg_menu_lateral.png') no-repeat left center;
+    margin-bottom: 1px;
+    display: block;
+}
+
+.menu_lateral li a:hover{
+    color: #000;
+    background: url('../imagens/bg_menu_lateral_hover.png') no-repeat left center;
+}

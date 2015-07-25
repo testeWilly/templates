@@ -1,0 +1,91 @@
+.identificacao{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.identificacao_conteudo{
+    width: 780px;
+    background-color: #E8E8E8;
+    padding: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: left;
+  }
+
+  .identificacao_conteudo .identificacao_direita{
+    width: 350px;
+    height: autop;
+    overflow: hidden;
+    float: left;
+    margin-left: 15px;
+  }
+
+  .identificacao_conteudo .identificacao_esquerda{
+    width: 410px;
+    border-right: 1px solid #ccc;
+    height: autop;
+    overflow: hidden;
+    float: left;
+  }
+
+
+  .identificacao_conteudo fieldset{
+  border: none;
+  margin: 5px 0 0px 10px;
+  padding: 0 0 0 10px;
+  clear: both;
+  display: block;
+}
+
+.identificacao_conteudo fieldset label{
+  display: block;
+  margin: 5px 0 0px 0px;
+  color: #062a59;
+  float: left;
+  font-size: 14px;
+}
+
+.identificacao_conteudo fieldset label input{
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  width: 375px;
+  height: 20px;
+  font-size: 12px;
+  color: #666;
+}
+
+  .identificacao_esquerda .bt_direita{
+  text-align: right;
+  margin: 10px 5px 0 0;
+  }
+
+  .bt_direita{
+  text-align: right;
+  margin: 10px 0px 0 0;
+  }
+
+  .identificacao_direita ul{
+      list-style: none;
+  }
+
+  .identificacao_direita ul li{
+      margin: 12px 0;
+  }
+
+  .identificacao_direita ul li h2 a{
+      color: #062a59;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+  }
+
+  .identificacao_direita ul li p{
+      color: #666666;
+      font-size: 11px;
+  }
+
+    .identificacao_direita ul li p a{
+      color: #2084db;
+      font-size: 11px;
+      text-decoration: none;
+  }

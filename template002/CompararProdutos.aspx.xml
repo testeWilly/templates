@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><ProdutosComparars><ProdutosComparar ID="ProdutosComparar1"><ProdutosCompararHTML><![CDATA[<div class="bt_voltar bt_hover"><a id="btClose" onclick="javascript: fecharCompararCaixaListagem_Conteudo();" href="#">
+    Voltar
+  </a></div>
+<div class="tit_box_full">
+    <h2>Comparação</h2>
+</div>
+<div class="tab_comparar">
+    <table border="0" cellspacing="0" cellpadding="0" class="tabela_comparar">
+      <tbody>
+          <tr>
+              <th class="no_bg">
+                  &nbsp;
+              </th>
+              <repeticao:nome_produto>
+                  <td class="no_bg nome">[A0]</td>
+              </repeticao:nome_produto>
+          </tr>
+          <tr>
+              <th class="no_bg">
+                  &nbsp;
+              </th>
+              <repeticao:foto_produto>
+                  <td class="no_bg">
+                      <img hspace="0" border="0" vspace="0" src="[A1]" />
+                  </td>
+              </repeticao:foto_produto>
+          </tr>
+          <tr>
+              <th>
+                  Preço
+              </th>
+              <repeticao:preco_produto>
+                  <td>[A2]</td>
+              </repeticao:preco_produto>
+          </tr>
+          <tr>
+              <th>
+                  Parcelamento
+              </th>
+              <repeticao:parcelamento_produto>
+                  <td>[A3]</td>
+              </repeticao:parcelamento_produto>
+          </tr>
+          <repeticao:caracteristica>
+              <tr>
+                  <th>[A5]</th>
+                  <repeticao:caracteristica_produto>
+                      <td>[A6]</td>
+                  </repeticao:caracteristica_produto>
+              </tr>
+          </repeticao:caracteristica>
+          <tr>
+              <th>
+                  &nbsp;
+              </th>
+              <repeticao:link_produto>
+                  <td><a target="_blank" href="[A4]">Mais Informações</a></td>
+              </repeticao:link_produto>
+          </tr>
+      </tbody>
+  </table>
+</div>]]></ProdutosCompararHTML></ProdutosComparar></ProdutosComparars></controles></page>

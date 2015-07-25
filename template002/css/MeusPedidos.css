@@ -1,0 +1,205 @@
+.nenhum_pedido{
+  color: #666666;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 41px 0 0;
+  text-align: center;
+}
+
+
+.pesquisa .pesquisa_conteudo{
+  border-top: none;
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+
+.pesquisa .pesquisa_conteudo p{
+  color: #666;
+  margin: 5px 10px;
+}
+
+
+.pedido_dados_compra p.status img{
+    margin: 0;
+    vertical-align: middle;
+  }
+
+.pesquisa .pesquisa_conteudo fieldset{
+  border: none;
+  margin: 5px 0 0px 10px;
+  padding: 0 0 0 10px;
+  width: 550px;
+  clear: both;
+  display: block;
+}
+
+.pesquisa .pesquisa_conteudo fieldset label{
+  display: block;
+  margin: 5px 0 0px 5px;
+  color: #666;
+  float: left;
+  font-size: 12px;
+
+}
+
+.pesquisa .pesquisa_conteudo fieldset label input{
+  border: 1px solid #ccc;
+  width: 95%;
+  height: 20px;
+  font-size: 11px;
+  color: #666;
+}
+
+.pesquisa .pesquisa_conteudo fieldset label span.radio input{
+  border: none transparent;
+  margin-top: 0;
+  width: auto;
+  height: auto;
+  font-size: 11px;
+  color: #666;
+}
+
+.pesquisa .pesquisa_conteudo fieldset label select{
+  border: 1px solid #ccc;
+  height: 20px;
+  font-size: 11px;
+  color: #666;
+}
+
+.pedido_dados_compra{
+  float: left;
+  margin-left: 15px;
+  padding-right: 10px;
+  width: 250px;
+}
+
+.pedido_dados_compra p{
+    color: #000000;
+    display: block;
+    font-size: 12px;
+    line-height: 125%;
+    margin: 3px 0;
+    text-align: left;
+}
+
+.pedido_dados_compra a{
+  color:#262626;
+  text-decoration: underline;
+}
+
+.pedido_dados_compra p.status{
+  color:#000;
+}
+
+.pedido_dados_compra h3{
+  color: #262626;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.pedido_dados{
+  float: left;
+  margin-left: 15px;
+  width: 350px;
+}
+
+.pedido_dados p{
+  color:#000;
+  display: block;
+  font-size: 12px;
+  text-align: left;
+  margin: 3px 0;
+}
+
+.pedido_dados h3{
+  color: #262626;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 5px 0;
+  text-align: left;
+}
+
+.pedido_dados p.status{
+  font-size: 14px;
+  color: #000;
+}
+
+.pedido_dados p.status img{
+  margin: 0;
+  vertical-align: middle;
+}
+
+.pedido_dados img{
+  margin: 5px 0;
+}
+
+.tab_pesquisa th{
+    border-bottom: 1px dashed #FAC4B7;
+    color: #4C1E25;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 27px;
+    padding: 0 5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.tab_pesquisa .tbody td{
+  height: 65px;
+  border-bottom: 1px solid #E8E8E8;
+  padding: 0 5px;
+}
+
+.tab_pesquisa td{
+  text-align: center;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 10px 5px;
+  font-size: 12px;
+}
+
+.tab_pesquisa .over td{
+  background: #f8f8f8;
+}
+
+.tab_pesquisa {
+    margin-top: 20px;
+}
+
+.tab_pesquisa tr{
+  color: #666;
+}
+
+.tab_pesquisa a{
+  color: #49292B;
+  text-decoration: underline;
+  display:block;
+  width: 100%;
+  height: 100%;
+}
+
+.tab_pesquisa a:hover{
+  text-decoration: underline;
+}
+
+.bt_esquerda{
+    text-align: left;
+}
+
+.bt_esquerda a{
+    margin: 5px 0px;
+}
+
+.depts_filho{
+    display: none;
+}
+
+.bt_pesquisar a{
+    background: url("../imagens/bt_pesquisar.png") no-repeat scroll left top transparent;
+    display: block;
+    float: right;
+    height: 34px;
+    text-indent: -9999px;
+    width: 104px;
+}

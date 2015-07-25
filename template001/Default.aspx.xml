@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Banners><Banner ID="Fullzao_topo" /><Banner ID="jquery_banner" /><Banner ID="fundo_jquery_banner" /><Banner ID="rodape_banner" /><Banner ID="banner_left" /><Banner ID="imagem_slider_horizontal" /><Banner ID="logos" /></Banners><ListagemSimpless><ListagemSimples ID="ListagemSimples_conteudo" NomeAmigavel="Listagem de Produtos da Tela Inicial" Visible="True"><ModeloHTMLVitrine titulo="Vitrine" help="HTML da vitrine, que será usado na página inicial da loja."><![CDATA[
+            <DIV class="galeria_categoria">
+	            <DIV class="galeria_categoria_titulo">{0}</DIV>
+	            <DIV class="galeria_categoria_produtos">
+		            <UL class="listagem_vitrine">
+			            <!-- Repeticao -->
+			            <LI>
+				            <DIV class="produto">
+					            <A href="{1}">
+						            <DIV class="produto_lancamento" id="divPromocao"></DIV>
+						            <DIV class="produto_foto">
+							            <IMG id="{2}" onclick="javascript:window.location='{1}'" 
+								             alt="{4}" hspace="0" src="{3}" border="0" /> 
+						            </DIV>
+						            <DIV class="produto_frete_gratis" id="divFreteGratis"></DIV>
+						            <SPAN class="produto_titulo">{6}</SPAN> 
+                        <SPAN class="produto_titulo">{18}</SPAN> 
+						            <DIV class="produto_oferta">
+							            <SPAN class="produto_de">{8}</SPAN> 
+							            <SPAN class="produto_oferta_num_vezes">{10}</SPAN>
+							            <SPAN class="produto_oferta_preco">{9}</SPAN> 
+						            </DIV>
+						            <DIV class="produto_parcelado">
+							            <SPAN class="produto_por">{11}</SPAN> 
+							            <SPAN class="produto_parcelado_num_vezes">{13}</SPAN>
+							            <SPAN class="produto_parcelado_preco">{12}</SPAN> 
+						            </DIV>
+						            <DIV class="produto_preco">
+							            <SPAN class="produto_ou">{14}</SPAN> 
+							            <SPAN class="produto_preco_preco">{15}</SPAN> 
+						            </DIV>
+					            </A>
+					            <DIV class="produto_espiar">{17}</DIV>
+				            </DIV>
+				            <!-- Fim Repeticao -->
+			            </LI>
+		            </UL>
+	            </DIV>
+            </DIV>
+            <!-- CSS_Inicio -->
+            .galeria_categoria_titulo {
+              background: url(imagens/bgBox1.png) no-repeat left top;
+              margin-right:10px;
+              padding-left: 10px;
+              position: relative;
+            }
+            .galeria_categoria_titulo h1 {
+              color:#363636;
+              font-size:11px;
+              font-weight:bold;
+              background: url(imagens/bgBox1.png) no-repeat right top;
+              overflow: hidden;
+              padding: 5px;
+              margin-right:-10px;
+              position:relative;
+              text-align: left;
+            }
+            .galeria_categoria_produtos {
+	            background: url(imagens/bgBox1.png) no-repeat right -5.2em;
+              overflow: hidden;
+              padding-bottom: 20px;
+              margin-bottom: 1em;
+              text-align:center;
+            }
+            ]]></ModeloHTMLVitrine><TamanhoImagem value="Médias" /><TipoListagem value="PaginaInicial" /></ListagemSimples><ListagemSimples ID="Vitrine_default_destaques"><CssComponente><![CDATA[]]></CssComponente><ModeloHTMLVitrine><![CDATA[<div class="tit_box">
+    <h2 id="h2_oferta">[A0]<a href="[A20]" class="ver_todos">Ver Todos</a></h2>
+</div>
+
+<div class="vitrine_geral">
+ <ul id="vitrine_principal">
+    <repeticao:produtos>
+      <li>
+         <div class="produto">
+           <!--<condicao:frete_gratis>
+              <div class="frete_gratis"><a href="[A1]"><img src="imagens/tag_frete_gratis.png?40" alt="Frete Gratis"></a></div>
+           </condicao:frete_gratis>-->
+           <div class="foto">
+               <a href="[A1]">
+                   <img alt="[A4]" src="[A3]" />
+               </a>
+               <div class="tags">
+                  <condicao:produto_indisponivel>
+                     <a href="[A1]"><img src="imagens/indisponivel.png?40" alt="Produto Indisponivel" /></a>
+                  </condicao:produto_indisponivel>
+                  <condicao:lancamento>
+                     <a href="[A1]"><img src="imagens/tag_lancamento.png?40" alt="Lançamento" /></a>
+                  </condicao:lancamento>
+                  <condicao:oferta>
+                     <a href="[A1]"><img src="imagens/tag_oferta.png?40" alt="Oferta" /></a>
+                  </condicao:oferta>
+              </div>
+            </div>
+            <h3 class="titulo"><a href="[A1]">[A6]</a></h3>
+            <div class="descricao"><a href="[A1]">[A18]</a></div>
+            <condicao:preco_antigo>
+              <div class="preco_antigo">
+                  <span class="preco_de">[A8]</span> <span class="preco_antigo_preco">[A19]</span>
+              </div>
+            </condicao:preco_antigo>
+
+            <div class="preco">
+                 <span class="preco_por">[A11]</span> <span class="preco_preco">[A15]</span>
+            </div>
+
+            <condicao:parcelamento>
+              <div class="preco_parcelado">
+                   <span class="preco_ou">[A14]</span> <span class="preco_parcelado_vezes">[A13] de</span> <span class="preco_parcelado_preco">[A12]</span>
+              </div>
+            </condicao:parcelamento>
+         </div>
+      </li>
+    </repeticao:produtos>
+ </ul>
+</div>]]></ModeloHTMLVitrine><TamanhoImagem value="Grandes" /><TipoListagem value="5" /></ListagemSimples><ListagemSimples ID="Vitrine_default_ofertas"><CssComponente><![CDATA[]]></CssComponente><ModeloHTMLVitrine><![CDATA[<div class="tit_box">
+    <h2 id="h2_oferta">Super ofertas em materiais para escritórios na Contabilista</h2>
+</div>
+
+<div class="vitrine_geral" id="ofertas">
+ <ul id="destaques">
+    <repeticao:produtos>
+    <li>
+       <div class="produto">
+         <condicao:frete_gratis>
+            <div class="frete_gratis"><a href="[A1]"><img src="imagens/tag_frete_gratis.png" alt="Frete Gratis"></a></div>
+         </condicao:frete_gratis>
+         <div class="foto">
+             <a href="[A1]">                 
+                 <img  alt="[A4]" src="[A3]">                 
+             </a>
+          </div>
+          <div class="tags">
+              <condicao:lancamento>
+                 <a href="[A1]"><img src="imagens/tag_lancamento.png" alt="Lançamento"></a>
+              </condicao:lancamento>  
+              <condicao:oferta>
+                 <a href="[A1]"><img src="imagens/tag_oferta.png" alt="Oferta"></a>
+              </condicao:oferta>              
+          </div>  
+          <h3 class="titulo"><a href="[A1]">[A6]</a></h3>
+          <condicao:preco_antigo>
+          <div class="preco_antigo">
+              <span class="preco_de">[A8]</span> <span class="preco_antigo_preco">[A19]</span>
+          </div>
+          </condicao:preco_antigo>
+         
+         <div class="preco">
+               <span class="preco_por">[A11]</span> <span class="preco_preco">[A15]</span>
+          </div>
+          
+          <condicao:parcelamento> 
+          <div class="preco_parcelado">
+               <span class="preco_ou">[A14]</span> <span class="preco_parcelado_vezes">[A13] de</span> <span class="preco_parcelado_preco">[A12]</span>
+          </div>
+          </condicao:parcelamento>
+   		  <div class="maisdetalhe">
+          <a href="[A1]"><img src="imagens/bt_detalhes.png" alt="Mais detalhes"/></a>
+          </div>
+       </div>
+    </li>
+    </repeticao:produtos>
+</ul>
+</div>]]></ModeloHTMLVitrine><TamanhoImagem value="Grandes" /><TipoListagem value="16" /></ListagemSimples><ListagemSimples ID="Vitrine_Jquery"><ModeloHTMLVitrine><![CDATA[<div class="tit_box tit_jquery">
+  <h2>[A0]</h2>
+</div>
+
+<div class="vitrine_geral">
+ 	<ul id="scroller">
+		<repeticao:produtos>
+		 <li>
+			<div class="produto">
+			<div class="foto">
+              	<condicao:produto_indisponivel>
+					<div class="indisponivel">
+						<a href="[A1]"><img src="imagens/indisponivel.png?40" alt="Produto Indisponível" /></a>
+					</div>
+              	</condicao:produto_indisponivel>
+				<a href="[A1]">
+					<img alt="[A4]" src="[A3]?width=220&height=301" />
+				</a>
+				<div class="promocao_express">
+					<condicao:promocao_express>
+						<script language="javascript">
+							var win = null;
+							function NovaJanela(pagina,nome,w,h,scroll){
+								LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+								TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+								settings = 'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+								win = window.open(pagina,nome,settings);
+							}
+						</script>
+						<a href="[A29]" onclick="NovaJanela(this.href,'nomeJanela','680','600','yes');return false"><img src="[A26]" alt="[A6] em promoção" /></a>
+					</condicao:promocao_express>		
+				</div>
+	        		<condicao:lancamento>
+	        			<div class="lancamento"><a href="[A1]"><img src="imagens/tag_lancamento.png?40" alt="Lançamento" /></a></div>
+	          		</condicao:lancamento>
+	        		<condicao:oferta>
+	        			<div class="oferta"><a href="[A1]"><img src="imagens/tag_oferta.png?40" alt="Oferta" /></a></div>
+	          		</condicao:oferta>	
+	          <condicao:promocao_frete>
+				<div class="frete_gratis"><a href="javascript:void(0);" onclick='window.open("[A35]", "popupwindow", "scrollbars=yes,width=550,height=520");return true'><img src="[A27]" alt="Frete Gratis" /></a></div>
+			</condicao:promocao_frete>
+			</div>
+        <h3 class="titulo"><a href="[A1]">[A6]</a></h3>
+        <div class="preco_conteudo">
+        	<condicao:preco_antigo>
+        	<div class="preco_antigo">
+        		<span class="preco_antigo_preco">[A19]</span>
+        	</div>
+        </condicao:preco_antigo>
+
+        <div class="preco">
+        	<span class="preco_preco">[A15]</span>
+        </div>
+
+        <condicao:parcelamento>
+        <div class="preco_parcelado">
+        	<span class="preco_parcelado_vezes">[A13] de </span> <span class="preco_parcelado_preco">[A12]</span>
+        </div>
+    </condicao:parcelamento>
+</div>
+</div>
+</li>
+</repeticao:produtos>
+</ul>
+</div>]]></ModeloHTMLVitrine><TamanhoImagem value="Gigantes" /><TipoListagem value="16" /></ListagemSimples><ListagemSimples ID="novidades"><ModeloHTMLVitrine><![CDATA[<div class="tit_box">
+    <h2>[A0]</h2>
+</div>
+
+<div class="vitrine_geral">
+ <ul id="vitrine_geral">
+    <repeticao:produtos>
+    <li>
+			<div class="produto">
+			<div class="foto">
+              	<condicao:produto_indisponivel>
+				<div class="indisponivel">
+				
+					<a href="[A1]"><img src="imagens/indisponivel.png?40" alt="Produto Indisponível" /></a>
+				</div>
+              </condicao:produto_indisponivel>
+				<a href="[A1]">
+					<img alt="[A4]" src="[A3]?width=220&height=301" />
+				</a>
+			</div>
+			<condicao:promocao_express>
+			<script language="javascript">
+				var win = null;
+				function NovaJanela(pagina,nome,w,h,scroll){
+					LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+					TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+					settings = 'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+					win = window.open(pagina,nome,settings);
+				}
+			</script>
+			<a href="[A29]" onclick="NovaJanela(this.href,'nomeJanela','680','600','yes');return false"><img src="[A26]" alt="[A6] em promoção" /></a>
+		</condicao:promocao_express>
+
+		<!-- Variantes na vitrine -->
+
+          <!--<condicao:variante_imagem>
+            <div class="vitrine_variantes_imagem">
+              <repeticao:variantes quantidade="3">
+                <a href="[A32]"><img src="[A31]?width=30" alt="[A30]" /></a>
+              </repeticao:variantes>
+            </div>
+          </condicao:variante_imagem>
+
+          <condicao:variante_texto>
+            <div class="vitrine_variantes_texto">
+              <repeticao:variantes quantidade="3">
+                <a href="[A32]">[A30]</a>
+              </repeticao:variantes>
+            </div>
+        </condicao:variante_texto>       -->   
+
+        <h3 class="titulo"><a href="[A1]">[A6]</a></h3>
+        <div class="tags">
+        	<condicao:lancamento>
+        	<a href="[A1]"><img src="imagens/tag_lancamento.png?40" alt="Lançamento" /></a>
+          </condicao:lancamento>
+        	<condicao:oferta>
+        	<a href="[A1]"><img src="imagens/tag_oferta.png?40" alt="Oferta" /></a>
+          </condicao:oferta>
+        </div>
+        <div class="preco_conteudo">
+        	<condicao:preco_antigo>
+        	<div class="preco_antigo">
+        		<span class="preco_antigo_preco">[A19]</span>
+        	</div>
+        </condicao:preco_antigo>
+
+        <div class="preco">
+        	<span class="preco_preco">[A15]</span>
+        </div>
+
+        <condicao:parcelamento>
+        <div class="preco_parcelado">
+        	<span class="preco_parcelado_vezes">[A13] de </span> <span class="preco_parcelado_preco">[A12]</span>
+        </div>
+    </condicao:parcelamento>
+          <condicao:promocao_frete>
+				<div class="frete_gratis"><a href="javascript:void(0);" onclick='window.open("[A35]", "popupwindow", "scrollbars=yes,width=550,height=520");return true'><img src="[A27]" alt="Frete Gratis" /></a></div>
+			</condicao:promocao_frete>
+</div>
+</div>
+</li>
+    </repeticao:produtos>
+ </ul>
+</div>]]></ModeloHTMLVitrine><TamanhoImagem value="Gigantes" /><TipoListagem value="2" /></ListagemSimples><ListagemSimples ID="vitrine_mais_vendidos"><ModeloHTMLVitrine><![CDATA[<div class="tit_box tit_jquery">
+  <h2>[A0]</h2>
+</div>
+
+<div class="vitrine_geral">
+ 	<ul id="scroller2">
+		<repeticao:produtos>
+		 <li>
+			<div class="produto">
+			<div class="foto">
+              	<condicao:produto_indisponivel>
+					<div class="indisponivel">
+						<a href="[A1]"><img src="imagens/indisponivel.png?40" alt="Produto Indisponível" /></a>
+					</div>
+              	</condicao:produto_indisponivel>
+				<a href="[A1]">
+					<img alt="[A4]" src="[A3]?width=220&height=301" />
+				</a>
+				<div class="promocao_express">
+					<condicao:promocao_express>
+						<script language="javascript">
+							var win = null;
+							function NovaJanela(pagina,nome,w,h,scroll){
+								LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+								TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+								settings = 'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+								win = window.open(pagina,nome,settings);
+							}
+						</script>
+						<a href="[A29]" onclick="NovaJanela(this.href,'nomeJanela','680','600','yes');return false"><img src="[A26]" alt="[A6] em promoção" /></a>
+					</condicao:promocao_express>		
+				</div>
+	        		<condicao:lancamento>
+	        			<div class="lancamento"><a href="[A1]"><img src="imagens/tag_lancamento.png?40" alt="Lançamento" /></a></div>
+	          		</condicao:lancamento>
+	        		<condicao:oferta>
+	        			<div class="oferta"><a href="[A1]"><img src="imagens/tag_oferta.png?40" alt="Oferta" /></a></div>
+	          		</condicao:oferta>	
+	          <condicao:promocao_frete>
+				<div class="frete_gratis"><a href="javascript:void(0);" onclick='window.open("[A35]", "popupwindow", "scrollbars=yes,width=550,height=520");return true'><img src="[A27]" alt="Frete Gratis" /></a></div>
+			</condicao:promocao_frete>
+			</div>
+        <h3 class="titulo"><a href="[A1]">[A6]</a></h3>
+        <div class="preco_conteudo">
+        	<condicao:preco_antigo>
+        	<div class="preco_antigo">
+        		<span class="preco_antigo_preco">[A19]</span>
+        	</div>
+        </condicao:preco_antigo>
+
+        <div class="preco">
+        	<span class="preco_preco">[A15]</span>
+        </div>
+
+        <condicao:parcelamento>
+        <div class="preco_parcelado">
+        	<span class="preco_parcelado_vezes">[A13] de </span> <span class="preco_parcelado_preco">[A12]</span>
+        </div>
+    </condicao:parcelamento>
+</div>
+</div>
+</li>
+</repeticao:produtos>
+</ul>
+</div>]]></ModeloHTMLVitrine><TamanhoImagem value="Gigantes" /><TipoListagem value="1" /></ListagemSimples><ListagemSimples ID="destaques_da_semana"><ModeloHTMLVitrine><![CDATA[<div class="tit_box tit_jquery">
+  <h2>[A0]</h2>
+</div>
+
+<div class="vitrine_geral">
+ 	<ul id="scroller3">
+		<repeticao:produtos>
+		 <li>
+			<div class="produto">
+			<div class="foto">
+              	<condicao:produto_indisponivel>
+					<div class="indisponivel">
+						<a href="[A1]"><img src="imagens/indisponivel.png?40" alt="Produto Indisponível" /></a>
+					</div>
+              	</condicao:produto_indisponivel>
+				<a href="[A1]">
+					<img alt="[A4]" src="[A3]?width=220&height=301" />
+				</a>
+				<div class="promocao_express">
+					<condicao:promocao_express>
+						<script language="javascript">
+							var win = null;
+							function NovaJanela(pagina,nome,w,h,scroll){
+								LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+								TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+								settings = 'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+								win = window.open(pagina,nome,settings);
+							}
+						</script>
+						<a href="[A29]" onclick="NovaJanela(this.href,'nomeJanela','680','600','yes');return false"><img src="[A26]" alt="[A6] em promoção" /></a>
+					</condicao:promocao_express>		
+				</div>
+	        		<condicao:lancamento>
+	        			<div class="lancamento"><a href="[A1]"><img src="imagens/tag_lancamento.png?40" alt="Lançamento" /></a></div>
+	          		</condicao:lancamento>
+	        		<condicao:oferta>
+	        			<div class="oferta"><a href="[A1]"><img src="imagens/tag_oferta.png?40" alt="Oferta" /></a></div>
+	          		</condicao:oferta>	
+	          <condicao:promocao_frete>
+				<div class="frete_gratis"><a href="javascript:void(0);" onclick='window.open("[A35]", "popupwindow", "scrollbars=yes,width=550,height=520");return true'><img src="[A27]" alt="Frete Gratis" /></a></div>
+			</condicao:promocao_frete>
+			</div>
+        <h3 class="titulo"><a href="[A1]">[A6]</a></h3>
+        <div class="preco_conteudo">
+        	<condicao:preco_antigo>
+        	<div class="preco_antigo">
+        		<span class="preco_antigo_preco">[A19]</span>
+        	</div>
+        </condicao:preco_antigo>
+
+        <div class="preco">
+        	<span class="preco_preco">[A15]</span>
+        </div>
+
+        <condicao:parcelamento>
+        <div class="preco_parcelado">
+        	<span class="preco_parcelado_vezes">[A13] de </span> <span class="preco_parcelado_preco">[A12]</span>
+        </div>
+    </condicao:parcelamento>
+</div>
+</div>
+</li>
+</repeticao:produtos>
+</ul>
+</div>]]></ModeloHTMLVitrine><TamanhoImagem value="Gigantes" /><TipoListagem value="2" /></ListagemSimples><ListagemSimples ID="veja_tabem"><ModeloHTMLVitrine><![CDATA[<div class="tit_box tit_jquery">
+  <h2>[A0]</h2>
+</div>
+
+<div class="vitrine_geral">
+ 	<ul id="scroller">
+		<repeticao:produtos>
+		 <li>
+			<div class="produto">
+			<div class="foto">
+              	<condicao:produto_indisponivel>
+					<div class="indisponivel">
+						<a href="[A1]"><img src="imagens/indisponivel.png?40" alt="Produto Indisponível" /></a>
+					</div>
+              	</condicao:produto_indisponivel>
+				<a href="[A1]">
+					<img alt="[A4]" src="[A3]?width=220&height=301" />
+				</a>
+				<div class="promocao_express">
+					<condicao:promocao_express>
+						<script language="javascript">
+							var win = null;
+							function NovaJanela(pagina,nome,w,h,scroll){
+								LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+								TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+								settings = 'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+								win = window.open(pagina,nome,settings);
+							}
+						</script>
+						<a href="[A29]" onclick="NovaJanela(this.href,'nomeJanela','680','600','yes');return false"><img src="[A26]" alt="[A6] em promoção" /></a>
+					</condicao:promocao_express>		
+				</div>
+	        		<condicao:lancamento>
+	        			<div class="lancamento"><a href="[A1]"><img src="imagens/tag_lancamento.png?40" alt="Lançamento" /></a></div>
+	          		</condicao:lancamento>
+	        		<condicao:oferta>
+	        			<div class="oferta"><a href="[A1]"><img src="imagens/tag_oferta.png?40" alt="Oferta" /></a></div>
+	          		</condicao:oferta>	
+	          <condicao:promocao_frete>
+				<div class="frete_gratis"><a href="javascript:void(0);" onclick='window.open("[A35]", "popupwindow", "scrollbars=yes,width=550,height=520");return true'><img src="[A27]" alt="Frete Gratis" /></a></div>
+			</condicao:promocao_frete>
+			</div>
+        <h3 class="titulo"><a href="[A1]">[A6]</a></h3>
+        <div class="preco_conteudo">
+        	<condicao:preco_antigo>
+        	<div class="preco_antigo">
+        		<span class="preco_antigo_preco">[A19]</span>
+        	</div>
+        </condicao:preco_antigo>
+
+        <div class="preco">
+        	<span class="preco_preco">[A15]</span>
+        </div>
+
+        <condicao:parcelamento>
+        <div class="preco_parcelado">
+        	<span class="preco_parcelado_vezes">[A13] de </span> <span class="preco_parcelado_preco">[A12]</span>
+        </div>
+    </condicao:parcelamento>
+</div>
+</div>
+</li>
+</repeticao:produtos>
+</ul>
+</div>]]></ModeloHTMLVitrine><TamanhoImagem value="Gigantes" /><TipoListagem value="3" /></ListagemSimples></ListagemSimpless><HistoricoNavegacaos><HistoricoNavegacao ID="Navegacao" NomeAmigavel="" Visible="True"><CaracterSeparador value="" /><CssComponente><![CDATA[]]></CssComponente><HistoricoNavegacaoHTML><![CDATA[<div class="tit_box">
+    <h2>Minhas Navegações</h2>
+</div>
+<div class="navegacao">
+    <div class="navegacao_esquerda">
+        <div class="paginacao">
+            <h3>
+                Últimos produtos visitados <span>([A0])</span></h3>
+            Pagina:
+            <repeticao:paginacao>
+                <a href="[A2]">[A1]</a>
+            </repeticao:paginacao>
+        </div>
+        <div class="navegacao_vitrine">
+            <div class="navegacao_vitrine_seta_voltar">
+                <condicao:imagem_anterior>
+                    <a onclick="[A3]" href="javascript:void(0)"><img src="imagens/navegacao_vitrine_seta_voltar.gif" alt="voltar página" border="0" /></a>
+                </condicao:imagem_anterior>
+            </div>
+            <ul>
+                [A5]
+            </ul>
+            <div class="navegacao_vitrine_seta_avancar">
+                <condicao:imagem_proximo>
+                    <a onclick="[A4]" href="javascript:void(0)"><img src="imagens/navegacao_vitrine_seta_avancar.gif" alt="Avançar página" border="0" /></a>
+                </condicao:imagem_proximo>
+            </div>
+        </div>
+    </div>
+    <div class="navegacao_direita">
+        <div class="navegacao_direita_item">
+            <h3>Produtos adicionado ao carrinho</h3>
+            <ul>
+                <repeticao:itens_carrinho>
+                    <li><a href="[A6]">[A7]</a></li>
+                </repeticao:itens_carrinho>
+            </ul>
+        </div>
+        <div class="navegacao_direita_item">
+            <h3>
+                &Uacute;ltimas pesquisas efetuadas</h3>
+            <ul>
+                <repeticao:itens_pesquisa>
+                    <li><a href="[A8]">[A9]</a></li>
+                </repeticao:itens_pesquisa>
+            </ul>
+        </div>
+        <div class="navegacao_direita_item">
+            <h3>
+                Categorias Visitadas</h3>
+            <ul>
+                <repeticao:itens_departamento>
+                    <li><a href="[A10]">[A11]</a></li>
+                </repeticao:itens_departamento>
+            </ul>
+        </div>
+    </div>
+</div>]]></HistoricoNavegacaoHTML><ProdutoHTML><![CDATA[<li>
+    <div class="produto">
+        <div class="foto">
+            <a href="[B0]">
+                <img src="[B2]" alt="[B3]" border="0" /></a>
+        </div>
+        <div class="titulo">
+            <a href="[B0]">[B3]</a></div>
+        <div class="preco">
+            [B13] <span class="preco_por">[B8]</span>
+        </div>
+    </div>
+</li>]]></ProdutoHTML><TamanhoImagem value="Médias" /><TotalProdutosPagina value="3" /></HistoricoNavegacao></HistoricoNavegacaos><CaixaPesquisas><CaixaPesquisa ID="CaixaPesquisa_pe" NomeAmigavel="Caixa de busca p�" Visible="True"><CaixaPesquisaHTML><![CDATA[]]></CaixaPesquisaHTML></CaixaPesquisa></CaixaPesquisas><TagCloudss><TagClouds ID="TagClouds1" NomeAmigavel="" Visible="True"><Classe1 value="" /><Classe2 value="" /><Classe3 value="" /><Classe4 value="" /><Classe5 value="" /><Classe6 value="" /><Classe7 value="" /><LayoutHTML><![CDATA[            <div class="tit_box">
+                <h2>{0}</h2>
+</div>
+                <div class="navegacao">{1}</div>
+
+
+          <!-- CSS_Inicio -->]]></LayoutHTML><Titulo value="Mais Procurados" /></TagClouds><TagClouds ID="TagClouds" NomeAmigavel="" Visible="True"><Classe1 value="cloud1" /><Classe2 value="cloud2" /><Classe3 value="cloud3" /><Classe4 value="cloud4" /><Classe5 value="cloud5" /><Classe6 value="cloud6" /><Classe7 value="cloud7" /><CssComponente><![CDATA[]]></CssComponente><LayoutHTML><![CDATA[ <div class="tit_box">
+<h2>[A0]</h2>
+</div>
+<div class="clouds">[A1]</div>]]></LayoutHTML><Titulo value="Mais Desejados" /></TagClouds></TagCloudss><SEOs><SEO ID="SEO"><Author><![CDATA[Ciashop]]></Author><Canonical><![CDATA[]]></Canonical><Content><![CDATA[text/html; charset=ISO-8859-1]]></Content><ContentLanguage><![CDATA[pt-br]]></ContentLanguage><Copyright><![CDATA[CBA Alimentos]]></Copyright><Description><![CDATA[Loja de Certificação Designer Partner]]></Description><Keywords><![CDATA[Certificação, Design, Partner, Ciashop]]></Keywords><Language><![CDATA[]]></Language><LojaURL><![CDATA[]]></LojaURL><MetatagsCustom><![CDATA[{}]]></MetatagsCustom><RevisitAfter><![CDATA[7 days]]></RevisitAfter><Robots><![CDATA[index, follow]]></Robots><Title><![CDATA[Loja Certificação]]></Title></SEO><SEO ID="seo" /></SEOs><BoletimNoticiass><BoletimNoticias ID="Newsletter" NomeAmigavel="" Visible="True"><BoletimNoticiasHTML><![CDATA[<h3 id="h3_default_historiconavegacao">Assine nossa newsletter e receba novidades no seu email.</h3>
+<fieldset>
+    <label style="width: 46%">Nome:<br />[A0]</label>
+    <label style="width: 42%">Data de Nasc:<br />[A1]</label>
+</fieldset>
+<fieldset>
+    <div class="sexo">Sexo:<br />[A3] [A6]</div>
+</fieldset>
+<fieldset>
+    <label style="width: 75%">Seu email:<br />[A2]</label>
+    <label style="width: 10%">&nbsp;<br /><input type="image" class="noborder" src="imagens/bt_ok_boletim.jpg" onclick="[A4]" /></label>
+</fieldset>]]></BoletimNoticiasHTML><CssComponente><![CDATA[]]></CssComponente></BoletimNoticias></BoletimNoticiass><Menus><Menu ID="MenuTopo" Visible="True"><ApenasDepartamento value="False" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[         <ul>
+            <repeticao:pais>
+	       <li><a href="[A0]">[A1]</a>
+                <condicao:filho>
+                  <ul>
+                    <repeticao:filhos>
+                        <li><a href="[A0]">[A1]</a></li>
+                    </repeticao:filhos>
+                  </ul>
+                </condicao:filho>
+               </li>
+            </repeticao:pais>
+         </ul>]]></MenuHTML><TipoMenu value="Horizontal" /></Menu><Menu ID="MenuVitrine"><ApenasDepartamento value="False" /><MenuHTML><![CDATA[]]></MenuHTML><TipoMenu value="Horizontal" /></Menu><Menu ID="menu_principal"><ApenasDepartamento value="False" /><MenuHTML><![CDATA[<div class="vitrine_menu">
+<ul>
+	<repeticao:pais quantidade="5">
+	<li>
+      <a href="[A0]"><img src="[A2]" alt="[A1]" /><span class="titulo_principal"><span>[A1] > </span></span></a>		
+	</li>
+	</repeticao:pais>
+</ul>
+  </div>]]></MenuHTML><TipoMenu value="Horizontal" /></Menu></Menus></controles></page>

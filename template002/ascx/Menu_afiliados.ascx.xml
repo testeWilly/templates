@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Menus><Menu ID="MenuTopo"><ApenasDepartamento value="False" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[<span style="display:inline-block">  
+  <ul>
+            <repeticao:pais>
+	       <li><a href="[A0]">[A1]</a>
+                <condicao:filho>
+                  <ul>
+                    <repeticao:filhos>
+                        <li><a href="[A0]">[A1]</a></li>
+                    </repeticao:filhos>
+                  </ul>
+                </condicao:filho>
+               </li>
+            </repeticao:pais>
+         </ul>
+</span>]]></MenuHTML><TipoMenu value="Horizontal" /></Menu></Menus><Links><Link ID="Menu_home"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoPrincipal" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="&lt;span class=&quot;nav-horizontal-link&quot;&gt;Home&lt;/span&gt;" /><UsarHTTPS value="False" /></Link><Link ID="Menu_banners"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoBanners" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="&lt;span class=&quot;nav-horizontal-link&quot;&gt;Banners&lt;/span&gt;" /><UsarHTTPS value="False" /></Link><Link ID="Menu_vitrine"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoVitrine" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Montar Vitrine" /><UsarHTTPS value="False" /></Link><Link ID="Menu_Vendas"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoRelatorioVendas" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="&lt;span class=&quot;nav-horizontalChildren-link&quot;&gt;Relatório de Vendas&lt;/span&gt;" /><UsarHTTPS value="False" /></Link><Link ID="Menu_visitas"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoRelatorioVisitas" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="&lt;span class=&quot;nav-horizontalChildren-link&quot;&gt;Relatório de Visitas&lt;/span&gt;" /><UsarHTTPS value="False" /></Link><Link ID="Menu_vendas_por_comprador"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoRelatorioClientes" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="&lt;span class=&quot;nav-horizontalChildren-link&quot;&gt;Relatório por Cliente&lt;/span&gt;" /><UsarHTTPS value="False" /></Link><Link ID="Menu_Email"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AfiliadoDivulgaEmail" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="&lt;span class=&quot;nav-horizontal-link&quot;&gt;E-mail de Divulgação&lt;/span&gt;" /><UsarHTTPS value="False" /></Link></Links></controles></page>

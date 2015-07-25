@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Menus><Menu ID="Menu_lateral"><ApenasDepartamento value="True" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[<ul>
+    <repeticao:pai>
+        <li><a href="[A0]">[A1]</a>
+            <condicao:filho>
+                <ul>
+                    <repeticao:filho>
+                        <li><a href="[A0]">[A1]</a>
+                            <condicao:neto>
+                                <ul>       
+                                    <repeticao:neto>
+                                        <li><a href="[A0]">[A1]</a></li>
+                                    </repeticao:neto>
+                                </ul>
+                            </condicao:neto>
+                        </li>
+                    </repeticao:filho>
+                </ul>
+            </condicao:filho>
+        </li>        
+     </repeticao:pai>
+</ul>]]></MenuHTML><TipoMenu value="Vertical" /></Menu></Menus><Banners><Banner ID="banner_esquerda_baixo" /></Banners><PesquisaFiltross><PesquisaFiltros ID="ciacPesquisaFiltros"><CssComponente><![CDATA[]]></CssComponente><PesquisaFiltrosHTML><![CDATA[<div id="filtros">
+    <repeticao:tipo_filtro>
+        <h2>[A0]</h2>
+        <ul>
+            <repeticao:filtro>
+                <li>
+                    <a href="[A3]">[A1] ([A2])</a>
+                </li>
+            </repeticao:filtro>
+        </ul>
+    </repeticao:tipo_filtro>
+</div>]]></PesquisaFiltrosHTML></PesquisaFiltros></PesquisaFiltross><PesquisaFaixaPrecos><PesquisaFaixaPreco ID="ciacPesquisaFaixaPreco"><CssComponente><![CDATA[]]></CssComponente><PesquisaFaixaPrecoHTML><![CDATA[           <fieldset>
+                <h2>Faixa de Preço</h2>
+                <label>[A0]</label>
+                <label>[A1]</label>
+                <label><img src="imagens/bt_filtrar.png" alt="filtrar" onclick="[A2]" style="cursor: pointer"/></label>
+            </fieldset>
+		]]></PesquisaFaixaPrecoHTML></PesquisaFaixaPreco></PesquisaFaixaPrecos><PesquisaDepartamentoss><PesquisaDepartamentos ID="ciacPesquisaDepartamentos"><ApenasDepartamento value="False" /><CssComponente><![CDATA[]]></CssComponente><PesquisaDepartamentosHTML><![CDATA[    <div id="categorias_busca">
+        <div class="categorias_busca_conteudo">
+           <ul>
+                <repeticao:pai>
+                    <li><a href="[A0]">[A1] ([A2])</a>
+               
+                    </li>
+                </repeticao:pai>
+            </ul>
+        </div>
+    </div>   ]]></PesquisaDepartamentosHTML><TipoMenu value="Vertical" /></PesquisaDepartamentos></PesquisaDepartamentoss><DepartamentoFiltross><DepartamentoFiltros ID="ciacFiltros_Para_Departamento"><CssComponente><![CDATA[]]></CssComponente><DepartamentoFiltrosHTML><![CDATA[[A0] - [A1] - <a href="[A2]">teste</a>]]></DepartamentoFiltrosHTML></DepartamentoFiltros></DepartamentoFiltross></controles></page>

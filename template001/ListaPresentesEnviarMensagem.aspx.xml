@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ListaPresentesEnviarMensagems>
+      <ListaPresentesEnviarMensagem ID="ListaPresentesEnviarMensagem1">
+        <CssComponente><![CDATA[]]></CssComponente>
+        <ListaPresentesEnviarMensagemHTML>
+          <![CDATA[
+<div class="box">
+  <div class="tit_box">
+    <h2>Enviar o e-mail para os convidados</h2>
+  </div>
+  <div>
+    Digite a sua mensagem para enviar aos convidados:
+    <br /><br />
+    Quantidade de caracteres: [A1]<br />
+    [A0]
+    <br />
+    <br />
+    <a href="[A2]">
+      <img src="imagens/email.png" alt="Enviar Agora" border="0" />
+    </a>
+  </div>
+</div>
+          ]]></ListaPresentesEnviarMensagemHTML>
+        <QuantidadeLinhasCampoMensagem value="8" />
+      </ListaPresentesEnviarMensagem>
+    </ListaPresentesEnviarMensagems>
+  </controles>
+</page>

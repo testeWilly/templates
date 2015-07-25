@@ -1,0 +1,32 @@
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: sogou spider
+Disallow: /
+
+User-agent: YodaoBot
+Disallow: /
+
+User-agent: Yandex
+Disallow: /
+
+User-agent: Mail.Ru
+Disallow: /
+
+User-agent: moget
+Disallow: /
+
+User-agent: ichiro
+Disallow: /
+
+User-agent: NaverBot
+Disallow: /
+
+User-agent: Yeti
+Disallow: /
+
+User-agent: oBot
+Disallow: /
+
+User-agent: *
+Disallow: 

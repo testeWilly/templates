@@ -1,0 +1,92 @@
+/*-------Variante Texto---------------*/
+    
+    .variante_texto_disponivel
+    {
+        display: block;
+        padding: 5px;
+        color: #666;
+        font-size: 11px;
+        float: left;
+        margin: 5px 5px 0 0;
+        border: 1px solid #ccc;
+    }
+    
+    a.variante_texto_disponivel:hover
+    {
+        background: #ccc;
+        color: #333;
+    }
+      
+    .variante_texto_disponivel_selecionada
+    {
+        background: #408fd8 !important;
+        color: #FFF !important;
+    }
+    
+    .variante_texto_indisponivel
+    {
+        background: url('../imagens/variante_sem_estoque.png') no-repeat right bottom !important;
+    }
+    
+    .variante_texto_indisponivel_selecionada
+    {
+        background: #408fd8 url('../imagens/variante_sem_estoque.png') no-repeat right bottom !important;
+        color: #FFF !important;
+    }
+        
+/*-------Variante Imagem---------------*/    
+
+    .variante_imagem_disponivel
+    {
+           background: url("../imagens/variante_cor_normal.png") no-repeat scroll 2px 2px transparent !important;
+           float: left;
+           padding: 5px 8px 6px 5px;
+    }
+
+    a.variante_imagem_disponivel:hover
+    {
+        background: url('../imagens/variante_cor_hover.png') no-repeat 1px 1px !important;
+    }
+    
+    .variante_imagem_disponivel_selecionada
+    {
+        background:url('../imagens/variante_cor_selecionado.png') no-repeat 1px 1px !important;
+    }
+
+    .variante_imagem_indisponivel
+    {
+        background: url("../imagens/variante_cor_estoque_vazio.png") no-repeat scroll 2px 2px transparent !important;
+        float: left;
+        padding: 5px 8px 6px 5px;
+    }
+    
+    a.variante_imagem_indisponivel:hover {
+    background: url("../imagens/variante_cor_estoque_vazio.png") no-repeat scroll 2px 2px transparent !important;
+    }
+
+    .variante_imagem_indisponivel_selecionada
+    {
+        background-image: url('../imagens/variante_cor_estoque_vazio.png'), url('../imagens/variante_cor_selecionado.png');
+        background-repeat: no-repeat;
+        background-position:  center right, right bottom;
+    }
+       
+/*-------Variante Select---------------*/
+
+    .variante_select_disponivel
+    {
+    }
+    
+    .variante_select_disponivel_selecionada
+    {
+    }
+    
+    .variante_select_indisponivel
+    {
+    }
+    
+    .variante_select_indisponivel_selecionada
+    {
+    }
+    
+/*-------------------------------------*/

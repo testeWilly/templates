@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CadastroAvisemes><CadastroAviseme ID="cmpCadastroAviseme"><CadastroAvisemeHTML><![CDATA[<div class="box">
+  
+<div class="aviseme">
+    <p> A <strong>[A0]</strong> avisa você quando este produto estiver disponível, é só preencher
+    os campos abaixo com seus dados e assim que possível lhe enviaremos um e-mail.</p>
+    
+    <div class="aviseme_info">
+      <img src="[A8]" alt="[A7]" align="left" />
+      <h3 class="tit_prod_aviseme">[A7]</h3>      
+    </div>
+    [A4][A5][A6]
+    <div class="aviseme_formulario">
+    <fieldset>
+    <label>Nome:<br />
+  [A1]
+    </label>
+    <label>Email:<br />
+  [A2]
+    </label>
+    <label class="bt_enviar bt_hover">
+      <a onclick="[A3]">Enviar</a>
+    </label>
+     
+   </fieldset></div>
+    <p /><strong>Atenção:</strong> Este aviso não garante a reserva do produto, por isso, quanto mais
+    breve for seu acesso no site maior a possibilidade dele estar disponível.
+    <p /><strong>Valor do produto sujeito a alteração após reposição do item no estoque.</strong>
+
+</div>
+</div>]]></CadastroAvisemeHTML><CadastroAvisemeProdutoNaoSelecionadoHTML><![CDATA[<div class="aviseme">
+    <p><strong>Código da variante do produto inválida ou inexistente.</strong></p>
+</div>]]></CadastroAvisemeProdutoNaoSelecionadoHTML><MensagemAlertaCadastroAvisemeHTML><![CDATA[<div id="erro">
+    <div class="lista_erro">
+        <h2>[B0]</h2>
+        <ul>
+            <repeticao:erro>
+                <li>[B1]</li>
+            </repeticao:erro>
+        </ul>
+    </div>
+</div>]]></MensagemAlertaCadastroAvisemeHTML><MensagemEmailCadastradoAvisemeHTML><![CDATA[<div id="erro">
+    <div class="lista_erro">
+        <h2>Email já cadastrado. Quando o produto retornar ao estoque enviaremos um email para você.</h2>
+    </div>
+</div>]]></MensagemEmailCadastradoAvisemeHTML><MensagemSucessoCadastroAvisemeHTML><![CDATA[<div id="sucesso">
+    <div class="lista_sucesso">
+        <h2>Cadastro realizado com sucesso. Aguarde, quando o produto retornar ao estoque iremos enviar um email.</h2>
+    </div>
+</div>]]></MensagemSucessoCadastroAvisemeHTML><TamanhoImagem value="Pequenas" /></CadastroAviseme></CadastroAvisemes><Banners><Banner ID="Fullzao_topo" /></Banners></controles></page>

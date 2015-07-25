@@ -1,0 +1,111 @@
+#entrega{
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: -15px 0 0;
+    padding: 10px;
+}
+
+.entrega_conteudo{
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+#entrega p{
+    color: #666;
+    margin: 15px;
+    font-size: 11px;
+}
+
+.enderecos{
+    list-style: none;
+    overflow: hidden;
+}
+
+.enderecos li{
+    background: none repeat scroll 0 0 #f3f3f3;
+    height: auto;
+    margin: 5px 0;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.enderecos li .endereco_conteudo {
+    float: left;
+    width: 388px;
+}
+
+.enderecos li h3{
+    color: #482624;
+    font-size: 14px;
+    margin: 2px 0 0 0;
+}
+
+#entrega  .enderecos li p{
+    color: #333;
+    font-size: 13px;
+    margin: 8px 0;
+    font-weight:normal;
+}
+
+.enderecos li.selecionado{
+    background: none repeat scroll 0 0 #edeff9;
+}
+
+#entrega  .enderecos li .bt{
+    float: right;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.checkout_right .carrinho-direita {
+    float: right;
+    width: 330px;
+}
+
+.formulario_conteudo .formulario .list .tit_label{
+    width: 145px;
+}
+
+.formulario_conteudo .formulario .list .larg_100 input{
+    width: 270px;
+}
+
+.bt_salvar_continuar a{
+   background: url("../imagens/bt_salvar_continuar.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 34px;
+    margin: 10px 0;
+    text-indent: -9999px;
+    width: 394px;
+}
+
+.bt_usar_endereco a{
+   background: url("../imagens/bt_usar_endereco.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 33px;
+    margin: 15px 0 0;
+    text-indent: -9999px;
+    width: 199px;
+}
+
+.bt_editar a{
+   background: url("../imagens/bt_editar_endereco.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 27px;
+    text-indent: -9999px;
+    width: 77px;
+}
+
+.checkout_left .lista_erro{
+    width: auto;
+}
+
+.bt_salvar_continuar{
+    overflow:hidden;
+}

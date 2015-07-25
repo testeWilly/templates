@@ -1,0 +1,106 @@
+/* Theme */
+
+/*
+Tema personalizado para banner fulzzao espans�vel
+*/
+
+.nivo-controlNav{
+    display:none !important;
+}
+
+#cia_jqueryslider{
+  position: relative;
+}
+
+#fundo_jquery{
+  display: none;
+}
+
+.slider-wrapper {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.fullzao_expansivel #slider {
+    margin:0 auto;
+}
+
+.fullzao_expansivel .nivoSlider {
+
+	background:#fff url(../imagens/cia_bannerjquery_loading.gif) no-repeat 50% 50%;
+}
+.fullzao_expansivel .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.fullzao_expansivel .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.fullzao_expansivel .nivo-controlNav {
+	text-align: center;
+    position: absolute;
+    left: 45%;
+    z-index: 8;
+    bottom: 10px;
+}
+.fullzao_expansivel .nivo-controlNav a {
+	display:inline-block;
+    *display: block;
+    *float: left;
+	width: 15px;
+	height: 22px;
+	background:url(../imagens/cia_bannerjquery_sprite.png) no-repeat -142px 0px;
+	text-indent:-9999px;
+	border:0;
+	margin: 0 2px;
+    padding: 0 4px;
+}
+.fullzao_expansivel .nivo-controlNav a.active {
+   background:url(../imagens/cia_bannerjquery_sprite.png) no-repeat -142px -23px;
+}
+
+.fullzao_expansivel .nivo-directionNav a {
+	display:block;
+	width:42px;
+	height:100%;
+	text-indent:-9999px;
+	border:0;
+}
+
+.fullzao_expansivel a.nivo-nextNav {
+    background:url(../imagens/cia_bannerjquery_sprite.png) no-repeat right center;
+}
+
+.fullzao_expansivel a.nivo-prevNav {
+    background:url(../imagens/cia_bannerjquery_sprite.png) no-repeat left center;
+
+}
+
+.fullzao_expansivel .nivo-caption {
+}
+.fullzao_expansivel .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.fullzao_expansivel .nivo-caption a:hover {
+    color:#fff;
+}
+
+.fullzao_expansivel .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.fullzao_expansivel .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.fullzao_expansivel .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}

@@ -1,0 +1,344 @@
+.tab_formas_pagamento{
+    margin: 23px auto 0;
+    text-align: center;
+    width: 81%;
+}
+
+.tab_formas_pagamento td{
+    border-left: 4px solid #FFFFFF;
+    border-right: 4px solid #FFFFFF;
+}
+
+.tab_formas_pagamento th{
+    border-left: 4px solid #FFFFFF;
+    font-family: "Lato-Regular";
+    border-right: 4px solid #FFFFFF;
+    color: #4c1e25;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 10px 0;
+    text-transform: lowercase;
+}
+
+.pedido_dados{
+    float: left;
+    margin-left: 15px;
+}
+
+.pedido_dados p{
+    color:#666666;
+    display: block;
+    font-size: 12px;
+    text-align: left;
+    margin: 3px 0;
+}
+
+.pedido_dados p.boleto{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pedido_dados img{
+    margin: 5px 0;
+}
+
+
+.nota{
+    margin-top: 15px;
+}
+
+.nota .nota_conteudo{
+    border-top: none;
+    overflow: hidden;
+}
+
+.nota .nota_conteudo p{
+    color: #666;
+    margin: 5px 10px;
+}
+
+.nota .nota_conteudo p input{
+    margin-right: 5px;
+}
+
+.nota .nota_conteudo p a{
+    color: #052547;
+}
+
+.pagamento{
+    margin-top: 15px;
+}
+
+.pagamento .pagamento_conteudo{
+    border-top: none;
+    overflow: hidden;
+}
+
+.pagamento_conteudo ul{
+    list-style: none;
+}
+
+.pagamento_conteudo ul li{
+    overflow: hidden;
+}
+
+.pagamento_conteudo h3{
+    background-color: #edeff9;
+    color: #484848;
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 20px;
+    padding: 8px 0 8px 10px;
+    text-transform: uppercase;
+}
+
+.pagamento_conteudo ul li ul li{
+    margin: 5px 0;
+}
+
+.pagamento_conteudo ul li ul li.selecionado{
+    background-color: #F6F6F6;
+}
+
+.pagamento_conteudo .pag_item{
+    overflow: hidden;
+    height: auto;
+}
+
+.pagamento_conteudo .pag_item .pag_img{
+    margin: 5px;
+    float: left;
+}
+
+.pagamento_conteudo .pag_item .pag_img img{
+    float: left;
+}
+
+.pagamento_conteudo .pag_item .pag_radio{
+    margin: 20px 5px 0 5px;
+    float: left;
+}
+
+.pagamento_conteudo .pag_info{
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+.pagamento_conteudo .pag_info h4{
+    color: #4c1e25;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 13px 0 0 15px;
+}
+
+.parcelas select{
+    border: 1px solid #CCCCCC;
+    color: #444444;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+    height: 25px;
+    padding: 3px;
+    width: 376px;
+}
+
+.pagamento_conteudo .pag_info p{
+    color: #052547;
+    font-size: 12px;
+    float: left;
+}
+
+.dados_cartao{
+    display: none;
+}
+
+.selecionado .dados_cartao{
+    display: block;
+}
+
+.selecionado .dados_cartao fieldset{
+    border: none;
+    margin: 5px 0 0px 0px;
+    padding: 0 0 0 0px;
+    width: 516px;
+    _width: 535px;
+    *width: 535px;
+    clear: both;
+    display: block;
+}
+
+.selecionado .dados_cartao fieldset label{
+    display: block;
+    margin: 5px 10px 0px 0px;
+    color: #052547;
+    float: left;
+    font-weight: bold;
+
+}
+
+.selecionado .dados_cartao fieldset label small{
+    font-weight: normal;
+
+}
+
+.selecionado .dados_cartao fieldset label a{
+    color: #0065A4;
+    text-decoration: none;
+}
+
+.selecionado .dados_cartao fieldset label input{
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    height: 20px;
+    font-size: 11px;
+    color: #052547;
+}
+
+.selecionado .dados_cartao fieldset label select{
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    height: 20px;
+    font-size: 11px;
+    color: #052547;
+    width: auto!important;
+}
+
+.formas_pagamento{
+    margin: 10px 0;
+}
+
+.parcelas{
+    color: #4c1e25;
+    font-size: 13px;
+    margin-top: 12px;
+}
+
+.bonus{
+    margin-top: 20px;
+}
+
+.bonus p{
+    color: #482624;
+    font-size: 12px;
+}
+
+.bonus select{
+    border: 1px solid #ccc;
+    color: #666;
+    width: 100px;
+    font-size: 12px;
+}
+
+#carrinho {
+    margin-top: 13px;
+}
+
+.pagamento_conteudo h5{
+    background-color: #FAC4B7;
+    padding: 7px 0 7px 10px;
+    margin-top: 10px;
+    color: #4C1E25;
+    font-size: 12px;
+    font-weight:normal;
+}
+
+.pagamento_conteudo .formulario_pag{
+    overflow: hidden;
+    list-style: none;
+    margin-top: 15px;
+}
+
+.pagamento_conteudo .formulario_pag .info{
+    color: #666;
+    text-align: right;
+    font-size: 11px;
+    margin: 5px;
+}
+
+.pagamento_conteudo .formulario_pag .list{
+    overflow: hidden;
+    padding: 5px 0;
+    vertical-align: top;
+    color: #999;
+}
+
+.pagamento_conteudo .formulario_pag label{
+    font-size: 11px;
+    color: #999;
+}
+
+.pagamento_conteudo .formulario_pag .list.obrigatorio .tit_label{
+    color: #666;
+}
+
+.pagamento_conteudo .formulario_pag .list .tit_label{
+    float: left;
+    width: 150px;
+    text-align: right;
+    margin-right: 5px;
+    color: #999;
+    font-weight: bold;
+    font-size: 11px;
+    clear: left;
+    padding: 4px 0;
+}
+
+.pagamento_conteudo .formulario_pag .list input{
+    font-size: 11px;
+    color: #666;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    width: 250px;
+    padding: 4px;
+    margin: 0 3px;
+}
+
+.pagamento_conteudo .formulario_pag .list .larg_100 input{
+    width: 300px;
+}
+
+.pagamento_conteudo .formulario_pag .list .larg_75 input{
+    width: 200px;
+}
+
+.pagamento_conteudo .formulario_pag .list .larg_50 input{
+    width: 100px;
+}
+
+.pagamento_conteudo .formulario_pag .list .larg_25 input{
+    width: 30px;
+}
+
+.pagamento_conteudo .formulario_pag .list select{
+    font-size: 11px;
+    color: #666;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+    padding: 3px;
+    width: auto;
+    margin: 0 3px;
+    height: auto;
+}
+
+.pagamento_conteudo .formulario_pag .list small{
+    color: #999999;
+    font-size: 11px;
+}
+
+.pagamento_conteudo .formulario_pag a{
+    color: #999999;
+    font-size: 11px;
+    text-decoration: undeline;
+}
+
+.checkout_right .carrinho-direita {
+    float: right;
+    width: 330px;
+}
+
+.bg_pagamento {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-top: -15px;
+    padding: 10px;
+}

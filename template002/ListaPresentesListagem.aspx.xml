@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ListaPresentesListagems>
+      <ListaPresentesListagem ID="ListaPresentesListagem1">
+        <CssComponente>
+          <![CDATA[
+          ]]>
+        </CssComponente>
+        <ListaPresentesListagemHTML>
+          <![CDATA[
+            <div class="box">
+              <div class="tit_box">
+                <h2>Listagem de Lista de Presentes Cadastradas</h2>
+              </div>
+              <div class="filtros">
+                <table>
+                  <tr>
+                    <td>Tipo de Lista<br>[A6]</td>
+                    <td>Data de Evento<br>[A7]</td>
+                    <td>Nome do Homenageado<br>[A8]</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3">
+                      <div style="align:center">
+                        <a href="[A9]">Buscar</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="[A10]">Limpar filtros</a>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="listagem">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Tipo de Listagem</th>
+                      <th>Data e Hora de Evento</th>
+                      <th>Nome do Homenageado</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <repeticao:listagem>
+                      <tr>
+                        <td>[A0]</td>
+                        <td>[A1]</td>
+                        <td>[A2]</td>
+                        <td>
+                          <a href="[A3]">
+                            <img src="imagens/lupa.jpg" alt="Ver a lista" border="0" />
+                          </a>
+                        </td>
+                      </tr>
+                    </repeticao:listagem>
+                  </tbody>
+                </table>
+              </div>
+              <div id="paginacao">
+                <ul>
+                  <repeticao:pagina>
+                    <li>
+                      <a href="[A6]" <condicao:pagina_selecionada> class="paginaselecionada" </condicao:pagina_selecionada> >[A5]</a>
+                    </li>
+                  </repeticao:pagina>
+                </ul>
+              </div>
+            </div>
+          ]]>
+        </ListaPresentesListagemHTML>
+        <QuantidadeItensPorPagina value="5" />
+      </ListaPresentesListagem>
+    </ListaPresentesListagems>
+  </controles>
+</page>

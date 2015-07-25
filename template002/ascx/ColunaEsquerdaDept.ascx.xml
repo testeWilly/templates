@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Banners><Banner ID="banner_esquerda_cima" NomeAmigavel="" Visible="True" /><Banner ID="banner_esquerda_topo" NomeAmigavel="" Visible="True" /><Banner ID="banner_esquerda_dept" NomeAmigavel="" Visible="True" /></Banners><Menus><Menu ID="Menu_Lateral_home" NomeAmigavel="" Visible="True"><ApenasDepartamento value="True" /><CssComponente><![CDATA[/* MENU DE SECAO */
+
+ul.sectionMenu {font-size: 0.7em; text-transform: uppercase; font-weight: bold; color:#900;}
+ul.sectionMenu li {margin-bottom: 15px;}
+ul.sectionMenu li a {color: #900;}
+ul.sectionMenu li a.text {color:#666; font-weight:normal; text-transform:none;}
+ul.sectionMenu li ul {text-transform: none; font-weight: normal; padding-left: 3px;}
+ul.sectionMenu li ul li {margin-bottom: 0; margin-top: 3px;}
+ul.sectionMenu li ul li a {color: #666;}
+ul.sectionMenu li ul li.more a {color: #900;}
+ul.sectionMenu li p {text-transform: none; font-weight: normal; color: #666;}
+
+ul.sectionMenu li p.title {color:#900; text-transform:uppercase; font-weight: bold; margin-top:8px;}
+ul.sectionMenu li div.vcard {margin-top:10px;}
+ul.sectionMenu li div.vcard span, ul.sectionMenu li span.generalInfo {text-transform: none; font-weight: normal; color: #666;}
+ul.sectionMenu li div.vcard span.depto {display:block; margin-top:3px;}
+ul.sectionMenu li div.vcard span.email {display:block; margin-top:3px;}
+ul.sectionMenu li span.generalInfo {display:block;}
+
+/* MENU ESPECIAL: LIVRO, CD, DVD */
+ul.sectionMenuSpecial {font-size: 0.7em; text-transform: none; font-weight: bold; color:#900;}
+ul.sectionMenuSpecial li {margin-bottom: 4px;}
+ul.sectionMenuSpecial li a {color: #6d6d6d;}
+ul.sectionMenuSpecial li a.text {color:#666; font-weight:normal; text-transform:none;}
+ul.sectionMenuSpecial li ul {text-transform: none; font-weight: normal; padding-left: 3px;}
+ul.sectionMenuSpecial li ul li {margin-bottom: 0; margin-top: 3px;}
+ul.sectionMenuSpecial li ul li a {color: #666;}
+ul.sectionMenuSpecial li ul li.more a {color: #900;}
+ul.sectionMenuSpecial li p {text-transform: none; font-weight: normal; color: #666;}
+
+/* MENU DE SUBSECAO */
+
+ul.subSectionMenu {font-size: 0.7em; color: #fff; font-weight: bold;}
+ul.subSectionMenu li {margin-bottom: 5px;}
+ul.subSectionMenu li ul {text-transform: none; font-weight: normal;}
+ul.subSectionMenu li ul li {margin-bottom: 0; margin-top: 6px;}
+ul.subSectionMenu li ul li a {color: #fff;}
+ul.subSectionMenu li ul li.more a {color: #900;}
+ul.subSectionMenu li p {text-transform: none; font-weight: normal;}
+
+/* SELECT AUTORES/ARTISTAS POR LETRA */
+#formAutores {padding:7px;}
+#formAutores label, ul.sectionMenu li label span {font-weight:normal; text-transform:none; color:#666; font-size:.7em;}
+#formAutores label {display:block;}
+#formAutores select {font-size:.7em; width:50px; float:left; margin-right:10px;text-align:left;}
+#formAutores select option {text-align:left; padding:2px 2px; color:#818181;}
+
+#formLetras {padding:7px; border-top:1px solid #e6e6e6;}
+#formLetras label, ul.sectionMenu li label span {font-weight:bold; text-transform:uppercase; color:#666; font-size:.7em;}
+#formLetras label {display:block; padding:0 0 5px 0;}
+#formLetras select {font-size:.7em; width:120px; float:left; margin-right:10px;}
+#formLetras select option {text-align:center; padding:2px 2px;}
+
+.box {padding: 3px; border: 1px solid #CCC; margin-bottom: 5px; overflow: hidden;}
+.boxDestaque {border: 1px solid #940a0a;}
+
+.subSectionBox {padding: 5px; background: #8d0a0b;}
+]]></CssComponente><MenuHTML><![CDATA[<div class="box boxDestaque">
+	<ul class="sectionMenu">
+        <repeticao:pai>
+        <li><a href="[A0]">[A1]</a>
+            <condicao:filho>
+            <ul>
+                <repeticao:filho quantidade="6">
+                <li><a href="[A0]">[A1]</a></li>
+                </repeticao:filho>
+                <li class="more"><a href="[A0]">+ Veja Mais</a></li>
+            </ul>
+            </condicao:filho>
+        </li>
+        </repeticao:pai>
+	</ul>
+</div>]]></MenuHTML><TipoMenu value="Vertical" /></Menu><Menu ID="Menu_Lateral_dept" NomeAmigavel="" Visible="True"><ApenasDepartamento value="True" /><CssComponente><![CDATA[/* MENU DE SECAO */
+
+ul.sectionMenu {font-size: 0.7em; text-transform: uppercase; font-weight: bold; color:#900;}
+ul.sectionMenu li {margin-bottom: 15px;}
+ul.sectionMenu li a {color: #900;}
+ul.sectionMenu li a.text {color:#666; font-weight:normal; text-transform:none;}
+ul.sectionMenu li ul {text-transform: none; font-weight: normal; padding-left: 3px;}
+ul.sectionMenu li ul li {margin-bottom: 0; margin-top: 3px;}
+ul.sectionMenu li ul li a {color: #666;}
+ul.sectionMenu li ul li.more a {color: #900;}
+ul.sectionMenu li p {text-transform: none; font-weight: normal; color: #666;}
+
+ul.sectionMenu li p.title {color:#900; text-transform:uppercase; font-weight: bold; margin-top:8px;}
+ul.sectionMenu li div.vcard {margin-top:10px;}
+ul.sectionMenu li div.vcard span, ul.sectionMenu li span.generalInfo {text-transform: none; font-weight: normal; color: #666;}
+ul.sectionMenu li div.vcard span.depto {display:block; margin-top:3px;}
+ul.sectionMenu li div.vcard span.email {display:block; margin-top:3px;}
+ul.sectionMenu li span.generalInfo {display:block;}
+
+/* MENU ESPECIAL: LIVRO, CD, DVD */
+ul.sectionMenuSpecial {font-size: 0.7em; text-transform: none; font-weight: bold; color:#900;}
+ul.sectionMenuSpecial li {margin-bottom: 4px;}
+ul.sectionMenuSpecial li a {color: #6d6d6d;}
+ul.sectionMenuSpecial li a.text {color:#666; font-weight:normal; text-transform:none;}
+ul.sectionMenuSpecial li ul {text-transform: none; font-weight: normal; padding-left: 3px;}
+ul.sectionMenuSpecial li ul li {margin-bottom: 0; margin-top: 3px;}
+ul.sectionMenuSpecial li ul li a {color: #666;}
+ul.sectionMenuSpecial li ul li.more a {color: #900;}
+ul.sectionMenuSpecial li p {text-transform: none; font-weight: normal; color: #666;}
+
+/* MENU DE SUBSECAO */
+
+ul.subSectionMenu {font-size: 0.7em; color: #fff; font-weight: bold;}
+ul.subSectionMenu li {margin-bottom: 5px;}
+ul.subSectionMenu li ul {text-transform: none; font-weight: normal;}
+ul.subSectionMenu li ul li {margin-bottom: 0; margin-top: 6px;}
+ul.subSectionMenu li ul li a {color: #fff;}
+ul.subSectionMenu li ul li.more a {color: #900;}
+ul.subSectionMenu li p {text-transform: none; font-weight: normal;}
+
+/* SELECT AUTORES/ARTISTAS POR LETRA */
+#formAutores {padding:7px;}
+#formAutores label, ul.sectionMenu li label span {font-weight:normal; text-transform:none; color:#666; font-size:.7em;}
+#formAutores label {display:block;}
+#formAutores select {font-size:.7em; width:50px; float:left; margin-right:10px;text-align:left;}
+#formAutores select option {text-align:left; padding:2px 2px; color:#818181;}
+
+#formLetras {padding:7px; border-top:1px solid #e6e6e6;}
+#formLetras label, ul.sectionMenu li label span {font-weight:bold; text-transform:uppercase; color:#666; font-size:.7em;}
+#formLetras label {display:block; padding:0 0 5px 0;}
+#formLetras select {font-size:.7em; width:120px; float:left; margin-right:10px;}
+#formLetras select option {text-align:center; padding:2px 2px;}
+
+.box {padding: 3px; border: 1px solid #CCC; margin-bottom: 5px; overflow: hidden;}
+.boxDestaque {border: 1px solid #940a0a;}
+
+.subSectionBox {padding: 5px; background: #8d0a0b;}
+]]></CssComponente><MenuHTML><![CDATA[	
+        <repeticao:pai>
+        <h2 class="boxHeader"><strong>[A1]</strong></h2>
+            <condicao:filho>
+            <div class="box boxDestaque">
+            <ul class="sectionMenu">
+                <repeticao:filho>
+                <li><a href="[A0]">[A1]</a>
+                     <condicao:neto>
+                         <ul>
+                            <repeticao:neto>
+                                <li><a href="[A0]">[A1]</a>
+                            </repeticao:neto>
+                         </ul>
+                     </condicao:neto>
+                </li>
+                </repeticao:filho>
+            </ul>
+            </div>
+            </condicao:filho>
+        </repeticao:pai>]]></MenuHTML><TipoMenu value="Vertical" /></Menu></Menus><DepartamentoTitulos><DepartamentoTitulo ID="Dept_titulo" NomeAmigavel="" Visible="True" /></DepartamentoTitulos></controles></page>

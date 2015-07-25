@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Links><Link ID="PaginaInicial"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Ciashop Framework" /><UsarHTTPS value="False" /></Link><Link ID="LinkMeuCadastro"><Imagem value="btn_cadastro.png" /><PaginaLoja value="Identificacao" /><Parametros value="destino=comprador" /><Target value="MesmaPagina" /><Texto value="Meu cadastro" /><UsarHTTPS value="False" /></Link><Link ID="LinkMeusPedidos"><Imagem value="btn_pedidos.png" /><PaginaLoja value="Identificacao" /><Parametros value="destino=MeusPedidos" /><Target value="MesmaPagina" /><Texto value="Meus pedidos" /><UsarHTTPS value="False" /></Link><Link ID="LinkCarrinhoCompras"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="btn_carrinho.png" /><PaginaLoja value="Carrinho" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Meu carrinho" /><UsarHTTPS value="False" /></Link></Links><LabelVisitantes><LabelVisitante ID="LabelVisitante1"><HTMLModeloLogado><![CDATA[[A1] <strong>[A2]</strong> (Se não for você, <a href="[A0]">clique aqui</a>.)]]></HTMLModeloLogado><HTMLModeloNaoLogado><![CDATA[[B1] <strong>Visitante</strong> (<a href="[B0]">Para efetuar o login, clique aqui</a>)]]></HTMLModeloNaoLogado></LabelVisitante></LabelVisitantes><CaixaPesquisas><CaixaPesquisa ID="CaixaPesquisa"><CaixaPesquisaHTML><![CDATA[                  <fieldset>
+                      <label style="margin-left: 0"><img onclick="[A2]" src="imagens/busca_ico.png?24" style="cursor: pointer; vertical-align: middle"></label>
+                      <label>[A0]</label>
+                      <span>em</span>
+                      <label>[A1]</label>
+                      <label class="bt"><img onclick="[A2]" src="imagens/btn_procurar.png?24" /></label>
+                  </fieldset>]]></CaixaPesquisaHTML><CssComponente><![CDATA[]]></CssComponente></CaixaPesquisa></CaixaPesquisas><Menus><Menu ID="MenuTopo"><ApenasDepartamento value="False" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[<span class="menu_conteudo">  
+  <ul>
+            <repeticao:pais>
+	       <li><a href="[A0]">[A1]</a>
+                <condicao:filho>
+                  <ul>
+                    <repeticao:filhos>
+                        <li><a href="[A0]">[A1]</a></li>
+                    </repeticao:filhos>
+                  </ul>
+                </condicao:filho>
+               </li>
+            </repeticao:pais>
+         </ul>
+</span>]]></MenuHTML><TipoMenu value="Horizontal" /></Menu><Menu ID="id_qualquer"><ApenasDepartamento value="False" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[<div id="menu_lateral">
+  <ul>
+    <repeticao:pais>
+      <li class="li">
+          <a href="[A0]">[A1]</a>
+          <condicao:filho>
+            <ul class="depts_filho">
+              <repeticao:filhos>
+                <li><a href="[A0]">[A1]</a></li>
+                  <condicao:neto>
+                      <repeticao:netos>
+                          <li><a href="[A0]"> - [A1]</a></li>
+                      </repeticao:netos>
+                  </condicao:neto>
+              </repeticao:filhos>
+            </ul>
+          </condicao:filho>
+      </li>
+    </repeticao:pais>
+  </ul>
+</div>]]></MenuHTML><TipoMenu value="Vertical" /></Menu></Menus></controles></page>

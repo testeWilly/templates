@@ -1,0 +1,47 @@
+/*topo*/
+
+.topo{
+    height: 121px;
+    margin: 0 auto;
+    position: relative;
+    width: 990px;
+}
+
+
+.topo_direita{
+    float: right;
+    margin: 10px 0 0;
+}
+
+.topo_esquerda{
+    float: left;
+}
+
+.logo{
+    background: url("../imagens/logo-animafest-final.png") no-repeat scroll center top transparent;
+    background-size: 90%;
+    background-position: 0 17px;
+    cursor: pointer;
+    height: 117px;
+    text-indent: -9999px;
+    width: 251px;
+}
+
+.logo a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.nav_bar span:first-child a{
+    border: 0;
+}
+
+.nav_bar a{
+    border-left: 1px solid #11c1c1;
+    color: #11c1c1;
+    display: inline-block;
+    font-family: "arial";
+    font-size: 11px;
+    padding: 3px 5px 3px 8px;
+}

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CategoriaListas><CategoriaLista ID="categoriaLista"><CssComponente><![CDATA[]]></CssComponente><Listas><![CDATA[    <div id="container-listas">
+        <div id="menu-listas">
+          <div class="bg_listas"></div>
+            <ul>
+              <repeticao:categorias>
+                <li><a href="[A8]" class="<condicao:menu_selecionado>lista-selecionada</condicao:menu_selecionado>"><span>[A5]</span></a></li>
+              </repeticao:categorias>
+            </ul>
+        </div>
+        <div id="conteudo-listas" class="tabela-listas">
+           <div class="texto_categoria">
+            <h3>[A5]</h3>
+            <small>
+             
+                <ul>
+                    <li>Confira abaixo a lista escolar de acordo com a escolaridade de seus filhos</li>
+                    <li class="last">Clique no nome da lista para ver os produtos. </li>
+ 
+                </ul>
+                
+             
+             </small>
+             </div>
+           <div class="imagem_categoria"></div>
+            <table border="0" cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>&nbsp;</th>
+                        <th>Lista</th>
+                        <th>Qtd de Produtos</th>
+                        <th>Preço Total</th>
+                        <th>Comprar lista</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <repeticao:listas>
+                <tr>
+                  <td><a href="[A4]"><img src="[A2]" alt="[A0]" /></a></td>
+                    <td class="nome_lista"><a href="[A4]">[A0]</a></td>
+                    <td>[A3]</td>
+                  <td class="preco"><span>De: [A9]</span> Por: [A6]</td>
+                  <td><a href="[A7]"><img src="imagens/comprar-lista.png?1" alt="comprar lista" /></a></td>
+                </tr>
+            </repeticao:listas>
+ 
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>]]></Listas><ListaVaziaHTML><![CDATA[<div id="container-listas">
+        <div id="menu-listas">
+          <div class="bg_listas"></div>
+            <ul>
+              <repeticao:categorias>
+                <li><a href="[A8]"><span>[A5]</span></a></li>
+              </repeticao:categorias>
+            </ul>
+        </div>
+        <div id="conteudo-listas" class="tabela-listas">
+          <h2>Categoria Vazia</h2>
+
+        </div>
+    </div>]]></ListaVaziaHTML></CategoriaLista><CategoriaLista ID="CategoriaLista"><Listas><![CDATA[<div class="tit_box_listapronta">
+  <h2>LOOKBOOK / <small>[A5]</small> <img src="imagens/ico_coracao_look.png" /></h2>
+  <span>Basta <small class="italico">clicar</small> na imagem para conferir todos os produtos relacionados com o look desejado!</span>
+  <span class="seta-look">seta</span>
+</div>
+<div class="vitrine_geral_listapronta">
+ <ul class="vitrine_fechada">
+    <repeticao:listas>
+    <li>
+       <div class="produto">
+         <div class="foto">          
+             <a href="[A4]">
+                 <img alt="[A5]" src="[A2]" />
+             </a>
+          </div>          
+          <div class="produto_info">
+              <h3 class="titulo"><a href="[A4]">[A0]</a></h3>
+              <div class="preco_antigo">
+                <condicao:de_por>
+                    <span class="preco_antigo_preco">de: [A9]</span>
+                </condicao:de_por>
+              </div>
+
+             <div class="preco">
+                   <span class="preco_preco">Por: [A6]</span>
+              </div>
+          </div>
+
+       </div>
+    </li>
+    </repeticao:listas>
+</ul>
+</div>                        ]]></Listas><ListaVaziaHTML><![CDATA[<h2>Lista Vazia</h2>]]></ListaVaziaHTML></CategoriaLista></CategoriaListas><CategoriasListas><CategoriasLista ID="MenuLista"><CategoriasListaHTML><![CDATA[<ul>
+    <repeticao:categorias>
+    <li>
+        <a href="[A1]">
+            <span>[A0]</span>
+        </a>
+    </li>
+    </repeticao:categorias>
+</ul>]]></CategoriasListaHTML></CategoriasLista></CategoriasListas></controles></page>

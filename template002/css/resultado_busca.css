@@ -1,0 +1,144 @@
+  .paginacao a:hover{
+    text-decoration:underline;
+  }
+
+
+  .comparacao{
+  font-weight: bold;
+  color: #000;
+  text-align: right;
+  margin: 15px 0;
+  font-size: 11px;
+}
+
+
+.comparacao img {
+  vertical-align: middle;
+  cursor: pointer;
+  margin: 0 15px 0 5px;
+}
+
+.menu_lateral{
+  background: url('../imagens/categorias_busca.jpg') no-repeat right top #f7e9d7;
+  overflow: hidden;
+  margin-bottom: 15px;
+  padding-top: 40px;
+  width: 165px;
+}
+
+.menu_lateral_conteudo{
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.menu_lateral_conteudo ul{
+  list-style: none;
+  padding: 5px 0 0px 0px;
+}
+
+.menu_lateral_conteudo ul li{
+  padding: 1px 0;
+}
+
+.menu_lateral_conteudo ul li a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.menu_lateral_conteudo ul li ul{
+  list-style: none;
+  padding: 5px 0 10px 10px;
+  border-bottom: 1px dotted #fff;
+  margin-bottom: 10px;
+}
+
+.menu_lateral_conteudo ul li a:hover{
+  text-decoration: underline;
+}
+
+.menu_lateral_conteudo ul li ul li a{
+  color: #333;
+  font-size: 11px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.vitrine_rodape ul{
+  text-align: center;
+  list-style: none;
+}
+
+
+.vitrine_rodape ul li{
+  height: 304px;
+  width: 175px;
+  float: left;
+  margin: 0 5px 55px;
+  _margin: 0 10px 55px;
+}
+
+.tags{
+  height:30px;
+}
+
+.vitrine_rodape ul li div.produto{
+  padding: 5px;
+  height: 263px;
+}
+
+.vitrine_rodape ul li .foto{
+  height: 155;
+  text-align: center;
+  margin:10px 0;
+  position: relative;
+}
+
+.vitrine_rodape ul li .foto .frete_gratis{
+  bottom:0;
+  _top:100px;
+  left: 15px;
+  _left: 0px;
+  position: absolute;
+}
+
+.vitrine_rodape ul li .titulo{
+  height: 55px;
+}
+
+.vitrine_rodape ul li .titulo a{
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: bold;
+  color:#000000;
+}
+
+ .vitrine_rodape ul li .titulo a:hover{
+  text-decoration: underline;
+}
+
+.vitrine_rodape ul li .preco_parcelado{
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+.vitrine_rodape ul li .preco{
+  font-size: 11px;
+  font-weight: bold;
+  color:#FF8601;
+}
+
+.vitrine_rodape ul li .preco span.preco_de{
+  color:#FF8601;
+
+}
+
+.vitrine_rodape ul li .preco span.preco_por{
+  font-size: 12px;
+  color:#333333;
+}
+
+.vitrine_rodape ul li .espiar{
+  margin-top: 10px;
+}

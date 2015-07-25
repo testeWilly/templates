@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><VariantesProdutos><VariantesProduto ID="Varianteproduto"><ClasseCssImagemSelecionada value="" /><CssComponente><![CDATA[]]></CssComponente><VariantesProdutoHTML><![CDATA[<div class="produto_comprar">
+    <ul>
+        <!-- <condicao:variante1> -->
+            <li>[A1]</li>
+        <!-- </condicao:variante1> -->
+        <!-- <condicao:variante2> -->
+            <li>[A1]</li>
+       <!-- </condicao:variante2> -->
+        <li>
+            <condicao:botao_comprar>
+                <a href="[A3]">Comprar</a>
+            </condicao:botao_comprar>
+            <condicao:botao_comprar_direto>
+                <a href="[A6]">Comprar</a>
+            </condicao:botao_comprar_direto>
+            <condicao:botao_encomendar>
+                <img alt="Encomendar" src="Imagens/bt_aviseme.png?1" onclick="[A4]" />
+            </condicao:botao_encomendar>
+        </li>
+    </ul>
+</div>
+<condicao:disponibilidade>Disponível em:[A2]</condicao:disponibilidade>]]></VariantesProdutoHTML></VariantesProduto></VariantesProdutos><ProdutoNomes><ProdutoNome ID="ProdutoNome1"><CssComponente><![CDATA[]]></CssComponente><ProdutoNomeHTML><![CDATA[<h2>
+[A0] [A1] [A2]
+</h2>]]></ProdutoNomeHTML></ProdutoNome></ProdutoNomes><PrecoProdutos><PrecoProduto ID="PrecoProduto1"><CssComponente><![CDATA[]]></CssComponente><ParcelamentoProdutoHTML><![CDATA[<div class="container_parcelamento" style="display:none">
+    <div id="box_parcelamento">
+        <div class="tit_box">
+            <h2>Parcelamento</h2>
+        </div>
+        <div class="conteudo">
+            <ul>
+                <repeticao:metodo_pagamento>
+                <li>
+                    <div class="img_parc"><img src="[B1]" alt="Parcelamento" /></div>
+                    <div class="formas_parc">
+                        <table border="0" cellpadding="2" cellspacing="1">
+                            <thead>
+ 
+                                <tr>
+                                    <th>Número de Parcelas</th>
+                                    <th>Valor das Parcelas</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <repeticao:parcelas>
+                                <tr>
+                                    <td>[B2]</td>
+                                    <td>[B3]</td>
+                                </tr>
+                                </repeticao:parcelas>
+                            </tbody>
+                        </table>
+                    </div>
+                </li>
+                </repeticao:metodo_pagamento>
+            </ul>
+        </div>
+    </div>
+</div>]]></ParcelamentoProdutoHTML><PrecoProdutoHTML><![CDATA[<div class="produto_preco">
+    <div class="produto_preco_total">
+        <span class="preco_por_titulo">Por Apenas:</span> <span class="preco_por">[A3]</span>
+         <condicao:desconto_vista>
+            <span class="preco_por_texto">(+ [A4]% de desconto para o pagamento à vista)</span>
+         </condicao:desconto_vista>
+<condicao:unidade></condicao:unidade>
+    </div>
+<condicao:parcelamento>
+            <div class="produto_preco_parcelado">
+                <span class="preco_parcelado_titulo">[A5] [A6]</span> <span class="preco_parcelado">[A7]</span>
+                <span class="preco_parcelado_texto">(sem juros)</span>
+            </div>
+        <div class="produto_bt_parcelamento">
+            <a href="#" class="abrir_parcelamento">
+                <img src="imagens/bt_parcelamento.png?1" alt="Clique aqui para ver o parcelamento"
+                    title="Clique aqui para ver o parcelamento" border="0" />
+            </a>
+        </div>
+        [A10]
+</condicao:parcelamento>
+    </div>]]></PrecoProdutoHTML></PrecoProduto></PrecoProdutos><ImagensProdutos><ImagensProduto ID="ImagensProduto1"><CssComponente><![CDATA[]]></CssComponente><ImagensProdutoHTML><![CDATA[ <div class="produto_foto">
+           
+            <div>[A0]</div>
+	    <condicao:imagens_pequenas>
+              <div class="produto_mini_fotos">
+                <repeticao:imagem>[A1]</repeticao:imagem>
+              </div>
+	   </condicao:imagens_pequenas>    
+          </div>
+]]></ImagensProdutoHTML><TamanhoImagemEspiar value="Grandes" /><TamanhoImagemProdutos value="Gigantes" /><TamanhoImagemZoomEspiar value="SuperZoom" /><TamanhoImagemZoomProdutos value="SuperZoom" /><ZoomAtivado value="True" /></ImagensProduto></ImagensProdutos><ProdutoAvaliars><ProdutoAvaliar ID="ProdutoAvaliar1"><AvaliacaoHTML><![CDATA[]]></AvaliacaoHTML><ImagemAvaliacaoDeselecionado value="" /><ImagemAvaliacaoSelecionado value="" /><MensagemAlertaProdutoAvaliarHTML><![CDATA[]]></MensagemAlertaProdutoAvaliarHTML><MensagemSucessoProdutoAvaliarHTML><![CDATA[]]></MensagemSucessoProdutoAvaliarHTML><ProdutoAvaliarHTML><![CDATA[]]></ProdutoAvaliarHTML><ProdutoPrimeiraAvaliacaoHTML><![CDATA[]]></ProdutoPrimeiraAvaliacaoHTML><ReadOnly value="False" /></ProdutoAvaliar></ProdutoAvaliars><AtributosProdutos><AtributosProduto ID="AtributosProduto1"><AtributosProdutoHTML><![CDATA[<repeticao:atributos>
+        <strong>[A0]: </strong>[A1] <br/>
+    </repeticao:atributos>
+]]></AtributosProdutoHTML><CssComponente><![CDATA[]]></CssComponente></AtributosProduto></AtributosProdutos><ProdutoDescricoess><ProdutoDescricoes ID="ProdutoDescricoes1"><ProdutoDescricoesHTML><![CDATA[]]></ProdutoDescricoesHTML></ProdutoDescricoes></ProdutoDescricoess></controles></page>

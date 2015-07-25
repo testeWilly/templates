@@ -1,0 +1,108 @@
+.tit_box_listapronta{
+    border-bottom: 1px dashed #9da6ad;
+    margin: 5px 0;
+    text-align: left;
+    position: relative;
+    height: auto;
+}
+
+.tit_box_listapronta h2{
+    font-family: bellotabold;
+    background: none;
+    color: #ee937c;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-transform: normal;
+}
+
+.tit_box_listapronta h2 small{
+    font-size:24px;
+}
+
+.tit_box_listapronta span{
+    color: #3C3C3C;
+    display: block;
+    font-size: 13px;
+    margin: 2px 0 39px;
+}
+
+.tit_box_listapronta span .italico{
+    color: #3C3C3C;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.tit_box_listapronta span.seta-look{
+    background: url("../imagens/bullet_seta_look_clic.png") no-repeat scroll 0 0;
+    height: 25px;
+    left: 45px;
+    margin: 0 5px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 67px;
+    width: 21px;
+}
+
+/*listagem*/
+
+.vitrine_geral_listapronta{
+    
+}
+
+.vitrine_geral_listapronta ul{
+    font-size: 0;
+    list-style: none outside none;
+    margin-left: -59px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    text-align: left;    
+}
+
+.vitrine_geral_listapronta ul li {
+    display: inline-block;
+    float: none;
+    height: auto;
+    margin-left: 59px;
+    margin-top: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 220px;    
+}
+
+.vitrine_geral_listapronta ul li .produto{
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.vitrine_geral_listapronta ul li .produto_info{
+    font-size: 12px;
+}
+
+.vitrine_geral_listapronta ul li .produto_info .titulo a{   
+    color: #4C1E25;
+    display: block;
+    font-weight: normal;
+}
+
+.vitrine_geral_listapronta ul li .produto_info .preco_antigo_preco{   
+    text-decoration: line-through;
+    color: #A0766B;
+    display: block;
+    float: left;
+    font-size: 11px;
+    font-weight: normal;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+.vitrine_geral_listapronta ul li .produto_info .preco_preco{   
+    color: #A0766B;
+    display: block;
+    float: left;
+    font-family: bellotabold;
+    font-size: 14px;
+    font-weight: normal;
+}

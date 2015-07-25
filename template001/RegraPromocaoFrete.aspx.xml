@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><RegraPromocaoFretes><RegraPromocaoFrete ID="regrapromocaofrete"><CssComponente><![CDATA[]]></CssComponente><RegraPromocaoFreteHTML><![CDATA[<repeticao:promocoes>
+<strong>[A1]</strong><br /><br />
+
+[A2]
+</repeticao:promocoes>]]></RegraPromocaoFreteHTML></RegraPromocaoFrete></RegraPromocaoFretes></controles></page>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <Links>
+      <Link ID="LinkMeuCadastro" NomeAmigavel="" Visible="True">
+        <EnderecoLinkExterno value="" />
+        <Imagem value="bt_topo_cadastro.jpg" />
+        <PaginaLoja value="Identificacao" />
+        <Parametros value="destino=Comprador" />
+        <Target value="MesmaPagina" />
+        <Texto value="Meu Cadastro" />
+      </Link>
+      <Link ID="LinkMeusPedidos" NomeAmigavel="" Visible="True">
+        <EnderecoLinkExterno value="" />
+        <Imagem value="bt_topo_pedidos.jpg" />
+        <PaginaLoja value="Identificacao" />
+        <Parametros value="destino=MeusPedidos" />
+        <Target value="MesmaPagina" />
+        <Texto value="Meus Pedidos" />
+      </Link>
+      <!--<Link ID="LinkCarrinhoCompras" NomeAmigavel="Link Carrinho" Visible="True">
+        <PaginaLoja value="Carrinho" />
+        <EnderecoLinkExterno value="" />
+        <Target value="MesmaPagina" />
+        <Texto value="Carrinho" />
+        <Parametros value="" />
+        <Imagem value="nav_bt_carrinho.gif" />
+        <Template value="1" />
+      </Link>-->
+      <Link ID="LinkDefault" NomeAmigavel="Link Página Inicial" Visible="True">
+        <PaginaLoja value="Default" />
+        <EnderecoLinkExterno value="" />
+        <Target value="MesmaPagina" />
+        <Texto value="Página Inicial" />
+        <Parametros value="" />
+        <Imagem value="nav_bt_home.gif" />
+        <Template value="1" />
+      </Link>
+      <Link ID="LinkDefaultBanner" NomeAmigavel="Link Página Inicial" Visible="True">
+        <PaginaLoja value="Default" />
+        <EnderecoLinkExterno value="" />
+        <Target value="MesmaPagina" />
+        <Texto value="Página Inicial" />
+        <Parametros value="" />
+        <Imagem value="banner_1.jpg" />
+        <Template value="1" />
+      </Link>
+      <Link ID="LinkCarrinhoCompras" NomeAmigavel="" Visible="True">
+        <EnderecoLinkExterno value="" />
+        <Imagem value="bt_topo_meucarrinho.jpg" />
+        <PaginaLoja value="Carrinho" />
+        <Parametros value="" />
+        <Target value="MesmaPagina" />
+        <Texto value="" />
+      </Link>
+      <Link ID="LinkListaPresentes" NomeAmigavel="Lista de Presentes">
+        <CssComponente><![CDATA[]]></CssComponente>
+        <EnderecoLinkExterno value="" />
+        <Imagem value="Bt_ListaPresentes.png" />
+        <PaginaLoja value="ListaPresentesPrincipal" />
+        <Parametros value="" />
+        <Target value="MesmaPagina" />
+        <Texto value="Lista de Presentes" />
+        <UsarHTTPS value="False" />
+      </Link>
+      <Link ID="PaginaInicial" NomeAmigavel="" Visible="True">
+        <CssComponente><![CDATA[]]></CssComponente>
+        <EnderecoLinkExterno value="" />
+        <Imagem value="" />
+        <PaginaLoja value="Default" />
+        <Parametros value="" />
+        <Target value="MesmaPagina" />
+        <Texto value="&lt;h1&gt;Ciashop - Soluções para seu comércio eletrônico&lt;/h1&gt;" />
+      </Link>
+    </Links>
+    <LabelVisitantes>
+      <LabelVisitante ID="LabelVisitante1" NomeAmigavel="" Visible="True">
+        <CssComponente><![CDATA[]]></CssComponente>
+        <HTMLModeloLogado>
+          <![CDATA[            <span class="saudacao">
+              <span>[A1] <strong>[A2]</strong> (Se não for você, <a href="[A0]">clique aqui</a>.)</span>
+            </span>]]>
+        </HTMLModeloLogado>
+        <HTMLModeloNaoLogado>
+          <![CDATA[            <span class="saudacao">
+              <span>[B1] <strong>Visitante</strong> (Para logar, <a href="[B0]">clique aqui</a>)</span>
+            </span>]]>
+        </HTMLModeloNaoLogado>
+      </LabelVisitante>
+    </LabelVisitantes>
+    <ListaPresentesTopos>
+      <ListaPresentesTopo ID="ListaPresentesTopo1">
+        <CssComponente><![CDATA[]]></CssComponente>
+        <ListaPresentesTopoHTML>
+          <![CDATA[
+<div id="menu" align="center">
+  <center>
+    <span class="containner">
+      <ul id="barra">
+        <repeticao:categoria>
+          <li class="top"><a href="[A1]">[A0]</a> 
+        </repeticao:categoria>
+      </ul>
+    </span>
+  </center>
+</div>            
+            ]]>
+        </ListaPresentesTopoHTML>
+      </ListaPresentesTopo>
+    </ListaPresentesTopos>
+  </controles>
+</page>

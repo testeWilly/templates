@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><ListaPresenteBuscas><ListaPresenteBusca ID="listaPresenteBusca1"><CssComponente><![CDATA[
+        #erro
+						{
+							width: 100%;
+							text-align: center;
+							margin: 20px 0 20px 0;
+						}
+
+						.lista_erro_peq
+						{
+							margin: 0 auto;
+							text-align: left;
+							width: 290px;
+							background-color: #FFD7D7;
+							border: 1px solid #962926;
+							padding: 10px 5px 10px 65px;
+							background-image: url('../../imagens/erro.png');
+							background-repeat: no-repeat;
+							background-position: top left;
+						}
+
+						.lista_erro_peq h2
+						{
+							color: #972B28;
+							font-size: 14px;
+							margin: 7px 0;
+						}
+
+						.lista_erro_peq ul
+						{
+							list-style: none;
+						}
+
+						.lista_erro_peq ul li
+						{
+							padding-left: 12px;
+							color: #972B28;
+							font-size: 12px;
+							background-image: url('../../imagens/seta_erro.gif');
+							background-repeat: no-repeat;
+							background-position: left 4px;
+							line-height: 20px;
+						}
+        ]]></CssComponente><ListaPresenteBuscaHTML><![CDATA[
+              <div class="box">
+                <div class="tit_box">
+                  <h2>Busca:</h2>
+                </div>
+                [A4]
+                <div>
+                  <fieldset>
+                    <label>Nome do homenageado:<br>[A0]</label><br>
+                    <label>Data do evento:<br>[A1]</label><br>
+                    <label>Tipo:<br>[A2]</label>
+                  </fieldset>
+                  <a href="[A3]">
+                    <img src="imagens/bt_enviar.png" alt="enviar" border="0" align="right" />
+                  </a>
+                </div>
+              </div>
+            ]]></ListaPresenteBuscaHTML><MensagemAlertaListaPresenteBuscaHTML><![CDATA[
+          	<div id="erro">
+							<div class="lista_erro_peq">
+								<h2>[B0]</h2>
+								<ul>
+									<repeticao:erro>
+										<li>[B1]</li>
+									</repeticao:erro>
+								</ul>
+							</div>
+						</div>
+          ]]></MensagemAlertaListaPresenteBuscaHTML></ListaPresenteBusca></ListaPresenteBuscas><Links><Link ID="LinkListaPresentesLogin"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="ListaPresenteLogin" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Login" /></Link><Link ID="lnkListaPresentesListagem1"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="ListaPresentesListagem" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Ver e editar minha lista" /><UsarHTTPS value="False" /></Link></Links></controles></page>

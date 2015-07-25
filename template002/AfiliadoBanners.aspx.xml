@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><AfiliadoBannerss><AfiliadoBanners ID="afiliadoBanner"><AfiliadoBannerHTML><![CDATA[<div class="respiro">
+  <div class="heading-special">
+     <h2>Opções de Banner</h2>
+    </div>
+    <div id="afiliados">
+        <div class="respiro">
+          <ul class="subtitulo_afiliados">
+            <li>Para inserir um banner em seu site basta escolher um de nossos modelos listados abaixo, copiar seu código HTML e colar onde deseja inseri-lo.</li>
+            <li>Seu código de afiliado já está inserido no HTML, sendo assim não há necessidade alterá-lo.</li>
+          </ul>
+        <div class="afiliados_conteudo">
+            <div class="heading-special">
+                <h2>Modelos</h2>
+            </div>
+            <ul class="afiliados_banner">
+            <repeticao:banners>
+                <li>
+                    <img src="[A5]" alt="Modelo [A1]" border="0" />
+                    <div class="codigo">
+                      <div class="codigo_conteudo">
+                        [A6]
+                      </div>
+                    </div>
+                </li>
+            </repeticao:banners>
+            </ul>
+        </div>
+        </div>
+    </div>
+</div>
+]]></AfiliadoBannerHTML></AfiliadoBanners></AfiliadoBannerss><ScriptRazors><ScriptRazor ID="titlePage"><ScriptRazorHTML><![CDATA[@TemplateSettings.main_storeName]]></ScriptRazorHTML></ScriptRazor></ScriptRazors></controles></page>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Menus><Menu ID="Menu_lateral"><ApenasDepartamento value="True" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[<ul class="menu_lateral">
+  <repeticao:pai>
+  <li class="li">
+      <h2 class="menu_pai"><a href="[A0]">[A1]</a></h2>
+      <condicao:filho>  
+      <ul class="depts_filho">
+        <repeticao:filho>
+          <li><h3><a href="[A0]">[A1]</a></h3></li>
+            <condicao:neto>
+                <repeticao:neto>
+                    <li><h4><a href="[A0]" style="padding-left: 25px;">[A1]</a></h4></li>
+                    <condicao:geral>
+                        <repeticao:geral>
+                            <li><h5><a href="[A0]" style="padding-left: 35px;">[A1]</a></h5></li>
+                        </repeticao:geral>
+                    </condicao:geral>
+                </repeticao:neto>
+            </condicao:neto>
+        </repeticao:filho>
+      </ul>
+      </condicao:filho>  
+  </li>
+  </repeticao:pai>
+</ul>]]></MenuHTML><TipoMenu value="Vertical" /></Menu></Menus><FiltroGruposs><FiltroGrupos ID="FiltroGrupos"><CssComponente><![CDATA[]]></CssComponente><FiltroGruposHTML><![CDATA[<div id="menulateral">
+    <ul class="menu_lateral">
+    <repeticao:tipo_filtro>
+
+    <li class="li">
+        <h2 class="menu_pai"><a href="#">[A0]</a></h2>
+
+         <ul class="depts_filho">
+            <repeticao:filtro>
+              <li><h3><a href="[A3]">[A1] <small>([A2])</small></a></h3></li>
+            </repeticao:filtro>
+          </ul>
+
+      </li>
+      </repeticao:tipo_filtro>
+
+</ul>
+</div>]]></FiltroGruposHTML></FiltroGrupos></FiltroGruposs><FiltroFaixaPrecos><FiltroFaixaPreco ID="FaixaPreco"><CssComponente><![CDATA[]]></CssComponente><FiltroFaixaPrecoHTML><![CDATA[           <fieldset>
+                <h2>Faixa de Preço</h2>
+                <label>[A0]</label>
+                <label>[A1]</label>
+                <label><img src="imagens/bt_filtrar.png?1" alt="filtrar" onclick="[A2]" style="cursor: pointer"/></label>
+            </fieldset>
+		]]></FiltroFaixaPrecoHTML></FiltroFaixaPreco></FiltroFaixaPrecos></controles></page>

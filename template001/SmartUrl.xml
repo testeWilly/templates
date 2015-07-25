@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Urls>
+  <Regra>
+    <De>http://localhost:3139/LojaV5/Default/MinhaLoja</De>
+    <Para>http://localhost:3139/LojaV5/Default/T/1</Para>
+  </Regra>
+  <Regra>
+    <De>http://localhost:3139/LojaV5/Principal</De>
+    <Para>http://localhost:3139/LojaV5/Default/T/1</Para>
+  </Regra>
+</Urls>

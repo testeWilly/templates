@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Menus><Menu ID="MenuVertical" NomeAmigavel="Menu Vertical" Visible="True"><TipoMenu value="Vertical" /></Menu><Menu ID="MenuTopo" Visible="True"><ApenasDepartamento value="False" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[         <ul>
+            <repeticao:pais>
+	       <li><a href="[A0]">[A1]</a>
+                <condicao:filho>
+                  <ul>
+                    <repeticao:filhos>
+                        <li><a href="[A0]">[A1]</a></li>
+                    </repeticao:filhos>
+                  </ul>
+                </condicao:filho>
+               </li>
+            </repeticao:pais>
+         </ul>]]></MenuHTML><TipoMenu value="Vertical" /></Menu></Menus><ExibePaginaInstitucionals><ExibePaginaInstitucional ID="ExibePaginaIntitucional"><InstitucionalHTML><![CDATA[<div class="box_inst">
+<div class="tit_box"><h2>[A1]</h2></div>
+  <div class="box_conteudo">
+      <div class="respiro">
+            [A2]
+      </div>
+  </div>
+</div>]]></InstitucionalHTML><InstitucionalNaoEncontradaHTML><![CDATA[<div class="inst_nencontradaa">Desculpe, Página institucional não encontrada!</div>]]></InstitucionalNaoEncontradaHTML></ExibePaginaInstitucional></ExibePaginaInstitucionals><Banners><Banner ID="Fullzao_topo" /></Banners><SEOs><SEO ID="seo" /></SEOs></controles></page>

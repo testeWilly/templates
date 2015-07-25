@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ListaPresentesVitrineConvidados>
+      <ListaPresentesVitrineConvidado ID="Vitrine_lista_presentes">
+        <CssComponente><![CDATA[]]></CssComponente>
+        <ListaPresentesVitrineConvidadoCabecalhoHTML>
+          <![CDATA[
+            <div>
+              <div style="float:left;padding:10px;">
+                <img src="[B0]" alt="[B1]" border="0" />
+              </div>
+              <div style="float:left;padding:10px;">
+                <b>[B1]</b><br>
+                [B2]<br>
+                [B3]<br>
+              </div>
+            </div>          
+          ]]>
+        </ListaPresentesVitrineConvidadoCabecalhoHTML>
+        <ListaPresentesVitrineConvidadoCategoriasHTML>
+          <![CDATA[
+            <div style="clear:both;">
+              <ul>
+                <li style="float:left;padding:5px;">
+                  <a href="[D2]">Todos</a>
+                </li>
+                <repeticao:categoria>
+                  <li style="float:left;padding:5px;" <condicao:selecionado>class="selecionado"</condicao:selecionado> >
+                    <a href="[D1]">[D0]</a>
+                  </li>
+                </repeticao:categoria>
+              </ul>
+            </div>          
+          ]]>
+        </ListaPresentesVitrineConvidadoCategoriasHTML>
+        <ListaPresentesVitrineConvidadoHTML>
+          <![CDATA[
+            <div class="box">
+              <div class="cabecalho">
+                [A0]
+              </div>
+              <div class="pesquisa">
+                [A1]
+              </div>
+              <div>
+                [A2]
+              </div>
+              <div>
+                [A3]
+              </div>
+              <div>
+                [A4]
+              </div>
+            </div>
+          ]]>
+        </ListaPresentesVitrineConvidadoHTML>
+        <ListaPresentesVitrineConvidadoPaginacaoHTML>
+          <![CDATA[
+            <div style="clear:both;">
+              <ul>
+                <repeticao:pagina>
+                  <li style="float:left;padding:5px;">
+                    <a href="[F1]" <condicao:pagina_selecionada> class="paginaselecionada" </condicao:pagina_selecionada> >[F0]</a>
+                  </li>
+                </repeticao:pagina>
+              </ul>
+            </div>          
+          ]]>
+        </ListaPresentesVitrineConvidadoPaginacaoHTML>
+        <ListaPresentesVitrineConvidadoPesquisaHTML>
+          <![CDATA[
+            <div style="clear:both;">
+              Buscar o(s) produto(s) da lista:
+              &nbsp;&nbsp;[C0]
+              &nbsp;&nbsp;
+              <a href="[C2]">
+                Buscar
+              </a>
+              <br>
+              Ordernar a lista por [C1]
+            </div>
+          
+          ]]>
+        </ListaPresentesVitrineConvidadoPesquisaHTML>
+        <ListaPresentesVitrineConvidadoProdutosHTML>
+          <![CDATA[
+            <div style="clear:both;">
+              <table width="90%">
+                <repeticao:produto>
+                  <tr>
+                    <td>
+                      <img src="[E0]" alt="" border="0" style="float:left;" />
+                    </td>
+                    <td style="width:30%;">
+                      <b>[E1]</b><br>
+                      [E2]<br>
+                    </td>
+                    <td style="width:30%;">
+                      <condicao:botao_comprar>
+                        <img src="imagens/bt_comprar.png" alt="Comprar" border="0" onclick="[E3]" />
+                      </condicao:botao_comprar>
+                      <condicao:botao_encomendar>
+                        <img alt="Encomendar" src="Imagens/bt_aviseme.png" onclick="[E4]" />
+                      </condicao:botao_encomendar>
+                      <condicao:produto_comprado>
+                        <img alt="Vendido" src="Imagens/vendido.png" />
+                      </condicao:produto_comprado>
+                    </td>
+                  </tr>
+                </repeticao:produto>
+              </table>
+            </div>
+          ]]>
+        </ListaPresentesVitrineConvidadoProdutosHTML>
+        <ListaPresentesVitrineConvidadoSemProdutosHTML>
+          <![CDATA[
+            <div style="clear:both;">
+              Não há produtos com este critério
+            </div>
+            ]]>
+        </ListaPresentesVitrineConvidadoSemProdutosHTML>
+        <QuantidadeItensPorPagina value="10" />
+        <TamanhoImagem value="Grandes" />
+      </ListaPresentesVitrineConvidado>
+    </ListaPresentesVitrineConvidados>
+  </controles>
+</page>

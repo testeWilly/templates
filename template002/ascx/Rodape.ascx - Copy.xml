@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><PaginasInstitucionaiss><PaginasInstitucionais ID="PaginasInstitucionais"><PaginasInstitucionaisHTML><![CDATA[
+		<repeticao:pagina_institucional>
+			<li><a class="links" target="[A2]" href="[A1]">[A0]</a></li>
+		</repeticao:pagina_institucional>
+]]></PaginasInstitucionaisHTML></PaginasInstitucionais></PaginasInstitucionaiss><IconesRodapes><IconesRodape ID="Metodos_Pagamento"><CssComponente><![CDATA[]]></CssComponente><IconesRodapeHTML><![CDATA[<ul>
+    <repeticao:icone>
+        <li><img src="[A2]" border="0" alt="[A1]"/></li>
+    </repeticao:icone>
+</ul>
+]]></IconesRodapeHTML></IconesRodape></IconesRodapes><Links><Link ID="selo_rodape_ciashop"><EnderecoLinkExterno value="http://www.ciashop.com.br" /><Imagem value="rodape_selo_ciashop.png" /><PaginaLoja value="Default" /><Target value="NovaPagina" /><UsarHTTPS value="False" /></Link><Link ID="selo_rodape_fcontrol"><EnderecoLinkExterno value="http://www.fcontrol.com.br" /><Imagem value="rodape_selo_fcontrol.png" /><PaginaLoja value="Default" /><Target value="NovaPagina" /><UsarHTTPS value="False" /></Link><Widget ID="selo_rodape_ebit"><CssComponente><![CDATA[]]></CssComponente><WidgetUsado value="6" /></Widget><Link ID="lnkDuvidas"><PaginaLoja value="Duvidas" /><Target value="MesmaPagina" /><Texto value="Dúvidas" /><UsarHTTPS value="False" /></Link><Link ID="lnkFaleConosco"><PaginaLoja value="FaleConosco" /><Target value="MesmaPagina" /><Texto value="Fale Conosco" /><UsarHTTPS value="False" /></Link><Link ID="link_afiliados"><PaginaLoja value="LoginAfiliado" /><Target value="MesmaPagina" /><Texto value="Afiliados" /><UsarHTTPS value="False" /></Link><Link ID="selo_rodape_notapaulista"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="rodape_selo_notapaulista.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="" /><UsarHTTPS value="False" /></Link><Link ID="selo_rodape_thawte"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="rodape_selo_thawte.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="" /><UsarHTTPS value="False" /></Link><Link ID="selo_rodape_site_blindado"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="https://www.siteblindado.com/pt/" /><Imagem value="selo_site_blindado.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="" /><UsarHTTPS value="False" /></Link><Link ID="selo_facebook"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.facebook.com/pages/CBA-Solu%25C3%25A7%25C3%25B5es-em-Benef%25C3%25ADcios-Alimenta%25C3%25A7%25C3%25A3o/152079511528329?ref=hnav" /><Imagem value="social_facebook.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Siga a CBA no Facebook" /><UsarHTTPS value="False" /></Link><Link ID="selo_twitter"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://twitter.com/#!/CBA_CESTAS_" /><Imagem value="social_twitter.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Siga a CBA no Twitter" /><UsarHTTPS value="False" /></Link><Link ID="CBA"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.cba.com.br/" /><Imagem value="selo_cba.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="CBA Alimentos" /><UsarHTTPS value="False" /></Link><Link ID="Bonus"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.bonusbrasil.com.br/" /><Imagem value="selo_bonus.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Bônus" /><UsarHTTPS value="False" /></Link><Link ID="Seiva"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.seiva.com.br/" /><Imagem value="selo_seiva.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Seiva" /><UsarHTTPS value="False" /></Link><Link ID="Nutri"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.nutrifuturo.com.br/" /><Imagem value="selo_nutri.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Nutri Futuro" /><UsarHTTPS value="False" /></Link><Link ID="Paladar"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.paladar.com.br/" /><Imagem value="selo_paladar.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Paladar" /><UsarHTTPS value="False" /></Link><Link ID="Palate"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.palate.com.br/" /><Imagem value="selo_palate.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Palate" /><UsarHTTPS value="False" /></Link><Link ID="DaBarra"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.dabarra.com.br/dabarra/Portugues/" /><Imagem value="selo_dabarra.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Da Barra" /><UsarHTTPS value="False" /></Link><Link ID="Vedin"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.vendin.com.br/" /><Imagem value="selo_vedin.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Vendin" /><UsarHTTPS value="False" /></Link><Link ID="Econ"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.econsuper.com.br/" /><Imagem value="selo_econ.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Econ Super" /><UsarHTTPS value="False" /></Link></Links><CaixaPesquisas><CaixaPesquisa ID="Busca_Rodape"><CaixaPesquisaHTML><![CDATA[<fieldset>
+       <label style="margin-left: 0pt;"><img style="cursor: pointer; vertical-align: middle" src="imagens/ico_rodape_busca.png?24"></label>
+       <label>[A0]</label>
+         <span>em</span>
+       <label>
+         [A1]
+       </label>
+       <label><a href="[A2]"><img src="imagens/bt_busca_rodape_ok.png?24" alt="Pesquisar Produtos"/></a></label>
+</fieldset>
+]]></CaixaPesquisaHTML><CssComponente><![CDATA[]]></CssComponente></CaixaPesquisa></CaixaPesquisas><Menus><Menu ID="MenuRodape"><ApenasDepartamento value="False" /><MenuHTML><![CDATA[<span style="display: inline-block">
+<ul class="menu_ul">
+    <repeticao:pai>
+        <li><a href="[A0]">[A1]</a></li>
+    </repeticao:pai>
+</ul>
+</span>]]></MenuHTML><TipoMenu value="Horizontal" /></Menu></Menus><GoogleAnalyticss><GoogleAnalytics ID="googleanalytitcs1"><AnalyticsConfirmadoHTML><![CDATA[<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol ) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+  var pageTracker = _gat._getTracker("[B14]");
+  pageTracker._trackPageview();
+  pageTracker._addTrans(
+      "[B0]", 
+      "[B1]", 
+      "[B2]", 
+      "[B3]", 
+      "[B4]", 
+      "[B5]", 
+      "[B6]", 
+      "[B7]"  
+    );
+
+
+   <repeticao: produtos>
+   pageTracker._addItem(
+      "[B8]", 
+      "[B9]", 
+      "[B10]",
+      "[B11]",
+      "[B12]",          
+      "[B13]"
+   );
+   </repeticao: produtos>
+   pageTracker._trackTrans(); //submits transaction to the Analytics servers
+} catch(err) {}
+</script>]]></AnalyticsConfirmadoHTML><AnalyticsHTML><![CDATA[<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{ 
+var pageTracker = _gat._getTracker("[A0]");
+pageTracker._trackPageview();
+} catch(err) {} 
+</script>]]></AnalyticsHTML></GoogleAnalytics></GoogleAnalyticss></controles></page>

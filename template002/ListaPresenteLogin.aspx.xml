@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ListaPresenteLogins>
+      <ListaPresenteLogin ID="ListaPresenteLogin1">
+        <CssComponente>
+          <![CDATA[
+          #erro
+						{
+							width: 100%;
+							text-align: center;
+							margin: 20px 0 20px 0;
+						}
+
+						.lista_erro_peq
+						{
+							margin: 0 auto;
+							text-align: left;
+							width: 290px;
+							background-color: #FFD7D7;
+							border: 1px solid #962926;
+							padding: 10px 5px 10px 65px;
+							background-image: url('../../imagens/erro.png');
+							background-repeat: no-repeat;
+							background-position: top left;
+						}
+
+						.lista_erro_peq h2
+						{
+							color: #972B28;
+							font-size: 14px;
+							margin: 7px 0;
+						}
+
+						.lista_erro_peq ul
+						{
+							list-style: none;
+						}
+
+						.lista_erro_peq ul li
+						{
+							padding-left: 12px;
+							color: #972B28;
+							font-size: 12px;
+							background-image: url('../../imagens/seta_erro.gif');
+							background-repeat: no-repeat;
+							background-position: left 4px;
+							line-height: 20px;
+						}
+          ]]></CssComponente>
+        <ListaPresentesLoginCadastradoHTML>
+          <![CDATA[
+            <div style="float:left;">
+              <h4>Já sou cliente</h4><br>
+              <fieldset>
+                <label>Tipo de Lista:  [C0]</label><br>
+                <label>Informe seu e-mail:  [C1]</label><br>
+                <label>Informe sua senha:  [C2]</label><br>
+                <label>
+                  <a href="[C3]">
+                    <img src="imagens/bt_continuar.jpg" alt="Continuar" border="0" align="right" />
+                  </a>
+                </label><br>
+                <label><a href="[C4]">Recuperar Senha</a></label>
+              </fieldset>
+            </div>
+            ]]>
+        </ListaPresentesLoginCadastradoHTML>
+        <ListaPresentesLoginCaixaHTML>
+          <![CDATA[
+            <div class="box">
+              <div class="tit_box">
+                <h2>Lista de Presentes</h2>
+              </div>
+              [A2]
+              <br>
+              [A0]
+              [A1]
+              [A3]
+            </div>
+          ]]>
+        </ListaPresentesLoginCaixaHTML>
+        <MensagemAlertaListaPresentesLoginHTML>
+          <![CDATA[
+          	<div id="erro">
+							<div class="lista_erro_peq">
+								<h2>[D0]</h2>
+								<ul>
+									<repeticao:erro>
+										<li>[D1]</li>
+									</repeticao:erro>
+								</ul>
+							</div>
+						</div>
+          ]]>
+        </MensagemAlertaListaPresentesLoginHTML>
+        <ListaPresentesLoginNaoCadastradoHTML>
+          <![CDATA[
+            <div style="float:left;">
+              <h4>Ainda não sou cadastrado</h4><br>
+              <fieldset>
+                <label>Tipo de Lista:  [B0]</label><br>
+                <label>Informe seu e-mail:  [B1]</label><br>
+                <a href="[B2]">
+                  <img src="imagens/bt_ir.gif" alt="enviar" border="0" align="right" />
+                </a>
+              </fieldset>
+            </div>
+          ]]>
+        </ListaPresentesLoginNaoCadastradoHTML>
+        <ListaPresentesLoginRecuperarSenhaHTML>
+          <![CDATA[
+            <fieldset>
+              <label>Forneça seu e-mail e enviaremos sua senha por e-mail.<br />[E0]</label>
+            </fieldset>
+            <div class="bt_direita">
+              <div class="respiro">
+                <input type="image" src="imagens/bt_recuperar_senha.png" alt="Recuperar Senha" onclick="[E1]" style="margin: 1px 0 0 10px"/>
+                <input type="image" src="imagens/bt_voltarverde.png" alt="Voltar" onclick="[E2]" align="left" />
+              </div>
+            </div>
+          ]]>
+        </ListaPresentesLoginRecuperarSenhaHTML>
+      </ListaPresenteLogin>
+    </ListaPresenteLogins>
+  </controles>
+</page>

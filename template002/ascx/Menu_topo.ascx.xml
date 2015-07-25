@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Menus><Menu ID="MenuTopo"><ApenasDepartamento value="False" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[<span style="display:inline-block">  
+  <ul>
+            <repeticao:pais>
+	       <li><a href="[A0]">[A1]</a>
+                <condicao:filho>
+                  <ul>
+                    <repeticao:filhos>
+                        <li><a href="[A0]">[A1]</a></li>
+                    </repeticao:filhos>
+                  </ul>
+                </condicao:filho>
+               </li>
+            </repeticao:pais>
+         </ul>
+</span>]]></MenuHTML><TipoMenu value="Horizontal" /></Menu></Menus></controles></page>

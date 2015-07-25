@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ListaPresenteBuscaResultados>
+      <ListaPresenteBuscaResultado ID="listaPresenteBuscaResultado1">
+        <CssComponente><![CDATA[]]></CssComponente>
+        <ListaPresenteBuscaResultadoHTML>
+          <![CDATA[
+            <div>
+              <repeticao:lista_presentes>
+                [A0]<br>
+                [A1]<br>
+                [A2]<br>
+                [A3]<br>
+                [A4]<br>
+              </repeticao:lista_presentes>
+              <repeticao:pagina>
+                 - <a href="[A6]">[A5]</a> -
+              </repeticao:pagina>
+            </div>
+          ]]>
+        </ListaPresenteBuscaResultadoHTML>
+        <ListaPresenteBuscaSemResultadoHTML>
+          <![CDATA[
+            Não há registros da busca com estes critérios:<br>
+            Nome do Homenageado: [B0]<br>
+            data do evento: [B1]<br>
+          ]]>
+        </ListaPresenteBuscaSemResultadoHTML>
+      </ListaPresenteBuscaResultado>
+    </ListaPresenteBuscaResultados>
+  </controles>
+</page>

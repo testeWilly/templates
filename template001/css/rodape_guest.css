@@ -1,0 +1,36 @@
+.metodos_pagamento{
+    float: left;
+    width: 335px;
+    margin-right: 20px;
+}
+
+.metodos_pagamento span{
+    font-size: 13px;
+    color: #092335;
+    display: block;  
+    font-weight: bold;
+    padding: 5px 0 0 15px;
+}
+
+.metodos_pagamento ul{
+    list-style: none;
+    padding: 5px 0 0 15px;
+}
+
+.metodos_pagamento ul li{
+    float: left;
+    margin-right: 5px;
+}
+
+.metodos_pagamento ul li a{
+    display: block;
+}
+
+.selos{
+    float: right;    
+    padding: 6px 0 0;
+}
+
+.selos img{
+    margin-right: 5px;
+}

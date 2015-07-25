@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CadastroCompradors><CadastroComprador ID="CadastroComprador1"><CadastroHTML><![CDATA[<table>
+<tr class="[A1]">
+<td>
+País: [A0][A2]
+</td>
+</tr>
+<tr>
+<td>
+Pessoa Fìsica: [A3]
+</td>
+</tr>
+<tr>
+<td>
+Pessoa Juridica: [A4]
+</td>
+</tr>
+<tr class="[A6]">
+<td>
+Nome: [A5][A7]
+</td>
+</tr>
+<condicao:nova_senha>
+<tr class="[A9]">
+<td>
+Senha: [A8][A10]
+</td>
+</tr>
+<tr class="[A12]">
+<td>
+Confirme sua senha: [A11][A13]
+</td>
+</tr>
+</condicao:nova_senha>
+<condicao:alterar_senha>
+<tr class="[A9]">
+<td>
+Senha Antiga: [A8][A10]
+</td>
+</tr>
+<tr class="[A9]">
+<td>
+Senha: [A45][A44]
+</td>
+</tr>
+<tr class="[A12]">
+<td>
+Confirme sua senha: [A11][A13]
+</td>
+</tr>
+</condicao:alterar_senha>
+<tr class="[A36]">
+<td>
+E mail: [A35][A37]
+</td>
+</tr>
+</table><br><condicao:pessoa_fisica>
+<table>
+<tr class="[A15]">
+<td>
+Data de Nascimento: [A14][A16]
+</td>
+</tr>
+<tr class="[A18]">
+<td>
+Sexo: [A17][A19]
+</td>
+</tr>
+<tr class="[A21]">
+<td>
+Estado Civil: [A20][A22]
+</td>
+</tr>
+<tr class="[A24]">
+<td>
+Profissão: [A23][A25]
+</td>
+</tr>
+<tr class="[A27]">
+<td>
+CPF: [A26][A28]
+</td>
+</tr>
+<tr class="[A30]">
+<td>
+Rg: [A29][A31]
+</td>
+</tr>
+<tr class="[A33]">
+<td>
+Estado Emissor: [A32][A34]
+</td>
+</tr>
+</table>
+</condicao:pessoa_fisica>
+<condicao:pessoa_juridica>
+<table>
+<tr class="[A40]">
+<td>
+CNPJ: [A39][A41]
+</td>
+</tr>
+<tr class="[A43]">
+<td>
+Inscrição Estadual: [A42][A44]
+</td>
+</tr>
+</table>
+</condicao:pessoa_juridica>
+<a href="[A38]"> Continuar</A>]]></CadastroHTML><CssComponente><![CDATA[]]></CssComponente><EnderecoHTML><![CDATA[]]></EnderecoHTML><EstiloErro value="trozoba" /><MensagemErroCadastroHTML><![CDATA[]]></MensagemErroCadastroHTML></CadastroComprador></CadastroCompradors></controles></page>

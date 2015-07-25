@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><BoletimNoticiass><BoletimNoticias ID="BoletimNoticia"><BoletimNoticiasHTML><![CDATA[<fieldset>
+    <legend>Cadastre-se e receba ofertas e novidades em seu email</legend>
+    <label> Seu nome: [A0]</label><br />
+    <label> Seu email: [A2]</label>
+    <condicao:sexo>
+     <label>Sexo: [A3][A6]</label><br />
+    </condicao:sexo>
+    <condicao:nascimento>
+     <label>Data de nascimento: [A1]</label><br />
+    </condicao:nascimento>
+<div class="cadastrar_news">
+    <a href="[A4]"> <img onclick="[A4]" src="imagens/bt_newsletter_enviar.png?8" alt="Cadastrar" style="cursor:pointer" /></a>
+</div>
+<div class="descadastrar">
+    <a href="[A5]">Descadastrar</a>
+</div>
+</fieldset>
+]]></BoletimNoticiasHTML><CssComponente><![CDATA[]]></CssComponente></BoletimNoticias></BoletimNoticiass><PaginasInstitucionaiss><PaginasInstitucionais ID="PaginasInstitucionais"><PaginasInstitucionaisHTML><![CDATA[
+		<repeticao:pagina_institucional>
+			<li><a class="links" target="[A2]" href="[A1]">[A0]</a></li>
+		</repeticao:pagina_institucional>
+]]></PaginasInstitucionaisHTML></PaginasInstitucionais></PaginasInstitucionaiss><Links><Link ID="LinkFaleConosco"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="FaleConosco" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Fale Conosco" /><UsarHTTPS value="False" /></Link><Link ID="LinkDuvidas"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Duvidas" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Dúvidas" /><UsarHTTPS value="False" /></Link><Link ID="LinkCiaShop"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.ciashop.com.br" /><Imagem value="ciashop.png" /><PaginaLoja value="AfiliadoPrincipal" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Desenvolvimento: CiaShop e-commerce evolution" /><UsarHTTPS value="False" /></Link><Link ID="LinkFControl"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.fcontrol.com.br" /><Imagem value="fcontrol.png" /><PaginaLoja value="AfiliadoPrincipal" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Fcontrol" /><UsarHTTPS value="False" /></Link><Link ID="Voltar_Loja"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Voltar para a loja" /><UsarHTTPS value="False" /></Link><Link ID="Meu_Cadastro"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="AlterarCadastroAfiliado" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Meu Cadastro" /><UsarHTTPS value="False" /></Link></Links><EbitBanners><EbitBanner ID="SeloEbit"><CssComponente><![CDATA[]]></CssComponente><EbitBannerHTML><![CDATA[[A0]]]></EbitBannerHTML></EbitBanner></EbitBanners></controles></page>

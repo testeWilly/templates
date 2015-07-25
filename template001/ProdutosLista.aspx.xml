@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><ProdutosListas><ProdutosLista ID="produtosLista"><ProdutosListaHTML><![CDATA[<div class="tit_box_listapronta">
+  <h2>LOOKBOOK / <small>[A19]</small> <img src="imagens/ico_coracao_look.png" /></h2>
+</div>
+<span class="subtitulo-produto">
+      Confira abaixo os produtos que compõem a produção.
+</span>
+<div class="produto-listas">
+      <div class="nome-produto">
+        [A16]
+      </div>
+      <div class="produto-esquerda">      
+        <div class="foto-principal">
+          <img src="[A34]" alt="Look um" />
+        </div>
+        <div class="foto-descricao">
+          Descontraído, o duo jeans e a camiseta ganha um up com o casaqueto de inspiração Chanel. Os sapatos são a aposta forte do look: cores alegres e vibrantes, modelagem perfeita e conforto - o look inseparável do seu cotidiano.
+        </div>
+      </div>
+      <div class="produto-direita">
+        <div class="comprar-lista">
+          <a href="[A14]" class="comprar-lista-completa"><img src="imagens/bt_comprar_look.png" alt="" /></a>
+        </div>
+        <div class="tit-produtos-lista">
+          <h2>
+            Confira as peças que compõem o look
+            <span>
+              seta
+            </span>
+          </h2>
+        </div>
+        <repeticao:produtos>
+        <div class="lista-de-produtos">
+            <a href="[A21]" class="excluir-produto-lista">
+              <img src="imagens/bullet_excluir_produtolista.png" alt="" />
+            </a>
+          <div class="produtos-foto">
+             <a href="[A2]">
+               <img src="[A1]?width=80&height=110" alt="[A0]" />
+             </a>
+          </div>
+          <div class="produtos-descricao">
+            <div class="produtos-titulo">
+              <h3>
+                <a href="[A2]">[A0]</a>
+              </h3>
+              <span>
+                <a href="[A2]">[A15]</a><a class="saiba-mais" href="[A2]">[saiba +]</a>
+              </span>             
+            </div>
+            <div class="produtos-variante">
+              <condicao:variante>
+               [B]
+              </condicao:variante>           
+              <div class="variante-dir">
+                <span>Qtd</span>
+                [A4]<span class="variante-atualizar">Atualizar</span>
+              </div>              
+            </div>
+          </div>
+          <div class="produtos-preco">
+            <condicao:preco_em_oferta>
+              <div class="produto-preco-de">
+                <span class="preco-de">de: [A6]</span>
+              </div>
+            </condicao:preco_em_oferta>
+            <div class="produto-preco-por">
+              <span class="preco-por">
+                Por
+              </span>
+              <span class="preco-preco">
+                [A5]
+              </span>
+            </div>
+          </div>
+        </div>
+        </repeticao:produtos>                
+      </div>
+</div>  
+<div class="comprar-lista-baixo">
+  <a href="[A14]" class="comprar-lista-completa"><img src="imagens/bt_comprar_look.png" alt="" /></a>
+</div> ]]></ProdutosListaHTML><VariantesProdutosListaHTML><![CDATA[<div class="variante-esq">
+  [B0]
+  [B1]
+</div>]]></VariantesProdutosListaHTML></ProdutosLista></ProdutosListas><CategoriasListas><CategoriasLista ID="CategoriaLista"><CategoriasListaHTML><![CDATA[<ul>
+    <repeticao:categorias>
+    <li>
+        <a href="[A1]">
+            <span>[A0]</span>
+        </a>
+    </li>
+    </repeticao:categorias>
+</ul>]]></CategoriasListaHTML></CategoriasLista></CategoriasListas><ProdutoListaBarraNavegacaos><ProdutoListaBarraNavegacao ID="BarraNavegacaoLista"><ProdutoListaBarraNavegacaoHTML><![CDATA[<a href="[A0]">Home</a> > <a href="[A1]">[A2]</a> > <strong>[A3]</strong>]]></ProdutoListaBarraNavegacaoHTML></ProdutoListaBarraNavegacao></ProdutoListaBarraNavegacaos></controles></page>

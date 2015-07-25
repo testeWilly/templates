@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Menus><Menu ID="Menu_lateral_esquerda"><ApenasDepartamento value="True" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[]]></MenuHTML><TipoMenu value="Vertical" /></Menu></Menus><BoletimNoticiass><BoletimNoticias ID="newslatter"><BoletimNoticiasHTML><![CDATA[
+    <fieldset class="nome">
+      <label> [A0]</label>
+    </fieldset>
+    <fieldset class="email">
+      <label> [A2]</label>
+    </fieldset>
+<div style="display: none;"><condicao:sexo>[A3][A6]</condicao:sexo><condicao:nascimento>[A1]</condicao:nascimento></div>
+<label><a href="[A4]"><img src="imagens/bt_assinar.png?11" alt="botao Cadastrar" /></a></label>
+      
+]]></BoletimNoticiasHTML><CssComponente><![CDATA[]]></CssComponente></BoletimNoticias></BoletimNoticiass></controles></page>

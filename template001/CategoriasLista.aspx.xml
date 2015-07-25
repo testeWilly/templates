@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CategoriasListas><CategoriasLista ID="CategoriaLista"><CategoriasListaHTML><![CDATA[<ul>
+    <repeticao:categorias>
+    <li>
+        <a href="[A1]">
+            <span>[A0]</span>
+        </a>
+    </li>
+    </repeticao:categorias>
+</ul>]]></CategoriasListaHTML></CategoriasLista></CategoriasListas></controles></page>

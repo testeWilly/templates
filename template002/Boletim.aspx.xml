@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<page>
+  <controles>
+
+    <Menus>
+      <Menu ID="MenuVertical" NomeAmigavel="Menu Vertical" Visible="True">
+        <TipoMenu value="Vertical" />
+      </Menu>
+    </Menus>
+
+    <BoletimNoticiass>
+      <BoletimNoticias ID="BoletimNoticias1" NomeAmigavel="Boletim de Noticias" Visible="True">
+		  <Exibicao value="pagina" />
+      </BoletimNoticias>
+    </BoletimNoticiass>
+
+  </controles>
+</page>

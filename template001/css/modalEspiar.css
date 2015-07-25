@@ -1,0 +1,26 @@
+﻿#modalEspiar, #modalEspiar2
+{
+    display: none; /* standard decorations */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+    border: 6px solid #4f4f4f;
+    background-color: #fff;
+    font-family: "lucida grande" ,tahoma,verdana,arial,sans-serif;
+    z-index: 10000;
+    position:fixed; /* sera?*/
+}
+
+#modalEspiar2 {
+	z-index: 10002!important;	
+}
+
+.fecharModal
+{
+    position: absolute;
+    right: 10px;
+    top: 3px;
+    width: 23px;
+    height: 23px;
+    background: url(../imagens/controls.png) -98px -22px;
+}

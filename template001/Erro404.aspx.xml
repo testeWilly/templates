@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><_404s><Erro404 ID="erro_404"><CssComponente><![CDATA[]]></CssComponente><Erro404HTML><![CDATA[]]></Erro404HTML></Erro404><Erro404 ID="erro_404"><Erro404HTML><![CDATA[]]></Erro404HTML></Erro404></_404s><CaixaPesquisas><CaixaPesquisa ID="Busca_erro"><CaixaPesquisaHTML><![CDATA[<fieldset>
+    <h4>Pesquise o que você deseja aqui</h4>
+    <label>
+        [A0] <a href="[A2]"><img src="imagens/bt_busca_erro.png?6" alt="Buscar" /></a>
+    </label>
+</fieldset>
+]]></CaixaPesquisaHTML><CssComponente><![CDATA[]]></CssComponente></CaixaPesquisa></CaixaPesquisas><Links><Link ID="Voltar_inicial_erro"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Se preferir, clique aqui para voltar à página inicial" /><UsarHTTPS value="False" /></Link></Links><Banners><Banner ID="Fullzao_topo" /></Banners></controles></page>

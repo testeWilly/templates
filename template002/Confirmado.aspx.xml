@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CaixaAguardeLojas><CaixaAguardeLoja ID="CaixaAguardeLoja" NomeAmigavel="" Visible="True" /></CaixaAguardeLojas><PedidoDadoss><PedidoDados ID="PedidoDados" NomeAmigavel="" Visible="True"><PedidoDadosHTML><![CDATA[<div align="center">
+							<table class="tab_interna" width="620" cellspacing="0" cellpadding="0" border="0">
+								<tr>
+									<th background="imagens/tab_bg.gif" colspan="2">
+										<img hspace="0" class="img_left" src="imagens/tit_confira.gif"/>
+										<img hspace="0" class="img_right" src="imagens/tab_dir.gif"/>
+									</th>
+								</tr>
+								<tr>
+									<td align="center">
+										<br/>
+										<div id="PedidoDados_Boleto">
+											<p class="cod">{0}</p>
+											<div class="mail">{1}</div>
+										</div>
+									</td>
+									<td align="center">
+										<!-- Gerar_boleto -->
+										<a href="{2}" target="_blank">
+											<img src="imagens/bt_imp_boleto.gif" alt="Gerar Boleto" width="302" height="53" border="0">
+										</a>
+										<!-- Fim_Gerar_boleto -->
+										<!-- Conveniados -->
+										<a href="{3}" target="_blank">
+											<img src="imagens/conveniados_s.gif" border="0">
+										</a>
+										<!-- Fim_Conveniados -->
+									</td>					   
+								</tr>
+								<tr>
+									<th background="imagens/tab_bg_inf.gif" colspan="2">
+										<img hspace="0" class="img_left" src="imagens/tab_esq_inf.gif"/>
+										<img hspace="0" class="img_right" src="imagens/tab_dir_inf.gif"/>
+									</th>
+								</tr>
+							</table>
+						</div><!-- CSS_Inicio -->]]></PedidoDadosHTML><PedidoDadosNaoCadastradoHTML><![CDATA[<h1>Pedido não cadastrado</h1> teste<!-- CSS_Inicio -->]]></PedidoDadosNaoCadastradoHTML></PedidoDados><PedidoDados ID="PedidoDados1"><PedidoDadosHTML><![CDATA[        <div class="numero_pedido">
+            <h3>Número do Pedido</h3>
+            <p class="numero">[A0]</p>
+            <p>A confirmação do pedido foi enviada a seu endereço do e-mail</p>
+            <p><strong>[A1]</strong></p>
+        </div>
+        <condicao:boleto>
+        <div class="pedido_dados">
+        	<h4>PEDIDO REALIZADO COM SUCESSO!</h4>
+            <p class="boleto">Forma de Pagamento: Boleto Bancário</p>
+            <p class="boleto">Imprima seu boleto e efetue o pagamento em qualquer agência bancária, ou então anote o</p>
+            <p class="boleto">número do código de barras e pague pelo internet banking do seu banco.</p>
+	        <a href="javascript: window.open('[A2]','Boleto','toolbar=no,location=no,status=no,menubar=yes, scrollbars=yes,resizable=yes,width=670,height=500'); void(0);"><img src="imagens/bt_imp_boleto.png" alt="Gerar Boleto" border="0" style="margin: 10px 0" /></a>
+            <small>Atenção: uma nova janela será aberta com o boleto.</small>
+        </div>
+        </condicao:boleto>]]></PedidoDadosHTML><PedidoDadosNaoCadastradoHTML><![CDATA[Pedido não encontrado]]></PedidoDadosNaoCadastradoHTML></PedidoDados></PedidoDadoss><PedidoPagamentos><PedidoPagamento ID="PedidoPagamento" NomeAmigavel="" Visible="True"><MetodoPagamentoBradescoHTML><![CDATA[]]></MetodoPagamentoBradescoHTML><MetodoPagamentoCartaoOfflineHTML><![CDATA[]]></MetodoPagamentoCartaoOfflineHTML><MetodoPagamentoContraEntregaHTML><![CDATA[]]></MetodoPagamentoContraEntregaHTML><MetodoPagamentoDepositoHTML><![CDATA[[A0]<!-- CSS_Inicio -->]]></MetodoPagamentoDepositoHTML><MetodoPagamentoItauHTML><![CDATA[]]></MetodoPagamentoItauHTML><MetodoPagamentoRedeCardHTML><![CDATA[]]></MetodoPagamentoRedeCardHTML><MetodoPagamentoVisanetHTML><![CDATA[]]></MetodoPagamentoVisanetHTML><PedidoPagamentoHTML><![CDATA[						<div align="center">
+							<table class="tab_interna" width="620" cellspacing="0" cellpadding="0" border="0">
+								<tr>
+									<th background="imagens/tab_bg.gif">
+										<img hspace="0" class="img_left" src="imagens/tit_dados_pagamento.gif"/>
+										<img hspace="0" class="img_right" src="imagens/tab_dir.gif"/>
+									</th>
+								</tr>
+								<tr>
+									<td>
+										[A0]
+									</td>
+								</tr>
+								<tr>
+									<th background="imagens/tab_bg_inf.gif">
+										<img hspace="0" class="img_left" src="imagens/tab_esq_inf.gif"/>
+										<img hspace="0" class="img_right" src="imagens/tab_dir_inf.gif"/>
+									</th>
+								</tr>
+							</table>
+						</div>
+						<!-- CSS_Inicio -->]]></PedidoPagamentoHTML></PedidoPagamento><PedidoPagamento ID="PedidoPagamento1"><MetodoPagamentoAccesstageHTML><![CDATA[<p>Forma de Pagamento:</p>
+<p class="boleto"> [J3]</p>
+<p><strong>Código da Transação:</strong> [J0]</p>
+<p><strong>Token:</strong> [J1]</p>
+<p><strong>Status do Pagamento:</strong> [J2]</p>
+<p><strong>Valor do pedido:</strong> [J4]</p>
+<p><strong>Parcelamento:</strong> [J5]</p>
+
+<condicao:categoria_boleto>
+	 <a href="javascript: window.open('[J6]','Boleto','toolbar=no,location=no,status=no,menubar=yes, scrollbars=yes,resizable=yes,width=670,height=500'); void(0);"><img src="imagens/bt_imp_boleto.gif" alt="Gerar Boleto" border="0" style="margin: 10px 0" /></a>
+</condicao:categoria_boleto>
+]]></MetodoPagamentoAccesstageHTML><MetodoPagamentoBradescoHTML><![CDATA[<p><strong>Forma de Pagamento: </strong>Bradesco</p>
+<p><strong>Valor do pedido: </strong>[H4]</p>]]></MetodoPagamentoBradescoHTML><MetodoPagamentoCartaoOfflineHTML><![CDATA[<p><strong>Forma de Pagamento: </strong>Cartão [D0]</p>
+<p><strong>Valor do pedido: </strong>[D3] de [D1]</p>
+<condicao:taxa_juros>
+<p><strong>Taxa de juros: </strong>[D4]</p>
+</condicao:taxa_juros>]]></MetodoPagamentoCartaoOfflineHTML><MetodoPagamentoContraEntregaHTML><![CDATA[<p><strong>Forma de Pagamento: </strong>Pagamento na entrega</p>
+<p><strong>Valor do pedido: </strong>[C0]</p>]]></MetodoPagamentoContraEntregaHTML><MetodoPagamentoDepositoHTML><![CDATA[<p><strong>Forma de Pagamento: </strong>Depósito Bancário</p>
+<p><strong>Valor a ser depositado:</strong> [B0]</p>
+<p><strong>Favorecido:</strong> [B6] - [B7]</p>
+<p><strong>Código do Banco:</strong> [B3]</p>
+<p><strong>Agência:</strong> [B4]</p>
+<p><strong>Conta:</strong> [B5]</p>
+<p><strong>Prazo de pagamento:</strong> [B2]</p>
+
+]]></MetodoPagamentoDepositoHTML><MetodoPagamentoItauHTML><![CDATA[<p><strong>Forma de Pagamento: </strong>Itaú</p>
+<p><strong>Descrição do Método: </strong>[G0]</p>
+<p><strong>Descrição do pagamento: </strong>[G1]</p>
+<p><strong>Valor do pedido: </strong>[G2]</p>]]></MetodoPagamentoItauHTML><MetodoPagamentoMoipHTML><![CDATA[<p>Forma de Pagamento:</p>
+<p class="boleto"> [I2]</p>
+<p><strong>Código da Transação:</strong> [I0]</p>
+<p><strong>Status do Pagamento:</strong> [I1]</p>
+<p><strong>Valor do pedido:</strong> [I3]</p>
+<p><strong>Parcelamento:</strong> [I4]</p>
+<condicao:categoria_tef>
+	<p><strong>Código de Autorização:</strong> [I5]</p>
+</condicao:categoria_tef>
+<condicao:categoria_cartao>
+	<p><strong>Código de Autorização:</strong> [I5]</p>
+</condicao:categoria_cartao>
+
+<condicao:categoria_boleto>
+	 <a href="javascript: window.open('[I6]','Boleto','toolbar=no,location=no,status=no,menubar=yes, scrollbars=yes,resizable=yes,width=670,height=500'); void(0);"><img src="imagens/bt_imp_boleto.gif" alt="Gerar Boleto" border="0" style="margin: 10px 0" /></a>
+</condicao:categoria_boleto>
+]]></MetodoPagamentoMoipHTML><MetodoPagamentoPadraoHTML><![CDATA[<p>
+  <strong>Forma de Pagamento:</strong> [K0]
+</p>
+<p><strong>Ajuda:</strong> [K2]</p>
+<p><strong>Total do Pedido:</strong> [K4]</p>]]></MetodoPagamentoPadraoHTML><MetodoPagamentoRedeCardHTML><![CDATA[<p><strong>Forma de Pagamento: </strong>Cartão de crédito - Redecard</p>
+<p><strong>Descrição do Método: </strong>[F0]</p>
+<p><strong>Código de Autorização: </strong>[F4]</p>
+<p><strong>Comprovante de Venda: </strong>[F5]</p>
+<p><strong>Valor do pedido: </strong>[F3]x de [F1]</p>]]></MetodoPagamentoRedeCardHTML><MetodoPagamentoVisanetHTML><![CDATA[<p><strong>Forma de Pagamento: </strong>Cartão de crédito - Cielo</p>
+<p><strong>Identificação do pedido: </strong>[E4]</p>
+<p><strong>Código de Autorização: </strong>[E5]</p>
+<p><strong>Código: </strong>[E6]</p>
+<p><strong>Valor do pedido: </strong>[E2]x de [E0]</p>
+<condicao:taxa_juros>
+<p><strong>Taxa de Juros: </strong>[E3]</p>
+</condicao:taxa_juros>
+
+]]></MetodoPagamentoVisanetHTML><PedidoPagamentoHTML><![CDATA[<div class="pedido_dados">        
+    [A0] 
+</div>]]></PedidoPagamentoHTML></PedidoPagamento></PedidoPagamentos><PedidoItenss><PedidoItens ID="PedidoItens" NomeAmigavel="" Visible="True"><PedidoItensHTML><![CDATA[sssssssssssssssss<!-- CSS_Inicio -->]]></PedidoItensHTML></PedidoItens><PedidoItens ID="PedidoItens1"><PedidoItensHTML><![CDATA[<div class="tit_box"><h2>Confira seu Pedido</h2></div>
+<div id="carrinho">
+        <table class="tab_carrinho" cellpadding="0" cellspacing="0" border="0" width="100%;">
+            <thead>
+                <tr>
+                    <th colspan="3" style="text-align: left">Produto</th>
+                    <th>Qtd.</th>
+                    <th>Preço Unitário</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <repeticao:produtos>
+                <tr class="item_carrinho">
+                    <td style="width: 90px;"><img src="[A4]?width=80&height=110" alt="Produto1" border="0" />
+                      <condicao:promocao_express>
+<script language="javascript">
+var win = null;
+function NovaJanela(pagina,nome,w,h,scroll){
+	LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+	TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+	settings = 'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+	win = window.open(pagina,nome,settings);
+}
+</script>
+<a href="[A24]" onclick="NovaJanela(this.href,'nomeJanela','680','600','yes');return false"><img src="[A21]" alt="[A1] em promoção" /></a>
+</condicao:promocao_express>
+</td>
+                    <td colspan="2" style="text-align: left; color: #4c1e25;">[A1]
+                      <condicao:imagem_presente><div class="presente_carrinho">Presente: Sim</div></condicao:imagem_presente>
+                  </td>
+                    <td>[A5]</td>
+                    <td>[A6]</td>
+                    <td style="width: 90px; *width: auto;">[A8]</td>
+                </tr>
+                </repeticao:produtos>
+                <tr>
+                  <th class="frete_valor" colspan="5">Frete:</th>
+                  <td class="frete_valor">[A14]</td>
+                </tr>
+                <condicao:bonus>
+                <tr>
+                  <th class="frete_valor" colspan="5">Bônus:</th>
+                  <td class="frete_valor">[A13]</td>
+                </tr>
+                </condicao:bonus>
+<condicao:cupom_desconto>
+    <tr>
+      <th colspan="5" class="frete_valor">Desconto:</th>
+      <td class="frete_valor">[A18]</td>
+    </tr>
+</condicao:cupom_desconto>
+
+                <tr>
+                  <th class="total" colspan="5">Total:</th>
+                  <td class="total" style="*width: 110px;">[A16]</td>
+                </tr>
+            </tbody>
+        </table>
+</div>]]></PedidoItensHTML><TamanhoImagem value="Grandes" /></PedidoItens></PedidoItenss><PedidoEntregas><PedidoEntrega ID="PedidoEntrega" NomeAmigavel="" Visible="True"><PedidoEntregaHTML><![CDATA[<div class="">
+sw
+</div><!-- CSS_Inicio -->]]></PedidoEntregaHTML></PedidoEntrega><PedidoEntrega ID="PedidoEntrega1"><PedidoEntregaHTML><![CDATA[<div class="duvidas">
+  <div class="tit_box"><h2>Dados de Entrega</h2></div>
+    <div class="duvidas_conteudo respiro">
+        <p><strong>Nome do recebedor: </strong>[A0]</p>
+        <p><strong>CEP: </strong>[A7]</p>
+        <p><strong>Endereço: </strong>[A1],[A2]</p>
+        <p><strong>Complemento: </strong>[A3]</p>
+        <p><strong>Bairro: </strong>[A4]</p>
+        <p><strong>Cidade: </strong>[A5], [A6] - [A8]</p>
+        <p><strong>Trasportadora: </strong>[A9]</p>
+        <p><strong>Prazo de Entrega: </strong>[A10]</p>
+    </div>
+</div>]]></PedidoEntregaHTML></PedidoEntrega></PedidoEntregas><PedidoContatos><PedidoContato ID="PedidoContato" NomeAmigavel="" Visible="True"><PedidoContatoHTML><![CDATA[<div class="box">
+<div class="tit_box">
+                      <h2>Dúvidas</h2>
+                      </div>
+<div class="box_conteudo">
+<div class="respiro">
+<strong>Em caso de dúvida ou consulta, poderá contatar a [A0] no: </strong>
+<p>Telefone: [A1]</p>
+<p>Email: [A2]</p>
+<p></p>
+</div>
+</div>
+</div><!-- CSS_Inicio -->]]></PedidoContatoHTML></PedidoContato><PedidoContato ID="PedidoContato1"><PedidoContatoHTML><![CDATA[<div class="duvidas">
+    <div class="tit_box">
+        <h2>Dúvidas</h2>
+    </div>
+    <div class="duvidas_conteudo">
+        <p><strong>Em caso de dúvida ou consulta, poderá contatar a [A0] no:</strong></p><br/>
+        <p><strong>Telefone:</strong> [A1]</p>
+        <p><strong>Email:</strong> [A2]</p>
+    </div>
+</div>]]></PedidoContatoHTML></PedidoContato></PedidoContatos><IdentificacaoCompradors><IdentificacaoComprador ID="Comprador" NomeAmigavel="" Visible="True"><FormularioNovoCadastroEnderecoHTML><![CDATA[]]></FormularioNovoCadastroEnderecoHTML><FormularioNovoCadastroHTML><![CDATA[]]></FormularioNovoCadastroHTML><IdentificacaoCompradorGeralHTML><![CDATA[]]></IdentificacaoCompradorGeralHTML><IdentificaCompradorHTML><![CDATA[]]></IdentificaCompradorHTML><MensagemAlertaHTML><![CDATA[]]></MensagemAlertaHTML><NovaCompraHTML><![CDATA[]]></NovaCompraHTML><RecuperarSenhaHTML><![CDATA[]]></RecuperarSenhaHTML><VerificarEmailHTML><![CDATA[]]></VerificarEmailHTML><VerificarNovamenteEmailHTML><![CDATA[]]></VerificarNovamenteEmailHTML></IdentificacaoComprador></IdentificacaoCompradors><EbitBannerPedidos><Widget ID="EbitBannerPedido1"><WidgetUsado value="2" /></Widget></EbitBannerPedidos><Links><Link ID="LinkAjuda"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Duvidas" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Ajuda" /><UsarHTTPS value="False" /></Link><Link ID="Voltar_Principal"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Voltar para página principal" /><UsarHTTPS value="False" /></Link></Links><GoogleAnalyticss><GoogleAnalytics ID="googleanalytitcs1"><AnalyticsConfirmadoHTML><![CDATA[<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol ) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try{
+  var pageTracker = _gat._getTracker("[B14]");
+  pageTracker._trackPageview();
+  pageTracker._addTrans(
+      "[B0]", 
+      "[B1]", 
+      "[B2]", 
+      "[B3]", 
+      "[B4]", 
+      "[B5]", 
+      "[B6]", 
+      "[B7]"  
+    );
+
+
+   <repeticao:produtos>
+   pageTracker._addItem(
+      "[B8]", 
+      "[B9]", 
+      "[B10]",
+      "[B11]",
+      "[B12]",          
+      "[B13]"
+   );
+   </repeticao:produtos>
+   pageTracker._trackTrans(); //submits transaction to the Analytics servers
+} catch(err) {}
+</script>]]></AnalyticsConfirmadoHTML><AnalyticsHTML><![CDATA[]]></AnalyticsHTML><CssComponente><![CDATA[]]></CssComponente></GoogleAnalytics></GoogleAnalyticss><Banners><Banner ID="Fullzao_topo" /></Banners><SEOs><SEO ID="seo" /></SEOs><AlterarSenhas><AlterarSenha ID="AlterarSenha"><AlterarSenhaHTML><![CDATA[<div id="alterar_senha">
+    <div class="alterar_esquerda">
+        <p>Login e senha para <br /> acompanhamento do pedido</p>   
+    </div>
+    <div class="alterar_direita">
+        @if (!Model.Saved){
+            using (Html.BeginForm()) {
+                <div class="alterar_formulario parent-validation">
+                    <span class="alteara_formulario_titulo">TROCAR SENHA <p>(Deve conter no mínimo 5 caracteres)</p></span>
+                    <fieldset>
+                        <label><span>Digite a nova senha</span> @Html.InputPassword("NewPassword")</label>
+                        <label><span>Repita a senha</span> @Html.InputPassword("PasswordConfirm")</label>
+                    </fieldset>
+                    <div class="bt_alterar_senha">
+                        @Html.ImageSubmit("Enviar", "imagens/bt_alterar_senha_guest.png")
+                    </div>
+                </div>
+            }
+        }else{
+            <div class="alterar_sucesso">
+                <img src="imagens/alterar_senha_sucesso.png" alt="Senha Salva" />
+              <p>Nova senha salva<br /> com <span>sucesso!</span></p>
+                <small>Sua nova senha foi enviada por email</small>
+            </div>
+        }
+    </div>
+    <div class="alterar_meio">
+        <div class="alterar_login_senha">
+            <p><span>LOGIN:</span> @Model.Email</p>   
+            <p><span>SENHA:</span> Enviada para o email acima</p> 
+        </div>
+      <p>Uma senha foi gerada automaticamente e enviada para o seu email. <br />Caso deseja trocar a senha utilize a caixa ao lado ></p>
+    </div>
+</div>
+]]></AlterarSenhaHTML></AlterarSenha></AlterarSenhas><Widgets><Widget ID="Pixel_conversao_Facebook"><WidgetUsado value="4" /></Widget></Widgets></controles></page>

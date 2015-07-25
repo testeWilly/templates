@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><IconesRodapes><IconesRodape ID="metodos_pagamento"><CssComponente><![CDATA[]]></CssComponente><IconesRodapeHTML><![CDATA[<ul>
+    <repeticao:icone>
+      <li>
+          <img src="[A2]" alt="[A1]" />
+      </li>
+	</repeticao:icone>      
+</ul>
+]]></IconesRodapeHTML></IconesRodape></IconesRodapes><Links><Link ID="Selo_Ciashop"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.ciashop.com.br" /><Imagem value="rodape_selo_ciashop.png" /><PaginaLoja value="AfiliadoPrincipal" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="CiaShop e-commerce evolution" /><UsarHTTPS value="False" /></Link><Link ID="Selo_FControl"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="http://www.fcontrol.com.br" /><Imagem value="rodape_selo_fcontrol.png" /><PaginaLoja value="AfiliadoPrincipal" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="" /><UsarHTTPS value="False" /></Link><Link ID="Selo_CompraSegura"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="https://selo.siteblindado.com.br/verificar?url=www7.ciashop.com.br&amp;version=0.0.1&amp;token=WA0B32&amp;is_cdn=false&amp;lang=pt-br&amp;color=b&amp;is_https=0" /><Imagem value="rodape_selo_comprasegura.png" /><PaginaLoja value="AfiliadoPrincipal" /><Parametros value="" /><Target value="NovaPagina" /><Texto value="Compra Segura" /><UsarHTTPS value="False" /></Link></Links><EbitBanners><EbitBanner ID="selo_rodape_ebit"><CssComponente><![CDATA[]]></CssComponente><EbitBannerHTML><![CDATA[[A0]]]></EbitBannerHTML></EbitBanner></EbitBanners></controles></page>

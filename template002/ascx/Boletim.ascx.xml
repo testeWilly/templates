@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Menus><Menu ID="Menu_lateral_esquerda"><ApenasDepartamento value="True" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[<ul>
+  <repeticao:pais>
+  <li class="li">
+      <a href="[A0]">[A1]</a>
+      <condicao:filho>  
+      <ul class="depts_filho">
+        <repeticao:filhos>
+          <li><a href="[A0]">[A1]</a></li>
+            <condicao:neto>
+                    <repeticao:netos>
+                        <li><a href="[A0]"> - [A1]</a></li>
+                    </repeticao:netos>
+            </condicao:neto>
+        </repeticao:filhos>
+      </ul>
+      </condicao:filho>  
+  </li>
+  </repeticao:pais>
+</ul>]]></MenuHTML><TipoMenu value="Vertical" /></Menu></Menus><BoletimNoticiass><BoletimNoticias ID="wraaaaaaaao"><BoletimNoticiasHTML><![CDATA[]]></BoletimNoticiasHTML></BoletimNoticias></BoletimNoticiass></controles></page>

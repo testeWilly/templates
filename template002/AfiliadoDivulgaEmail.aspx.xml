@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><AfiliadoDivulgaEmailss><AfiliadoDivulgaEmail ID="AfiliadoEmail"><AfiliadoDivulgaEmailHTML><![CDATA[ <div class="respiro">
+   <div class="heading-special">
+     <h2>Email de divulgação</h2>
+   </div>
+    <div id="afiliados">
+        <div class="respiro">
+          <ul class="subtitulo_afiliados">
+            <li>Divulge sua loja para sua rede de contatos.</li>
+          </ul>
+          <div class="emails">
+              [A4]
+              [A10]
+              <repeticao:novocadastro>
+                  <div class="esquerda_email">
+                      <span class="tit_label">Nome</span>
+                      [A0]
+                  </div>
+                  <div class="direita_email">
+                      <span class="tit_label">Email</span>
+                      [A1]
+                  </div>
+              </repeticao:novocadastro>
+              <div class="bt_mais_email">
+                  <a href="[A2]" class="box-bt btn-tertiary">Adicionar email</a>
+              </div>
+              <div class="bt_enviar_email">
+                  <a href="[A9]" class="box-bt btn-tertiary">Enviar email</a>
+              </div>
+              <label style="display: none;">[A8]</label>
+          </div>
+        </div>
+    </div>
+</div>
+]]></AfiliadoDivulgaEmailHTML><MensagemAlertaAfiliadoEnvioEmailHTML><![CDATA[<div id="erro">
+    <div class="lista_erro">
+        <h2>[B0]</h2>
+        <ul>
+            <repeticao:erro>
+                <li>[B1]</li>
+            </repeticao:erro>
+        </ul>
+    </div>
+</div>
+]]></MensagemAlertaAfiliadoEnvioEmailHTML><MensagemSucessoAfiliadoEnvioEmailHTML><![CDATA[<div id="sucesso">
+    <div class="lista_sucesso">
+        <h2>Seus e-mails foram enviados com sucesso!</h2>
+    </div>
+ </div>
+]]></MensagemSucessoAfiliadoEnvioEmailHTML></AfiliadoDivulgaEmail></AfiliadoDivulgaEmailss><ScriptRazors><ScriptRazor ID="titlePage"><ScriptRazorHTML><![CDATA[@TemplateSettings.main_storeName]]></ScriptRazorHTML></ScriptRazor></ScriptRazors></controles></page>

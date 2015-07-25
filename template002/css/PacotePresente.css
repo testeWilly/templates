@@ -1,0 +1,107 @@
+h3.escolha{
+    font-size: 15px;
+    margin: 10px;
+    color: #052547
+}
+
+.presente_conteudo{
+    margin: 80px 0;
+    overflow: hidden;
+}
+
+.presente_conteudo p{
+    color: #666;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.presente_conteudo ul{
+    list-style: none;
+}
+
+.presente_conteudo ul li{
+    overflow: hidden;
+}
+
+.presente_conteudo h3{
+    background-color: #3A3030;
+    color: #FAC4B7;
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+    padding: 5px 0 5px 10px;
+}
+
+.presente_conteudo fieldset{
+    border: none;
+    margin: 15px 0 15px 20px;
+    width: 350px;
+    float: left;
+}
+
+.presente_conteudo fieldset label{
+    clear: both;
+    display: block;
+    margin: 10px 0 0px 0px;
+    color: #666666;
+}
+
+.presente_conteudo fieldset.mensagem{
+    border: none;
+    margin: 15px 0 15px 20px;
+    width: 350px;
+    float: left;
+}
+
+.presente_conteudo fieldset.mensagem label{
+    clear: both;
+    display: block;
+    margin: 5px 0 5px 0px;
+    color: #454545;
+    font-size: 12px;
+}
+
+.presente_conteudo fieldset.mensagem label textarea{
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    width: 350px;
+    height: 80px;
+    font-size: 11px;
+    color: #666;
+}
+
+.presente_conteudo fieldset.mensagem .caracteres{
+    color: #454545;
+    margin-top: 5px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.presente_conteudo fieldset.mensagem .caracteres input{
+    width: 35px;
+    border: none transparent;
+    color: #454545;
+    text-align: right;
+    font-size:12px;
+}
+
+.presente_conteudo fieldset span{
+    display: block;
+    padding: 2px 0;
+}
+
+.presente_conteudo fieldset span label{
+    display: inline;
+    margin: 0px 0 0px 5px;
+}
+
+.presente_conteudo fieldset label select{
+    border: 1px dashed #EBB2A5;
+    width: 200px;
+    height: 20px;
+    font-family: bellotaregular;
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 20px;
+}

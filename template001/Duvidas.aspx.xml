@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Duvidass><Duvidas ID="Duvidas_Conteudo"><AssuntoRespostasHTML><![CDATA[<h3>[D1]</h3>]]></AssuntoRespostasHTML><AssuntosHTML><![CDATA[            <li class="duv_assunto">
+              <a href="#[A1]">   
+                [A0]
+              </a>  
+            </li> ]]></AssuntosHTML><DuvidasHTML><![CDATA[<div class="perguntas">
+    [C1]
+</div>
+]]></DuvidasHTML><RespostasHTML><![CDATA[<div class="respostas">
+    <h4>[B0]</h4>
+    <p>[B1]</p>
+</div>
+          ]]></RespostasHTML></Duvidas></Duvidass><FaleConoscos><FaleConosco ID="FaleConosco1"><FaleConoscoHTML><![CDATA[<div class="box_faleconosco">
+       <div class="faleconosco">
+        <div class="tit_box"><h2>E-mail</h2></div>
+        <ul class="formulario">
+            <div class="info">Campos indicados com * são de preenchimento obrigatório.</div>
+            <li class="list obrigatorio">
+                <label class="larg_100"><span class="tit_label pt">Nome*</span><span class="tit_label en">Name*</span>[A1]</label>
+            </li>
+            <li class="list obrigatorio">
+                <label class="larg_75"><span class="tit_label pt">Email*</span><span class="tit_label en">Mail*</span>[A2]</label>
+            </li>
+            <li class="list">
+                <label class="larg_75"><span class="tit_label pt">Telefone</span><span class="tit_label en">Phone</span>[A3] <small>(DDD + XXXX-XXXX)</small></label>
+            </li>
+            <li class="list">
+                <label class="larg_50"><span class="tit_label pt">Número do Pedido</span><span class="tit_label en">Purchase Number</span>[A4] <small>(Caso a dúvida seja de uma compra já realizada)</small></label>
+            </li>
+            <li class="list">
+                <label class="larg_75"><span class="tit_label pt">Empresa</span><span class="tit_label en">Enterprise Name</span>[A5]</label>
+            </li>
+            <li class="list obrigatorio">
+                <label><span class="tit_label pt">Qual sua dúvida?*</span><span class="tit_label en">Type your question*</span>[A6] <small class="contador">[A7]<span class="pt">caracteres</span><span class="en">characters</span></small></label>
+            </li>
+            <li class="list">
+              <label><span class="tit_label">&nbsp;</span> <div class="bt_enviar bt_hover"><a href="[A8]">Enviar</a></div></label>
+            </li>
+        </ul>
+    </div>
+</div>]]></FaleConoscoHTML><tipoFormulario value="Dúvidas" /></FaleConosco></FaleConoscos><Banners><Banner ID="Fullzao_topo" /></Banners><SEOs><SEO ID="seo" /></SEOs></controles></page>

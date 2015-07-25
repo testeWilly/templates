@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><FaleConoscos><FaleConosco ID="FaleConosco1"><FaleConoscoHTML><![CDATA[<div class="box_faleconosco">
+    <div class="faleconosco">
+        <ul class="formulario">
+            <div class="info">Campos indicados com * são de preenchimento obrigatório.</div>
+            <li class="list obrigatorio">
+                <label class="larg_100"><span class="tit_label pt">Nome*</span><span class="tit_label en">Name*</span>[A1]</label>
+            </li>
+            <li class="list obrigatorio">
+                <label class="larg_75"><span class="tit_label pt">Email*</span><span class="tit_label en">Mail*</span>[A2]</label>
+            </li>
+            <li class="list">
+                <label class="larg_75"><span class="tit_label pt">Telefone</span><span class="tit_label en">Phone</span>[A3] <small>(DDD + XXXX-XXXX)</small></label>
+            </li>
+            <li class="list">
+                <label class="larg_50"><span class="tit_label pt">Número do Pedido</span><span class="tit_label en">Purchase Number</span>[A4] <small>(Caso a dúvida seja de uma compra já realizada)</small></label>
+            </li>
+            <li class="list">
+                <label class="larg_75"><span class="tit_label pt">Empresa</span><span class="tit_label en">Enterprise Name</span>[A5]</label>
+            </li>
+            <li class="list obrigatorio">
+                <label><span class="tit_label pt">Qual sua dúvida?*</span><span class="tit_label en">Type your question*</span>[A6] <small class="contador">[A7]<span class="pt">caracteres</span><span class="en">characters</span></small></label>
+            </li>
+            <li class="list">
+                <label><span class="tit_label">&nbsp;</span><div class="bt_enviar bt_hover"><a href="[A8]">Enviar</a></div></label>
+            </li>
+        </ul>
+    </div>
+</div>]]></FaleConoscoHTML><tipoFormulario value="Dúvidas" /></FaleConosco></FaleConoscos><Banners><Banner ID="Fullzao_topo" /></Banners><ListagemSimpless><ListagemSimples ID="listagemsimples"><CssComponente><![CDATA[]]></CssComponente><ModeloHTMLVitrine><![CDATA[<div class="tit_box">
+    <h2>[A0]<a href="[A20]" class="ver_todos">Ver Todos</a></h2>
+</div>
+
+<div class="vitrine_certificacao">
+  <ul>
+      <repeticao:produtos>
+          <li>
+              <div class="produto">
+                  <condicao:frete_gratis>
+                      <div class="frete_gratis"><a href="[A1]"><img src="imagens/tag_frete_gratis.png?11" alt="Frete Gratis" /></a></div>
+                  </condicao:frete_gratis>
+                  <div class="foto">
+                      <a href="[A1]">
+                          <img alt="[A4]" src="[A3]" />
+                      </a>
+                      <div class="tags">
+                          <condicao:produto_indisponivel>
+                              <a href="[A1]"><img src="imagens/indisponivel.png?11" alt="Produto Indisponivel" /></a>
+                          </condicao:produto_indisponivel>
+                          <condicao:lancamento>
+                              <a href="[A1]"><img src="imagens/tag_lancamento.png?11" alt="Lançamento" /></a>
+                          </condicao:lancamento>
+                          <condicao:oferta>
+                              <a href="[A1]"><img src="imagens/tag_oferta.png?11" alt="Oferta" /></a>
+                          </condicao:oferta>
+                      </div>
+                  </div>
+                  <h3 class="titulo"><a href="[A1]">[A6]</a></h3>
+                  <div class="descricao"><a href="[A1]">[A18]</a></div>
+                  <condicao:preco_antigo>
+                      <div class="preco_antigo">
+                          <span class="preco_de">[A8]</span> <span class="preco_antigo_preco">[A19]</span>
+                      </div>
+                  </condicao:preco_antigo>
+
+                  <div class="preco">
+                      <span class="preco_por">[A11]</span> <span class="preco_preco">[A15]</span>
+                  </div>
+
+                  <condicao:parcelamento>
+                      <div class="preco_parcelado">
+                          <span class="preco_ou">[A14]</span> <span class="preco_parcelado_vezes">[A13] de</span> <span class="preco_parcelado_preco">[A12]</span>
+                      </div>
+                  </condicao:parcelamento>
+                  <a href="[A1]"><img src="imagens/bt_detalhes.png?11" class="btn_comprar" alt="comprar" /></a>
+              </div>
+          </li>
+      </repeticao:produtos>
+  </ul>
+</div>]]></ModeloHTMLVitrine><TamanhoImagem value="Grandes" /><TipoListagem value="3" /></ListagemSimples></ListagemSimpless><BoletimNoticiass><BoletimNoticias ID="id_qualquer"><BoletimNoticiasHTML><![CDATA[]]></BoletimNoticiasHTML></BoletimNoticias><BoletimNoticias ID="newsletter"><BoletimNoticiasHTML><![CDATA[<div class="newsletter">
+    <div class="container">
+        <label>Seu Nome</label>
+         <span class="campo">[A0]</span>
+      <condicao:nascimento>
+        <label class="align">Data de Nascimento</label>
+         <span class="campo">[A1]</span>
+      </condicao:nascimento>
+      <condicao:sexo>
+        <label class="align">Sexo</label>
+          <div class="radio"><span>[A3]</span> [A6]</div>
+      </condicao:sexo>
+        <label class="align">Seu Email</label>
+           <span class="campo">[A2]</span>
+         <span class="descadastrar"><a href="[A5]">Descadastrar</a></span>
+         <a href="[A4]"><img src="imagens/bt_newsletter_enviar.png?1" alt="enviar"></a>
+    </div>
+</div>]]></BoletimNoticiasHTML><CssComponente><![CDATA[.newsletter{
+    width: 189px;
+    height: 255px;
+    float: left;
+    background: url('imagens/bg_news.png') no-repeat;
+    margin: 7px 0 0 5px;
+}
+.newsletter .container{
+    float: left;
+    overflow:hidden;
+    margin: 53px 0 0 7px;
+    width: 173px;
+}
+.newsletter label, .newsletter .descadastrar a{
+    color:#FFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+.newsletter .align{
+    clear: both;
+    float: left;
+}
+.newsletter .campo{
+    float: left;
+    margin-bottom:3px;
+}
+.newsletter .campo input{
+    height: 20px;
+    width: 170px;
+    color: #333;
+}
+.newsletter .radio{
+    width: 170px;
+    float: left;
+    margin-bottom:3px;
+}
+.newsletter .radio span{
+    margin-right: 3px;
+}
+.newsletter .descadastrar{
+    float: left;
+    margin: 13px 0 0;
+}
+.newsletter .descadastrar a{
+    text-decoration: none;
+    color: #FFF;
+    float: left;
+    clear: both;
+}
+.newsletter .descadastrar a:hover{
+    text-decoration: underlainer;
+}
+.newsletter img{
+    float: right;
+    margin: 5px 0 0 0;
+}]]></CssComponente></BoletimNoticias></BoletimNoticiass><SEOs><SEO ID="seo" /></SEOs></controles></page>

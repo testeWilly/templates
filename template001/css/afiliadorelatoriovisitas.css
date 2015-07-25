@@ -1,0 +1,61 @@
+.organizar_por{
+    font-size: 11px;
+    color: #555; 
+}
+
+.afiliados_grafico{
+    margin-top: 40px;
+}
+
+.afiliados_refinar{
+    padding: 10px 5px 8px;
+    margin-top: 15px;
+}
+
+.afiliados_refinar .afiliados_refinar_direita{
+    float: right;
+    margin-left:5px;
+}
+
+.afiliados_refinar select{
+    border: 1px solid #ccc;
+    margin: 0 4px;
+	padding: 6px 3px;
+    color: #555;
+}
+
+.tab_relatorio{
+      width: 100%;
+      clear: both;
+      margin-top: 20px;
+}
+
+.tab_relatorio tbody{
+    border-bottom: 2px solid #92AEBE;
+}
+
+.tab_relatorio tbody th{
+    background: none repeat scroll 0 0 #ccc;
+    color: #5a5a5a;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 0 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tab_relatorio tbody tr td{
+      padding: 6px 4px;
+      color: #555;
+      font-size: 12px;
+      text-align: center;
+}
+
+    .tab_relatorio tbody tr.cor1 td{
+        background-color: #fff;
+    }
+
+    .tab_relatorio tbody tr.cor2 td{
+      background-color: #f4f4f4;
+    }

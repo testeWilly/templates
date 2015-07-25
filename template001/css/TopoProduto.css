@@ -1,0 +1,295 @@
+.content_topo_center{
+  width: 990px;
+  margin: 0 auto;
+}
+
+/*topo cima*/
+
+.topo_cima{
+  background:#fff;
+  height: 35px;
+  font-size: 11px;
+}
+
+.nav_bar {
+  float: right;
+  line-height: 35px;
+}
+
+.nav_bar a{
+  color: #000;
+  margin-left: 20px;
+}
+
+/*Saudacao*/
+
+#saudacao {
+  float: left;
+  line-height: 35px;
+  text-align: left;
+  width: 50%;
+}
+
+#saudacao span {
+  color: #000;
+}
+
+#saudacao span a {
+  color: #000;
+}
+
+/*topo meio*/
+
+.topo_meio{
+  background: #11c1c1;
+  height: 60px;
+}
+
+/*busca Topo*/
+
+.busca_topo {
+  float: right;
+  width: 259px;_width:255px;
+}
+
+.busca_topo fieldset {
+  border: medium none;
+
+  background: none repeat scroll 0 0 #fff;
+  height: 50px;
+  margin-top: 4px;
+}
+
+.busca_topo .input_busca {
+    display: block;
+    float: left;
+    padding: 15px 0;
+}
+
+.busca_topo .bt {
+  float: left;
+}
+
+.busca_topo .bt a{
+    background: url("../imagens/btn_procurar.png") no-repeat scroll center center;
+    cursor: pointer;
+    display: block;
+    height: 45px;
+    text-indent: -9999px;
+    width: 63px;
+}
+
+
+.busca_topo fieldset input {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    color: #000;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+    padding: 0 0 0 13px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 183px;
+}
+
+.busca_topo .bt img {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+/*menu*/
+
+.menu_topo {
+  float: left;
+  line-height: 60px;
+}
+
+.menu_topo .list_menu_topo{
+  list-style: none outside none;
+}
+
+.menu_topo .list_menu_topo li{
+  float: left;
+    position: relative;
+    z-index: 9999;
+}
+
+.menu_topo .list_menu_topo li:hover{
+    background: #0daaaa;
+}
+.menu_topo .list_menu_topo li .link_menu_topo {
+    /* border-left: 1px solid #fff; */
+    border-right: 1px solid #fff;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.menu_topo .list_menu_topo li:first-child .link_menu_topo {
+    border-left: 0 none;
+}
+
+.menu_topo .list_menu_topo li:last-child .link_menu_topo {
+    border-right: 0 none;
+}
+
+.list_menu_topo ul{
+    background: rgb(121, 140, 255);
+    background: transparent;
+    background: rgba(17, 193, 193, 0.9);/* FF3+,Saf3+,Opera 10.10+,Chrome,IE9*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc798CFF,endColorstr=#cc798CFF);/*IE 5.5-7*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cc798CFF,endColorstr=#cc798CFF)";/*IE8*/
+    zoom: 1;
+    display: none;
+    line-height: normal;
+    list-style: none outside none;
+    padding: 15px;
+    position: absolute;
+    text-align: left;
+    top: 60px;
+    width: 252px;
+    z-index: 9999;
+    left: 0px;
+}
+
+.menu_topo .list_menu_topo ul li{
+    float:none;
+    padding: 3px 0;
+}
+
+.menu_topo .list_menu_topo ul li a{
+    color: #fff;
+    font-size: 13px;
+    padding: 0 9px 0 0;
+}
+
+.menu_topo .list_menu_topo li:hover .link_menu_topo{
+
+}
+
+.menu_topo .list_menu_topo li:hover ul{
+    display:block;
+}
+
+/*topo baixo*/
+
+.topo_baixo {
+  background: url("../imagens/bg-topo-verde-final.jpg") repeat-x scroll left top 0 transparent;
+  height: 112px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.logo {
+  left: 50%;
+  margin-left: -165.5px;
+  position: absolute;
+  top: 17px;
+}
+
+.logo h2 {
+  background: url("../imagens/logo-animafest-final.png") no-repeat scroll center top transparent;
+  cursor: pointer;
+  height: 117px;
+  text-indent: -9999px;
+  width: 331px;
+}
+
+.logo h2 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* minicarrinho*/
+
+
+.bt_carrinho {
+  float: right;
+    position: relative;
+}
+
+.bt_carrinho_conteudo {
+    background: url("../imagens/btn_carrinho.png") no-repeat scroll left center transparent;
+    height: 67px;
+    margin: 15px 0;
+    width: 97px;
+}
+
+.bt_carrinho a {
+    color: #324ada;
+    display: block;
+    font-family: "Lato-Bold";
+    font-size: 13px;
+    padding: 5px 0 5px 75px;
+}
+
+.mini_carrinho {
+    background: none repeat scroll 0 0 #11c1c1;
+    display: none;
+    line-height: normal;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 83px;
+    width: 211px;
+    z-index: 9999;
+}
+
+.tab_carrinho_mini {
+  text-align: left;
+  width: 100%;
+}
+
+.tab_carrinho_mini td {
+    background: none repeat scroll 0 0 #0daaaa;
+}
+
+.tab_carrinho_mini td.mini_foto {
+    padding: 0 10px 3px 0;
+    width: 80px;
+}
+
+.tab_carrinho_mini td.mini_foto a {
+    font-size: 0;
+    padding: 0;
+}
+
+.tab_carrinho_mini td.mini_titulo a {
+    color: #ffffff;
+    font-size: 11px;
+    font-style: normal;
+    padding: 0;
+    text-align: left;
+}
+
+.mini_carrinho span.mini_preco {
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+}
+
+.mini_carrinho .bt_ir_carrinho {
+    height: 37px;
+    text-align: right;
+}
+
+.mini_carrinho .bt_ir_carrinho a {
+    background: url("../imagens/bt_ir_carrinho.png") no-repeat scroll left top;
+    display: block;
+    height: 34px;
+    padding: 0;
+    text-indent: -9999px;
+    width: 211px;
+}
+
+.mini_carrinho .mini_subtotal{
+    background: url("../imagens/icon_sacola_hover.png") no-repeat scroll left center;
+    color: #ffffff;
+    font-family: "Lato-Bold";
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 30px;
+}

@@ -1,0 +1,203 @@
+body{
+	min-width: 0 !important;
+}
+
+#personalizacao_carrinho{
+	width: 620px;
+	margin: 0 auto; 
+	text-align: left;
+}
+
+#personalizacao_carrinho .tit_personalizacao_carrinho{
+	border-left: 23px solid #FF6801;
+	background: #062A59;
+	line-height: 38px;   
+}
+
+#personalizacao_carrinho .tit_personalizacao_carrinho h2{
+	font-size: 12px;
+	color: #fff;
+	margin-left: 8px;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_conteudo{
+	margin: 3px 0;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao h3{
+	font-size: 14px;
+	padding: 10px;
+	color: #062A59; 
+	text-align: left;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao{
+	background: #DFDFDF;
+	border-radius: 5px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_produto_info{
+	overflow: hidden;
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_produto_foto{
+	float: left;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_produto_foto img{
+	border: 1px solid #ccc;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_produto_descricao{
+	overflow: hidden;
+	padding: 0 0 0 10px;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_produto_descricao .personalizacao_produto_descricao_abas{
+	overflow: hidden;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_produto_descricao .personalizacao_produto_descricao_abas ul li{
+	list-style: none;
+	float: left;
+	padding: 5px 0;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_produto_descricao .personalizacao_produto_descricao_abas ul li a{
+	display: block;
+	padding: 0px 10px;
+	border-right: 1px solid #ccc;
+	color: #062A59;
+	font-size: 11px;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_produto_descricao .personalizacao_produto_descricao_abas ul li a.selecionado{
+	font-weight: bold;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_produto_descricao .personalizacao_produto_descricao_texto{
+	height: 75px;
+	overflow-x: hidden;
+	overflow-y: auto;  
+	color: #666;
+	font-size: 11px;
+	border-top: 1px solid #ccc; 
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_produto_descricao .personalizacao_produto_descricao_texto_conteudo{
+	padding: 5px;
+}
+
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao .personalizacao_carrinho_personalizacao_conteudo{
+	background: #fff;
+	margin: 0 auto;
+	text-align: left;
+	width: 98%;
+	overflow: hidden;			
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_imagem{
+	float: left;
+	padding: 8px; 
+	position: relative;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_imagem img{
+	border: 1px solid #ccc;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_info{
+	float: left;
+	padding-left: 10px;
+}
+
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_info fieldset {
+    border: medium none;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_info label {
+    color: #052547;
+    display: block;
+    font-size: 12px;
+    padding: 3px 0;
+    font-weight: bold;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_info label input {
+    border: 1px solid #CCCCCC;
+    color: #666666;
+    display: block;
+    font-size: 11px;
+    margin: 3px 0 0;
+    padding: 3px;
+    width: 140px;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_info label select{
+    margin: 3px 0 0 0;
+    border: 1px solid #ccc;
+    padding: 2px;
+    font-size: 11px;
+    color: #666;
+    width: 150px;
+    display: block;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_info .aceite {
+    color: #333333;
+    font-size: 11px;
+    padding: 5px 0 8px;
+    font-weight: normal;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_info .aceite input {
+    border: 0 none;
+    display: inline;
+    margin: 0 5px 0 0;
+    padding: 0;
+    vertical-align: middle;
+    width: auto;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_info .aceite span {
+    vertical-align: middle;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_regulamento {
+    font-size: 11px;
+    color: #666;
+    display: block;
+    padding: 5px 0;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao_regulamento a{
+    color: #666;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao .personalizacao_carrinho_personalizacao_preco{
+	padding: 10px;
+	color: #062A59;
+	font-weight: bold;
+	text-align: right;
+	font-size: 13px;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_personalizacao .personalizacao_carrinho_personalizacao_preco strong{
+	color: #FF4900;
+	font-size: 14px;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_bt{
+	padding: 15px 0;
+}
+
+#personalizacao_carrinho .personalizacao_carrinho_bt .personalizacao_carrinho_bt_confirmar{
+	float: right;
+	margin-top: -3px;
+}

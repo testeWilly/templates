@@ -1,0 +1,140 @@
+.banner_slider{
+    background: none repeat scroll 0 0 #FFFFFF;
+    position: relative;
+    width: 990px;
+    height: 83px;
+    border:1px solid #f6e8e4;
+    padding: 0 20px 0 0;
+    overflow: hidden;
+}
+
+
+.banner_slider .banner_slider_container{
+    position: absolute;
+}
+
+.banner_slider .banner_slider_imagens {
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding-left: 10px;
+    position: relative;
+    top: 0;
+}
+
+.banner_slider .banner_slider_avancar,.banner_slider .banner_slider_voltar {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 43px;
+}
+
+.banner_slider .banner_slider_avancar{
+    background: url(../imagens/imagens_cia_slider.png);
+}
+
+.banner_slider .banner_slider_voltar{
+    background: url(../imagens/imagens_cia_slider.png);
+}
+
+.banner_slider .banner_slider_imagens img{
+    display: inline;
+    float: left;
+}
+
+.banner_slider .banner_slider_imagens img:hover{
+    border-color: #fff;
+}
+
+
+/* different styled scrollers */
+/* liquid width scroller */
+
+.banner_slider#tS1{
+    width: 95%;
+}
+
+.banner_slider#tS2{
+    margin: 10px auto;
+}
+
+.banner_slider#tS2 .banner_slider_imagens img{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.banner_slider#tS2 .banner_slider_imagens img:hover{
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+
+}
+
+.banner_slider#tS2 .banner_slider_avancar{
+    margin: -20px 0 0;
+    right: 20px;
+    top: 50%;
+    background-position: -45px top;
+}
+
+.banner_slider#tS2 .banner_slider_avancar:hover{
+  background-position: -45px bottom;
+}
+
+.banner_slider#tS2 .banner_slider_voltar{
+    margin: -20px 0 0;
+    left: 0;
+    top: 50%;
+    background-position: left top;
+}
+
+.banner_slider#tS2 .banner_slider_voltar:hover{
+  background-position: left bottom;
+}
+
+
+
+/* TS3 */
+
+/* a vertical scroller */
+.banner_slider#tS3{
+    position:absolute;
+    right:40px;
+    top: 30px;
+    height: 455px;
+    margin:0;
+
+}
+.banner_slider#tS3 .banner_slider_imagens{
+    height:auto;
+    margin-bottom:40px;
+}
+.banner_slider#tS3 .banner_slider_imagens img{
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.banner_slider#tS3 .banner_slider_imagens img:hover{
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.banner_slider#tS3 .banner_slider_voltar{
+    margin: 0 0 10px -20px;
+    top:0;
+    left:50%;
+    background-position: 86px top;
+}
+
+.banner_slider#tS3 .banner_slider_voltar:hover{
+    background-position: 86px bottom;
+}
+
+.banner_slider#tS3 .banner_slider_avancar{
+    margin:10px 0 0 -20px;
+    bottom:0;
+    left:50%;
+    background-position: 40px top;
+}
+
+.banner_slider#tS3 .banner_slider_avancar:hover{
+  background-position: 40px bottom;
+}

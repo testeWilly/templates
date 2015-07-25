@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Menus><Menu ID="MenuVertical" NomeAmigavel="Menu Vertical" Visible="True"><TipoMenu value="Vertical" /></Menu><Menu ID="Menulateral" Visible="True"><ApenasDepartamento value="True" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[                <ul class="menulateral">
+                    <repeticao:pais>
+	            <li><a class="dept_pai" href="[A0]">[A1]</a>
+                    <condicao:filho>
+                    <ul class="sub">
+                        <repeticao:filhos>
+                        <li><a href="[A0]" class="dept_filho">[A1]</a>
+                            <condicao:neto> 
+                            <ul class="subsub">
+                                <repeticao:netos>
+                                <li><a href="[A0]" class="dept_neto">[A1]</a></li>
+                                </repeticao:netos>
+                            </ul> 
+                            <condicao:neto>
+                         </li>
+                         </repeticao:filhos> 
+                     </ul>
+                     </condicao:filho>                    
+                     </li>
+                    </repeticao:pais>
+                 </ul>]]></MenuHTML><TipoMenu value="Vertical" /></Menu><Menu ID="Menu_lateral"><ApenasDepartamento value="False" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[<ul>
+  <repeticao:pais>
+  <li class="li">
+      <table cellpadding="0" cellspacing="0" border="0" width="100%" class="menu_pai">
+          <tr><td><a href="[A0]">[A1]</a></td></tr>
+      </table>
+      <condicao:filho>  
+      <ul class="depts_filho">
+        <repeticao:filhos>
+          <li><a href="[A0]">[A1]</a></li>
+            <condicao:neto>
+                    <repeticao:netos>
+                        <li><a href="[A0]"> - [A1]</a></li>
+                    </repeticao:netos>
+            </condicao:neto>
+        </repeticao:filhos>
+      </ul>
+      </condicao:filho>  
+  </li>
+  </repeticao:pais>
+</ul>]]></MenuHTML><TipoMenu value="Vertical" /></Menu><Menu ID="Menu_lateral_esquerda"><ApenasDepartamento value="True" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[<ul>
+  <repeticao:pais>
+  <li class="li">
+      <a href="[A0]">[A1]</a>
+      <condicao:filho>  
+      <ul class="depts_filho">
+        <repeticao:filhos>
+          <li><a href="[A0]">[A1]</a></li>
+            <condicao:neto>
+                    <repeticao:netos>
+                        <li><a href="[A0]"> - [A1]</a></li>
+                    </repeticao:netos>
+            </condicao:neto>
+        </repeticao:filhos>
+      </ul>
+      </condicao:filho>  
+  </li>
+  </repeticao:pais>
+</ul>]]></MenuHTML><TipoMenu value="Vertical" /></Menu></Menus><ListagemSimpless><ListagemSimples ID="ListagemSimples_esquerdo" NomeAmigavel="Caixa de Listagem de Produtos do menu da esquerda" Visible="True"><arquivoXml value="" /><ModeloHTML titulo="Vitrine de Coluna" help="HTML da vitrine, que será usado na coluna esquerda da loja."><![CDATA[
+            <!-- inicio -->
+            <div class="css_coluna_direita_categoria" >
+                <!-- Repeticao -->
+               <div class="css_coluna_direita_categoria_produtos" >
+                  <a href="{1}">
+                    <span><IMG id="{2}" onclick="javascript:window.location='{1}'" alt="{4}" hspace="0" src="{3}" border="0" /></span>
+                    <span>
+                        <span class="css_coluna_direita_produto_nome">{6}</span>
+                        <span>{7}</span>
+                        <span>{8} <span>{10}</span> <span>{9}</span></span>
+                        <span>{11}<span>{13}</span> <span>{12}</span></span>
+                        <span><span>{14}</span> {15} <span>{16}</span></span>
+                    </span>
+                  </a>
+               </div>
+               <!-- Fim Repeticao -->
+            </div>
+            <!-- fim -->
+            <!-- CSS_Inicio -->
+            .css_coluna_direita_categoria {
+              width:auto;
+              _width:100%;
+              height:auto;
+              text-align:center;
+              margin-top:15px;
+              overflow:hidden;
+              clear:left;
+            }
+            .css_coluna_direita_categoria_produtos {
+              background: url(../imagens/bgBox1.png) no-repeat right -5.2em;
+              overflow: hidden;
+              padding-bottom: 20px;
+              margin-bottom: 1em;
+              text-align:center;
+            }
+            .css_coluna_direita_produto_nome {
+	            display:block;
+	            font-size:12px;
+	            color:#003399;
+            }
+          ]]></ModeloHTML><TamanhoImagem value="Médias" /><TipoListagem value="MenuEsquerdo" /></ListagemSimples><ListagemSimples ID="Vitrine_esquerda_lancamentos" Visible="True"><CssComponente><![CDATA[]]></CssComponente><ModeloHTML><![CDATA[<ul>
+    <repeticao:produtos>
+    <li>
+        <div class="produto">
+            <div class="foto">
+                <a href="[A1]"><img src="[A3]" alt="[A4]" border="0" /></a>
+            </div>
+            <div class="titulo">
+                <a href="[A1]">[A6]</a></div>
+            <div class="preco">
+                [A8] <span class="nun_vezes">[A10] de</span> <span class="preco_de">[A9]</span>
+                <br />
+                [A11] <span class="preco_por">[A15]</span>
+            </div>
+        </div>
+    </li>
+    </repeticao:produtos>
+</ul>]]></ModeloHTML><TamanhoImagem value="Médias" /><TipoListagem value="2" /></ListagemSimples><ListagemSimples ID="Vitrine_default_destaques"><CssComponente><![CDATA[]]></CssComponente><ModeloHTMLVitrine><![CDATA[<div class="tit_box">
+    <h2 id="h2_oferta">Destaques da Semana</h2>
+</div>
+
+<div class="vitrine_geral" id="destaque">
+ <ul id="destaques">
+    <repeticao:produtos>
+    <li>
+       <div class="produto">
+         <condicao:frete_gratis>
+            <div class="frete_gratis"><a href="[A1]"><img src="imagens/tag_frete_gratis.png?19" alt="Frete Gratis"></a></div>
+         </condicao:frete_gratis>
+         <div class="foto">
+             <a href="[A1]">                 
+                 <img  alt="[A4]" src="[A3]">                 
+             </a>
+          </div>
+          <div class="tags">
+              <condicao:lancamento>
+                 <a href="[A1]"><img src="imagens/tag_lancamento.png?19" alt="Lançamento"></a>
+              </condicao:lancamento>  
+              <condicao:oferta>
+                 <a href="[A1]"><img src="imagens/tag_oferta.png?19" alt="Oferta"></a>
+              </condicao:oferta>              
+          </div>  
+          <h3 class="titulo"><a href="[A1]">[A6]</a></h3>
+          <condicao:preco_antigo>
+          <div class="preco_antigo">
+              <span class="preco_de">[A8]</span> <span class="preco_antigo_preco">[A19]</span>
+          </div>
+          </condicao:preco_antigo>
+         
+         <div class="preco">
+               <span class="preco_por">[A11]</span> <span class="preco_preco">[A15]</span>
+          </div>
+          
+          <condicao:parcelamento> 
+          <div class="preco_parcelado">
+               <span class="preco_ou">[A14]</span> <span class="preco_parcelado_vezes">[A13] de</span> <span class="preco_parcelado_preco">[A12]</span>
+          </div>
+          </condicao:parcelamento>
+   		  <div class="maisdetalhe">
+          <a href="[A1]"><img src="imagens/bt_detalhes.png?19" alt="Mais detalhes"/></a>
+          </div>
+       </div>
+    </li>
+    </repeticao:produtos>
+</ul>
+</div>]]></ModeloHTMLVitrine><TamanhoImagem value="Médias" /><TipoListagem value="15" /></ListagemSimples><ListagemSimples ID="Vitrine_default_destaques1"><CssComponente><![CDATA[]]></CssComponente><ModeloHTMLVitrine><![CDATA[<div class="vitrine_geral_lateral">
+ <ul>
+    <repeticao:produtos>
+    <li>
+       <div class="produto">
+         <!--<condicao:frete_gratis>
+            <div class="frete_gratis"><a href="[A1]"><img src="imagens/tag_frete_gratis.png?21" alt="Frete Gratis"></a></div>
+         </condicao:frete_gratis>-->
+         <div class="foto">
+             <a href="[A1]">                 
+                 <img  alt="[A4]" src="[A3]">                 
+             </a>
+          </div>
+          <div class="tags">
+              <condicao:lancamento>
+                 <a href="[A1]"><img src="imagens/tag_lancamento.png?21" alt="Lançamento"></a>
+              </condicao:lancamento>  
+              <condicao:oferta>
+                 <a href="[A1]"><img src="imagens/tag_oferta.png?21" alt="Oferta"></a>
+              </condicao:oferta>              
+          </div>  
+          <h3 class="titulo"><a href="[A1]">[A6]</a></h3>
+          <div class="descricao"><a href="[A1]">[A18]</a></div>
+          <condicao:preco_antigo>
+          <div class="preco_antigo">
+              <span class="preco_de">[A8]</span> <span class="preco_antigo_preco">[A19]</span>
+          </div>
+          </condicao:preco_antigo>
+         
+         <div class="preco">
+               <span class="preco_por">[A11]</span> <span class="preco_preco">[A15]</span>
+          </div>
+          
+          <condicao:parcelamento> 
+          <div class="preco_parcelado">
+               <span class="preco_ou">[A14]</span> <span class="preco_parcelado_vezes">[A13] de</span> <span class="preco_parcelado_preco">[A12]</span>
+          </div>
+          </condicao:parcelamento>
+   		  <div class="maisdetalhe_destaque">
+          <a href="[A1]"><img src="imagens/bt_detalhes.png?21" alt="Mais detalhes"/></a>
+          </div>
+       </div>
+    </li>
+    </repeticao:produtos>
+</ul>
+</div>]]></ModeloHTMLVitrine><TamanhoImagem value="Grandes" /><TipoListagem value="13" /></ListagemSimples></ListagemSimpless><BoletimNoticiass><BoletimNoticias ID="Newsletter" Visible="True"><BoletimNoticiasHTML><![CDATA[            <label>Nome:<br>[A0]</label>
+                <label>Data de Nasc:<br>[A1]</label>
+              </fieldset>
+              <fieldset>
+                <div class="sexo">Sexo:<br>[A3] [A6]</div>
+              </fieldset>
+              <fieldset>
+                <label>Seu email:<br>[A2]</label>
+                <label class="bt"><img onclick="[A4]" src="imagens/bt_ok_boletim.jpg"></label>
+              </fieldset>]]></BoletimNoticiasHTML><CssComponente><![CDATA[]]></CssComponente></BoletimNoticias><BoletimNoticias ID="Boletim"><BoletimNoticiasHTML><![CDATA[    <fieldset>
+       <label>Seu Nome:<br>[A0]</label>
+       <condicao:nascimento>
+           <label>Data de Nascimento:<br>[A1]</label>
+       </condicao:nascimento>
+       <condicao:sexo> 
+           <div class="sexo">Sexo:<br>[A3] [A6]</div>
+       </condicao:sexo>
+        <label>Seu Email:<br>[A2]</label>
+       <label class="bt"><span class="descadastrar"><a href="[A5]">Descadastrar</a></span><input type="image" onclick="[A4]" onkeydown="[A4]" src="imagens/bt_newsletter_enviar.png?24"/></label>
+    </fieldset>]]></BoletimNoticiasHTML><CssComponente><![CDATA[]]></CssComponente></BoletimNoticias></BoletimNoticiass></controles></page>

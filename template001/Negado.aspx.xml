@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CaixaAguardeLojas><CaixaAguardeLoja ID="CaixaAguardeLoja" /></CaixaAguardeLojas><Links><Link ID="LinkAjuda"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Duvidas" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Ajuda" /><UsarHTTPS value="False" /></Link><Link ID="Alterar_Pedido"><PaginaLoja value="Default" /><Target value="MesmaPagina" /></Link></Links><Negados><Negado ID="Negado1"><NegadoHTML><![CDATA[<div id="negado">
+    <div class="lista_negado">
+    <h2>O pedido n&atilde;o pode ser autorizado</h2>
+    <p>O pedido [A0] não foi autorizado pela operadora.<br /> O motivo citado pela mesma foi: [A1] </p>
+    <p>Aconselhamos a você clicar no botão <strong>"Tentar Novamente"</strong> e, se possível, fechar o pedido com outro método de pagamento.</p>
+      <div class="bt_tentar_novamente bt_hover"><a href="[A2]">Novamente</a></div>
+    </div>
+</div>]]></NegadoHTML></Negado></Negados><Banners><Banner ID="Fullzao_topo" /></Banners><SEOs><SEO ID="seo" /></SEOs></controles></page>

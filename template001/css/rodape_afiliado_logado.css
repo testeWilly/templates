@@ -1,0 +1,26 @@
+#rodape_afiliado{
+  clear: both;
+  background: #11c1c1;
+  text-align: right;
+  padding: 20px 100px;
+  margin-top: 50px;
+}
+
+#rodape_afiliado a{
+  font-size: 14px;
+  color: #fff;
+  border-left: 1px solid #04aeae;
+  padding: 0 10px;
+}
+
+#rodape_afiliado a:first-child{
+    border: 0;
+}
+
+#rodape_afiliado a:hover{
+  
+}
+
+#rodape_afiliado img{
+  margin: 0 15px;
+}

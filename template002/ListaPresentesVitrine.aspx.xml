@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ListaPresentesVitrines>
+      <ListaPresentesVitrine ID="ListaPresentesVitrine1">
+        <CssComponente><![CDATA[]]></CssComponente>
+        <ListaPresentesVitrineCabecalhoHTML>
+          <![CDATA[
+            <div>
+              <div style="float:left;padding:10px;">
+                <img src="[B0]" alt="[B1]" border="0" />
+              </div>
+              <div style="float:left;padding:10px;">
+                <b>[B1]</b><br>
+                [B2]<br>
+                [B3]<br>
+              </div>
+            </div>
+          ]]>
+        </ListaPresentesVitrineCabecalhoHTML>
+        <ListaPresentesVitrineHTML>
+          <![CDATA[
+            <div class="box">
+              <div class="tit_box">
+                <h2>Adicionando os produtos para lista de presentes</h2>
+              </div>
+              <div class="cabecalho">
+                [A0]
+              </div>
+              <div class="adicionarProduto" style="float:left;padding:10px;">
+                <a href="[A5]">Adicionar produto</a>
+              </div>
+              <div class="pesquisa">
+                [A1]
+              </div>
+              <div>
+                [A2]
+              </div>
+              <div>
+                [A3]
+              </div>
+              <div>
+                [A4]
+              </div>
+            </div>
+          ]]>
+        </ListaPresentesVitrineHTML>
+        <ListaPresentesVitrineSemProdutosHTML>
+          <![CDATA[
+            <div style="clear:both;">
+              Não há produtos cadastrados
+            </div>
+          ]]></ListaPresentesVitrineSemProdutosHTML>
+        <ListaPresentesVitrineProdutosHTML>
+          <![CDATA[
+            <div style="clear:both;">
+              <table width="90%">
+                <repeticao:produto>
+                  <tr>
+                    <td>
+                      <img src="[E0]" alt="" border="0" style="float:left;" />
+                    </td>
+                    <td style="width:30%;">
+                      <b>[E1]</b><br>
+                      [E2]<br>
+                    </td>
+                    <td>
+                      <div style="float:left;">
+                        <a href="[E4]"><img src="imagens/compre_junto_menos.png" alt="" border="0" /></a>
+                      </div>
+                      <div style="float:left;">
+                      &nbsp;&nbsp;[E3]&nbsp;&nbsp;
+                      </div>
+                      <div style="float:left;">
+                        <a href="[E5]"><img src="imagens/compre_junto_mais.png" alt="" border="0" /></a>
+                      </div>
+                    </td>
+                    <td>
+                      <condicao:comprado>
+                        <img src="imagens/radio_on.gif" alt="foi comprado" border="0"/>
+                      </condicao:comprado>
+                      <condicao:nao_comprado>
+                        <img src="imagens/radio_off.gif" alt="ninguém comprou" border="0"/>
+                      </condicao:nao_comprado>
+                    </td>
+                    <td style="width:30%;">
+                      <repeticao:comprador>
+                        Convidado: [E6]<br>
+                        E-mail: [E7]<br>
+                      </repeticao:comprador>
+                    </td>
+                  </tr>
+                </repeticao:produto>
+              </table>
+            </div>
+          ]]>
+        </ListaPresentesVitrineProdutosHTML>
+        <ListaPresentesVitrinePaginacaoHTML>
+          <![CDATA[
+<div class="paginacao">
+  <condicao:paginacao>
+    Mostrando <b>[F0]</b> - <b>[F1]</b> produto(s) do total de <b>[F2]</b> distribuído(s) em <b>[F9] páginas</b>.<br />
+    <condicao:pagina_anterior>
+      <a href="[F5]"> <small><</small> Voltar</a>
+    </condicao:pagina_anterior>
+    <repeticao:paginas quantidade="5">
+      <a href="[F7]" <condicao:pagina_selecionada> class="selecionado" </condicao:pagina_selecionada>>[F8]</a>
+    </repeticao:paginas>
+    <condicao:proxima_pagina>
+      <a href="[F6]">Avançar <small>></small></a>
+    </condicao:proxima_pagina>
+  </condicao:paginacao>
+</div>
+          ]]>
+        </ListaPresentesVitrinePaginacaoHTML>
+        <ListaPresentesVitrineCategoriasHTML>
+          <![CDATA[
+            <div style="clear:both;">
+              <ul>
+                <repeticao:categoria>
+                  <li style="float:left;padding:5px;" <condicao:selecionado>class="selecionado"</condicao:selecionado> >
+                    <a href="[D1]">[D0]</a>
+                  </li>
+                </repeticao:categoria>
+              </ul>
+            </div>
+          ]]>
+        </ListaPresentesVitrineCategoriasHTML>
+        <ListaPresentesVitrinePesquisaHTML>
+          <![CDATA[
+            <div style="clear:both;">
+              Buscar o(s) produto(s) da lista:
+              &nbsp;&nbsp;[C0]
+              &nbsp;&nbsp;
+              <a href="[C2]">
+                Buscar
+              </a>
+              <br>
+              Ordernar a lista por [C1]
+            </div>
+          ]]>
+        </ListaPresentesVitrinePesquisaHTML>
+        <QuantidadeItensPorPagina value="5" />
+      </ListaPresentesVitrine>
+    </ListaPresentesVitrines>
+  </controles>
+</page>

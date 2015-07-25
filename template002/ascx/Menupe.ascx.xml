@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><IconesRodapes><IconesRodape ID="IconesRodape2" NomeAmigavel="" Visible="True" /></IconesRodapes><PaginasInstitucionaiss><PaginasInstitucionais ID="PaginasInstitucionais" NomeAmigavel="" Visible="True" /></PaginasInstitucionaiss><Links><Link ID="selo_rodape_ciashop" NomeAmigavel="Selo da ciashop rodap�" Visible="True"><PaginaLoja value="Default" /><Target value="MesmaPagina" /></Link><Link ID="selo_rodape_fcontrol" NomeAmigavel="Selo do FControl rodap�" Visible="True"><PaginaLoja value="Default" /><Target value="MesmaPagina" /></Link><Link ID="selo_rodape_ebit" NomeAmigavel="Selo do eBit rodap�" Visible="True"><PaginaLoja value="Default" /><Target value="MesmaPagina" /></Link></Links><CaixaPesquisas><CaixaPesquisa ID="CaixaPesquisa_pe"><CaixaPesquisaHTML><![CDATA[  <fieldset>
+                      <label style="margin-left: 0pt;"><img onclick="[A2]" src="imagens/busca_ico.png?21" style="cursor: pointer; vertical-align: middle"></label>
+                      <label>[A0]</label>
+                      <span>em</span>
+                      <label>[A1]</label>
+                      <label style="margin-left: 2px;"><img onclick="[A2]" src="imagens/bt_busca_rodape_ok.png?21" style="cursor: pointer; vertical-align: middle"></label>
+                  </fieldset>]]></CaixaPesquisaHTML><CssComponente><![CDATA[]]></CssComponente></CaixaPesquisa></CaixaPesquisas><Menus><Menu ID="Menupe" NomeAmigavel="Menu do p�" Visible="True"><ApenasDepartamento value="False" /><MenuHTML><![CDATA[<ul id="deptmap">
+    <repeticao:pai>
+        <li><a href="[A0]">[A1]</a>
+            <condicao:filho>
+                <ul class="sub">
+                    <repeticao:filho>
+                        <li><a href="[A0]">[A1]</a> </li>
+                    </repeticao:filho>
+                    <li class="todos"><a href="[A0]">+ Ver Todos</a></li>
+                </ul>
+            </condicao:filho>
+        </li>
+    </repeticao:pai>
+</ul><!-- CSS_Inicio -->]]></MenuHTML><TipoMenu value="Horizontal" /></Menu></Menus></controles></page>

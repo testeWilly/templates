@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CaixaAguardeLojas><CaixaAguardeLoja ID="CaixaAguardeLoja"><CaixaAguardeHTML><![CDATA[]]></CaixaAguardeHTML></CaixaAguardeLoja></CaixaAguardeLojas><PacotePresentes><PacotePresente ID="PacotePresente1"><PacotePresenteHTML><![CDATA[     <div class="box">
+        <div class="presente_conteudo">
+            <p>
+                Escolha uma opção de Pacote de presente e preencha a mensagem que será posta no
+                cartão!. Caso não queira que o produto seja embrulhado escolha a opção "Não enviar
+                para presente" e clique em continuar.</p>
+            <ul>
+                <repeticao:pacote_presente>
+                <li>
+                    <h3>[A0]</h3>
+                    <fieldset>
+                        <label>[A1]</label>
+
+                            <repeticao:opcoes> <span>[A2]</span> </repeticao:opcoes>
+
+                    </fieldset>
+                    <condicao:mensagem>
+                    <fieldset class="mensagem">
+                        <label>
+                            Mensagem do Cartão <small>(Máximo de 250 caracteres)</small>:<br />
+                            [A3]
+                            <div class="caracteres">[A4] Caracteres.</div>
+                        </label>
+                    </fieldset>
+                    </condicao:mensagem>
+                </li>
+                </repeticao:pacote_presente>
+            </ul>
+  
+        <div class="bt_continuar bt_hover">
+          <a href="#" onclick="[A5]">Continuar</a>
+        </div>
+    </div>
+          </div>
+]]></PacotePresenteHTML><TextoExibicaoOpcao1 value="Embrulho de presente e cartão" /><TextoExibicaoOpcao2 value="Somente embrulho de presente" /><TextoExibicaoOpcao3 value="Somente cartão" /><TextoNaoEnviarPresente value="Não enviar para presente" /></PacotePresente></PacotePresentes><Links><Link ID="LinkAjuda"><PaginaLoja value="Default" /><Target value="MesmaPagina" /><UsarHTTPS value="False" /></Link></Links><Banners><Banner ID="Fullzao_topo" /></Banners></controles></page>

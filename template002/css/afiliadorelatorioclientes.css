@@ -1,0 +1,162 @@
+.organizar_por{
+    font-size: 11px;
+    color: #555; 
+}
+
+.afiliados_grafico{
+    margin-top: 40px;
+}
+
+.afiliados_refinar{
+    padding: 10px 5px 8px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.afiliados_refinar .afiliados_refinar_direita{
+    float: right;
+    margin-left:5px;
+}
+
+.afiliados_refinar select{
+    border: 1px solid #ccc;
+    margin: 0 4px;
+    color: #555;
+}
+
+.tab_afiliados{
+	width:970px;
+	border-collapse: collapse;
+	margin: 20px auto 0 auto;
+}
+
+.tab_afiliados .center{
+	text-align: center !important;
+}
+
+.tab_afiliados .afiliado-titulo th{
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 30px;
+    padding: 0 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tab_afiliados .afiliado-cliente td{
+	padding: 10px 5px;
+	border-top: 1px solid #B4D9EF;
+	color: #666;
+	cursor: pointer;
+}
+
+.tab_afiliados .afiliado-cliente:hover{
+	background: #F2F8FD;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos{
+	display: none;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos td{
+	padding-bottom: 10px;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos .afiliado-cliente-sem-pedido{
+	color: red;
+	display: block;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab{
+	width: 98%;
+	margin: 5px auto;
+	background: #F2F8FD;
+	border: 1px solid #D9ECF7;  		
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab.afiliado-cliente-pedido-selecionado{
+	border: 1px solid #B7DBF0;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido{
+	cursor: pointer;	
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido td{
+	padding: 10px 5px;
+	font-weight: bold;
+	color: #666666;  
+	text-align: center;		
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab.afiliado-cliente-pedido-selecionado .afiliado-cliente-pedido td{
+	background: #D9ECF7;		
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido td strong{
+	color: #0667A4;
+	margin-right: 2px;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido td.afiliado-numero-pedido{
+	background: #D9ECF7;
+	width: 120px;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab.afiliado-cliente-pedido-selecionado .afiliado-cliente-pedido td.afiliado-numero-pedido{
+	background: #B7DBF0;
+}
+
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido td.afiliado-pedido-arrow{
+	text-align: center;
+	width: 20px;
+	background: #D9ECF7;  		
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab.afiliado-cliente-pedido-selecionado .afiliado-cliente-pedido td.afiliado-pedido-arrow{
+	background: #B7DBF0;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido-produtos{
+	display: none;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido-produtos td{
+	background: #F2F8FD;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido-produtos .afiliado-cliente-pedido-produtos-tab{
+	width: 98%;
+	margin: 10px auto;
+	border: 1px solid #B7DBF0;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido-produtos .afiliado-cliente-pedido-produtos-tab th{
+	padding: 10px;
+	background: #B7DBF0;
+	color: #0667A4;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido-produtos .afiliado-cliente-pedido-produtos-tab td{
+	padding: 10px;
+	color: #666;
+	text-align: center;
+	border: 0;
+	border-top: 1px solid #B7DBF0;
+	background: #ffffff;
+}
+
+.tab_afiliados .afiliado-cliente-pedidos-tab .afiliado-cliente-pedido-produtos .afiliado-cliente-pedido-produtos-tab td a{
+	color: #0666A4;
+}
+
+.tab_afiliados .afiliado-total td{
+	padding: 10px 5px;
+	border-top: 1px solid #F1F1F1;
+	font-weight: bold;
+}

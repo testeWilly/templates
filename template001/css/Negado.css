@@ -1,0 +1,43 @@
+#negado{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+
+.lista_negado {
+    background: none repeat scroll 0 0 #F8DDD4;
+    margin: 0 auto;
+    text-align: left;
+    width: 500px;
+    padding: 10px 20px;
+    font-size:12px;
+}
+
+.lista_negado h2{
+    color: #4C1E25;
+    font-family: bellotabold;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 7px 0 15px;
+}
+
+.lista_negado p{
+    color: #49292B;
+    display: block;
+    margin-top: 5px;
+}
+
+.bt_tentar_novamente a{
+    background: url("../imagens/bt_tentar_novamente.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 33px;
+    margin: 15px auto 0;
+    text-indent: -9999px;
+    width: 187px;
+}
+
+strong{
+    font-family: bellotabold;
+    font-weight: normal;
+}

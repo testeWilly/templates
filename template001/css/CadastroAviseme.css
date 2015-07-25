@@ -1,0 +1,78 @@
+strong{
+    font-family: bellotabold;
+    font-weight: normal;
+}
+.aviseme{
+    margin: 20px;
+    font-size: 13px;
+}
+
+.aviseme p{ 
+    color: #322511;
+    margin: 10px 0;
+}
+
+.aviseme_info{
+    background: none repeat scroll 0 0 #F8DDD4;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.aviseme_info img{
+    margin: 0 5px;
+}
+
+.aviseme_info h3{
+    color: #343434;
+    font-family: bellotabold;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.tit_prod_aviseme {
+  font-size: 16px;
+  
+
+}
+
+.img_prod_aviseme {
+    widht:150px;
+    height:150px;
+}
+
+
+.aviseme_formulario {
+    clear: both;
+    margin-top: 10px;
+}
+
+
+
+.aviseme fieldset{ 
+    border:none;
+}
+
+.aviseme fieldset label{ 
+    display:block;
+    color: #322511; 
+    margin-top: 4px;
+    font-size:14px;
+}
+
+.aviseme fieldset label input{ 
+font-family: bellotaregular;
+    margin-top: 3px;
+    border:1px solid #ccc;
+    padding: 4px;
+    font-size: 11px;
+    width: 200px;
+}
+
+.aviseme fieldset label img{ 
+    margin: 10px 0 0 140px;
+    cursor:pointer;
+}
+
+.depts_filho{
+    display:none;
+}

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CadastroDeAfiliados><CadastroDeAfiliado ID="CadastroDeAfiliado"><CadastroAfiliadoHTML><![CDATA[   <ul class="subtitulo_afiliados">
+    <li>O cadastro está sujeito a aprovação. Você receberá um email com a confirmação do seu cadastro.</li>
+    <li>Campos marcados com * são obrigatórios.</li>
+  </ul>
+        <div class="formulario">
+                    <div class="heading-special">
+                        <h2><span>Dados bancários</span></h2>
+                    </div>
+                <div class="afiliados_dados_bancarios">              
+                    <ul>
+                        <li>Atenção não vamos solicitar dados confidências, apenas dados da sua conta para depósito de sua comissão.</li>
+                        <li>Preencha os campos abaixo com seus dados bancários para que a comissão sobre a venda realizada seja creditada em sua conta.</li>
+                    </ul>
+                </div>
+            <div class="list form">             
+                <label>
+                  <span class="tit_label form-fieldName">
+                    Banco*
+                  </span>
+                  [A3]
+                </label>
+            </div>
+            <div class="list obrigatorio form">
+                <label>
+                  <span class="tit_label form-fieldName">Agência*</span>
+                  [A4]
+                </label>
+            </div>
+            <div class="list obrigatorio form">
+                <label>
+                  <span class="tit_label form-fieldName">Conta*</span>
+                  [A5]
+                </label>
+            </div>
+            <div class="list obrigatorio form">
+                <label>
+                  <span class="tit_label form-fieldName">Nome do titular da conta*</span>
+                  [A6]
+                </label>
+            </div>
+            <div class="heading-special">
+                <h2><span>URL do Site</span></h2>
+            </div>
+            <div class="list obrigatorio form">
+                <label>
+                  <span class="tit_label form-fieldName">URL(s) de seu(s) site(s)/blog(s)*</span>
+                  [A2] <small>(Separado por vírgulas)</small>
+                </label>
+            </div>          
+            <div class="heading-special">
+                <h2><span>Termo de adesão</span></h2>
+            </div>
+            <div class="termo_aceite">
+                <div style="border: 1px solid #ccc; width: 970px; height: 200px; overflow: auto; padding: 10px; box-sizing: border-box;">
+                    [K0]
+                </div>
+            </div>
+            <fieldset class="termo_aceite">
+                [K1] <strong>Concordo com o termo de adesão de programa de afiliados e quero participar!</strong>
+            </fieldset>
+        </div>
+    <div class="bt_direita">
+      <a href="#" onclick="[A7]">Cadastrar</a>
+    </div>
+]]></CadastroAfiliadoHTML><FormatacaoAfiliadoHTML><![CDATA[  <div class="tit-box heading-secondary"><h2>Cadastro de Afiliados</h2></div>
+    <div id="afiliados">
+    [C0][C1][C2]
+    </div>
+
+]]></FormatacaoAfiliadoHTML><SucessoCadastroAfiliadoHTML><![CDATA[<div id="sucesso">
+  <div class="lista_sucesso">
+    <condicao:aprovacao_automatica>
+      Cadastro realizado com sucesso, aprovado automaticamente.
+    </condicao:aprovacao_automatica>
+    <condicao:aprovacao_manual>
+      Cadastro realizado com sucesso, aguarde aprovação em breve enviaremos um e-mail com seus dados de acesso.<br />   
+    </condicao:aprovacao_manual>
+  </div>
+</div>
+]]></SucessoCadastroAfiliadoHTML><TermoAfiliadoHTML><![CDATA[]]></TermoAfiliadoHTML><ValidacaoCadastroAfiliadoHTML><![CDATA[ <div id="erro">
+    <div class="lista_erro">
+        <h2>Ocorreu os seguintes erros:</h2>
+        <ul>
+            <repeticao:erro>
+                <li>[B0]</li>
+            </repeticao:erro>
+        </ul>
+    </div>
+</div>
+]]></ValidacaoCadastroAfiliadoHTML></CadastroDeAfiliado></CadastroDeAfiliados></controles></page>

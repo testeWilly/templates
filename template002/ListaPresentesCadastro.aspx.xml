@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ListaPresentesCadastros>
+      <ListaPresentesCadastro ID="ListaPresentesCadastro1">
+        <CssComponente>
+          <![CDATA[
+            #erro
+						{
+							width: 100%;
+							text-align: center;
+							margin: 20px 0 20px 0;
+						}
+
+						.lista_erro_peq
+						{
+							margin: 0 auto;
+							text-align: left;
+							width: 290px;
+							background-color: #FFD7D7;
+							border: 1px solid #962926;
+							padding: 10px 5px 10px 65px;
+							background-image: url('../../imagens/erro.png');
+							background-repeat: no-repeat;
+							background-position: top left;
+						}
+
+						.lista_erro_peq h2
+						{
+							color: #972B28;
+							font-size: 14px;
+							margin: 7px 0;
+						}
+
+						.lista_erro_peq ul
+						{
+							list-style: none;
+						}
+
+						.lista_erro_peq ul li
+						{
+							padding-left: 12px;
+							color: #972B28;
+							font-size: 12px;
+							background-image: url('../../imagens/seta_erro.gif');
+							background-repeat: no-repeat;
+							background-position: left 4px;
+							line-height: 20px;
+						}
+             
+             #sucesso
+						{
+							width: 100%;
+							text-align: center;
+							margin: 20px 0 20px 0;
+						}
+
+						.lista_sucesso_peq
+						{
+							margin: 0 auto;
+							text-align: left;
+							width: 290px;
+							background-color: #AFF08E;
+							border: 1px solid #347C17;
+							padding: 10px 5px 10px 65px;
+							background-image: url('../../imagens/sucesso.png');
+							background-repeat: no-repeat;
+							background-position: top left;
+						}
+
+						.lista_sucesso_peq h2
+						{
+							color: #347235;
+							font-size: 14px;
+							margin: 7px 0;
+							padding-top: 25px;
+						}
+
+						.lista_sucesso_peq ul
+						{
+							list-style: none;
+						}
+
+						.lista_sucesso_peq ul li
+						{
+							
+						}
+						
+						.lista_sucesso_peq p
+						{
+							color: #347C17;
+						}
+             
+             
+             
+             
+             
+             a.botao{
+	background-image: url(bt_bg.gif);
+	background-repeat: repeat-x;
+	border-top:	#488FD5 2px solid;
+	border-left: #488FD5 2px solid;
+	border-right: #194878 2px solid;
+	border-bottom: #194878 2px solid;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 10px;
+	font-weight: bold;
+	padding: 2px 6px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+a.botao:visited,actived
+{
+	background-image: url(bt_bg.gif);
+	background-repeat: repeat-x;
+	border-top:	#488FD5 2px solid;
+	border-left: #488FD5 2px solid;
+	border-right: #194878 2px solid;
+	border-bottom: #194878 2px solid;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 10px;
+	font-weight: bold;
+	padding: 2px 6px;
+	margin: 10px;
+	text-decoration: none;
+	
+}
+
+a.botao:hover{
+	background-image: url(bt_bg_on.gif);
+	background-repeat: repeat-x;
+	border-top:	#194878 2px solid;
+	border-left: #194878 2px solid;
+	border-right: #488FD5 2px solid;
+	border-bottom: #488FD5 2px solid;
+	color: #73A8DC;
+	text-align: center;
+	font-family: 10px;
+	font-weight: bold;
+	padding: 2px 6px;
+	margin: 10px;
+	text-decoration: none;
+}
+
+/* Tabela Geral */
+.tab_geral{
+	border: none;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 100%;
+	margin: 0px;
+	padding: 5px;
+	color: #0079BB;
+	font-weight: bold;
+}
+
+.tab_geral td
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #EEEEEE;
+    line-height: 25px;
+    color: Black;
+    text-decoration:none;
+    font-weight: normal;
+}
+
+.tab_geral td a
+{
+    color:#0079BB;
+    text-decoration:none;
+}
+
+.tab_geral_alternada
+{
+    border: none;
+	background-color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 100%;
+	margin: 0px;
+	padding: 5px;
+	color: #0079BB;
+	font-weight: bold;
+}
+
+.tab_geral_alternada td
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #FFFFFF;
+}
+
+.tab_paginacao
+{
+    background-color: #005A98;
+    color: #FFFFFF;
+	text-decoration: none;
+	width: 100%;
+	border: 0px;
+	padding: 4px;
+	padding-left: 10px;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+.tab_paginacao select
+{
+    font-size:11px;
+    color: Black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tab_paginacao td{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 0px;
+	background-color: #005A98;
+	font-weight: bold;
+
+}
+
+.tab_paginacao td a
+{
+    color: #FFFFFF;    
+}
+
+.tab_paginacao td a:link{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 0px;
+	background-color: #005A98;
+}
+
+.tab_geral_header{
+	background: #CCCCCC;
+	padding: 0px 5px;
+	line-height: 25px;
+	text-align: left;
+	color: Black;
+    font-size: 11px;
+}
+
+hr{
+	color: #CCDEF1;
+}
+
+.tab_geral TH1{
+	background-color: #0079BB;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	padding: 0 10px;
+	font-size: 12px;
+}
+/*.tab_geral TD{
+	background-color: #FFFFFF;
+	text-align: left;
+	line-height: 22px;
+	padding: 0 10px;
+	margin: 0 10px;
+	border-left: #ebebeb 1px solid;
+	border-bottom: #ebebeb 1px solid;
+}*/
+
+.tab_geral .sub_titulo td{
+	background-color: #ccdef1;
+	color: #2f6ca8;
+	font-weight: bold;
+	border: #ccdef1 1px solid;
+	text-align: left;
+	line-height: 25px;
+	padding: 0 10px;
+	font-size: 12px;
+}
+
+.tab_geral tr.selecionada TD{
+	background-color: #ccdef1;
+	color: #ffffff;
+}
+
+.tab_geral .selecionada {
+	background-color: #ccdef1;
+	color: #ffffff;
+}
+
+.tab_geral td a:link{
+	
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+.tab_geral th a:link{
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+
+.tab_geral td a:visited, actived{
+	
+	text-decoration: none;
+	padding: 0 10px;
+}
+.tab_geral td a:hover{
+	
+	text-decoration: underline;
+	padding: 0 10px;
+}
+
+.tab_geral th {
+	text-align:left;
+}
+
+.tab_geral tr.raiz TH{
+	background-color: #A1C1E1;
+	text-align:left;
+	color:#000000;
+	line-height:25px;
+}
+
+.tab_geral tr.raiz TD{
+	background-color: #A1C1E1;
+	text-align:left;
+	color:#000000;
+	line-height:25px;
+}
+
+.tab_geral tr.alternada TH{
+	background-color: #FFFFFF;
+}
+
+.tab_geral tr.alternada TD{
+	background-color: #FFFFFF;
+}
+          ]]></CssComponente>
+        <ListaPresentesCadastroHTML>
+          <![CDATA[
+          <div class="box">
+              <div class="tit_box">
+                <h2>Cadastro de Lista de Presentes</h2>
+              </div>
+              [A1][A2]
+              <br>
+              [A0]
+            </div>
+          ]]>
+        </ListaPresentesCadastroHTML>
+        <FormularioListaPresentesDadosGeraisHTML>
+          <![CDATA[
+            <div class="formulario_conteudo">
+              <h4>Dados do evento:</h4>
+              <fieldset>
+                <label style="width: 100%;">
+                  Data e hora do Evento:<br />[B0]
+                </label>
+              </fieldset>
+              <fieldset>
+                  <label style="width: 100%;">Local do Evento<br />[B1]</label><br>
+                  <label style="width: 100%;">Endereço<br />[B2], [B3]</label><br>
+                  <label style="width: 100%;">Bairro<br />[B4]</label><br>
+                  <label style="width: 100%;">Cidade<br />[B5]</label><br>
+                  <label style="width: 100%;">Estado<br />[B6]</label><br>
+              </fieldset>
+              <fieldset>
+                  <label>Inserir<br /></label>
+                  <label>Imagem [B7] ou Script Google Maps [B8]</label>
+              </fieldset>
+              <condicao:imagem>
+                <fieldset>
+                    <label style="width: 100%;">Imagem<br />[B10]</label><br>
+                </fieldset>
+              </condicao:imagem>
+              <condicao:googlemaps>
+                <fieldset>
+                  <label style="width: 100%;">Script do Google Maps<br />[B9]</label><br>
+                </fieldset>
+              </condicao:googlemaps>
+              <h4>Mensagem para tela inicial da lista</h4>
+              <fieldset>
+                  <label style="width: 100%;">Caracteres: [B12]</label><br>
+                  <label style="width: 100%;">[B11]</label><br>
+                </fieldset>
+              <h4>Dados do Responsável:</h4>
+                <fieldset>
+                    <label style="width: 100%;">Seu nome:<br />[B13]</label><br>
+                </fieldset>
+                <fieldset>
+                    <label style="width: 100%;">CPF:<br />[B14]</label><br>
+                </fieldset>
+                <fieldset>
+                    <label style="width: 100%;">Telefone:<br />[B15] [B16]</label><br>
+                </fieldset>
+                <fieldset>
+                    <label style="width: 100%;">E-mail<br />[B17]</label><br>
+                </fieldset>
+              <h4>Dados do homenageado</h4>
+                <fieldset>
+                    <label style="width: 100%;">Seu nome:<br />[B18]</label><br>
+                </fieldset>
+                <fieldset>
+                    <label style="width: 100%;">Telefone:<br />[B19][B20]</label><br>
+                </fieldset>
+                <fieldset>
+                    <label style="width: 100%;">E-mail<br />[B21]</label><br>
+                </fieldset>              
+              <h4>Mensagem e-mail para os convidados</h4>
+              <fieldset>
+                  <label style="width: 100%;">Caracteres: [B23]</label><br>
+                  <label style="width: 100%;">[B22]</label><br>
+              </fieldset>
+              <h4>Endereço de Entrega:</h4>
+              <fieldset>
+                <label style="width: 49%;">
+                      [B24]Endereço Atual:<br />
+                      <div class="endereco_conteudo">
+                        <h3>[B26]</h3>
+                        <p>[B27]</p>
+                        <p>
+                          [B28], [B29]- [B30] - [B31] - [B32]<br />
+                          CEP: [B33]
+                        </p>
+                      </div>
+                  </label>
+                  <label style="width: 50%;">
+                      [B25]Escolher outro ou cadastrar endereço:<br />
+                  </label>
+              </fieldset>
+              <fieldset>
+                <label style="width: 50%;">
+                      Digite um link amigável para esta lista de presentes:<br />
+                      [B34][B35]
+                </label>
+              </fieldset>
+                <div style="float:right;">
+									<img src="imagens/bt_ok_boletim.jpg" alt="Salvar" onclick="[B36]" />
+								</div>
+            </div>
+          ]]>
+        </FormularioListaPresentesDadosGeraisHTML>
+        <MensagemAlertaListaPresentesCadastroHTML>
+          <![CDATA[
+          	<div id="erro">
+							<div class="lista_erro_peq">
+								<h2>[C0]</h2>
+								<ul>
+									<repeticao:erro>
+										<li>[C1]</li>
+									</repeticao:erro>
+								</ul>
+							</div>
+						</div>
+          ]]>
+        </MensagemAlertaListaPresentesCadastroHTML>
+        <MensagemSucessoListaPresentesCadastroHTML>
+          <![CDATA[
+						<div id="sucesso">
+							<div class="lista_sucesso_peq">
+								<h2>Seu cadastro de avaliação foi realizada com sucesso.</h2>
+								<p>Obrigado por avaliar o produto.</p>
+								<p>Avaliação passará por uma seleção para então ser liberado.</p>
+								<br />
+								<div style="float:right;">
+									<img src="imagens/bt_ok_boletim.jpg" alt="Fechar" onclick="[D0]" />
+								</div>
+							</div>
+						</div>								
+					]]>
+        </MensagemSucessoListaPresentesCadastroHTML>
+      </ListaPresentesCadastro>
+    </ListaPresentesCadastros>
+  </controles>
+</page>

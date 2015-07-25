@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><Links><Link ID="LinkAjuda"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Duvidas" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Ajuda" /></Link></Links><PagOnlines><PagOnline ID="PagOnline1"><PagOnlineHTML><![CDATA[<style>
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+    font-family: latoregular;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* Topo */
+
+.passos{
+    padding: 22px 0;
+}
+
+.topo_meio{
+    background: none repeat scroll 0 0 #11c1c1;
+    height: 60px;
+    text-align: center;
+}
+
+.topo_baixo {
+  background: url("[A1]bg_topo.png") repeat-x scroll left top transparent;
+  height: 112px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.logo {
+    left: 50%;
+    margin-left: -165.5px;
+    position: absolute;
+    top: 17px;
+}
+
+.logo h1 {
+	background: url("[A1]logo.png") no-repeat scroll center top transparent;
+    cursor: pointer;
+    height: 117px;
+    text-indent: -9999px;
+    width: 331px;
+}
+
+.logo h1 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+  .tit_dept, hr{
+  	display: none;
+  }
+  
+  .button_imagens{
+    height: 48px;
+    width: 236px;
+  }
+
+.tab_interna {
+	text-align:left;
+	color:#444444;
+	font-size:11px;
+}
+
+.tab_interna td {
+	border-left:#c0c0c0 1px solid;
+	border-right:#c0c0c0 1px solid;
+    background: #fff;
+}
+
+.tab_interna2 {
+	width:100%;
+	padding:2px;
+}
+
+.tab_interna2 th {
+	background-color:#fafafa;
+	text-align:center;
+	font-weight:normal;
+	color:#444444;
+	line-height:20px;
+	border:none;
+	font-size:11px;
+	padding:4px;
+}
+
+.tab_interna2 td {
+	background-color:#ffffff;
+	color:#444444;
+	line-height:20px;
+	border:none;
+	padding:4px;
+	border-bottom:#cccccc 1px dashed;
+	font-size:11px;
+	text-align:center;
+}
+
+.tab_interna3 {
+	width:100%;
+	padding:5px;
+	line-height:20px;
+}
+
+.tab_interna3 .fontV1 {
+	font-size:10px;
+	display:inline;
+}
+
+.tab_interna3 td {
+	border:none;
+}
+
+.tab_interna3 p {
+	border:none;
+	line-height:20px;
+	padding:1px 0;
+}
+
+.tab_interna4 {
+	width:100%;
+	padding:5px;
+	text-align:left;
+}
+
+.tab_interna4 td {
+	border:none;
+	text-align:left;
+}
+
+.img_left {
+	float:left;
+	_margin-left:-3px;
+}
+
+.img_right {
+	float:right;
+	_margin-right:-3px;
+}
+
+.payment_card {
+	text-align:left;
+	font-size:11px;
+	vertical-align:middle;
+	line-height:25px;
+}
+
+#boleto {
+	padding-top:40px;
+	color:#3E3E3E;
+	text-align:center;
+	background-image:url(num_pedido.gif);
+	background-repeat:no-repeat;
+	width:266px;
+	height:80px;
+	_height:122px;
+	display:block;
+	position:relative;
+}
+
+#boleto .cod {
+	font-size:18px;
+	font-weight:bold;
+	line-height:22px;
+}
+
+#boleto .mail {
+	padding-top:30px;
+	font-size:11px;
+	text-decoration:underline;
+}
+</style>
+
+<div id="container">
+		<div id="containertopo">
+			<div class="topo">
+          <div class="topo_meio">
+              <div class="passos"><img src="[A1]passo_pagamento.png" alt="Pagamento" /></div>
+          </div>
+          <div class="topo_baixo">
+            <div class="content_topo_center">
+              <div class="logo">
+                <h1>
+                  Ciashop Framework
+                </h1>
+              </div>
+            </div>
+          </div>
+      	</div>
+		</div>
+
+
+  <div id="containerconteudo">
+    <div id="conteudo">
+         <div class="box">
+           [A0]
+         </div>
+    </div>
+  </div>
+</div>]]></PagOnlineHTML></PagOnline></PagOnlines></controles></page>

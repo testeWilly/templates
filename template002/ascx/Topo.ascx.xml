@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CaixaPesquisas><CaixaPesquisa ID="CaixaPesquisa"><CaixaPesquisaHTML><![CDATA[<fieldset>
+    <label class="input_busca">[A0]</label>
+  <label class="bt"><a onclick="[A2]">Buscar</a></label>
+</fieldset>]]></CaixaPesquisaHTML></CaixaPesquisa></CaixaPesquisas><Menus><Menu ID="MenuTopo"><ApenasDepartamento value="False" /><CssComponente><![CDATA[]]></CssComponente><MenuHTML><![CDATA[<span class="menu_conteudo">  
+  <ul>
+            <repeticao:pais>
+	       <li><a href="[A0]">[A1]</a>
+                <condicao:filho>
+                  <ul>
+                    <repeticao:filhos>
+                        <li><a href="[A0]">[A1]</a></li>
+                    </repeticao:filhos>
+                  </ul>
+                </condicao:filho>
+               </li>
+            </repeticao:pais>
+         </ul>
+</span>]]></MenuHTML><TipoMenu value="Horizontal" /></Menu><Menu ID="Menu1"><ApenasDepartamento value="False" /><MenuHTML><![CDATA[<h2><ul class="list_menu_topo">
+  <repeticao:pais quantidade="5">
+    <li><a class="link_menu_topo" href="[A0]">[A1]</a>
+    <condicao:filho>
+      <ul>
+        <repeticao:filhos>
+          <li><a href="[A0]">[A1]</a></li>
+        </repeticao:filhos>
+      </ul>
+    </condicao:filho>
+    </li>
+  </repeticao:pais>
+  </ul></h2>]]></MenuHTML><TipoMenu value="Horizontal" /></Menu></Menus><LabelVisitantes><LabelVisitante ID="LabelVisitante1"><HTMLModeloLogado><![CDATA[<span>Olá, [A2]!<a href="[A0]">(Sair)</a></span>]]></HTMLModeloLogado><HTMLModeloNaoLogado><![CDATA[<span>Olá Visitante, <a href="[B0]">(clique aqui para fazer login)</a></span>]]></HTMLModeloNaoLogado></LabelVisitante></LabelVisitantes><MiniCarrinhos><MiniCarrinho ID="MiniCarrinho1" NomeAmigavel="Informações resumidas sobre o carrinho de compra" Visible="True"><![CDATA[
+				<div id="MiniCarrinhoDivPai" name="MiniCarrinhoDivPai" style="width: 155px;height: 50px;position: absolute;top: 100px;left: 300px;border: 0px;cursor: hand;" Transp="100">
+					<img border="0" src="nav_bt_carrinho_2.gif" alt="Carrinho" class="MiniCarrinhoCesto" id="MiniCarrinhoSpan"/>
+					<img border="0" src="nav_bt_carrinho_titulo.png" alt="Carrinho" class="MiniCarrinhoTitulo" id="MiniCarrinhoSpan"/>&nbsp;&nbsp;
+					<span class="MiniCarrinhoQtdeProd" id="MiniCarrinhoSpan">
+						2 Produtos
+					</span>
+				</div>
+				<div id="MiniCarrinhoDivFilho" name="MiniCarrinhoDivFilho" style="width: 300px;height: 169px;position: absolute;border: 0px;background-image: url('MiniCarrinho.png');opacity: 0.9;MozOpacity: 0.9;KhtmlOpacity: 0.9;filter: alpha(opacity=100);visibility: hidden;cursor: hand;">
+					<table id="MiniCarrinhoSpan">
+						<tr id="MiniCarrinhoSpan">
+							<td id="MiniCarrinhoSpan">
+								<span id="MiniCarrinhoSpan" name="MiniCarrinhoNomeProd_1" class="MiniCarrinhoNomeProd"  codigo="codProd">Produto 1<span id="MiniCarrinhoSpan" class="MiniCarrinhoQtde">(1)</span></span>
+							</td>
+							<td id="MiniCarrinhoSpan">
+								<span id="MiniCarrinhoSpan" class="MiniCarrinhoValor">R$ 10,00</span>
+							</td>
+						</td>
+					</table>
+
+					<span id="MiniCarrinhoSpan" class="MiniCarrinhoDescr">descrição resumida ...</span> 
+					
+				</div>
+				<script>
+					
+					var div1 = document.getElementById("MiniCarrinhoDivPai");
+					var div2 = document.getElementById("MiniCarrinhoDivFilho");
+
+					var div1t = parseInt(div1.style.top);
+					var div1l = parseInt(div1.style.left);
+					var div1w = parseInt(div1.style.width);
+					var div1h = parseInt(div1.style.height);
+
+					div2.style.left = ((div1l+div1w)-parseInt(div2.style.width))+'px';
+					div2.style.top = (div1t+div1h) + 'px'; 
+					
+				</script>					 
+			]]></MiniCarrinho></MiniCarrinhos><Links><Link ID="LinkMeuCadastro"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Identificacao" /><Parametros value="destino=comprador" /><Target value="MesmaPagina" /><Texto value="Minha Conta" /><UsarHTTPS value="True" /></Link><Link ID="LinkMeusPedidos"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="MeusPedidos" /><Parametros value="destino=MeusPedidos" /><Target value="MesmaPagina" /><Texto value="Meus pedidos" /><UsarHTTPS value="True" /></Link><!--<Link ID="LinkCarrinhoCompras" NomeAmigavel="Link Carrinho" Visible="True">
+        <PaginaLoja value="Carrinho" />
+        <EnderecoLinkExterno value="" />
+        <Target value="MesmaPagina" />
+        <Texto value="Carrinho" />
+        <Parametros value="" />
+        <Imagem value="nav_bt_carrinho.gif" />
+        <Template value="1" />
+      </Link>--><Link ID="LinkDefault" NomeAmigavel="Link Página Inicial" Visible="True"><PaginaLoja value="Default" /><EnderecoLinkExterno value="" /><Target value="MesmaPagina" /><Texto value="Página Inicial" /><Parametros value="" /><Imagem value="" /><Template value="1" /></Link><Link ID="LinkDefaultBanner" NomeAmigavel="Link Página Inicial" Visible="True"><PaginaLoja value="Default" /><EnderecoLinkExterno value="" /><Target value="MesmaPagina" /><Texto value="Página Inicial" /><Parametros value="" /><Imagem value="" /><Template value="1" /></Link><Link ID="LinkCarrinhoCompras"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Carrinho" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="0" /><UsarHTTPS value="False" /></Link><Link ID="PaginaInicial"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Animafest - Fantasias e Adereços para Festas" /><UsarHTTPS value="False" /></Link><Link ID="LinkHome"><Imagem value="btn_home.png" /><PaginaLoja value="Default" /><Target value="MesmaPagina" /><UsarHTTPS value="False" /></Link><Link ID="LinkEmpresa"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="btn_empresa.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Empresa" /><UsarHTTPS value="False" /></Link><Link ID="LinkTelevendas"><Imagem value="btn_televendas.png" /><PaginaLoja value="FaleConosco" /><Target value="MesmaPagina" /><Texto value="Televendas" /><UsarHTTPS value="False" /></Link><Link ID="LinkContato"><Imagem value="btn_lojavirtual.png" /><PaginaLoja value="FaleConosco" /><Target value="MesmaPagina" /><Texto value="Fale Conosco" /><UsarHTTPS value="False" /></Link><Link ID="Cadastrese"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Identificacao" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Cadastre-se" /><UsarHTTPS value="False" /></Link><Link ID="LinkCarrinhoComprasMini"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Carrinho" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="" /><UsarHTTPS value="False" /></Link><Link ID="Default"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="bt_home.png" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Antix" /><UsarHTTPS value="False" /></Link><Link ID="lookbook"><Destino value="Nenhum" /><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="CategoriasLista" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="" /><UsarHTTPS value="False" /></Link><Link ID="Sessao_Afiliado"><Destino value="Nenhum" /><PaginaLoja value="AfiliadoPrincipal" /><Target value="NovaPagina" /><UsarHTTPS value="False" /></Link></Links><Carrinhos><CarrinhoTopo ID="Mini_Carrinho"><CarrinhoHTML><![CDATA[<script>
+    $(function() { 
+       var quantidade = 0
+       $(".tab_carrinho_mini .qtd").each(function(){
+          quantidade = quantidade + parseInt($(this).html());
+       });
+       $(".mini_itens a").html(quantidade)
+    });
+
+    $(".bt_carrinho").mouseover(function(){
+        $(".mini_carrinho").show();
+    });
+    $(".bt_carrinho").mouseout(function(){
+        $(".mini_carrinho").hide();
+    });
+</script>
+<div class="mini_subtotal">minha sacola: [A23]</div>
+<table cellpadding="0" cellspacing="0" border="0" class="tab_carrinho_mini" width="100%">
+    <repeticao:produtos>
+    <tr>
+        <td class="mini_foto"><a href="[A24]"><img src="[A3]?width=80&height=110" alt="[A4]" /></a></td>
+        <td class="mini_titulo"><a href="[A24]">[A4]</a>  <span class="mini_preco">[A9]</span>  <span style="display:none">(<span class="qtd">[A5]</span>)</span></td>
+    </tr>
+    </repeticao:produtos>
+</table>]]></CarrinhoHTML><CarrinhoVazioHTML><![CDATA[<h5>Meu Carrinho</h5>
+
+Carrinho Vazio<br />]]></CarrinhoVazioHTML><TamanhoImagem value="Grandes" /></CarrinhoTopo></Carrinhos></controles></page>

@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<page>
+	<controles>
+
+		<CaixaAguardeLojas>
+			<CaixaAguardeLoja ID="CaixaAguardeLoja" NomeAmigavel="Caixa com a Mensagem Aguarde" Visible="True">
+			</CaixaAguardeLoja>
+		</CaixaAguardeLojas>
+
+		<IdentificacaoCompradors>
+			<IdentificacaoComprador ID="IdentificacaoComprador" NomeAmigavel="Item de Identificação e cadastro do Comprador" Visible="True">
+
+				<IdentificacaoCompradorGeralHTML titulo="Formulário geral do cadastro e da identificação do comprador" help="HTML Geral do cadastro do comprador">
+					<![CDATA[
+					<div>&nbsp;</div>
+                    <div class="tit_dept">
+                        <h1>
+                            Identificação.
+                        </h1>
+                    </div>
+					<div class="sep">&nbsp;</div>
+					<center>
+						<table>
+							<tr>
+								<td>
+									<table class="tab_superior">
+										<tr>
+											<td>
+												<!-- VerificarEmailHTML -->
+												{0} 
+												<!-- Fim_VerificarEmailHTML -->
+												<!-- IdentificaCompradorHTML -->
+												{1}								
+												<!-- Fim_IdentificaCompradorHTML -->																			   
+												<!-- VerificarNovamenteEmailHTML -->
+												{2} 
+												<!-- Fim_VerificarNovamenteEmailHTML -->
+												<!-- Recuperar_Senha -->
+												{3} 
+												<!-- Fim_Recuperar_Senha -->
+											</td>
+										</tr>
+									</table>													
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+							</tr>
+							<tr>
+								<td>	
+									{4} <!-- Mensagem -->
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+							</tr>
+							<tr>
+								<td>
+									{5} <!-- Primeira_compra -->
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+							</tr>
+							<tr>
+								<td valign="top">
+									<!-- Caixa_Formulario_Cadastro -->
+									<table id="table_cadastro" runat="server" border="0" cellspacing="0" cellpadding="0">
+										<tr>
+											<td valign="top" heigth="100%">
+												{6} <!-- Formulario_de_Cadastro -->
+											</td>
+											<td>&nbsp;</td>
+											<td valign="top" heigth="100%">
+												{7} <!-- Formulario_de_cadastro_endereco -->
+											</td>
+									    </tr>
+								    </table>
+									<!-- Fim_Caixa_Formulario_Cadastro -->
+								</td>
+							</tr>
+						</table>
+					</center>
+									
+					<!-- CSS_Inicio -->
+
+				]]>
+				</IdentificacaoCompradorGeralHTML>
+
+				<VerificarEmailHTML titulo="Formulário de Verificar Email" help="HTML da identificação do comprador.">
+					<![CDATA[
+					<p>{10}</p>
+					<p>{11}</p>
+					<div class="botao_esq">
+						<a href="#" onclick="{12}">Enviar Dados</a>
+					</div>
+					
+					</td>
+					<td style="border-left: 1px solid rgb(204, 204, 204);width:10px;">&nbsp;</td>
+					<td>
+					
+					<p class="tit_destaque">
+						{13}
+					</p>
+					{14}
+					<p class="tit_destaque">
+						{15}
+					</p>
+					{16}
+					<p class="tit_destaque">
+						{17}
+					</p>
+					{18}
+					
+					
+					<!-- CSS_Inicio -->
+				]]>
+				</VerificarEmailHTML>
+
+				<VerificarNovamenteEmailHTML titulo="Formulário de Verificar Novamente Email" help="HTML da identificação do comprador." exibirLinks="false">
+					<![CDATA[
+					<p>{10}</p>
+					<p>{11}</p>
+					<div class="botao_esq">
+						<!-- <a href="#" onclick="{21}">Verificar E-mail</a> -->
+						<a href="#" onclick="{19}">Trocar E-mail</a>
+					</div>
+					
+					</td>
+					<td style="border-left: 1px solid rgb(204, 204, 204);width:10px;">&nbsp;</td>
+					<td>
+					
+					<p class="tit_destaque">
+						{13}
+					</p>
+					{14}
+					<p class="tit_destaque">
+						{15}
+					</p>
+					{16}
+					<p class="tit_destaque">
+						{17}
+					</p>
+					{18}
+					
+					
+					<!-- CSS_Inicio -->
+				]]>
+				</VerificarNovamenteEmailHTML>
+
+				<IdentificaCompradorHTML titulo="Formulário de Identificar comprador" help="HTML da identificação do comprador." exibirLinks="true">
+					<![CDATA[
+					<p>{10}</p>
+					<p>{11}</p>
+					<p>
+						{31}
+						<div class="botao_esq">
+							<a href="#" onclick="{19}">Trocar E-mail</a>
+						</div>							   
+					</p>
+					<p>{32}</p>
+					<div class="botao_esq">
+						<a href="#" onclick="{12}">Continuar</a>
+					</div>
+					
+					</td>
+					<td style="border-left: 1px solid rgb(204, 204, 204);width:10px;">&nbsp;</td>
+					<td>
+					
+					<p class="tit_destaque">
+						{13}
+					</p>
+					{14}
+					<p class="tit_destaque">
+						{15}
+					</p>
+					{16}
+					<p class="tit_destaque">
+						{17}
+					</p>
+					{18}
+					
+					
+					<!-- CSS_Inicio -->
+				]]>
+				</IdentificaCompradorHTML>
+
+				<RecuperarSenhaHTML titulo="Formulário de Recuperar a senha" help="HTML da recuperação da senha.">
+					<![CDATA[
+					<p>{40}</p>
+					<p>{41}</p>
+					<div class="botao_esq">
+						<a href="#" onclick="{43}"><img alt="" src="Imagens/bt_voltar2.gif" /></a>
+						<a href="#" onclick="{42}"><img alt="" src="Imagens/bt_enviar.gif" /></a>
+					</div>
+					<!-- CSS_Inicio -->
+				]]>
+				</RecuperarSenhaHTML>
+
+				<MensagemAlertaHTML titulo="Caixa de mensagem de alerta" help="HTML da caixa da mensagem de alerta">
+					<![CDATA[
+					
+					<div class="texto">
+						{97}
+						<!-- Repeticao_Erro -->
+						{98}
+						<!-- Fim_Repeticao_Erro -->
+					</div>
+					
+					<!-- CSS_Inicio -->
+				]]>
+				</MensagemAlertaHTML>
+
+				<NovaCompraHTML titulo="Caixa de Mensagem da nova compra" help="HTML com a caixa de Mensagem da nova compra">
+					<![CDATA[
+					<p>{51}</p>
+					<p>{52}</p>
+					<!-- CSS_Inicio -->
+				]]>
+				</NovaCompraHTML>
+
+				<FormularioNovoCadastroHTML titulo="Formulario de cadastro de dados pessoais" help="HTML com o formulário de cadastro de dados pessoais">
+					<![CDATA[
+					<table border="0" cellspacing="0" cellpadding="0" class="tab_interna">
+						<tr>
+							<th style="background-image:url(Assets/Templates/1/imagens/tab_bg.gif);background-position:top left;background-repeat:repeat-x;" colspan="2">
+								<INPUT TYPE="IMAGE" SRC="Assets/Templates/1/imagens/tab_esq.gif" ALT="" ALIGN="ABSMIDDLE" CLASS="img_left" >
+								<INPUT TYPE="IMAGE" SRC="Assets/Templates/1/imagens/tab_dir.gif" ALT="" ALIGN="ABSMIDDLE" CLASS="img_right">
+								Dados Pessoais
+							</th>
+						</tr>
+						<tr>
+							<td>
+								<table border="0" cellspacing="0" cellpadding="0" class="tab_interna3">
+									<tr>
+										<td style="padding:5px;">
+											<p><font color="red">*</font><b>{136}</b></p>
+											{137}				   
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<!-- Venda_Internacional -->
+											<table>
+												<tr>
+												<td style="padding:5px;">
+													<p><font color="red">*</font>
+													<b>{101}</b></p>
+													{102}
+												</td>
+												<td style="padding:5px;" align="right">
+													<!-- Idiomas -->
+													<p><b>{103}</b></p>
+													{104}
+													&nbsp;
+													{105}
+													<!-- Fim Idiomas -->
+												</td>
+												</tr>
+											</table>
+											<!-- Fim_Venda_Internacional -->
+										</td>	
+									</tr>
+									<tr>
+										<td style="padding:5px;" colspan="2">
+											<!-- Caixa_Tipo_Pessoa -->
+											<p><font color="red">*</font>
+											<b>{106}</b></p>
+											{138}{139}
+											<!-- Fim_Caixa_Tipo_Pessoa -->
+										</td>
+									</tr>
+									<tr>
+										<td style="padding:5px;" colspan="2">
+											<font color="red">*</font>
+											<b>{108}</b>
+											<br />
+											{109}
+										</td>
+									</tr>
+									<tr>
+										<td style="padding:5px;" colspan="2">
+											<!-- Alterar_Senha -->
+											<b>{140}</b>
+											<br />
+											{141}
+											<br />
+											<a href="#" onclick="{143}">Cancela</a>
+											<!-- Fim_Alterar_Senha -->
+											<!-- Evento_Alterar_Senha -->						  
+											<a href="#" onclick="{142}">Desejo alterar a senha</a>
+											<!-- Fim_Evento_Alterar_Senha -->
+										</td>
+									</tr>
+									<tr>
+										<td style="padding:5px;" colspan="2">
+											
+											
+											
+											<table width="100%">
+												<tr>
+													<td>
+														<font color="red">*</font>
+														<b>{110}</b>
+														<br />
+														{111}
+													</td>
+													<td>
+														<font color="red">*</font>
+														<b>{112}</b>
+														<br />
+														{113}
+													</td>
+												</tr>
+											</table>
+											<p>{114}</p>
+										</td>
+									</tr>
+									<tr>
+										<td style="padding:5px;" colspan="2">
+											<font color="red">*</font>
+											<b>{115}</b>
+											<br />
+											{116}
+										</td>
+									</tr>
+									<tr>
+										<td style="padding:5px;" colspan="2">
+											<!-- Caixa_Pessoa_Fisica -->
+											<table width="100%">
+												<tr>
+													<td>
+														<font color="red">*</font>
+														<b>
+															{117}
+														</b>
+														<br />
+														{118}
+													</td>
+													<td>
+														<font color="red">*</font>
+														<b>
+															{119}
+														</b>
+														<br />
+														{120}
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<font color="red">*</font>
+														<b>
+															{121}
+														</b>
+														{122}
+														<br />
+														{123}
+													</td>
+													<td>
+														<b>
+															{124}
+														</b>
+														<br />
+														{125}
+													</td>
+												</tr>
+												<tr>
+													<td>
+														<b>
+															{126}
+														</b>
+														{127}
+														<br />
+														{128}
+													</td>
+													<td colspan="2">
+														<b>
+															{129}
+														</b>
+														<br />
+														{130}
+													</td>
+												</tr>
+											</table>
+											<!-- Fim_Caixa_Pessoa_Fisica -->
+											<!-- Caixa_Pessoa_Juridica -->	
+											<table width="100%">
+												<tr>
+													<td>
+														<font color="red">*</font>
+														<b>
+															{131}
+														</b>
+														{132}
+														<br />
+														{133}
+													</td>
+													<td>
+														<font color="red">*</font>
+														<b>
+															{134}
+														</b>
+														<br />
+														{135}	
+													</td>
+												</tr>
+											</table>
+											<!-- Fim_Caixa_Pessoa_Juridica -->	
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<th style="background-image:url(Assets/Templates/1/imagens/tab_bg_inf.gif);" colspan="2">
+								<INPUT TYPE="IMAGE" SRC="Assets/Templates/1/imagens/tab_esq_inf.gif" ALT="" ALIGN="ABSMIDDLE" CLASS="img_left">
+								<INPUT TYPE="IMAGE" SRC="Assets/Templates/1/imagens/tab_dir_inf.gif" ALT="" ALIGN="ABSMIDDLE" CLASS="img_right">
+							</th> 
+						</tr>
+					</table>
+					
+					<!-- CSS_Inicio -->
+				]]>
+				</FormularioNovoCadastroHTML>
+
+				<FormularioNovoCadastroEnderecoHTML titulo="Formulario de cadastro de endereço" help="HTML com o formulário de cadastro de endereço">
+					<![CDATA[
+					<table class="tab_geral" border="0" cellspacing="0" cellpadding="0" width="100%">
+						<tr>
+							<td>
+								<table border="0" cellspacing="0" cellpadding="0" class="tab_interna">
+									<tr>
+										<th style="background-image:url(Assets/Templates/1/imagens/tab_bg.gif);background-position:top left;background-repeat:repeat-x;" colspan="2">
+											<INPUT TYPE="IMAGE" SRC="Assets/Templates/1/imagens/tab_esq.gif" ALT="" ALIGN="ABSMIDDLE" CLASS="img_left">
+											<INPUT TYPE="IMAGE" SRC="Assets/Templates/1/imagens/tab_dir.gif" ALT="" ALIGN="ABSMIDDLE" CLASS="img_right">
+											Endereço de Entrega
+										</th>
+									</tr>
+									<tr>
+										<td>
+											<table border="0" cellspacing="0" cellpadding="0" class="tab_interna3">
+												<tr>
+													<td style="border-color:White;padding:10px 0px 10px 10px;background-color:#F0F0F0;" colspan="2">
+														<font color="red">*</font>
+														<b>{201}</b>
+														{202}
+														<br />
+														{203}
+														&nbsp;&nbsp;
+														Não sabe o CEP
+														&nbsp;
+														<a id="refCliqueAqui" href="http://www.correios.com.br/servicos/cep/cep_default.cfm" target="_blank">
+															Clique aqui
+														</a>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding:5px;" colspan="2">
+														<font color="red">*</font>
+														<b>{204}</b>{205}
+														<br />
+														{206}
+													</td>
+												</tr>	
+												<tr>
+													<td style="padding:5px;" colspan="2">
+														<table>
+															<tr>
+																<td>
+																	<font color="red">*</font>
+																	<b>{207}</b>
+																	<br />
+																	{208}
+																</td>
+																<td>
+																	<font color="red">*</font>
+																	<b>{209}</b>
+																	<br />
+																	{210}
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding:5px;" colspan="2">
+														<table>
+															<tr>
+																<td>
+																	<b>{211}</b>
+																	<br />
+																	{212}
+																</td>
+																<td>
+																	<font color="red">*</font>
+																	<b>{213}</b>
+																	<br />
+																	{214}
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding:5px;" colspan="2">
+														<table>
+															<tr>
+																<td>
+																	<font color="red">*</font>
+																	<b>{215}</b>
+																	<br />
+																	{216}
+																</td>
+																<td>
+																	<!-- Caixa_Endereco_Nacional -->
+																	<font color="red">*</font>
+																	<b>
+																		{217}
+																	</b>
+																	<br />
+																	{218}
+																	<!-- Fim_Caixa_Endereco_Nacional -->
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding:5px;" colspan="2">
+														<b>{219}</b>
+														<br />
+														{220}
+													</td>
+												</tr>
+												<tr>
+													<td style="padding:5px;" colspan="2">
+														<table>
+															<tr>
+																<td>
+																	<font color="red">*</font>
+																	<b>{221}</b>
+																	{222}
+																	<br />
+																	{223}
+																	{224}
+																</td>
+															</tr>
+															<tr>
+																<td>
+																	<b>{225}</b>
+																	{226}
+																	<br />
+																	{227}
+																	{228}
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+												<tr>
+													<td style="padding:5px;" colspan="2">
+														{229}
+														{230}
+													</td>
+												</tr>
+												<tr>
+													<td style="padding:5px;" colspan="2">
+														{231}
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+									<th style="background-image:url(Assets/Templates/1/imagens/tab_bg_inf.gif);" colspan="2">
+										<INPUT TYPE="IMAGE" SRC="Assets/Templates/1/imagens/tab_esq_inf.gif" ALT="" ALIGN="ABSMIDDLE" CLASS="img_left">
+										<INPUT TYPE="IMAGE" SRC="Assets/Templates/1/imagens/tab_dir_inf.gif" ALT="" ALIGN="ABSMIDDLE" CLASS="img_right">
+									</th>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="botao_esq">
+								<a href="#" onclick="{300}"><img alt="" src="Imagens/bt_salvar.gif" /></a>
+							</div>
+						</td>
+					</tr>
+				</table>				
+				
+					<!-- CSS_Inicio -->
+				]]>
+				</FormularioNovoCadastroEnderecoHTML>
+
+			</IdentificacaoComprador>
+		</IdentificacaoCompradors>
+
+	</controles>
+</page>

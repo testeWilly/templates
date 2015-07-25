@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><AfiliadoRelatorioVendass><AfiliadoRelatorioVendas ID="AfiliadoRelatorioVendas1"><AfiliadoRelatorioVendasHTML><![CDATA[<div class="respiro">
+  <div class="heading-special">
+  <h2>Relatório de Vendas</h2>
+  </div>
+  <div id="afiliados">
+    <div class="respiro">
+      <ul class="subtitulo_afiliados">
+        <li>Verifique a quantidade de vendas/comissões e pagamentos do seu site/blog.</li>
+      </ul>
+      [A3]
+      <div class="afiliados_refinar">
+        <div class="afiliados_refinar_direita">
+          <strong class="organizar_por">Organizar por: </strong> [A2]
+          <a href="javascript:void(0);" class="box-bt btn-tertiary">Filtrar</a>
+        </div>
+        <condicao:mes>
+          [A0]
+        </condicao:mes>
+        [A1]
+        <a href="javascript:void(0);" onclick="[A5]" class="box-bt btn-tertiary">Filtrar</a>
+      </div>
+      [A4]
+    </div>
+  </div>
+</div>
+]]></AfiliadoRelatorioVendasHTML><AfiliadosRelatorioMensagemSemDadosHTML><![CDATA[Sem dados para visualizar]]></AfiliadosRelatorioMensagemSemDadosHTML><AlturaGrafico value="200" /><AlturaGraficoMes value="200" /><CorLinha1 value="#145FA6" /><CorLinha2 value="#980106" /><CorLinhaMes1 value="#145FA6" /><CorLinhaMes2 value="#980106" /><DadosAfiliadosRelatorioVendasAnualHTML><![CDATA[<div class="afiliados_tabela">
+    [E0]
+</div>
+]]></DadosAfiliadosRelatorioVendasAnualHTML><DadosAfiliadosRelatorioVendasMensalHTML><![CDATA[<div class="afiliados_tabela">
+    [C0]
+</div>
+]]></DadosAfiliadosRelatorioVendasMensalHTML><GraficoAfiliadosRelatorioVendasAnualHTML><![CDATA[<div class="afiliados_grafico">
+    [D0]
+</div>
+]]></GraficoAfiliadosRelatorioVendasAnualHTML><GraficoAfiliadosRelatorioVendasMensalHTML><![CDATA[<div class="afiliados_grafico">
+    [B0]
+</div> 
+]]></GraficoAfiliadosRelatorioVendasMensalHTML><LarguraGrafico value="990" /><LarguraGraficoMes value="990" /><TituloGrafico value="Vendas por dia" /><TituloGraficoMes value="Vendas por mês" /></AfiliadoRelatorioVendas></AfiliadoRelatorioVendass><ScriptRazors><ScriptRazor ID="titlePage"><ScriptRazorHTML><![CDATA[@TemplateSettings.main_storeName]]></ScriptRazorHTML></ScriptRazor></ScriptRazors></controles></page>

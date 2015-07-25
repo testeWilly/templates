@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<paginasConfiguracoes>
+  <paginas>
+    <add pagina="Default.aspx" descricaoPagina="Principal (inicial)" />
+    <add pagina="Identificacao.aspx" descricaoPagina="Identificação do comprador" />
+    <add pagina="MetodoEntrega.aspx" descricaoPagina="Método de entrega" />
+    <add pagina="PacotePresente.aspx" descricaoPagina="Pacote de presente" />
+    <add pagina="EnderecoEntrega.aspx" descricaoPagina="Endereço de entrega" />
+    <add pagina="Pagamento.aspx" descricaoPagina="Pagamento" />
+    <add pagina="Produto.aspx" classe="Ciashop.Privada.Componente.EditorLayout.ValidadorPaginaProdutos,Ciashop.Privada.Componente" descricaoPagina="Produtos" descricaoParametro="Código do produto" nomeParametro="produto_id" />
+    <add pagina="Departamento.aspx" classe="Ciashop.Privada.Componente.EditorLayout.ValidadorPaginaDepartamentos,Ciashop.Privada.Componente" descricaoPagina="Departamentos" descricaoParametro="Código do departamento" nomeParametro="departamento_id" />
+    <add pagina="Carrinho.aspx" descricaoPagina="Carrinho de compras" />
+    <add pagina="ResultadoPesquisa.aspx" aviso="Alterações no resultado das buscas afetarão todas as páginas que o utilizam." descricaoPagina="Resultado da busca" />
+    <add pagina="MeusPedidos.aspx" descricaoPagina="Pedidos do comprador" />
+    <add pagina="Pedidos.aspx" descricaoPagina="Dados completos de um pedido" />
+    <add pagina="PaginaInstitucional.aspx" descricaoPagina="Institucionais" />
+    <add pagina="Comprador.aspx" descricaoPagina="Cadastro do comprador" />
+    <add pagina="CadastroAviseme.aspx" descricaoPagina="Aviso de produto (avise-me)" />
+    <add pagina="Confirmado.aspx" descricaoPagina="Confirmação" />
+    <add pagina="Duvidas.aspx" descricaoPagina="Dúvidas" />
+    <add pagina="FaleConosco.aspx" descricaoPagina="Fale conosco" />
+    <add pagina="CompararProdutos.aspx" descricaoPagina="Produto comparar" />
+    <add pagina="Negado.aspx" descricaoPagina="Pedido negado" />
+    <add pagina="PagOnline.aspx" descricaoPagina="PagOnline" />
+    <add pagina="OpiniaoProduto.aspx" descricaoPagina="Opiniao de produto" />
+    <add pagina="ParcelamentoVariante.aspx" descricaoPagina="Parcelas da variante" />
+    <add pagina="ImagensProduto.aspx" descricaoPagina="Imagens da variante" />
+    <add pagina="Lista.aspx" descricaoPagina="Listagens" />
+    <add pagina="categorialista.aspx" descricaoPagina="Categoria da Lista Pronta" />
+    <add pagina="Categoriaslista.aspx" descricaoPagina="Categorias da Lista Pronta" />
+    <add pagina="ProdutosLista.aspx" descricaoPagina="Produto da Lista Pronta" />
+    <add pagina="Erro404.aspx" descricaoPagina="Erro 404" />
+    <add pagina="Erro500.aspx" descricaoPagina="Erro 500" />
+    <add pagina="Convidado.aspx" descricaoPagina="Convidado" />
+    <!--Afiliados-->
+    <add pagina="AfiliadoPrincipal.aspx" descricaoPagina="Afiliado - Principal" />
+    <add pagina="AfiliadoBanners.aspx" descricaoPagina="Afiliado - Banners" />
+    <add pagina="AfiliadoRelatorioVendas.aspx" descricaoPagina="Afiliado - Relatório de vendas do Afiliado" />
+    <add pagina="CadastroAfiliado.aspx" descricaoPagina="Afiliado - Cadastrar" />
+    <add pagina="AlterarCadastroAfiliado.aspx" descricaoPagina="Afiliado - Alterar cadastro" />
+    <add pagina="AfiliadoRelatorioVisitas.aspx" descricaoPagina="Afiliado - Relatório de visitas do Afiliado" />
+    <add pagina="AfiliadoDivulgaEmail.aspx" descricaoPagina="Afiliado - Página de Divulgação de Emails" />
+    <add pagina="AfiliadoRelatorioClientes.aspx" descricaoPagina="Afiliado - Relatório Cliente do Afiliado" />
+    <!--Controles Loja-->
+    <!-- add pagina="ascx/Ajuda_Afiliados.ascx" aviso="Alterações no Topo afetarão todas as páginas que o utilizam" descricaoPagina="Controle Afiliados - Ajuda" isUserControl="true" />
+    <add pagina="ascx/Topo_Afiliados.ascx" aviso="Alterações no Topo afetarão todas as páginas que o utilizam" descricaoPagina="Controle Afiliados - Topo" isUserControl="true" />
+    <add pagina="ascx/Topo_Afiliados_Logado.ascx" aviso="Alterações no Topo afetarão todas as páginas que o utilizam" descricaoPagina="Controle Afiliados - Topo logado" isUserControl="true" />
+    <add pagina="ascx/Menu_Afiliados.ascx" aviso="Alterações no Topo afetarão todas as páginas que o utilizam" descricaoPagina="Controle Afiliados - Menu" isUserControl="true" / -->
+    <!--<add pagina="ascx/ColunaDireita.ascx" aviso="Alterações na Coluna da Direita afetarão todas as páginas que o utilizam" descricaoPagina="Controle Coluna direita" isUserControl="true" />-->
+
+
+    <add pagina="ascx/Topo_Afiliados_Logado.ascx" aviso="Alterações no Topo afetarão todas as páginas que o utilizam" descricaoPagina="Afiliado - Topo logado" isUserControl="true"/>
+    <add pagina="ascx/Menu_Afiliados.ascx" aviso="Alterações no Topo afetarão todas as páginas que o utilizam" descricaoPagina="Afiliado - Menu" isUserControl="true"/>
+    <add pagina="ascx/Topo_Afiliados.ascx" aviso="Alterações no Topo afetarão todas as páginas que o utilizam" descricaoPagina="Afiliado - Topo" isUserControl="true"/>
+    <add pagina="ascx/Rodape_Afiliado_Logado.ascx" aviso="Alterações no Rodapé afetarão todas as páginas que o utilizam" descricaoPagina="Afiliados - Rodapé logado" isUserControl="true"/>
+
+    <add pagina="ascx/Rodape.ascx" aviso="Alterações no Rodapé afetarão todas as páginas que o utilizam" descricaoPagina="Controle rodapé" isUserControl="true" />
+    <add pagina="ascx/Topo.ascx" aviso="Alterações no Topo afetarão todas as páginas que o utilizam" descricaoPagina="Controle topo" isUserControl="true" />
+    <add pagina="ascx/Topocheckout.ascx" aviso="Alterações no Topo afetarão todas as páginas que o utilizam" descricaoPagina="Controle topo checkout" isUserControl="true" />
+    <add pagina="ascx/clouds_navegacao.ascx" aviso="Alterações no Topo afetarão todas as páginas que o utilizam" descricaoPagina="Controle tagclouds e minha navegação" isUserControl="true" />
+    <add pagina="ascx/ColunaEsquerda.ascx" aviso="Alterações na Coluna da Esquerda afetarão todas as páginas que o utilizam" descricaoPagina="Controle Coluna Esquerda" isUserControl="true" />
+    <add pagina="ascx/webAnalytics.ascx" aviso="Alterações neste controle afetarão todas as páginas que o utilizam" descricaoPagina="Controle Google analytics" isUserControl="True" />
+    <add pagina="ascx/Boletim.ascx" aviso="Alterações neste controle afetarão todas as páginas que o utilizam" descricaoPagina="Boletim" isUserControl="True" />
+    <add pagina="ascx/voltaraotopo.ascx" aviso="Alterações neste controle afetarão todas as páginas que o utilizam" descricaoPagina="voltaraotopo" isUserControl="True" />
+    <add pagina="ascx/rodapefluxo.ascx" aviso="Alterações neste controle afetarão todas as páginas que o utilizam" descricaoPagina="rodapefluxo" isUserControl="True" />
+    <add pagina="SolicitaOrcamento.aspx" descricaoPagina="Solicita Orçamento" />
+    <add pagina="ascx/TopoProduto.ascx" aviso="Alterações neste controle afetarão todas as páginas que o utilizam" descricaoPagina="TopoProduto" isUserControl="True" />
+  </paginas>
+</paginasConfiguracoes>

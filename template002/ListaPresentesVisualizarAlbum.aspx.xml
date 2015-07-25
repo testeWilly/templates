@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><ListaPresentesAlbumVisualizars><ListaPresentesAlbumVisualizar ID="ListaPresentesAlbumVisualizar1"><CssComponente><![CDATA[]]></CssComponente><ListaPresentesAlbumSemFotosHTML><![CDATA[Não há fotos deste álbum [B0].]]></ListaPresentesAlbumSemFotosHTML><ListaPresentesAlbumVisualizarHTML><![CDATA[            <div class="box">
+              <div class="tit_box">
+                <h2>Visualizando as fotos de um álbum</h2>
+              </div>
+              Nome do álbum: [A0]<br><br>
+              <ul>
+                <repeticao:fotos>
+                  <li>
+                    <img id="img_[A1]" src="[A2]" alt="[A3]" border="0" />
+                  </li>
+                </repeticao:fotos>
+              <ul>
+            </div>
+          ]]></ListaPresentesAlbumVisualizarHTML></ListaPresentesAlbumVisualizar></ListaPresentesAlbumVisualizars></controles></page>

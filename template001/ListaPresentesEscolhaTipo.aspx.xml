@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <controles>
+    <ListaPresentesEscolhaTipos>
+      <ListaPresentesEscolhaTipo ID="ListaPresentesEscolhaTipo1">
+        <CssComponente><![CDATA[]]></CssComponente>
+        <ListaPresentesEscolhaTipoHTML>
+          <![CDATA[<div>
+    Escolha o tipo de Lista de presentes que deseja criar<br><br>
+    Tipo de Lista de Presentes: [A0]
+    <a href="[A1]">Continuar</a>
+</div>]]>
+        </ListaPresentesEscolhaTipoHTML>
+      </ListaPresentesEscolhaTipo>
+    </ListaPresentesEscolhaTipos>
+  </controles>
+</page>

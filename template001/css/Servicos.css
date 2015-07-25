@@ -1,0 +1,41 @@
+#servicos{
+    background: url('../imagens/bg_servicos.png') no-repeat left top #00669E;
+    padding-top: 32px;  
+    width: 165px;
+    margin-top: 10px;
+}
+
+.servico_conteudo{
+    padding: 10px;
+}
+
+.servico_conteudo a{
+    color: #fff;
+    font-size: 12px;
+    display: block;
+}
+
+.servico_conteudo .boleto{
+    padding: 6px 0 6px 30px;
+    background: url('../imagens/ico_servicos_boleto.png') no-repeat left center; 
+    display: block;
+}
+
+
+.servico_conteudo .cartao{
+    padding: 6px 0 6px 30px;
+    background: url('../imagens/ico_servico_cartao.png') no-repeat left center; 
+    display: block;
+}
+
+.servico_conteudo .presente{
+    padding: 6px 0 6px 30px;
+    background: url('../imagens/ico_servico_presente.png') no-repeat left center; 
+    display: block;
+}
+
+.servico_conteudo .webmail{
+    padding: 6px 0 6px 30px;
+    background: url('../imagens/ico_servico_email.png') no-repeat left center; 
+    display: block;
+}

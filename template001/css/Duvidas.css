@@ -1,0 +1,33 @@
+.perguntas{
+    overflow: hidden;
+    margin: 20px 0 50px 12px;
+}
+
+.perguntas h3{
+    font-size: 15px;
+    color: #322511;
+    margin: 10px 0 5px 0;
+    font-family: "Lato-Bold";
+    font-weight: normal;
+}
+
+.respostas{
+    margin-left: 10px;
+}
+
+.perguntas h4{
+    font-size: 12px;
+    color: #49292B;
+    margin: 15px 0 5px 0;
+    font-family: "Lato-Bold";
+    font-weight: normal;
+}
+
+.perguntas p{
+    font-size: 12px;
+    color: #666;
+}
+
+.depts_filho{
+    display:none;
+}

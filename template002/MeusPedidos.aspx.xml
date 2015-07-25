@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><MeusPedidoss><MeusPedidos ID="cmpMeusPedidos"><DadosUltimoPedidoHTML><![CDATA[<div class="info_pedido">
+    <div class="info_pedido_conteudo">
+        <div class="numero_pedido">
+            <h3>Número do Último Pedido</h3>
+            <p class="numero">[C0]</p>
+            <p>A confirmação do pedido foi enviada a seu endereço do e-mail</p>
+            <p><strong>[C1]</strong></p>
+        </div>
+        <div class="pedido_dados_compra">
+            <p class="titulo">Dados da Compra</p>
+            <p class="status">Status: [C2]</p>
+            <p>Valor: [C3]</p>
+            <p>Data: [C4]</p>
+            <p><a href="[C6]">Veja a descrição completa do pedido.</a></p>
+        </div>
+        <div class="pedido_dados">
+            <p class="boleto">Forma de Pagamento:</p>
+            <p>[C5]</p>
+            <condicao:rastreamento>
+              <repeticao:urlrastreamento>
+                <h3>Rastreamento</h3>
+                <p><a href="[C8]">Clique aqui para acompanhar o rastreamento.</a></p>
+              </repeticao:urlrastreamento>
+            </condicao:rastreamento>
+            <condicao:boleto>
+            <p><a href="[C7]"><img src="imagens/bt_imp_boleto.png" border="0" alt="Imprimir Boleto" /></a></p>
+            <p>Atenção: Uma nova janela será aberta com o boleto.</p>
+            <p>Atenção: Ver data de vencimento no boleto, após o prazo seu pedido será cancelado.</p>
+            </condicao:boleto>
+        </div>
+    </div>
+</div>]]></DadosUltimoPedidoHTML><ListagemPedidosPesquisadosHTML><![CDATA[<div id="resultado_pesquisa">
+    <table class="tab_pesquisa" cellpadding="0" cellspacing="0" border="0" width="100%;">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Data do Pedido</th>
+                <th>Total</th>
+                <th>Método de Pagamento</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <repeticao:pedidos>
+            <tr>
+                <td><a href="[E5]">[E0]</a></td>
+                <td>[E1]</td>
+                <td>[E2]</td>
+                <td>[E3]</td>
+                <td>[E4]</td>
+            </tr>
+            </repeticao:pedidos>
+        </tbody>
+    </table>
+</div>]]></ListagemPedidosPesquisadosHTML><ListagemPedidosPesquisadosSemResultadoHTML><![CDATA[<div class="nenhum_pedido"><img src="imagens/nenhum_pedido.jpg?24" alt="Nenhum Pedido Encontrado" /><br />
+<br />
+Nenhum Pedido Encontrado<br />
+</div>]]></ListagemPedidosPesquisadosSemResultadoHTML><MeusPedidosInicialHTML><![CDATA[
+
+[A0]
+[A1]
+]]></MeusPedidosInicialHTML><MeusPedidosPesquisaHTML><![CDATA[
+
+[B1]
+[B2]
+]]></MeusPedidosPesquisaHTML><PesquisarOutrosPedidosHTML><![CDATA[    <div class="pesquisa">
+        <div class="tit_box">
+            <h2>Consultar outros pedidos</h2>
+        </div>
+        <div class="pesquisa_conteudo">
+            <fieldset>
+                <label>
+                    <span class="radio">[D1]</span> Pedidos Abertos</label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    <span class="radio">[D0]</span> Todos Pedidos</label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    <span class="radio">[D2]</span> Pesquisa por Número do Pedido:
+                </label>
+                <label style="margin-top: 2px">[D3]</label>
+            </fieldset>
+            <fieldset>
+                <label>
+                    <span class="radio">[D4]</span> Por Data (Mês/Ano) de:</label>
+                <label>
+                    [D5]</label>
+                <label>
+                    [D6]</label>
+                <label>
+                    a &nbsp;[D7]</label>
+                <label>
+                    [D8]</label>
+            </fieldset>
+            <div class="bt_pesquisar bt_hover">
+                <a href="[D9]">Pesquisar</a>
+            </div>
+        </div>
+    </div>]]></PesquisarOutrosPedidosHTML></MeusPedidos></MeusPedidoss><CaixaAguardeLojas><CaixaAguardeLoja ID="CaixaAguardeLoja" NomeAmigavel="" Visible="True" /></CaixaAguardeLojas><Banners><Banner ID="Fullzao_topo" /></Banners><SEOs><SEO ID="seo" /></SEOs></controles></page>

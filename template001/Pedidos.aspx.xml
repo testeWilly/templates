@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><VisualizacaoPedidos><VisualizacaoPedido ID="VisualizacaoPedido1"><TamanhoImagem value="Médias" /><VisualizacaoPedidoHTML><![CDATA[    <div class="info_pedido">
+        <div class="info_pedido_conteudo">
+            <div class="numero_pedido">
+                <h3>Número do Pedido</h3>
+                <p class="numero">[A0]</p>
+                <p>A confirmação do pedido foi enviada a seu endereço do e-mail</p>
+                <p><strong>[A1]</strong></p>
+            </div>
+            <div class="pedido_dados">
+                <p class="status">Status do Pedido: [A2]</p>
+                <p class="boleto">Forma de Pagamento: [A5]</p>
+                <condicao:boleto>
+                    <p><a href="[A6]"><img src="imagens/bt_imp_boleto.gif?21" border="0" alt="Imprimir Boleto" /></a></p>
+                    <p><strong>Atenção:</strong> Uma nova janela será aberta com o boleto.</p>
+                    <p><strong>Atenção</strong> Ver data de vencimento no boleto, após o prazo seu pedido será cancelado.</p>
+                </condicao:boleto>
+            </div>
+        </div>
+    </div>
+<div class="tit_box">
+    <h2>Detalhes do Pedido</h2>
+</div>
+    <div id="carrinho">
+        <table class="tab_carrinho" cellpadding="0" cellspacing="0" border="0" width="100%;">
+            <thead>
+                <tr>
+                    <th colspan="3" style="text-align: left">Produto</th>
+                    <th>Qtd.</th>
+                    <th>Preço Unitário</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <repeticao:produtos>
+                <tr class="item_carrinho">
+                  <td style="width: 90px;"><span style="float:left"><img src="[A8]?width=80&height=110" alt="[A7]" border="0" /></span></td>
+                    <td colspan="2" style="text-align: left;">[A7]<div class="presente_carrinho"><condicao:imagem_presente><img alt="Embrulho para presente" src="imagens/presente.png" /> Sim</condicao:imagem_presente></div></td>
+                    <td>[A10]</td>
+                    <td>[A11]</td>
+                    <td>[A12]</td>
+                </tr>
+                </repeticao:produtos>
+                <tr>
+                    <td colspan="4" rowspan="3" class="frete">
+                        <p>Endereço de entrega:</p>
+                        <p>[A13] -[A14]</p>
+                        <p>[A15] - [A16] - [A17]</p>
+                        <p>Telefone: [A18]</p>
+                    </td>
+                    <th class="frete_valor">Frete:</th>
+                    <td class="frete_valor">[A19]</td>
+                </tr>
+               <condicao:cupom_desconto>
+    <tr>
+      <th class="cupom">Desconto:</th>
+      <td class="cupom">- [A23]</td>
+    </tr>
+</condicao:cupom_desconto>
+
+                <tr>
+                    <th class="total">Total:</th>
+                    <td class="total">[A21]</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+<div class="bt_voltar bt_hover">
+        <a href="javascript:history.go(-1);">voltar</a>
+</div>]]></VisualizacaoPedidoHTML></VisualizacaoPedido></VisualizacaoPedidos><CaixaAguardeLojas><CaixaAguardeLoja ID="CaixaAguardeLoja" NomeAmigavel="" Visible="True" /></CaixaAguardeLojas><Banners><Banner ID="Fullzao_topo" /></Banners><SEOs><SEO ID="seo" /></SEOs></controles></page>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?><page><controles><CaixaPesquisas><CaixaPesquisa ID="CaixaPesquisa_navegacao"><CaixaPesquisaHTML><![CDATA[<fieldset>
+                      <label><img onclick="[A2]" src="imagens/busca_ico.png?1" style="cursor: pointer; vertical-align: middle" /></label>
+                      <label>[A0]</label>
+                      <label class="bt"><img onclick="[A2]" src="imagens/btn_procurar_navegacao.png?1" /></label>
+                  </fieldset>]]></CaixaPesquisaHTML><CssComponente><![CDATA[]]></CssComponente></CaixaPesquisa></CaixaPesquisas><Links><Link ID="PaginaInicial_navegacao"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Default" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="" /><UsarHTTPS value="False" /></Link><Link ID="LinkCarrinhoCompras_navegacao"><PaginaLoja value="AfiliadoPrincipal" /><Target value="NovaPagina" /><UsarHTTPS value="False" /></Link><Link ID="LinkCarrinhoCompras"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="" /><PaginaLoja value="Carrinho" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Meu Carrinho" /><UsarHTTPS value="False" /></Link><Link ID="LinkCarrinhoComprasMini"><CssComponente><![CDATA[]]></CssComponente><EnderecoLinkExterno value="" /><Imagem value="bt_ir_carrinho.png" /><PaginaLoja value="Carrinho" /><Parametros value="" /><Target value="MesmaPagina" /><Texto value="Ir carrinho" /><UsarHTTPS value="False" /></Link></Links><CarrinhoTopos><CarrinhoTopo ID="Mini_Carrinho"><CarrinhoHTML><![CDATA[<script>
+    $(function() { 
+       var quantidade = 0
+       $(".tab_carrinho_mini .qtd").each(function(){
+          quantidade = quantidade + parseInt($(this).html());
+       });
+       $(".mini_itens a").html(quantidade+" Iten(s)")
+    });
+
+    $(".bt_carrinho_navegacao").mouseover(function(){
+        $(".mini_carrinho_navegacao").show();
+    });
+    $(".bt_carrinho_navegacao").mouseout(function(){
+        $(".mini_carrinho_navegacao").hide();
+    });
+</script>
+<h5>Meu Carrinho</h5>
+<table cellpadding="0" cellspacing="0" border="0" class="tab_carrinho_mini" width="100%">
+    <repeticao:produtos>
+    <tr>
+       <td class="mini_foto"><a href="[A24]"><img src="[A3]" alt="[A4]" /></a></td>
+        <td class="mini_titulo"><a href="[A24]">[A4] <span class="quantidade">(<span class="qtd">[A5]</span>)</span></a></td>
+        <td class="mini_preco">[A9]</td>
+    </tr>
+    </repeticao:produtos>
+    <tr>
+        <th class="mini_subtotal">Subtotal:</th>
+        <td class="mini_subtotal">[A23]</td>
+    </tr>
+</table>]]></CarrinhoHTML><CarrinhoVazioHTML><![CDATA[<h5>Meu Carrinho</h5>
+
+Carrinho Vazio<br />]]></CarrinhoVazioHTML><CssComponente><![CDATA[]]></CssComponente><TamanhoImagem value="Pequenas" /></CarrinhoTopo><CarrinhoTopo ID="Mini_Carrinho_navegacao"><CarrinhoHTML><![CDATA[<script>
+    $(function() { 
+       var quantidade = 0
+       $(".tab_carrinho_mini .qtd_navegacao").each(function(){
+          quantidade = quantidade + parseInt($(this).html());
+       });
+       $(".mini_itens a").html(quantidade+" Iten(s)")
+    });
+
+    $(".bt_carrinho_navegacao").mouseover(function(){
+        $(".mini_carrinho_navegacao").show();
+    });
+    $(".bt_carrinho_navegacao").mouseout(function(){
+        $(".mini_carrinho_navegacao").hide();
+    });
+</script>
+<h5>Meu Carrinho</h5>
+<table cellpadding="0" cellspacing="0" border="0" class="tab_carrinho_mini" width="100%">
+    <repeticao:produtos>
+    <tr>
+       <td class="mini_foto"><a href="[A24]"><img src="[A3]" alt="[A4]" /></a></td>
+        <td class="mini_titulo"><a href="[A24]">[A4] <span class="quantidade">(<span class="qtd_navegacao">[A5]</span>)</span></a></td>
+        <td class="mini_preco">[A9]</td>
+    </tr>
+    </repeticao:produtos>
+    <tr>
+        <th class="mini_subtotal"></th>
+      	<td class="mini_subtotal">Subtotal:</td>
+        <td class="mini_subtotal">[A23]</td>
+    </tr>
+</table>]]></CarrinhoHTML><CarrinhoVazioHTML><![CDATA[<h5>Meu Carrinho</h5>
+
+Carrinho Vazio<br />]]></CarrinhoVazioHTML><CssComponente><![CDATA[]]></CssComponente><TamanhoImagem value="Pequenas" /></CarrinhoTopo></CarrinhoTopos></controles></page>

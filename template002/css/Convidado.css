@@ -1,0 +1,408 @@
+input, textarea{
+    outline: none;
+}
+
+.entrega_oculta{
+    display: none;
+}
+
+.bt_ok{
+    background: url("../imagens/bt_ok_guest.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 30px;
+    text-indent: -9999px;
+    width: 36px;
+}
+
+.bt_hover:hover {
+    background-position: left bottom !important;
+}
+
+.parent-validation-error{
+    background: #FFFDCD;
+    border: 1px solid #D2CF82 !important;
+}
+
+.list_entrega .input-validation-error{
+    border: 1px solid #f20;
+}
+
+.ja_sou_cliente a{
+    background: url("../imagens/bt_sou_cliente.png") no-repeat scroll left top transparent;
+    display: block;
+    float: right;
+    height: 40px;
+    text-indent: -9999px;
+    width: 329px;
+}
+
+.ja_sou_cliente a strong{
+    margin: 0 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.compra_express {
+    background: url("../imagens/bg_compra_express.png") no-repeat scroll 285px top #edeff9;
+    margin-top: 50px;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.title_express {
+    font-family: "Lato-Bold";
+    color: #6e6e6e;
+    display: block;
+    float: left;
+    font-size: 26px;
+    font-weight: normal;
+    padding: 4px 0 0 31px;
+    text-transform: uppercase;
+}        
+
+.desc_express {
+    float: left;
+    padding: 0 0 3px 100px;
+}
+
+.text_express {
+    color: #6e6e6e;
+    letter-spacing: 0.5px;
+    margin-top: 3px;
+    text-align: left;
+}
+
+#entrega_guest{
+    clear: both;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+#container_formularios_entrega{
+    height: auto;
+    clear: both;
+    overflow: hidden;
+    margin-top: 15px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.form_esq, .form_dir{
+    height: auto;
+    width: 450px;
+    overflow: hidden;
+}
+
+.form_esq{
+    float: left;
+}
+
+.form_dir{
+    float: right;
+}
+
+.tit_form_entrega{
+    overflow: hidden;
+}
+
+#container_formularios_entrega h1{
+    font-size: 27px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    padding: 2px 30px 2px 20px; 
+    *padding: 2px 30px 2px 14px;
+}
+
+.form_entrega{
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin-top: 1px;
+    min-height: 260px;
+    padding: 5px 6px 10px;
+    *padding: 5px 3px 10px;
+}
+
+/* Formulário */
+
+.list_entrega{
+    color: #727272;
+    margin: 1px 0;
+    overflow: hidden;
+    padding: 2px 0;
+    text-align: left;
+    border: 1px solid transparent;
+}
+
+.tipo_pessoa{
+    text-align: center;
+    padding-left: 80px;
+}
+
+.centro{
+    text-align: center;
+}
+
+.alin_esquerda{
+    text-align: left;
+}
+
+.alin_esquerda input{
+    width: 15px !important;
+}
+
+.centro input, .tipo_pessoa input{
+    width: auto !important;
+    border: 0 none !important;
+    background: none !important;
+}
+
+.centro label, .tipo_pessoa label{
+    margin-right: 35px;
+    color: #696969;
+}
+
+.centro span, .tipo_pessoa span{
+    margin-left: 2px;
+    vertical-align: middle;
+    color: #696969;
+}
+
+.centro *, .tipo_pessoa *{
+    vertical-align: middle;
+}
+
+.list_entrega .tit_label_entrega{
+    clear: left;
+    color: #ADADAD;
+    float: left;
+    font-size: 13px;
+    margin-right: 5px;
+    padding: 7px 0;
+    text-align: right;
+    width: 120px;
+}
+
+.list_entrega .obrigatorio{
+    color: #696969;
+}
+
+.list_entrega small{
+    color: #c8c8c8;
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.list_entrega input, .list_entrega select{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #c5c5c5;
+    color: #888888;
+    font-size: 13px;
+    font-family: "Lato-Regular";
+    padding: 7px 4px;
+    vertical-align: middle;
+    width: 210px;
+}
+
+.list_entrega input[type=checkbox]{
+    border: 0 none;
+}
+
+.list_entrega .larg_20 input{
+  width: 40px;
+  text-align: center;
+}
+
+.list_entrega .larg_30 input{
+  width: 100px;
+}
+
+.list_entrega .larg_50 input{
+  width: 140px;
+}
+
+.list_entrega .checkComplemento input{
+  width: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.inscricaoEstadual{
+  display: none;
+}
+
+.list_entrega .checkComplemento *{
+  vertical-align: middle;
+  color: #666;
+  font-size: 11px;
+}
+
+.presente_entrega{
+    background: url('../imagens/bg_presente_entrega.png') no-repeat 15px center #fff;
+    width: 430px;
+    border: 1px solid #E3DEE0;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.presente_entrega .dados_presente{
+    padding: 15px 0 0 100px;
+}
+
+.presente_entrega span{
+    font-size: 14px;
+    color: #343434;
+    text-align: center;
+    display: block;
+}
+
+.presente_entrega strong.usuario{
+    display: block;
+    font-size: 16px;
+    color: #005380;
+    text-align: center; 
+    margin: 15px 0;
+}
+
+.presente_entrega strong{
+    display: block;
+    font-size: 14px;
+    color: #005380;
+    text-align: center; 
+    padding:  0 5px 5px;
+}
+
+.cep{
+    background: none repeat scroll 0 0 #edeff9;
+    padding: 10px 5px 10px 17px;
+}
+
+.cep .tit_label_entrega {
+    color: #4C1E25;
+    text-align: left;
+    width: 220px;
+}
+
+.cep *{
+    vertical-align: middle;
+}
+
+.cep a {
+    color: #db9b8b;
+    font-size: 10px;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.cep input{
+    border-color: #C5C5C5;
+    padding: 4px 3px;
+    width: 137px;
+    *float: left;
+}
+
+.cep a.calcular_cep{
+    display: block;
+    background: url('../imagens/sprite_loja.png') no-repeat -500px -800px transparent;
+    width: 123px;
+    height: 22px;
+    text-indent: -9999px;  
+    float: right;
+}
+
+.container_cobranca{
+    background: #dfdfdf;
+    text-align: center;
+    padding: 10px 0; 
+}
+
+#cobranca span{
+    color: #343434;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container_cobranca strong{
+    color: #041d31;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: normal;
+}
+
+.bt_continuar_entrega{
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+    float: right;
+    height: 39px;
+    margin-top: -10px;
+    overflow: hidden;
+    text-align: center;
+    width: 450px;
+}
+
+.bt_continuar_entrega #enviar{
+    display: block;
+    float: right;
+}
+
+.enderecoCobranca{
+    clear: right;
+    margin-top: 50px;
+    display: none;
+}
+
+.mostra{
+    display: block !important;
+}
+
+/* tooltip */
+
+a.tooltip span {
+    display:none; 
+    padding:2px 3px; 
+    margin: -64px 3px 12px -284px;
+    width:130px;
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+a.tooltip:hover span{
+    background: none repeat scroll 0 0 #ACD8E3;
+    border: 1px solid #005380;
+    color: #005380;
+    display: inline;
+    position: absolute;
+    text-align: left;
+    width: 269px;
+    padding: 5px;
+}
+
+#cobranca {
+    background: none repeat scroll 0 0 #FCE6DE;
+    margin: 0 auto 10px;
+    padding: 10px;
+    width: 315px;
+}
+
+#cobranca strong{
+    color: #4C1E25;
+    display: block;
+    font-weight: normal;
+    text-align: center;
+}
+
+.box_acesso{
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    width: 102px;
+}
+
+#cobranca label{
+    display: block;
+    float: left;
+    margin: 5px 10px 0 0;
+}
