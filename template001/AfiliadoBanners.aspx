@@ -8,7 +8,6 @@
     <script src="js/geral.js" type="text/javascript"></script>
     <script type="text/javascript" src="js/jquery.colorbox.js"></script>
     <link type="text/css" media="screen" rel="stylesheet" href="css/colorbox.css">
-    <link type="text/css" rel="stylesheet" href="css/TemplateSettings.css.razor">
 </head>
 <body>
 <form id="form2" runat="server">
